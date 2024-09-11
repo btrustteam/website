@@ -38,7 +38,7 @@ export default function Nav() {
   }
 
   function handleNavClick(
-    event: React.MouseEvent<HTMLAnchorElement, MouseEvent>,
+    event: React.MouseEvent<HTMLImageElement, MouseEvent>,
     title: string
   ) {
     event.preventDefault();
@@ -77,7 +77,6 @@ export default function Nav() {
                     ? "text-active-white font-semibold"
                     : "text-grey-black font-normal"
                 } text-base leading-[1.5rem] font-poppins cursor-pointer hover:font-semibold hover:text-active-white`}
-                onClick={(e) => handleNavClick(e, item.title)}
               >
                 {item.title}
               </Link>
@@ -87,6 +86,8 @@ export default function Nav() {
                   alt="dropdown"
                   width={16}
                   height={16}
+                  className="cursor-pointer"
+                  onClick={(e) => handleNavClick(e, item.title)}
                 />
               )}
               {item.sub_nav.length > 0 && activeDropdown === item.title && (
