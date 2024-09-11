@@ -21,6 +21,8 @@ const config: Config = {
         "grey-black": "#A4A4A4",
         "black-4": "#686868",
         "dropdown-bg": "rgba(234, 234, 234, 0.05)",
+        "white-6": "#E7E7E7",
+        "white-9": "#848484",
       },
       fontFamily: {
         poppins: ["var(--font-poppins)"],
