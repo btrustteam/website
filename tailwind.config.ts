@@ -11,6 +11,9 @@ const config: Config = {
       backdropFilter: {
         "webkit-blur": "blur(10px)", // Adding custom blur with WebKit prefix
       },
+      blur: {
+        "162": "10.125rem",
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
@@ -20,6 +23,7 @@ const config: Config = {
         "active-white": "#FDFDFD",
         "grey-black": "#A4A4A4",
         "black-4": "#686868",
+        "back-6": "#101010",
         "dropdown-bg": "rgba(234, 234, 234, 0.05)",
         "white-6": "#E7E7E7",
         "white-9": "#848484",

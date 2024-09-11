@@ -1,4 +1,6 @@
 "use client";
+import ButtonWithArrow from "@/components/buttons/buttonWithArrow";
+import Gradient from "@/components/gradient";
 import Nav from "@/components/nav";
 import Pattern from "@/components/pattern";
 import TypingEffect from "@/components/typyingEffect";
@@ -7,6 +9,7 @@ export default function Home() {
   return (
     <div className="bg-bg-black relative pb-[10rem]">
       <Pattern />
+      <Gradient />
       <Nav />
       <div className="flex px-[6.5rem] pt-[3.75rem] pb-[6.5rem] justify-center flex-col gap-[6.25rem]">
         <div className="gap-4 flex flex-col items-start">
@@ -21,7 +24,7 @@ export default function Home() {
               Global South
             </h1>
           </div>
-          <button>Apply For Funding</button>
+          <ButtonWithArrow text={"Apply For Funding"} onClick={() => {}} />
         </div>
         <div></div>
       </div>
