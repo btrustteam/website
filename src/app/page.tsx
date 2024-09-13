@@ -1,4 +1,5 @@
 "use client";
+import ApplyForFunding from "@/components/applyFunding";
 import ButtonWithArrow from "@/components/buttons/buttonWithArrow";
 import Gradient from "@/components/gradient";
 import Hero from "@/components/hero";
@@ -14,6 +15,7 @@ export default function Home() {
       <Nav />
       <Hero />
       <StartYourJourney />
+      <ApplyForFunding />
     </div>
   );
 }

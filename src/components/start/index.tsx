@@ -1,5 +1,5 @@
 import ButtonWithArrow from "../buttons/buttonWithArrow";
-import LittleTexxt from "../littleTitle";
+import LittleText from "../littleTitle";
 import Paragraph from "../Paragraph";
 import SectionHeader from "../sectionHeader";
 import Image from "next/image";
@@ -9,7 +9,7 @@ export default function StartYourJourney() {
     <div className="flex w-full px-[6.5rem] py-[6.25rem] justify-between items-center gap-[2.875rem] bg-[#222]">
       <div className="flex flex-col justify-center items-start gap-8">
         <div className="flex flex-col">
-          <LittleTexxt text="BECOME A BTRUST BUILDER?" className="" />
+          <LittleText text="BECOME A BTRUST BUILDER?" className="" />
           <div className="flex flex-col gap-4 items-start">
             <SectionHeader
               text="Want to Kickstart Your Career in Open-Source Bitcoin Development?"
