@@ -15,10 +15,13 @@ export default function StartYourJourney() {
               text="Want to Kickstart Your Career in Open-Source Bitcoin Development?"
               className="w-[26.625rem]"
             />
-            <Paragraph
-              text="Btrust Builders is our program designed to educate existing software developers from Africa about Bitcoin and Lightning development to start them on their journey as open-source Bitcoin contributors. The application is open all year round for mid-to-senior level engineers who are ready for the transition."
-              className="w-[33.6875rem]"
-            />
+            <Paragraph className="w-[33.6875rem]">
+              Btrust Builders is our program designed to educate existing
+              software developers from Africa about Bitcoin and Lightning
+              development to start them on their journey as open-source Bitcoin
+              contributors. The application is open all year round for
+              mid-to-senior level engineers who are ready for the transition.
+            </Paragraph>
           </div>
         </div>
         <div>

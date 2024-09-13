@@ -16,10 +16,10 @@ export default function ApplyForFunding() {
             className="w-[36.75rem]"
           />
         </div>
-        <Paragraph
-          text="We have two grant schemes for developers who want to start or continue their contribution efforts to open-source Bitcoin projects."
-          className="w-[33.6875rem]"
-        />
+        <Paragraph className="w-[33.6875rem]">
+          We have two grant schemes for developers who want to start or continue
+          their contribution efforts to open-source Bitcoin projects.
+        </Paragraph>
       </div>
       <div className="flex flex-col items-center gap-[2.5rem] w-full">
         <div className="w-full flex p-[1.5rem] gap-[1.5rem] rounded-2xl bg-[#222]">
@@ -40,11 +40,12 @@ export default function ApplyForFunding() {
                   className="text-[1.5rem]"
                 />
               </div>
-              <Paragraph
-                text="This grant supports software developers new to Bitcoin open-source contributions. 
-It provides full-time funding for six months to help you focus on key projects and prepare a strong proposal for long-term support."
-                className=""
-              />
+              <Paragraph className="">
+                This grant supports software developers new to Bitcoin
+                open-source contributions.  It provides full-time funding for
+                six months to help you focus on key projects and prepare a
+                strong proposal for long-term support.
+              </Paragraph>
             </div>
             <div className="flex gap-[1rem] items-center">
               <OutlineButton text="Apply for Funding" onClick={() => {}} />
@@ -63,14 +64,16 @@ It provides full-time funding for six months to help you focus on key projects a
                 />
               </div>
               <div className="flex flex-col gap-[1.5rem]">
-                <Paragraph
-                  text="Working in open source can feel isolating, especially for developers in the Global South facing pay and career uncertainties."
-                  className="w-full"
-                />
-                <Paragraph
-                  text="Our Open Source Cohort offers support, allowing you to contribute to Bitcoin projects independently within a supportive team framework."
-                  className=""
-                />
+                <Paragraph className="w-full">
+                  Working in open source can feel isolating, especially for
+                  developers in the Global South facing pay and career
+                  uncertainties.
+                </Paragraph>
+                <Paragraph className="">
+                  Our Open Source Cohort offers support, allowing you to
+                  contribute to Bitcoin projects independently within a
+                  supportive team framework.
+                </Paragraph>
               </div>
             </div>
             <div className="flex gap-[1rem] items-center">

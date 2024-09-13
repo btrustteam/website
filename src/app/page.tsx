@@ -1,5 +1,6 @@
 "use client";
 import ApplyForFunding from "@/components/applyFunding";
+import BitDev from "@/components/bitDev";
 import ButtonWithArrow from "@/components/buttons/buttonWithArrow";
 import Gradient from "@/components/gradient";
 import Hero from "@/components/hero";
@@ -16,6 +17,7 @@ export default function Home() {
       <Hero />
       <StartYourJourney />
       <ApplyForFunding />
+      <BitDev />
     </div>
   );
 }

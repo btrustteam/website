@@ -34,12 +34,12 @@ export default function Hero() {
         <div className="flex flex-col gap-8">
           <div className="flex flex-col gap-2">
             <SectionHeader text="why Btrust?" className="" />
-            <Paragraph
-              text={
-                "Founded in 2021 with a generous 500 BTC donation from Jack Dorsey and Jay-Z, we believe that decentralization of the people building for and on Bitcoin enhances its resilience, reach, and relevance as a global currency."
-              }
-              className={"w-[32.5625rem]"}
-            />
+            <Paragraph className={"w-[32.5625rem]"}>
+              Founded in 2021 with a generous 500 BTC donation from Jack Dorsey
+              and Jay-Z, we believe that decentralization of the people building
+              for and on Bitcoin enhances its resilience, reach, and relevance
+              as a global currency.
+            </Paragraph>
           </div>
           <div className="flex items-center justify-center max-w-max">
             <ButtonWithArrow
