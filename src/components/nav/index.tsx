@@ -69,7 +69,7 @@ export default function Nav() {
         </div>
         <div className="flex justify-end items-center gap-10">
           {navItems.map((item, index) => (
-            <div className="flex gap-2 relative" key={index}>
+            <div className="flex gap-2 items-center relative" key={index}>
               <Link
                 href={item.url}
                 className={`${
@@ -84,9 +84,10 @@ export default function Nav() {
                 <Image
                   src={"/caret_down.svg"}
                   alt="dropdown"
-                  width={16}
-                  height={16}
-                  className="cursor-pointer"
+                  width={0}
+                  height={0}
+                  sizes={"100vw"}
+                  className="cursor-pointer w-[1rem] h-[1rem]"
                   onClick={(e) => handleNavClick(e, item.title)}
                 />
               )}
