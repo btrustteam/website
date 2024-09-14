@@ -1,3 +1,7 @@
+import Footer from "@/components/Footer";
+import Gradient from "@/components/gradient";
+import Nav from "@/components/nav";
+import Pattern from "@/components/pattern";
 import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
 import "./globals.css";
@@ -21,7 +25,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.variable} container`}>{children}</body>
+      <body className={`${inter.variable} container relative bg-bg-black`}>
+        <Pattern />
+        <Gradient />
+        <Nav />
+        {children}
+        <Footer />
+      </body>
     </html>
   );
 }

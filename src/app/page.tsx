@@ -11,10 +11,7 @@ import StartYourJourney from "@/components/start";
 
 export default function Home() {
   return (
-    <div className="bg-bg-black relative">
-      <Pattern />
-      <Gradient />
-      <Nav />
+    <div className=" relative">
       <Hero />
       <StartYourJourney />
       <ApplyForFunding />
