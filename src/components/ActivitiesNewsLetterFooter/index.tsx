@@ -1,4 +1,5 @@
 import Activities from "../Activities";
+import Footer from "../Footer";
 import NewsLetter from "../NewsLetter";
 
 export default function ActivitiesNewsletterAndFooter() {
@@ -6,6 +7,7 @@ export default function ActivitiesNewsletterAndFooter() {
     <div className="flex w-full pt-[6.25rem] flex-col items-start">
       <Activities />
       <NewsLetter />
+      <Footer />
     </div>
   );
 }

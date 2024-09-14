@@ -30,6 +30,8 @@ const config: Config = {
         "black-2": "#C6C6C6",
         "card-border": "rgba(104, 104, 104, 0.20)",
         "white-7": "C4C4C4",
+        "text-white": "#DFDFDF",
+        "black-3": "#989898",
       },
       fontFamily: {
         poppins: ["var(--font-poppins)"],
