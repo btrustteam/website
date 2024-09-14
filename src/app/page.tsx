@@ -1,4 +1,5 @@
 "use client";
+import ActivitiesNewsletterAndFooter from "@/components/ActivitiesNewsLetterFooter";
 import ApplyForFunding from "@/components/applyFunding";
 import BitDev from "@/components/bitDev";
 import BtrustUpdate from "@/components/btrustUpdate";
@@ -19,6 +20,7 @@ export default function Home() {
       <ApplyForFunding />
       <BitDev />
       <BtrustUpdate />
+      <ActivitiesNewsletterAndFooter />
     </div>
   );
 }
