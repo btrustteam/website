@@ -6,7 +6,7 @@ export default function BigTwitter({ url }: Link) {
   return (
     <a
       href={url}
-      className="flex justify-center rounded-lg items-center h-[3.9375rem] w-[3.9375rem] bg-white"
+      className="flex justify-center rounded-xl items-center h-[3.9375rem] w-[3.9375rem] bg-white"
     >
       <Image
         height={0}
