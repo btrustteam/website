@@ -8,6 +8,7 @@ interface InputProps {
   value: string;
   type: string;
   setValue: (value: string) => void;
+  isTextArea?: boolean;
 }
 export default function Input({
   label,
@@ -16,8 +17,11 @@ export default function Input({
   value,
   setValue,
   type,
+  isTextArea,
 }: InputProps) {
-  function handleInputChange(e: ChangeEvent<HTMLInputElement>) {
+  function handleInputChange(
+    e: ChangeEvent<HTMLInputElement> | ChangeEvent<HTMLTextAreaElement>
+  ) {
     setValue(e.target.value);
   }
 
@@ -29,12 +33,17 @@ export default function Input({
     image_url = "/addres.svg";
   }
 
+  const generalStyle = `border-none font-poppins leading-[175%] text-base text-black-2 placeholder:text-base placeholder:text-black-2 placeholder:font-poppins w-full bg-transparent outline-none`;
   return (
     <div className="flex w-full flex-col gap-1">
       <label className=" text-active-white font-poppins text-base font-normal leading-[175%]">
         {label}
       </label>
-      <div className="flex p-[1rem] items-center gap-2 rounded-lg border border-white-7 backdrop-blur-[2px]">
+      <div
+        className={`flex p-[1rem] ${
+          isTextArea ? "" : "items-center"
+        } gap-2 rounded-lg border border-white-7 backdrop-blur-[2px]`}
+      >
         <Image
           src={image_url}
           width={0}
@@ -43,13 +52,22 @@ export default function Input({
           alt={iconName}
           className="w-[1.5rem] h-[1.5rem]"
         />
-        <input
-          type={type || "text"}
-          className={`border-none font-poppins leading-[175%] text-base text-black-2 placeholder:text-base placeholder:text-black-2 placeholder:font-poppins w-full bg-transparent outline-none`}
-          value={value}
-          onChange={(e) => handleInputChange(e)}
-          placeholder={placeholder}
-        />
+        {!isTextArea && (
+          <input
+            type={type || "text"}
+            className={`${generalStyle}`}
+            value={value}
+            onChange={(e) => handleInputChange(e)}
+            placeholder={placeholder}
+          />
+        )}
+        {isTextArea && (
+          <textarea
+            className={`${generalStyle} h-[10.5rem]`}
+            value={value}
+            onChange={(e) => handleInputChange(e)}
+          ></textarea>
+        )}
       </div>
     </div>
   );

@@ -7,7 +7,6 @@ export default function ActivitiesNewsletterAndFooter() {
     <div className="flex w-full pt-[6.25rem] flex-col items-start">
       <Activities />
       <NewsLetter />
-      <Footer />
     </div>
   );
 }
