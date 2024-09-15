@@ -33,6 +33,7 @@ const config: Config = {
         "text-white": "#DFDFDF",
         "black-3": "#989898",
         "contact-black": "rgba(21, 21, 21, 0.80)",
+        "black-5": "#3B3B3B",
       },
       fontFamily: {
         poppins: ["var(--font-poppins)"],

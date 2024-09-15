@@ -60,7 +60,7 @@ export default function ApplyForFunding() {
                 <LittleText text="JOIN THE OPEN-SOURCE COHORT" className="" />
                 <SectionHeader
                   text="Are you an Experienced Open-Source Contributor?"
-                  className="text-[1.5rem]"
+                  className="!text-[1.5rem]"
                 />
               </div>
               <div className="flex flex-col gap-[1.5rem]">

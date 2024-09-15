@@ -2,6 +2,7 @@
 import ActivitiesNewsletter from "@/components/ActivitiesNewsLetterFooter";
 import Eligibility from "./eligibility";
 import GrantsHero from "./hero";
+import Perks from "./perks";
 import StartGrant from "./starter";
 
 export default function MainGrant() {
@@ -10,6 +11,7 @@ export default function MainGrant() {
       <GrantsHero />
       <Eligibility />
       <StartGrant />
+      <Perks />
       <ActivitiesNewsletter />
     </div>
   );
