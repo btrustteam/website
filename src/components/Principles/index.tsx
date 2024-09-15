@@ -26,7 +26,7 @@ export default function Principles() {
           </Paragraph>
         </div>
       </div>
-      <div className="relative">
+      <div className="relative overflow-x-hidden">
         <CardStack />
       </div>
     </div>

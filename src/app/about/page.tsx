@@ -1,6 +1,7 @@
 import AboutHero from "@/components/AboutHero";
 import MeetTheTeam from "@/components/MeetTeam";
 import Principles from "@/components/Principles";
+import TeamProfile from "@/components/TeamProfile";
 
 export default function About() {
   return (
@@ -8,6 +9,7 @@ export default function About() {
       <AboutHero />
       <Principles />
       <MeetTheTeam />
+      <TeamProfile />
     </div>
   );
 }
