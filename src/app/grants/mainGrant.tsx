@@ -1,5 +1,6 @@
 "use client";
 import ActivitiesNewsletter from "@/components/ActivitiesNewsLetterFooter";
+import Cohort from "./cohort";
 import Eligibility from "./eligibility";
 import GrantsHero from "./hero";
 import Perks from "./perks";
@@ -12,6 +13,7 @@ export default function MainGrant() {
       <Eligibility />
       <StartGrant />
       <Perks />
+      <Cohort />
       <ActivitiesNewsletter />
     </div>
   );
