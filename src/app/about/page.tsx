@@ -1,4 +1,5 @@
 import AboutHero from "@/components/AboutHero";
+import MeetTheTeam from "@/components/MeetTeam";
 import Principles from "@/components/Principles";
 
 export default function About() {
@@ -6,6 +7,7 @@ export default function About() {
     <div className="flex flex-col">
       <AboutHero />
       <Principles />
+      <MeetTheTeam />
     </div>
   );
 }
