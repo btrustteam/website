@@ -34,6 +34,8 @@ const config: Config = {
         "black-3": "#989898",
         "contact-black": "rgba(21, 21, 21, 0.80)",
         "black-5": "#3B3B3B",
+        "process-border": "rgba(59, 59, 59, 0.50)",
+        "process-bg": "rgba(198, 198, 198, 0.03)",
       },
       fontFamily: {
         poppins: ["var(--font-poppins)"],
