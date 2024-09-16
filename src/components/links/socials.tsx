@@ -3,9 +3,11 @@ import Image from "next/image";
 export default function SocialLink({
   url,
   icon,
+  className,
 }: {
   url: string;
   icon: "github" | "twitter";
+  className?: string;
 }) {
   let icon_url = "/github.svg";
   if (icon === "twitter") {
@@ -14,7 +16,7 @@ export default function SocialLink({
   return (
     <a
       href={url}
-      className="flex items-center justify-center p-2 bg-active-white rounded-lg h-[2.5rem] w-[2.5rem]"
+      className={`flex items-center justify-center p-2 bg-active-white rounded-lg h-[2.5rem] w-[2.5rem] ${className}`}
     >
       <Image
         width={0}
