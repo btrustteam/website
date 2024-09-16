@@ -82,6 +82,7 @@ export default function Nav() {
                     ? "text-active-white font-semibold"
                     : "text-grey-black font-normal"
                 } text-base leading-[1.5rem] font-poppins cursor-pointer hover:font-semibold hover:text-active-white`}
+                target={item.new_tab ? "_blank" : ""}
               >
                 {item.title}
               </Link>
