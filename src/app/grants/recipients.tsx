@@ -4,6 +4,7 @@ import GrantsHeader from "./grantsHeading";
 import StarterRecipients from "./starterRecipient";
 import Image from "next/image";
 import OpenSourceRecipient from "./openSourceRecipient";
+import { useEffect, useRef } from "react";
 
 export default function Recipients({
   setPage,
@@ -12,8 +13,16 @@ export default function Recipients({
   setPage: (page: string) => void;
   currentPage: string;
 }) {
+  const firstDivRef = useRef<HTMLDivElement | null>(null);
+
+  useEffect(() => {
+    if (firstDivRef.current) {
+      firstDivRef.current.scrollIntoView({ behavior: "smooth" });
+      firstDivRef.current.focus();
+    }
+  }, []);
   return (
-    <div className="flex flex-col">
+    <div ref={firstDivRef} className="flex flex-col">
       <div className="px-[6.5rem] mt-[3.5rem]">
         <div className="flex flex-col justify-center">
           <div
