@@ -47,21 +47,21 @@ export default function Footer() {
             <div className="flex flex-col gap-[1.5rem] w-[23.1875rem]">
               <FooterHeading text="FOllow our activities" />
               <div className="flex gap-[1.5rem]">
-                <div className="flex w-[11.625rem] flex-col gap-4">
-                  <FooterHeading text="Btrust Builders" />
-                  <FooterLink
-                    links={[
-                      { name: "X (Formerly Twitter)", url: "https://x.com/btrust_builders", new_tab: true },
-                      { name: "LinkedIn", url: "https://linkedin.com/company/btrust-builders", new_tab: true },
-                    ]}
-                  />
-                </div>
                 <div className="w-[11.5625rem] flex flex-col gap-4">
                   <FooterHeading text="Btrust" />
                   <FooterLink
                     links={[
                       { name: "X (Formerly Twitter)", url: "https://x.com/btrustteam", new_tab: true },
                       { name: "LinkedIn", url: "https://linkedin.com/company/btrustteam", new_tab: true },
+                    ]}
+                  />
+                </div>
+                <div className="flex w-[11.625rem] flex-col gap-4">
+                  <FooterHeading text="Btrust Builders" />
+                  <FooterLink
+                    links={[
+                      { name: "X (Formerly Twitter)", url: "https://x.com/btrust_builders", new_tab: true },
+                      { name: "LinkedIn", url: "https://linkedin.com/company/btrust-builders", new_tab: true },
                     ]}
                   />
                 </div>
