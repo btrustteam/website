@@ -28,10 +28,10 @@ export default function Footer() {
               <FooterHeading text="COMPANY" />
               <FooterLink
                 links={[
-                  { name: "About", url: "/about" },
-                  { name: "Grant", url: "/grant" },
-                  { name: "Blog", url: "/blog" },
-                  { name: "Contact Us", url: "/contact" },
+                  { name: "About", url: "/about", new_tab: false },
+                  { name: "Grant", url: "/grant", new_tab: false },
+                  { name: "Blog", url: "https://blog.btrust.tech", new_tab: true },
+                  { name: "Contact Us", url: "/contact", new_tab: false },
                 ]}
               />
             </div>
@@ -39,8 +39,8 @@ export default function Footer() {
               <FooterHeading text="Builders" />
               <FooterLink
                 links={[
-                  { name: "Apply", url: "/builders/apply" },
-                  { name: "Meet the builder", url: "/builders/meet" },
+                  { name: "Apply", url: "/builders/apply", new_tab: false },
+                  { name: "Meet the builder", url: "/builders/meet", new_tab: false },
                 ]}
               />
             </div>
@@ -51,8 +51,8 @@ export default function Footer() {
                   <FooterHeading text="₿trust Builders" />
                   <FooterLink
                     links={[
-                      { name: "X (Formerly Twitter)", url: "/" },
-                      { name: "LinkedIn", url: "/" },
+                      { name: "X (Formerly Twitter)", url: "https://x.com/btrust_builders", new_tab: true },
+                      { name: "LinkedIn", url: "https://linkedin.com/company/btrust-builders", new_tab: true },
                     ]}
                   />
                 </div>
@@ -60,8 +60,8 @@ export default function Footer() {
                   <FooterHeading text="₿trust" />
                   <FooterLink
                     links={[
-                      { name: "X (Formerly Twitter)", url: "/" },
-                      { name: "LinkedIn", url: "/" },
+                      { name: "X (Formerly Twitter)", url: "https://x.com/btrustteam", new_tab: true },
+                      { name: "LinkedIn", url: "https://linkedin.com/company/btrustteam", new_tab: true },
                     ]}
                   />
                 </div>

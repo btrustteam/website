@@ -20,13 +20,13 @@ export default function Nav() {
       title: "Builders",
       url: "/builders",
       sub_nav: [
-        { title: "Apply", url: "/builders/apply" },
-        { title: "Meet the Builders", url: "/builders/meet-builders" },
+        { title: "Apply", url: "/builders/apply", new_tab: false },
+        { title: "Meet the Builders", url: "/builders/meet-builders", new_tab: false },
       ],
     },
-    { title: "About Us", url: "/about", sub_nav: [] },
-    { title: "Blog", url: "/blog", sub_nav: [] },
-    { title: "Contact Us", url: "/contact", sub_nav: [] },
+    { title: "About Us", url: "/about", sub_nav: [], new_tab: false },
+    { title: "Blog", url: "https://blog.btrust.tech", sub_nav: [], new_tab: true },
+    { title: "Contact Us", url: "/contact", sub_nav: [], new_tab: false },
   ];
 
   function findNavItem(title: string) {
