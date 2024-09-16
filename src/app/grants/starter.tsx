@@ -4,7 +4,11 @@ import DynamicImage from "@/components/DynamicImage";
 import Paragraph from "@/components/Paragraph";
 import SectionHeader from "@/components/sectionHeader";
 
-export default function StartGrant() {
+export default function StartGrant({
+  setPage,
+}: {
+  setPage: (page: string) => void;
+}) {
   return (
     <div className="mt-[3.5rem] flex items-center justify-between px-[6.5rem] py-[4.5rem]">
       <div className="flex flex-col gap-[2.5rem] w-[37.125rem]">
@@ -31,7 +35,7 @@ export default function StartGrant() {
           />
           <OutlineButton
             text="View Current & Past Recipients"
-            onClick={() => {}}
+            onClick={() => setPage("starter")}
           />
         </div>
       </div>

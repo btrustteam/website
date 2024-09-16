@@ -7,14 +7,18 @@ import GrantsHero from "./hero";
 import Perks from "./perks";
 import StartGrant from "./starter";
 
-export default function MainGrant() {
+export default function MainGrant({
+  setPage,
+}: {
+  setPage: (page: string) => void;
+}) {
   return (
     <div className="flex flex-col">
       <GrantsHero />
       <Eligibility />
-      <StartGrant />
+      <StartGrant setPage={setPage} />
       <Perks />
-      <Cohort />
+      <Cohort setPage={setPage} />
       <CohortStructure />
       <ActivitiesNewsletter />
     </div>

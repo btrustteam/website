@@ -4,7 +4,11 @@ import DynamicImage from "@/components/DynamicImage";
 import Paragraph from "@/components/Paragraph";
 import SectionHeader from "@/components/sectionHeader";
 
-export default function Cohort() {
+export default function Cohort({
+  setPage,
+}: {
+  setPage: (page: string) => void;
+}) {
   return (
     <div className="flex items-center py-[4.5rem] px-[6.5rem] gap-[4.75rem] justify-between">
       <div className="flex justify-center items-center">
@@ -43,7 +47,9 @@ export default function Cohort() {
           />
           <OutlineButton
             text="View Current & Past Recipients"
-            onClick={() => {}}
+            onClick={() => {
+              setPage("open_source");
+            }}
           />
         </div>
       </div>

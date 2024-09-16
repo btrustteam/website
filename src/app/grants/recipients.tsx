@@ -5,19 +5,40 @@ import StarterRecipients from "./starterRecipient";
 import Image from "next/image";
 import OpenSourceRecipient from "./openSourceRecipient";
 
-export default function Recipients() {
+export default function Recipients({
+  setPage,
+  currentPage,
+}: {
+  setPage: (page: string) => void;
+  currentPage: string;
+}) {
   return (
     <div className="flex flex-col">
       <div className="px-[6.5rem] mt-[3.5rem]">
         <div className="flex flex-col justify-center">
-          <div className="flex items-center gap-2">
-            <Image src={"/back.svg"} alt="back" width={16} height={16} />
+          <div
+            className="flex items-center gap-2 cursor-pointer z-50"
+            onClick={() => setPage("")}
+          >
+            <Image
+              src={"/back.svg"}
+              alt="back"
+              width={0}
+              height={0}
+              sizes="100vw"
+              className="w-[1rem] h-[1rem]"
+            />
             <LittleHeading text="grants" className=" cursor-pointer" />
           </div>
-          <GrantsHeader text="Starter Grant Recipients" />
+          {currentPage === "starter" && (
+            <GrantsHeader text="Starter Grant Recipients" />
+          )}
+          {currentPage === "open_source" && (
+            <GrantsHeader text="Btrust Open-Source Cohort" />
+          )}
         </div>
-        {/* <StarterRecipients /> */}
-        <OpenSourceRecipient />
+        {currentPage === "starter" && <StarterRecipients />}
+        {currentPage === "open_source" && <OpenSourceRecipient />}
       </div>
       <ActivitiesNewsletter />
     </div>
