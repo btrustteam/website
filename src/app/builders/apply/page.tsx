@@ -1,5 +1,6 @@
 "use client";
 import ActivitiesNewsletter from "@/components/ActivitiesNewsLetterFooter";
+import ApplyProgress from "./applyProgress";
 import ApplyHero from "./hero";
 import Program from "./program";
 
@@ -8,6 +9,7 @@ export default function Apply() {
     <div className="flex flex-col">
       <ApplyHero />
       <Program />
+      <ApplyProgress />
       <ActivitiesNewsletter />
     </div>
   );
