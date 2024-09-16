@@ -4,7 +4,12 @@
 /node_modules
 /.pnp
 .pnp.js
+
+# yarn
+.pnp.*
+.yarn/unplugged
 .yarn/install-state.gz
+yarn.lock
 
 # testing
 /coverage
