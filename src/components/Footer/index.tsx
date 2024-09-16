@@ -48,7 +48,7 @@ export default function Footer() {
               <FooterHeading text="FOllow our activities" />
               <div className="flex gap-[1.5rem]">
                 <div className="flex w-[11.625rem] flex-col gap-4">
-                  <FooterHeading text="₿trust Builders" />
+                  <FooterHeading text="Btrust Builders" />
                   <FooterLink
                     links={[
                       { name: "X (Formerly Twitter)", url: "https://x.com/btrust_builders", new_tab: true },
@@ -57,7 +57,7 @@ export default function Footer() {
                   />
                 </div>
                 <div className="w-[11.5625rem] flex flex-col gap-4">
-                  <FooterHeading text="₿trust" />
+                  <FooterHeading text="Btrust" />
                   <FooterLink
                     links={[
                       { name: "X (Formerly Twitter)", url: "https://x.com/btrustteam", new_tab: true },
