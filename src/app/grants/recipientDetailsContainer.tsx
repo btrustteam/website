@@ -1,6 +1,3 @@
-import DynamicImage from "@/components/DynamicImage";
-import SocialLink from "@/components/links/socials";
-import { useState } from "react";
 import RecipientCardDetails from "./recipientCardDetails";
 
 export interface RecipientDetails {

@@ -35,8 +35,8 @@ export default function TeamCard({
           <Paragraph className="!leading-[125%]">{description}</Paragraph>
         </div>
         <div className="flex gap-4 items-center">
-          <SocialLink url="/" icon="github" />
-          <SocialLink url="/" icon="twitter" />
+          <SocialLink url={github} icon="github" />
+          <SocialLink url={linkedin} icon="twitter" />
         </div>
       </div>
     </div>

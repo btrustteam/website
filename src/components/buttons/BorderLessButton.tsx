@@ -8,7 +8,10 @@ export default function BorderlessButton({
   onClick,
 }: BorderlessButtonProps) {
   return (
-    <button className="flex justify-center items-center rounded text-base font-semibold font-poppins text-active-white">
+    <button
+      onClick={onClick}
+      className="flex justify-center items-center rounded text-base font-semibold font-poppins text-active-white"
+    >
       {text}
     </button>
   );

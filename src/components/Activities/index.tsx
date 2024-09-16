@@ -1,5 +1,4 @@
 import SectionHeader from "../sectionHeader";
-import Image from "next/image";
 import BigLinkedin from "../links/bigLinkedIn";
 import BigTwitter from "../links/bigTwitter";
 

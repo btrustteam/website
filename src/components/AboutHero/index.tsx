@@ -1,6 +1,5 @@
 import Image from "next/image";
 import LittleHeading from "../LittleHeading";
-import LittleText from "../littleTitle";
 import Paragraph from "../Paragraph";
 import SubHeading from "../SubHeading";
 

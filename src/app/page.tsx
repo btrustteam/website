@@ -1,6 +1,5 @@
 "use client";
 import ActivitiesNewsletter from "@/components/ActivitiesNewsLetterFooter";
-import ActivitiesNewsletterAndFooter from "@/components/ActivitiesNewsLetterFooter";
 import ApplyForFunding from "@/components/applyFunding";
 import BitDev from "@/components/bitDev";
 import BtrustUpdate from "@/components/btrustUpdate";

@@ -40,15 +40,6 @@ const config: Config = {
       },
     },
   },
-  plugins: [
-    function ({ addUtilities }) {
-      addUtilities({
-        ".webkit-backdrop-blur": {
-          "-webkit-backdrop-filter": "blur(10px)",
-          "backdrop-filter": "blur(10px)",
-        },
-      });
-    },
-  ],
+  plugins: [],
 };
 export default config;

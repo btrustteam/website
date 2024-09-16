@@ -1,6 +1,3 @@
-import LittleHeading from "@/components/LittleHeading";
-import Image from "next/image";
-import GrantsHeader from "./grantsHeading";
 import RecipientsDetailsContainer from "./recipientDetailsContainer";
 
 export default function StarterRecipients() {

@@ -11,7 +11,7 @@ export default function MeetTheTeam() {
         />
         <p className="font-poppins text-[1.125rem] leading-[177.778%] text-black-2 w-[50.9375rem]">
           Btrust is headed up by a board of directors who are responsible for
-          overseeing delivery of the organization's mission.
+          overseeing delivery of the organization&apos;s mission.
         </p>
       </div>
       <div className="flex items-center justify-center w-full h-[39.375rem]">

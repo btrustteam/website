@@ -43,15 +43,20 @@ export default function Nav() {
   ) {
     event.preventDefault();
     const navItem = findNavItem(title);
+
+    // eslint-disable-next-line @typescript-eslint/no-non-null-asserted-optional-chain
     if (navItem?.sub_nav.length! > 0) {
+      // eslint-disable-next-line @typescript-eslint/no-non-null-asserted-optional-chain
       if (activeDropdown === navItem?.title!) {
         setActiveDropdown("");
       } else {
+        // eslint-disable-next-line @typescript-eslint/no-non-null-asserted-optional-chain
         setActiveDropdown(navItem?.title!);
       }
       return;
     }
     setActiveDropdown("");
+    // eslint-disable-next-line @typescript-eslint/no-non-null-asserted-optional-chain
     router.push(navItem?.url!);
   }
   return (
