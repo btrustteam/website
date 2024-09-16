@@ -3,6 +3,7 @@ import LittleHeading from "@/components/LittleHeading";
 import GrantsHeader from "./grantsHeading";
 import StarterRecipients from "./starterRecipient";
 import Image from "next/image";
+import OpenSourceRecipient from "./openSourceRecipient";
 
 export default function Recipients() {
   return (
@@ -15,7 +16,8 @@ export default function Recipients() {
           </div>
           <GrantsHeader text="Starter Grant Recipients" />
         </div>
-        <StarterRecipients />
+        {/* <StarterRecipients /> */}
+        <OpenSourceRecipient />
       </div>
       <ActivitiesNewsletter />
     </div>

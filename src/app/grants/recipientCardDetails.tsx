@@ -42,9 +42,7 @@ export default function RecipientCardDetails(recipient: RecipientDetails) {
         <motion.img
           src={recipient.image_src}
           alt={recipient.name}
-          className={`${
-            bioActive ? "h-[10rem]" : "h-[27.1875rem]"
-          } w-full object-cover rounded-t-lg`}
+          className={` w-full object-cover rounded-t-lg`}
           animate={{
             height: bioActive ? 435 - bioHeight : 435, // Adjust image height on hover
           }}
