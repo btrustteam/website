@@ -32,7 +32,7 @@ export default function FAQItem({ question, answer, lists }: FAQProps) {
             alt="caret"
           />
         </motion.div>
-        <h3 className="text-[1.5rem] font-poppins font-semibold w-[52.5625rem] text-active-white leading-[133.333%]">
+        <h3 className="text-[1.5rem] font-poppins font-medium w-[52.5625rem] text-active-white leading-[133.333%]">
           {question}
         </h3>
       </div>
