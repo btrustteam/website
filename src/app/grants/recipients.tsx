@@ -37,7 +37,7 @@ export default function Recipients({
               sizes="100vw"
               className="w-[1rem] h-[1rem]"
             />
-            <LittleHeading text="grants" className=" cursor-pointer" />
+            <LittleHeading text="grants" className="cursor-pointer" />
           </div>
           {currentPage === "starter" && (
             <GrantsHeader text="Starter Grant Recipients" />
