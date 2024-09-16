@@ -1,6 +1,7 @@
 "use client";
 import ActivitiesNewsletter from "@/components/ActivitiesNewsLetterFooter";
 import ApplyProgress from "./applyProgress";
+import Faqs from "./fags";
 import ApplyHero from "./hero";
 import Program from "./program";
 
@@ -10,6 +11,7 @@ export default function Apply() {
       <ApplyHero />
       <Program />
       <ApplyProgress />
+      <Faqs />
       <ActivitiesNewsletter />
     </div>
   );
