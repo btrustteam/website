@@ -36,6 +36,7 @@ const config: Config = {
         "black-5": "#3B3B3B",
         "process-border": "rgba(59, 59, 59, 0.50)",
         "process-bg": "rgba(198, 198, 198, 0.03)",
+        "tag-bg": "rgba(59, 59, 59, 0.60)",
       },
       fontFamily: {
         poppins: ["var(--font-poppins)"],

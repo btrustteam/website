@@ -21,11 +21,21 @@ export default function Nav() {
       url: "/builders",
       sub_nav: [
         { title: "Apply", url: "/builders/apply", new_tab: false },
-        { title: "Meet the Builders", url: "/builders/meet-builders", new_tab: false },
+        {
+          title: "Meet the Builders",
+          url: "/builders/meet-builders",
+          new_tab: false,
+        },
       ],
     },
     { title: "About Us", url: "/about", sub_nav: [], new_tab: false },
-    { title: "Blog", url: "https://blog.btrust.tech", sub_nav: [], new_tab: true },
+    {
+      title: "Blog",
+      url: "https://blog.btrust.tech",
+      sub_nav: [],
+      new_tab: true,
+    },
+    { title: "Media", url: "/media", sub_nav: [] },
     { title: "Contact Us", url: "/contact", sub_nav: [], new_tab: false },
   ];
 
