@@ -26,8 +26,7 @@ export default function BuildersProcessCard({
           isColumn ? "text-center" : ""
         }`}
       >
-        Are you software developer with 3+ years of experience in a production
-        environment?
+        {text}
       </Paragraph>
     </div>
   );

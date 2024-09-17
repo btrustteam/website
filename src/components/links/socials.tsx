@@ -9,7 +9,7 @@ export default function SocialLink({
   icon: "github" | "twitter" | "medium" | "linkedin";
   className?: string;
 }) {
-  let icon_url = `/${icon}.svg`;
+  const icon_url = `/${icon}.svg`;
 
   return (
     <a

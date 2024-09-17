@@ -41,7 +41,7 @@ export default function ProcessToJoin() {
               />
             </div>
             <BuildersProcessCard
-              text=""
+              text="Are you available to commit a minimum of 20 hours a week to the program?"
               icon_url="/availability.svg"
               isColumn={true}
             />

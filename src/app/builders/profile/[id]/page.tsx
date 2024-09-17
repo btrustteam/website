@@ -16,14 +16,11 @@ export default function BuilderProfile() {
 
   const router = useRouter();
   const params = useParams();
-  //   const { id } = params;
 
   useEffect(() => {
-    console.log(Number(params.id));
     const builder = findBuilder(Number(params.id));
-    console.log(builder);
     setBuilder(builder);
-  }, []);
+  }, [params.id]);
 
   function findBuilder(id: number): Builder | null {
     for (let i = 0; i < BuilderData.length; i++) {
