@@ -4,7 +4,6 @@ import ButtonWithArrow from "@/components/buttons/buttonWithArrow";
 import DynamicImage from "@/components/DynamicImage";
 import Input from "@/components/inputs";
 import Paragraph from "@/components/Paragraph";
-import SubHeading from "@/components/SubHeading";
 import SocialContainer from "./socialContainer";
 import SectionHeader from "@/components/sectionHeader";
 
