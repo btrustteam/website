@@ -6,12 +6,15 @@ export default function SocialLink({
   className,
 }: {
   url: string;
-  icon: "github" | "twitter";
+  icon: "github" | "twitter" | "medium";
   className?: string;
 }) {
   let icon_url = "/github.svg";
   if (icon === "twitter") {
     icon_url = "/twitter.svg";
+  }
+  if (icon === "medium") {
+    icon_url = "/medium.svg";
   }
   return (
     <a
@@ -24,7 +27,7 @@ export default function SocialLink({
         sizes={"100vw"}
         alt={icon}
         className={`${
-          icon === "github" ? "w-[1.5rem] h-[1.5rem]" : "w-[1rem] h-[1rem]"
+          icon !== "twitter" ? "w-[1.5rem] h-[1.5rem]" : "w-[1rem] h-[1rem]"
         }`}
         src={icon_url}
       />
