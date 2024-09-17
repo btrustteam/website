@@ -1,12 +1,14 @@
 import Image from "next/image";
 
+export type SocialIcon = "github" | "twitter" | "medium" | "linkedin";
+
 export default function SocialLink({
   url,
   icon,
   className,
 }: {
   url: string;
-  icon: "github" | "twitter" | "medium" | "linkedin";
+  icon: SocialIcon;
   className?: string;
 }) {
   const icon_url = `/${icon}.svg`;
