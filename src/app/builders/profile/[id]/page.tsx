@@ -35,7 +35,7 @@ export default function BuilderProfile() {
 
   return (
     <div className="flex flex-col z-20">
-      <div className="flex flex-col px-[6.5rem] gap-[4.6rem] mt-[3rem] z-50">
+      <div className="flex flex-col px-[6.5rem] gap-[4.6rem] mt-[3rem]">
         <div className="flex items-center gap-2">
           <Image
             src={"/back.svg"}

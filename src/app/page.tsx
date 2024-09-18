@@ -8,7 +8,7 @@ import StartYourJourney from "@/components/start";
 
 export default function Home() {
   return (
-    <div className=" relative">
+    <div className="">
       <Hero />
       <StartYourJourney />
       <ApplyForFunding />

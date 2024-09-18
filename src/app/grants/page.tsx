@@ -5,7 +5,7 @@ import Recipients from "./recipients";
 export default function Grants() {
   const [currentPage, setCurrentPage] = useState<string>("");
   return (
-    <div className="flex flex-col z-40">
+    <div className="flex flex-col">
       {!currentPage && <MainGrant setPage={setCurrentPage} />}
       {currentPage && (
         <Recipients setPage={setCurrentPage} currentPage={currentPage} />
