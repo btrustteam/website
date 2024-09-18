@@ -70,8 +70,8 @@ export default function Nav() {
     router.push(navItem?.url!);
   }
   return (
-    <div className="flex w-full px-[6.5rem] pt-12 pb-4">
-      <div className="flex items-center justify-between border border-grey-black rounded-lg p-6 w-full bg-btrust-white-opacity backdrop-blur-[0.625rem] z-0">
+    <div className="flex w-full px-[6.5rem] pt-12 pb-4 z-50">
+      <div className="flex items-center justify-between border border-grey-black rounded-lg p-6 w-full bg-btrust-white-opacity backdrop-blur-[0.625rem]">
         <div className="flex items-center justify-center">
           <Image
             width={0}
@@ -108,7 +108,10 @@ export default function Nav() {
                 />
               )}
               {item.sub_nav.length > 0 && activeDropdown === item.title && (
-                <DropDown items={item.sub_nav} />
+                <DropDown
+                  items={item.sub_nav}
+                  setActiveDropdown={setActiveDropdown}
+                />
               )}
             </div>
           ))}

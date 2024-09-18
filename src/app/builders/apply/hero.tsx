@@ -9,7 +9,7 @@ import { useRouter } from "next/navigation";
 export default function ApplyHero() {
   const routes = useRouter();
   return (
-    <div className="flex flex-col gap-20 mt-[3.5rem] z-50">
+    <div className="flex flex-col gap-20 mt-[3.5rem] z-30">
       <div className="flex w-full px-[6.5rem] flex-col gap-4">
         <div className="flex flex-col justify-center gap-2">
           <div className="flex items-center gap-2">
