@@ -70,9 +70,13 @@ export default function Nav() {
     router.push(navItem?.url!);
   }
   return (
-    <div className="flex w-full px-[6.5rem] pt-12 pb-4 z-50">
-      <div className="flex items-center justify-between border border-grey-black rounded-lg p-6 w-full bg-btrust-white-opacity backdrop-blur-[0.625rem]">
-        <div className="flex items-center justify-center">
+    <div className="flex w-full lg:px-[6.5rem] lg:pt-12 lg:pb-4 z-50">
+      {/* Desktop Navigation */}
+      <div className="hidden lg:flex items-center justify-between border border-grey-black rounded-lg p-6 w-full bg-btrust-white-opacity backdrop-blur-[0.625rem]">
+        <div
+          className="flex items-center justify-center cursor-pointer"
+          onClick={() => router.push("/")}
+        >
           <Image
             width={0}
             height={0}
@@ -115,6 +119,32 @@ export default function Nav() {
               )}
             </div>
           ))}
+        </div>
+      </div>
+      {/* Mobile Navigation */}
+      <div className="lg:hidden flex justify-between items-center border-t-[0.6px] border-t-[#333] border-b-[0.6px] border-b-[#333] bg-btrust-white-opacity px-[1.5rem] w-full py-[0.75rem]">
+        <div
+          className="flex items-center justify-center"
+          onClick={() => router.push("/")}
+        >
+          <Image
+            width={0}
+            height={0}
+            sizes={"100vw"}
+            src={"/logo.svg"}
+            alt={"Logo"}
+            className={"w-[3.5rem] h-[1.5rem]"}
+          />
+        </div>
+        <div className="flex items-center justify-between p-[0.5rem] rounded-[0.4375rem] border-[0.6px] border-[#272727] bg-mobile-bg">
+          <Image
+            width={0}
+            height={0}
+            sizes={"100vw"}
+            src={"/hamburger.svg"}
+            alt="Hamburger"
+            className="w-[1.5rem] h-[1.5rem]"
+          />
         </div>
       </div>
     </div>
