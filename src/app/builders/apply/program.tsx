@@ -4,16 +4,16 @@ import ProgramCard from "./programCard";
 
 export default function Program() {
   return (
-    <div className="flex flex-col pt-[5rem] pb-[2.5rem] px-0 gap-16 items-center w-full">
-      <div className="flex flex-col w-full gap-10">
-        <div className="px-[6.5rem] flex flex-col items-center gap-10">
+    <div className="flex flex-col pt-[6rem] lg:pt-[5rem] pb-[2.5rem] px-0 gap-16 items-center w-full">
+      <div className="flex flex-col w-full gap-10 px-[1.5rem] lg:px-[6.5rem]">
+        <div className="flex flex-col items-center gap-10">
           <SectionHeader
             text="What do you get from the Btrust Builders Program?"
-            className="w-[46.6875rem] !text-[2.5rem] text-center"
+            className="w-full lg:w-[46.6875rem] !text-[1.5rem] lg:!text-[2.5rem] lg:text-center !normal-case"
           />
         </div>
-        <div className="w-full flex flex-col gap-[1.9375rem] px-[6.5rem]">
-          <div className="flex w-full justify-between gap-6">
+        <div className="w-full flex flex-col gap-[1.9375rem]">
+          <div className="flex w-full flex-col lg:flex-row justify-between gap-6">
             <ProgramCard
               text="Deep immersion into Bitcoin development philosophy so you understand why Bitcoin is built the way it is"
               heading="Bitcoin Philosophy"
@@ -27,7 +27,7 @@ export default function Program() {
               heading="Bitcoin Philosophy"
             />
           </div>
-          <div className="flex justify-between gap-6">
+          <div className="flex w-full flex-col lg:flex-row justify-between gap-6">
             <ProgramCard
               text="Support to get your technology setup (internet, video & audio, etc.) up to muster for consistent contribution"
               heading="Technology Support"
@@ -41,7 +41,7 @@ export default function Program() {
               heading="Profile Building"
             />
           </div>
-          <div className="flex justify-between gap-6">
+          <div className="flex w-full flex-col lg:flex-row justify-between gap-6">
             <ProgramCard
               text="Experienced mentors who support you at every step of the journey"
               heading="Mentorship"
@@ -55,13 +55,13 @@ export default function Program() {
               heading="Profile Building"
             />
           </div>
-          <div className="grid grid-cols-3 justify-between">
+          <div className="flex flex-col gap-6 lg:grid grid-cols-3 justify-between">
             <ProgramCard
               text="Tied to excellent performance"
               heading="Monthly Stipend"
             />
             <div className="p-[1.5rem] flex items-center gap-4 rounded-lg border border-black-5 col-span-2 w-full">
-              <h3 className="w-[47.25rem] font-poppins text-[1.5rem] font-semibold text-active-white">
+              <h3 className="w-full max-w-[24.625rem] lg:w-[47.25rem] font-poppins text-[1.5rem] font-semibold text-active-white">
                 Does this sound like the kind of experience you would like to be
                 a part of?{" "}
                 <a href="/" className=" italic font-bold underline">
@@ -72,12 +72,16 @@ export default function Program() {
           </div>
         </div>
       </div>
-      <div className="w-full bg-[#222] py-24 items-center justify-center flex flex-col gap-2">
-        <h3 className="text-active-white text-center font-poppins text-[2rem] font-semibold w-[46.5625rem]">
+      <div className="w-full bg-[#222] px-[1.5rem] py-12 lg:py-24 items-center justify-center flex flex-col gap-4 lg:gap-2">
+        <h3 className="text-active-white text-center font-poppins text-[1.75rem] lg:text-[2rem] font-semibold w-full max-w-[23.875rem] lg:w-[46.5625rem]">
           Want to learn more? Join our next developer information session.
         </h3>
-        <div className="flex items-center justify-center">
-          <ButtonWithArrow onClick={() => {}} text="Join Here" />
+        <div className="flex items-center justify-center w-full">
+          <ButtonWithArrow
+            onClick={() => {}}
+            text="Join Here"
+            className="w-full lg:w-auto"
+          />
         </div>
       </div>
     </div>
