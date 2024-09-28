@@ -23,7 +23,7 @@ export default function Recipients({
   }, []);
   return (
     <div ref={firstDivRef} className="flex flex-col">
-      <div className="px-[6.5rem] mt-[3.5rem]">
+      <div className="px-[1.5rem] lg:px-[6.5rem] mt-[2rem] lg:mt-[3.5rem]">
         <div className="flex flex-col justify-center">
           <div
             className="flex items-center gap-2 cursor-pointer z-50"
