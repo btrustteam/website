@@ -12,7 +12,7 @@ export default function OutlineButton({
   return (
     <button
       onClick={onClick}
-      className={`flex py-[1rem] px-[1.5rem] items-center justify-center rounded-lg border border-active-white font-poppins text-base font-semibold text-active-white ${className}`}
+      className={`flex py-6 lg:py-[1rem] px-[1.5rem] items-center justify-center rounded-lg border border-active-white font-poppins text-base font-semibold text-active-white ${className}`}
     >
       {text}
     </button>

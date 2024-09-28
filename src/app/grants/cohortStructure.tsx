@@ -3,20 +3,20 @@ import CohortStructureCard from "./cohortStructureCard";
 
 export default function CohortStructure() {
   return (
-    <div className="flex py-[3.5rem] px-[6.5rem] flex-col justify-center gap-10">
+    <div className="flex lg:py-[3.5rem] pb-[5.5rem] px-[1.5rem] lg:px-[6.5rem] flex-col justify-center gap-10">
       <div className="flex flex-col gap-2">
-        <h3 className="text-[1.25rem] font-poppins font-semibold text-active-white">
+        <h3 className="text-[1.25rem] font-poppins font-semibold text-active-white w-[18.125rem]">
           Btrust Open-Source Cohort Structure
         </h3>
-        <Paragraph className="w-[50.75rem]">
+        <Paragraph className="w-full lg:w-[50.75rem]">
           The Btrust Open-Source Cohort enriches the existing grant model with
           additional structure to make it easier for grantees to sustainably
           contribute to Bitcoin open-source development. We will iterate on this
           model as we learn, leveraging the following structure:
         </Paragraph>
       </div>
-      <div className="flex flex-col justify-center gap-10">
-        <div className="flex justify-between w-full gap-[1.5rem]">
+      <div className="flex flex-col justify-center gap-10 w-full">
+        <div className="flex flex-col lg:flex-row justify-between w-full gap-[1.5rem]">
           <CohortStructureCard
             text="We pair each developer in the cohort with a technical mentor from their project of interest who will help them navigate its norms and become familiar with its codebase."
             heading="Mentorship"
@@ -30,7 +30,7 @@ export default function CohortStructure() {
             heading="Peer Support"
           />
         </div>
-        <div className="flex justify-between w-full">
+        <div className="flex flex-col lg:flex-row justify-between gap-[1.5rem] w-full">
           <CohortStructureCard
             text="We actively communicates with the projects that cohort members choose to work on to ensure that cohort members positively impact the project."
             heading="Project Relations"
