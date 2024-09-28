@@ -9,17 +9,24 @@ import SubHeading from "@/components/SubHeading";
 
 export default function BuildersHero() {
   return (
-    <div className="flex flex-col justify-center gap-20 mt-14 w-full">
-      <div className="flex px-[6.4375rem] py-0 flex-col justify-center gap-4 w-full">
-        <div className="flex flex-col w-[61.625rem]">
+    <>
+      <div className="flex flex-col lg:hidden py-[4rem] gap-6 w-full">
+        <div className="flex flex-col w-full px-[1.5rem]">
           <LittleHeading text="btrust builders" className="" />
           <SubHeading
             text="Empowering Open-Source Bitcoin Builders in Africa"
             className=""
           />
         </div>
-        <div className="flex flex-col gap-6">
-          <Paragraph className="w-[57.5rem] leading-[218.75%]">
+        <div className="flex justify-center items-center w-full">
+          <DynamicImage
+            src="https://lhxkhtemz6sjrgyy.public.blob.vercel-storage.com/Rectangle%2023-1mE2ek0Fzkmk5WKbPgEyczcqXiNTBc.png"
+            alt="builder"
+            className="h-[18.75rem] w-full object-cover"
+          />
+        </div>
+        <div className="flex flex-col px-[1.5rem] gap-6 justify-center">
+          <Paragraph className="!leading-[218.75%]">
             Btrust Builders is a comprehensive engineering program designed to
             train experienced software developers in Africa to contribute to
             open-source Bitcoin & Lightning development. Our program offers an
@@ -28,19 +35,45 @@ export default function BuildersHero() {
             ramp to build a sustainable (funded) career contributing to
             open-source Bitcoin projects.
           </Paragraph>
-          <div className="flex gap-8">
+          <div className="flex flex-col gap-4">
             <ButtonWithArrow noIcon={true} text="Apply" onClick={() => {}} />
             <OutlineButton text="Meet the Builders" onClick={() => {}} />
           </div>
         </div>
       </div>
-      <div className="flex jus items-center w-full">
-        <DynamicImage
-          src="https://lhxkhtemz6sjrgyy.public.blob.vercel-storage.com/Rectangle%2023-1mE2ek0Fzkmk5WKbPgEyczcqXiNTBc.png"
-          alt="builder"
-          className="h-[46.1875rem] w-full"
-        />
+      <div className="hidden lg:flex flex-col justify-center gap-20 mt-14 w-full">
+        <div className="flex px-[6.4375rem] py-0 flex-col justify-center gap-4 w-full">
+          <div className="flex flex-col w-[61.625rem]">
+            <LittleHeading text="btrust builders" className="" />
+            <SubHeading
+              text="Empowering Open-Source Bitcoin Builders in Africa"
+              className=""
+            />
+          </div>
+          <div className="flex flex-col gap-6">
+            <Paragraph className="w-[57.5rem] leading-[218.75%]">
+              Btrust Builders is a comprehensive engineering program designed to
+              train experienced software developers in Africa to contribute to
+              open-source Bitcoin & Lightning development. Our program offers an
+              immersive learning experience for engineers looking to build their
+              competencies and portfolio in Bitcoin & Lightning development and
+              a ramp to build a sustainable (funded) career contributing to
+              open-source Bitcoin projects.
+            </Paragraph>
+            <div className="flex gap-8">
+              <ButtonWithArrow noIcon={true} text="Apply" onClick={() => {}} />
+              <OutlineButton text="Meet the Builders" onClick={() => {}} />
+            </div>
+          </div>
+        </div>
+        <div className="flex justify-center items-center w-full">
+          <DynamicImage
+            src="https://lhxkhtemz6sjrgyy.public.blob.vercel-storage.com/Rectangle%2023-1mE2ek0Fzkmk5WKbPgEyczcqXiNTBc.png"
+            alt="builder"
+            className="h-[46.1875rem] w-full"
+          />
+        </div>
       </div>
-    </div>
+    </>
   );
 }
