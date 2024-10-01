@@ -1,9 +1,11 @@
+"use client";
 import Footer from "@/components/Footer";
 import Gradient from "@/components/gradient";
 import Nav from "@/components/nav";
 import Pattern from "@/components/pattern";
 import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
+import { useEffect, useState } from "react";
 import "./globals.css";
 
 const inter = Poppins({
@@ -12,7 +14,7 @@ const inter = Poppins({
   weight: ["100", "200", "300", "400", "500", "600", "700", "800"],
 });
 
-export const metadata: Metadata = {
+const metadata: Metadata = {
   title: "Btrust",
   description:
     "We locate, educate and renumerate Bitcoin Open-Source Engineers in the Global South",
@@ -23,12 +25,36 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const [mobileActive, setMobileActive] = useState(false);
+
+  // Apply or remove the no-scroll class based on mobileActive
+  useEffect(() => {
+    if (mobileActive) {
+      document.querySelector("body")?.classList.add("no-scroll");
+    } else {
+      document.querySelector("body")?.classList.remove("no-scroll");
+    }
+  }, [mobileActive]);
+
+  function handleToggle() {
+    setMobileActive((prev) => !prev);
+  }
+
+  const closeNav = () => {
+    setMobileActive(false);
+    document.querySelector("body")?.classList.remove("no-scroll");
+  };
+
   return (
     <html lang="en">
       <body className={`${inter.variable} container relative bg-bg-black`}>
         <Pattern />
         <Gradient />
-        <Nav />
+        <Nav
+          mobileActive={mobileActive}
+          handleToggle={handleToggle}
+          closeNav={closeNav}
+        />
         {children}
         <Footer />
       </body>
