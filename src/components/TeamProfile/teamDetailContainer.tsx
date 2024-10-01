@@ -22,11 +22,15 @@ export default function TeamDetailsContainer({
           </h3>
           <Image src={"/caret.svg"} alt="caret" width={24} height={24} />
         </div>
-        <p className="text-black-2 font-poppins text-[1.125rem] leading-[177.778%] w-[41.75rem]">
+        <p className="text-black-2 font-poppins text-[1.125rem] leading-[177.778%] w-w-full lg:w-[41.75rem]">
           {brief}
         </p>
       </div>
-      <div className={`flex gap-6 ${isBoard ? "justify-between" : ""}`}>
+      <div
+        className={`flex flex-col items-center justify-center lg:flex-row gap-6 ${
+          isBoard ? "lg:justify-between" : "lg:justify-start"
+        }`}
+      >
         {teanMembers.map((card, index) => (
           <TeamCard key={index} {...card} />
         ))}

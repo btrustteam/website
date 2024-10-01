@@ -3,7 +3,7 @@ import TeamDetailsContainer from "./teamDetailContainer";
 
 export default function TeamProfile() {
   return (
-    <div className="flex px-[6.5rem] flex-col gap-10 pt-12">
+    <div className="flex px-[1.5rem] lg:px-[6.5rem] flex-col gap-10 pt-12">
       <Line />
       <TeamDetailsContainer
         isBoard={true}

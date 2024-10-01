@@ -18,7 +18,7 @@ export default function TeamCard({
   imageUrl,
 }: TeamCardProps) {
   return (
-    <div className="flex w-[18.125rem] p-4 flex-col gap-4 rounded-lg backdrop-blur-[2px] border border-[#3B3B3B]">
+    <div className="flex w-full max-w-[23.875rem] lg:w-[18.125rem] p-4 flex-col gap-4 rounded-lg backdrop-blur-[2px] border border-[#3B3B3B]">
       <Image
         src={imageUrl}
         alt="team member"
