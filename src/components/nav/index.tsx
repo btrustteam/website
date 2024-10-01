@@ -109,7 +109,7 @@ export default function Nav({ mobileActive, handleToggle, closeNav }: Props) {
   ) {
     e.stopPropagation();
     e.preventDefault();
-    console.log("Test");
+    console.log("Test", url);
   }
 
   return (

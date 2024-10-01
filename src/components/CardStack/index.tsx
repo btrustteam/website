@@ -49,7 +49,6 @@ const cards = [
 const CardStack = () => {
   const [activeCard, setActiveCard] = useState<number>(1);
   const [calculatedX, setCalculatedX] = useState<number>(0);
-  const [isMobile, setIsMobile] = useState<boolean>(false);
   const [heights, setHeights] = useState<Record<string, number>>({});
   const containerRef = useRef<HTMLDivElement | null>(null);
   const contentRefs = useRef<Record<string, HTMLParagraphElement | null>>({});
@@ -74,24 +73,6 @@ const CardStack = () => {
     window.addEventListener("resize", calculateX);
 
     return () => window.removeEventListener("resize", calculateX);
-  }, []);
-
-  const checkMobileScreen = () => {
-    return window.matchMedia("(max-width: 768px)").matches;
-  };
-
-  useEffect(() => {
-    setIsMobile(checkMobileScreen());
-
-    const handleResize = () => {
-      setIsMobile(checkMobileScreen());
-    };
-
-    window.addEventListener("resize", handleResize);
-
-    return () => {
-      window.removeEventListener("resize", handleResize);
-    };
   }, []);
 
   useEffect(() => {
@@ -120,7 +101,7 @@ const CardStack = () => {
   // 5.5rem
   function calculateHeightPosition(cardId: number) {
     const cardPreviewHeight = 83;
-    let currentHeight = heights[activeCard] || 0;
+    const currentHeight = heights[activeCard] || 0;
     if (activeCard === 1) {
       if (cardId === 1) {
         return 0;
