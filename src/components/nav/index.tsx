@@ -15,6 +15,7 @@ export default function Nav({ mobileActive, handleToggle, closeNav }: Props) {
   const router = useRouter();
   const pathname = usePathname();
   const [activeDropdown, setActiveDropdown] = useState<string>("");
+  const [mobileActiveDropdown, setMobileActiveDropdown] = useState<string>("");
 
   const navItems = [
     {
@@ -82,18 +83,16 @@ export default function Nav({ mobileActive, handleToggle, closeNav }: Props) {
     title: string
   ) {
     e.preventDefault();
-    console.log(title);
     const navItem = findNavItem(title);
-    console.log(navItem);
 
     // eslint-disable-next-line @typescript-eslint/no-non-null-asserted-optional-chain
     if (navItem?.sub_nav.length! > 0) {
       // eslint-disable-next-line @typescript-eslint/no-non-null-asserted-optional-chain
-      if (activeDropdown === navItem?.title!) {
-        setActiveDropdown("");
+      if (mobileActiveDropdown === navItem?.title!) {
+        setMobileActiveDropdown("");
       } else {
         // eslint-disable-next-line @typescript-eslint/no-non-null-asserted-optional-chain
-        setActiveDropdown(navItem?.title!);
+        setMobileActiveDropdown(navItem?.title!);
       }
       return;
     }
@@ -103,13 +102,9 @@ export default function Nav({ mobileActive, handleToggle, closeNav }: Props) {
     closeNav();
   }
 
-  function hanleSubNav(
-    e: React.MouseEvent<HTMLParagraphElement, MouseEvent>,
-    url: string
-  ) {
-    e.stopPropagation();
-    e.preventDefault();
-    console.log("Test", url);
+  function handleSubNav() {
+    setMobileActiveDropdown("");
+    closeNav();
   }
 
   return (
@@ -224,22 +219,22 @@ export default function Nav({ mobileActive, handleToggle, closeNav }: Props) {
                       width={0}
                       height={0}
                       sizes={"100vw"}
-                      className="cursor-pointer w-[1rem] h-[1rem] bg-red-300"
+                      className="cursor-pointer w-[1rem] h-[1rem]"
                       onClick={(e) => mobileShowDropdown(e, item.title)}
                     />
                   )}
                 </div>
-                {activeDropdown === item.title && (
+                {mobileActiveDropdown === item.title && (
                   <div className="flex flex-col gap-4 mt-4">
                     {item.sub_nav.map((sub, index) => (
-                      <p
+                      <Link
                         key={index}
-                        className="text-active-white opacity-50 bg-red-200"
-                        // href={sub.url}
-                        onClick={(e) => hanleSubNav(e, sub.url)}
+                        className="text-active-white opacity-50"
+                        href={sub.url}
+                        onClick={() => handleSubNav()}
                       >
                         {sub.title}
-                      </p>
+                      </Link>
                     ))}
                   </div>
                 )}
