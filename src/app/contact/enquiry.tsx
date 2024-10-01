@@ -15,15 +15,15 @@ export default function Enquiry() {
   const [message, setMessage] = useState<string>("");
 
   return (
-    <div className="flex pt-[6rem] pb-[5rem] justify-center items-center w-full">
+    <div className="flex pt-[4rem] lg:pt-[6rem] pb-[4rem] lg:pb-[5rem] justify-center items-center w-full">
       <div
-        className="py-[4.6875rem] px-[6.4375rem] bg-contact-black bg-cover bg-center w-full flex justify-between"
+        className="py-[4.6875rem] px-[1.5rem] lg:px-[6.4375rem] bg-contact-black bg-cover bg-center w-full flex flex-col lg:flex-row justify-between gap-[6rem]"
         style={{
           backgroundImage:
             "url('https://lhxkhtemz6sjrgyy.public.blob.vercel-storage.com/Patter-Long-afr8ix8wgqX6lysdwU7x9JwzUMDKPR.svg')",
         }}
       >
-        <div className="flex flex-col w-[33.5625rem] p-8 gap-6 bg-[#222]">
+        <div className="flex flex-col w-full lg:w-[33.5625rem] p-8 gap-6 bg-[#222]">
           <div className="flex gap-4 w-full items-start">
             <div className="flex items-center justify-center">
               <DynamicImage
@@ -68,13 +68,13 @@ export default function Enquiry() {
             </div>
           </div>
         </div>
-        <div className="flex flex-col gap-6 w-[41.0625rem]">
+        <div className="flex flex-col gap-6 w-full lg:w-[41.0625rem]">
           <div className="flex flex-col">
             <SectionHeader
               text="Enquiry Form"
-              className="!text-[1.75rem] font-semibold"
+              className="!text-[1.5rem] lg:!text-[1.75rem] font-semibold"
             />
-            <Paragraph className="!text-[1.125rem] !leading-[177.778%]">
+            <Paragraph className="!text-base lg:!text-[1.125rem] !leading-[200%] lg:!leading-[177.778%]">
               Want to make an inquiry or contact us?  Fill the form below and we
               will get back to you shortly.
             </Paragraph>
@@ -90,7 +90,7 @@ export default function Enquiry() {
                 type={"email"}
               />
             </div>
-            <div className="flex w-full gap-6">
+            <div className="flex flex-col lg:flex-row w-full gap-6">
               <Input
                 type="text"
                 iconName="user"
@@ -131,7 +131,12 @@ export default function Enquiry() {
             </div>
           </div>
           <div>
-            <ButtonWithArrow text="Submit" onClick={() => {}} noIcon={true} />
+            <ButtonWithArrow
+              text="Submit"
+              onClick={() => {}}
+              noIcon={true}
+              className="w-full lg:w-auto"
+            />
           </div>
         </div>
       </div>

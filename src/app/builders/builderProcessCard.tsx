@@ -12,8 +12,8 @@ export default function BuildersProcessCard({
 }) {
   return (
     <div
-      className={`rounded-lg flex justify-center items-center py-[2.5rem] px-[2rem] w-[29.1875rem] gap-6 backdrop-blur-[2px] border border-process-border bg-process-bg ${
-        isColumn ? "flex-col" : ""
+      className={`rounded-lg flex justify-center items-center py-[2.5rem] px-[2rem] w-full max-w-[29.1875rem] lg:w-[29.1875rem] gap-6 backdrop-blur-[2px] border border-process-border bg-process-bg ${
+        isColumn ? "lg:flex-col" : ""
       }`}
     >
       <DynamicImage

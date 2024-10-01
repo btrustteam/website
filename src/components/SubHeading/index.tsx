@@ -7,7 +7,7 @@ export default function SubHeading({
 }) {
   return (
     <h2
-      className={`text-active-white font-poppins text-[3.5rem] font-bold leading-[128.571%] ${className}`}
+      className={`text-active-white font-poppins text-[2rem] lg:text-[3.5rem] font-bold leading-[140%] lg:leading-[128.571%] ${className}`}
     >
       {text}
     </h2>

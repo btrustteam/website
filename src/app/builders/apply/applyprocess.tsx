@@ -3,8 +3,8 @@ import CardRight from "./cardRight";
 
 export default function ApplySteps() {
   return (
-    <div className="flex flex-col justify-center items-center relative w-[69.075rem]">
-      <div className="flex justify-center items-center inset-0 top-[-14px] bottom-0 left-0 right-0 absolute w-full">
+    <div className="flex flex-col justify-center items-center relative w-full lg:w-[69.075rem] gap-6 lg:gap-0">
+      <div className="hidden lg:flex justify-center items-center inset-0 top-[-14px] bottom-0 left-0 right-0 absolute w-full">
         <div className="w-[2px] bg-[#686868] h-[59.3rem]"></div>
       </div>
       <CardLeft

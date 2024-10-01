@@ -36,7 +36,7 @@ export default function Input({
   const generalStyle = `border-none font-poppins leading-[175%] text-base text-black-2 placeholder:text-base placeholder:text-black-2 placeholder:font-poppins w-full bg-transparent outline-none`;
   return (
     <div className="flex w-full flex-col gap-1">
-      <label className=" text-active-white font-poppins text-base font-normal leading-[175%]">
+      <label className=" text-active-white font-poppins text-[0.875rem] lg:text-base font-normal leading-[171.429%] lg:leading-[175%]">
         {label}
       </label>
       <div

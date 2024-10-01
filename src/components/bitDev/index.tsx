@@ -4,7 +4,7 @@ import Paragraph from "../Paragraph";
 import SectionHeader from "../sectionHeader";
 export default function BitDev() {
   return (
-    <div className="py-[6.25rem] px-[6.5rem] flex justify-between items-centern w-full gap-[2.875rem]">
+    <div className="lg:py-[6.25rem] lg:px-[6.5rem] flex flex-col lg:flex-row lg:justify-between items-center w-full lg:gap-[2.875rem] gap-12">
       <Image
         src={
           "https://lhxkhtemz6sjrgyy.public.blob.vercel-storage.com/Rectangle%2021-KBA3ENWJRNsvBCdivRfX3gi5NejE1Q.png"
@@ -13,13 +13,13 @@ export default function BitDev() {
         width={0}
         height={0}
         sizes={"100vw"}
-        className="w-[40.4375rem] object-cover rounded-lg"
+        className="w-full lg:w-[40.4375rem] object-cover rounded-lg"
       />
-      <div className="flex flex-col justify-center items-start gap-[2rem]">
+      <div className="flex flex-col justify-center items-start px-6 lg:px-0 gap-[2rem]">
         <div className="flex flex-col">
           <SectionHeader text="BitDevs Across Africa" className="" />
           <div className="flex flex-col justify-center gap-[2.5rem]">
-            <Paragraph className="w-[33.6875rem]">
+            <Paragraph className="w-full lg:w-[33.6875rem]">
               Our builders run BitDev meetups across five African cities—
               <a className="font-bold underline" href="/">
                 Nairobi
@@ -44,7 +44,7 @@ export default function BitDev() {
               funding. The goal is to expand these meetups to more African
               cities, growing the pipeline.
             </Paragraph>
-            <Paragraph className="w-[33.6875rem]">
+            <Paragraph className="w-full lg:w-[33.6875rem]">
               These monthly meetups follow the established BitDevs format and
               are highly localized. They offer a high-signal environment to
               deepen understanding of Bitcoin development and communicate

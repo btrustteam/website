@@ -4,12 +4,15 @@ import SectionHeader from "../sectionHeader";
 
 export default function BtrustUpdate() {
   return (
-    <div className="flex w-full py-[6.25rem] px-[6.5rem] flex-col gap-[2rem]">
+    <div className="flex w-full py-20 lg:py-[6.25rem] px-6 lg:px-[6.5rem] flex-col gap-[2rem]">
       <div className="flex items-center justify-between">
-        <SectionHeader text="Btrust Updates" className="text-[2.5rem]" />
+        <SectionHeader
+          text="Btrust Updates"
+          className="text-[1.5rem] lg:text-[2.5rem]"
+        />
         <ButtonWithArrow text="See All" onClick={() => {}} />
       </div>
-      <div className="flex items-start justify-between gap-[1.5rem]">
+      <div className="flex flex-col lg:flex-row items-start justify-between gap-[1.5rem]">
         <NewsCard
           image_url="https://lhxkhtemz6sjrgyy.public.blob.vercel-storage.com/Rectangle%2020%20(2)-DeNIWaOM8kAVYiyC1hRWCnyuZOlJQy.png"
           first_tag="Forbes"

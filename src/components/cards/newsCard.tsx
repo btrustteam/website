@@ -38,7 +38,7 @@ export default function NewsCard({
       <div className="flex flex-col gap-[0.75rem]">
         <SectionHeader
           text={heading}
-          className="!leading-[175%] !text-[1.25rem]"
+          className="!leading-[155.556%] lg:!leading-[175%] lg:!text-[1.25rem] !text-[1.125rem]"
         />
         <Paragraph className="">
           {brief}

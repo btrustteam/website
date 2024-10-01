@@ -5,16 +5,16 @@ import SubHeading from "../SubHeading";
 
 export default function AboutHero() {
   return (
-    <div className="flex flex-col gap-[6.25rem]">
-      <div className="flex w-full pt-[3.75rem] px-[6.5rem] p-0 flex-col gap-[2rem]">
+    <div className="flex flex-col gap-10 lg:gap-[6.25rem]">
+      <div className="flex w-full pt-[3.75rem] px-[1.5rem] lg:px-[6.5rem] p-0 flex-col gap-[2rem]">
         <div className="flex flex-col">
           <LittleHeading text="About us" className="" />
           <SubHeading
             text="A Decentralised Future for Bitcoin Software Development"
-            className="w-[55.375rem]"
+            className="w-full lg:w-[55.375rem]"
           />
         </div>
-        <div className="flex flex-col gap-8 w-[54.4375rem]">
+        <div className="flex flex-col gap-8 w-full lg:w-[54.4375rem]">
           <Paragraph className="">
             Btrust is a non-profit organization with a dedicated mission to
             decentralize the development of Bitcoin software. Our focus is on
@@ -38,7 +38,7 @@ export default function AboutHero() {
           </Paragraph>
         </div>
       </div>
-      <div className="flex flex-col justify-center items-center w-full h-[46.25rem]">
+      <div className="flex flex-col justify-center items-center w-full lg:h-[46.25rem] h-[18.75rem]">
         <Image
           src={
             "https://lhxkhtemz6sjrgyy.public.blob.vercel-storage.com/Rectangle%2022%20(3)-1vAemSzeHWayS3KIwM5WovKXBJDGBf.png"
@@ -47,7 +47,7 @@ export default function AboutHero() {
           width={0}
           height={0}
           sizes={"100vw"}
-          className="h-full w-full"
+          className="h-full w-full object-cover"
         />
       </div>
     </div>

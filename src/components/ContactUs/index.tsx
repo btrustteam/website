@@ -16,15 +16,18 @@ export default function ContactUs() {
   return (
     <div className="flex pt-[6rem] pb-[5rem] justify-center items-center w-full">
       <div
-        className="py-[4.6875rem] px-[6.4375rem] bg-contact-black bg-cover bg-center w-full flex justify-between"
+        className="py-[4.6875rem] px-[1.5rem] lg:px-[6.4375rem] bg-contact-black bg-cover bg-center w-full flex flex-col lg:flex-row justify-between"
         style={{
           backgroundImage:
             "url('https://lhxkhtemz6sjrgyy.public.blob.vercel-storage.com/Patter-Long-afr8ix8wgqX6lysdwU7x9JwzUMDKPR.svg')",
         }}
       >
-        <div className="flex flex-col gap-4 w-[30.1875rem]">
+        <div className="flex flex-col gap-4 w-full lg:w-[30.1875rem]">
           <div className="flex flex-col gap-4 w-full">
-            <SubHeading text="Contact Us" className="!text-[2.5rem]" />
+            <SubHeading
+              text="Contact Us"
+              className="!text-[1.5rem] lg:!text-[2.5rem]"
+            />
             <Paragraph className="!text-[1.125rem] leading-[177.778%]">
               Want to make an inquiry or contact us? Fill the form below and we
               will get back to you shortly.
@@ -38,7 +41,7 @@ export default function ContactUs() {
             />
           </div>
         </div>
-        <div className="flex flex-col gap-6 w-[41.0625rem]">
+        <div className="flex flex-col gap-6 w-full lg:w-[41.0625rem]">
           <div className="flex flex-col gap-6 w-full">
             <div className="flex items-center justify-center w-full">
               <Input
@@ -50,7 +53,7 @@ export default function ContactUs() {
                 type={"email"}
               />
             </div>
-            <div className="flex w-full gap-6">
+            <div className="flex flex-col lg:flex-row w-full gap-6">
               <Input
                 type="text"
                 iconName="user"
@@ -91,7 +94,12 @@ export default function ContactUs() {
             </div>
           </div>
           <div>
-            <ButtonWithArrow text="Submit" onClick={() => {}} noIcon={true} />
+            <ButtonWithArrow
+              text="Submit"
+              onClick={() => {}}
+              noIcon={true}
+              className="w-full lg:w-auto"
+            />
           </div>
         </div>
       </div>

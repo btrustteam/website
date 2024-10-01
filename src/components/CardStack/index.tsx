@@ -49,7 +49,9 @@ const cards = [
 const CardStack = () => {
   const [activeCard, setActiveCard] = useState<number>(1);
   const [calculatedX, setCalculatedX] = useState<number>(0);
+  const [heights, setHeights] = useState<Record<string, number>>({});
   const containerRef = useRef<HTMLDivElement | null>(null);
+  const contentRefs = useRef<Record<string, HTMLParagraphElement | null>>({});
 
   const handleCardClick = (id: number) => {
     if (id !== activeCard) {
@@ -72,6 +74,96 @@ const CardStack = () => {
 
     return () => window.removeEventListener("resize", calculateX);
   }, []);
+
+  useEffect(() => {
+    function calculateHeight() {
+      if (activeCard && contentRefs.current[activeCard]) {
+        const element = contentRefs.current[activeCard];
+        if (element) {
+          const newHeight = element.offsetHeight;
+          setHeights((prevHeights) => ({
+            ...prevHeights,
+            [activeCard]: newHeight,
+          }));
+        }
+      }
+    }
+
+    calculateHeight();
+
+    window.addEventListener("resize", calculateHeight);
+
+    return () => {
+      window.removeEventListener("resize", calculateHeight);
+    };
+  }, [activeCard]);
+
+  // 5.5rem
+  function calculateHeightPosition(cardId: number) {
+    const cardPreviewHeight = 83;
+    const currentHeight = heights[activeCard] || 0;
+    if (activeCard === 1) {
+      if (cardId === 1) {
+        return 0;
+      } else if (cardId === 2) {
+        return currentHeight + cardPreviewHeight;
+      } else if (cardId === 3) {
+        return currentHeight + cardPreviewHeight * 2;
+      } else if (cardId === 4) {
+        return currentHeight + cardPreviewHeight * 3;
+      } else {
+        return currentHeight + cardPreviewHeight * 4;
+      }
+    } else if (activeCard === 2) {
+      if (cardId === 1) {
+        return 0;
+      } else if (cardId === 2) {
+        return cardPreviewHeight;
+      } else if (cardId === 3) {
+        return currentHeight + cardPreviewHeight * 2;
+      } else if (cardId === 4) {
+        return currentHeight + cardPreviewHeight * 3;
+      } else {
+        return currentHeight + cardPreviewHeight * 4;
+      }
+    } else if (activeCard === 3) {
+      if (cardId === 1) {
+        return 0;
+      } else if (cardId === 2) {
+        return cardPreviewHeight;
+      } else if (cardId === 3) {
+        return cardPreviewHeight * 2;
+      } else if (cardId === 4) {
+        return currentHeight + cardPreviewHeight * 3;
+      } else {
+        return currentHeight + cardPreviewHeight * 4;
+      }
+    } else if (activeCard === 4) {
+      if (cardId === 1) {
+        return 0;
+      } else if (cardId === 2) {
+        return cardPreviewHeight;
+      } else if (cardId === 3) {
+        return cardPreviewHeight * 2;
+      } else if (cardId === 4) {
+        return cardPreviewHeight * 3;
+      } else {
+        return currentHeight + cardPreviewHeight * 4;
+      }
+    } else {
+      if (cardId === 1) {
+        return 0;
+      } else if (cardId === 2) {
+        return cardPreviewHeight;
+      } else if (cardId === 3) {
+        return cardPreviewHeight * 2;
+      } else if (cardId === 4) {
+        return cardPreviewHeight * 3;
+      } else {
+        return cardPreviewHeight * 4;
+      }
+    }
+  }
 
   function calculatePosition(cardId: number) {
     const cardPreviewWidth = 130;
@@ -139,51 +231,100 @@ const CardStack = () => {
   }
 
   return (
-    <div className="relative w-full h-[29.5625rem] flex" ref={containerRef}>
-      {cards.map((card, index) => {
-        const isActive = activeCard === card.id;
-        return (
-          <motion.div
-            key={card.id}
-            className={`absolute top-${
-              index * 10
-            } w-full h-full cursor-pointer rounded-tl-[2.5rem] rounded-bl-[2.5rem] flex py-[7.59375rem] pl-[2.5rem] pr-[39.9375rem] items-center`}
-            onClick={() => handleCardClick(card.id)}
-            initial={false}
-            animate={{
-              x: calculatePosition(card.id),
-            }}
-            transition={{ duration: 0.5 }}
-            style={{ background: card.backround }}
-          >
-            <div className="flex flex-col gap-6">
-              <Image
-                src={card.icon}
-                height={0}
-                width={0}
-                sizes={"100vw"}
-                className={"h-16 w-16"}
-                alt="icon"
-              />
-
-              {isActive && (
+    <>
+      <div className="relative w-full h-full min-h-[43.25rem] lg:hidden flex flex-col">
+        {cards.map((card, index) => {
+          const isActive = activeCard === card.id;
+          return (
+            <motion.div
+              key={card.id}
+              className={`w-full h-auto ${
+                cards.length - 1 === index ? "rounded-lg" : "rounded-t-lg"
+              } flex flex-col px-5 pt-[1.5rem] pb-[1.5rem] gap-4 absolute top-0`}
+              style={{ background: card.backround }}
+              transition={{ duration: 0.3 }}
+              onClick={() => handleCardClick(card.id)}
+              initial={false}
+              animate={{ y: calculateHeightPosition(card.id) }}
+            >
+              <div className="flex gap-4 items-center">
+                <Image
+                  src={card.icon}
+                  height={0}
+                  width={0}
+                  sizes={"100vw"}
+                  className={"h-10 w-10"}
+                  alt="icon"
+                />
                 <h3
-                  className={`text-[#C6C6C6] text-[1.75rem] font-extrabold uppercase ${gilroyExtraBold.className}`}
+                  className={`text-[#C6C6C6] text-[1.125rem] font-extrabold uppercase ${gilroyExtraBold.className}`}
                 >
                   {card.title}
                 </h3>
-              )}
-
+              </div>
               {isActive && (
-                <p className="font-poppins text-[#989898] text-base leading-[175%]">
+                <p
+                  ref={(el) => {
+                    contentRefs.current[card.id] = el;
+                  }}
+                  className="font-poppins text-[#989898] pb-4 text-base leading-[175%]"
+                >
                   {card.content}
                 </p>
               )}
-            </div>
-          </motion.div>
-        );
-      })}
-    </div>
+            </motion.div>
+          );
+        })}
+      </div>
+      <div
+        className="relative w-full h-[29.5625rem] hidden lg:flex flex-row"
+        ref={containerRef}
+      >
+        {cards.map((card, index) => {
+          const isActive = activeCard === card.id;
+          return (
+            <motion.div
+              key={card.id}
+              className={`absolute top-${
+                index * 10
+              } w-full h-full cursor-pointer rounded-tl-[2.5rem] rounded-bl-[2.5rem] flex py-[7.59375rem] pl-[2.5rem] pr-[39.9375rem] items-center`}
+              onClick={() => handleCardClick(card.id)}
+              initial={false}
+              animate={{
+                x: calculatePosition(card.id),
+              }}
+              transition={{ duration: 0.5 }}
+              style={{ background: card.backround }}
+            >
+              <div className="flex flex-col gap-6">
+                <Image
+                  src={card.icon}
+                  height={0}
+                  width={0}
+                  sizes={"100vw"}
+                  className={"h-16 w-16"}
+                  alt="icon"
+                />
+
+                {isActive && (
+                  <h3
+                    className={`text-[#C6C6C6] text-[1.75rem] font-extrabold uppercase ${gilroyExtraBold.className}`}
+                  >
+                    {card.title}
+                  </h3>
+                )}
+
+                {isActive && (
+                  <p className="font-poppins text-[#989898] text-base leading-[175%]">
+                    {card.content}
+                  </p>
+                )}
+              </div>
+            </motion.div>
+          );
+        })}
+      </div>
+    </>
   );
 };
 

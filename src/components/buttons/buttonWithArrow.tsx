@@ -3,15 +3,17 @@ interface ArrowButtonProps {
   text: string;
   onClick: () => void;
   noIcon?: boolean;
+  className?: string;
 }
 export default function ButtonWithArrow({
   text,
   onClick,
   noIcon,
+  className,
 }: ArrowButtonProps) {
   return (
     <button
-      className="flex justify-center items-center px-[1.5rem] py-[1rem] rounded-lg bg-active-white text-base font-poppins font-semibold text-black-6 gap-2"
+      className={`flex justify-center items-center px-[2rem] lg:px-[1.5rem] py-6 lg:py-[1rem] rounded-lg bg-active-white text-base font-poppins font-semibold text-black-6 gap-2 ${className}`}
       onClick={onClick}
     >
       {text}

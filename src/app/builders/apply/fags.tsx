@@ -4,9 +4,9 @@ import FAQItem from "./faqItems";
 
 export default function Faqs() {
   return (
-    <div className="px-[6.5rem] flex flex-col gap-6 mt-[1rem]">
+    <div className="lg:px-[6.5rem] flex flex-col gap-6 mt-12 lg:mt-[1rem]">
       <SectionHeader
-        className="!text-[2.5rem] leading-[normal]"
+        className="text-[1.5rem] lg:!text-[2.5rem] leading-[normal] px-[1.5rem] lg:px-0"
         text="Frequently Asked Questions (FAQs)"
       />
       <div className="flex flex-col gap-8">

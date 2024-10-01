@@ -35,7 +35,7 @@ export default function CurrentBuilders() {
   }
 
   return (
-    <div className="flex flex-col px-[6.5rem] mt-14">
+    <div className="flex flex-col px-[1.5rem] lg:px-[6.5rem] mt-14">
       {Object.keys(years)
         .reverse()
         .map((year, index) => (

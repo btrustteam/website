@@ -5,10 +5,17 @@ import { useRouter, usePathname } from "next/navigation";
 import { useState } from "react";
 import DropDown from "./dropdown";
 
-export default function Nav() {
+interface Props {
+  mobileActive: boolean;
+  handleToggle: () => void;
+  closeNav: () => void;
+}
+
+export default function Nav({ mobileActive, handleToggle, closeNav }: Props) {
   const router = useRouter();
   const pathname = usePathname();
   const [activeDropdown, setActiveDropdown] = useState<string>("");
+
   const navItems = [
     {
       title: "Home",
@@ -69,10 +76,50 @@ export default function Nav() {
     // eslint-disable-next-line @typescript-eslint/no-non-null-asserted-optional-chain
     router.push(navItem?.url!);
   }
+
+  function mobileShowDropdown(
+    e: React.MouseEvent<HTMLImageElement, MouseEvent>,
+    title: string
+  ) {
+    e.preventDefault();
+    console.log(title);
+    const navItem = findNavItem(title);
+    console.log(navItem);
+
+    // eslint-disable-next-line @typescript-eslint/no-non-null-asserted-optional-chain
+    if (navItem?.sub_nav.length! > 0) {
+      // eslint-disable-next-line @typescript-eslint/no-non-null-asserted-optional-chain
+      if (activeDropdown === navItem?.title!) {
+        setActiveDropdown("");
+      } else {
+        // eslint-disable-next-line @typescript-eslint/no-non-null-asserted-optional-chain
+        setActiveDropdown(navItem?.title!);
+      }
+      return;
+    }
+  }
+
+  function handleMobileOnclick() {
+    closeNav();
+  }
+
+  function hanleSubNav(
+    e: React.MouseEvent<HTMLParagraphElement, MouseEvent>,
+    url: string
+  ) {
+    e.stopPropagation();
+    e.preventDefault();
+    console.log("Test", url);
+  }
+
   return (
-    <div className="flex w-full px-[6.5rem] pt-12 pb-4 z-50">
-      <div className="flex items-center justify-between border border-grey-black rounded-lg p-6 w-full bg-btrust-white-opacity backdrop-blur-[0.625rem]">
-        <div className="flex items-center justify-center">
+    <div className="flex w-full lg:px-[6.5rem] lg:pt-12 lg:pb-4 z-50">
+      {/* Desktop Navigation */}
+      <div className="hidden lg:flex items-center justify-between border border-grey-black rounded-lg p-6 w-full bg-btrust-white-opacity backdrop-blur-[0.625rem]">
+        <div
+          className="flex items-center justify-center cursor-pointer"
+          onClick={() => router.push("/")}
+        >
           <Image
             width={0}
             height={0}
@@ -116,6 +163,90 @@ export default function Nav() {
             </div>
           ))}
         </div>
+      </div>
+      {/* Mobile Navigation */}
+      <div className="flex flex-col w-full relative lg:hidden">
+        <div className="lg:hidden flex justify-between items-center border-t-[0.6px] border-t-[#333] border-b-[0.6px] border-b-[#333] bg-btrust-white-opacity px-[1.5rem] w-full py-[0.75rem]">
+          <div
+            className="flex items-center justify-center"
+            onClick={() => router.push("/")}
+          >
+            <Image
+              width={0}
+              height={0}
+              sizes={"100vw"}
+              src={"/logo.svg"}
+              alt={"Logo"}
+              className={"w-[3.5rem] h-[1.5rem]"}
+            />
+          </div>
+          <div
+            className="flex h-[3rem] w-[3rem] items-center justify-center p-[0.5rem] rounded-[0.4375rem] border-[0.6px] border-[#272727] bg-mobile-bg"
+            onClick={handleToggle}
+          >
+            {mobileActive ? (
+              <Image
+                width={0}
+                height={0}
+                sizes={"100vw"}
+                src={"/close.svg"}
+                alt="Hamburger"
+                className="w-[3rem] h-[3rem] object-cover"
+              />
+            ) : (
+              <Image
+                width={0}
+                height={0}
+                sizes={"100vw"}
+                src={"/hamburger.svg"}
+                alt="Hamburger"
+                className="w-[1.5rem] h-[1.5rem] object-cover"
+              />
+            )}
+          </div>
+        </div>
+        {mobileActive && (
+          <div className="bg-[#191919] flex flex-col gap-[2.375rem] text-[1.125rem] leading-[144.444%] p-[1.5rem] w-full h-screen mt-4 top-0 left-0">
+            {navItems.map((item, index) => (
+              <div className="flex flex-col" key={index}>
+                <div className="flex items-center gap-2">
+                  <Link
+                    className="text-active-white opacity-50"
+                    href={item.url}
+                    onClick={handleMobileOnclick}
+                  >
+                    {item.title}
+                  </Link>
+                  {item.sub_nav.length !== 0 && (
+                    <Image
+                      src={"/caret_down.svg"}
+                      alt="dropdown"
+                      width={0}
+                      height={0}
+                      sizes={"100vw"}
+                      className="cursor-pointer w-[1rem] h-[1rem] bg-red-300"
+                      onClick={(e) => mobileShowDropdown(e, item.title)}
+                    />
+                  )}
+                </div>
+                {activeDropdown === item.title && (
+                  <div className="flex flex-col gap-4 mt-4">
+                    {item.sub_nav.map((sub, index) => (
+                      <p
+                        key={index}
+                        className="text-active-white opacity-50 bg-red-200"
+                        // href={sub.url}
+                        onClick={(e) => hanleSubNav(e, sub.url)}
+                      >
+                        {sub.title}
+                      </p>
+                    ))}
+                  </div>
+                )}
+              </div>
+            ))}
+          </div>
+        )}
       </div>
     </div>
   );

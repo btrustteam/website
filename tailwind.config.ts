@@ -37,6 +37,7 @@ const config: Config = {
         "process-border": "rgba(59, 59, 59, 0.50)",
         "process-bg": "rgba(198, 198, 198, 0.03)",
         "tag-bg": "rgba(59, 59, 59, 0.60)",
+        "mobile-bg": "linear-gradient(180deg,#1A1A1A,#131313)",
       },
       fontFamily: {
         poppins: ["var(--font-poppins)"],

@@ -13,7 +13,7 @@ export default function BuilderCard({
   medium,
 }: Builder) {
   return (
-    <div className="flex flex-col w-[18.125rem] p-[1.25rem] gap-4 rounded-lg border border-black-5 backdrop-blur-[2px]">
+    <div className="flex flex-col w-full max-w-[23.875] lg:w-[18.125rem] p-[1.25rem] gap-4 rounded-lg border border-black-5 backdrop-blur-[2px]">
       <DynamicImage
         className="h-[16.75rem] object-cover w-full rounded-lg"
         src={image}
@@ -21,7 +21,7 @@ export default function BuilderCard({
       />
       <div className="flex flex-col gap-6 w-full">
         <div className="flex flex-col">
-          <h3 className="text-active-white font-poppins text-[1.3rem] font-bold leading-[normal]">
+          <h3 className="text-active-white font-poppins text-[1.5rem] lg:text-[1.3rem] font-bold leading-[normal]">
             {name}
           </h3>
           <Paragraph className="!leading-[175%]">{role}</Paragraph>

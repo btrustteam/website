@@ -2,9 +2,10 @@ import RecipientsDetailsContainer from "./recipientDetailsContainer";
 
 export default function StarterRecipients() {
   return (
-    <div className="flex flex-col gap-14 mt-8">
+    <div className="flex flex-col gap-20 lg:gap-14 mt-8">
       <RecipientsDetailsContainer
         title="Current Grant Recipients - Q3, 2024 "
+        mobileTitle="Current Grant Recipients (Q3, 2024)"
         recipients={[
           {
             name: "Enigbe Ochekliye",
@@ -35,6 +36,7 @@ export default function StarterRecipients() {
 
       <RecipientsDetailsContainer
         title="Past Grant Recipients - Q1 & Q2, 2024"
+        mobileTitle="Past Grant Recipients (Q1 & Q2, 2024)"
         recipients={[
           {
             name: "Abubakar Sadiq Ismail",

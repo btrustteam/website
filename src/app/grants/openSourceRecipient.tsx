@@ -4,6 +4,7 @@ export default function OpenSourceRecipient() {
   return (
     <div className="flex flex-col gap-14 mt-8">
       <RecipientsDetailsContainer
+        mobileTitle="Current Grant Recipients (Q3, 2024)"
         title="Current Grant Recipients - Q3, 2024 "
         recipients={[
           {
@@ -34,7 +35,8 @@ export default function OpenSourceRecipient() {
       />
 
       <RecipientsDetailsContainer
-        title="Past Grant Recipients - Q1 2024 "
+        title="Past Grant Recipients - Q1 2024"
+        mobileTitle="Past Grant Recipients (Q1 2024)"
         recipients={[
           {
             name: "Vladimir Fomene",
