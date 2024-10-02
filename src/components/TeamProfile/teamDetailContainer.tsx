@@ -16,7 +16,7 @@ export default function TeamDetailsContainer({
   return (
     <div className="flex flex-col gap-6">
       <div className="flex flex-col gap-2">
-        <div className="flex w-full items-center gap-6">
+        <div className="flex w-full justify-between items-center gap-6">
           <h3 className="text-active-white font-poppins text-[1.5rem] font-bold ">
             {title}
           </h3>

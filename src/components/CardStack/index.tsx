@@ -6,7 +6,7 @@ import { gilroyExtraBold } from "@/app/fonts/gilroy";
 const cards = [
   {
     id: 1,
-    icon: "https://lhxkhtemz6sjrgyy.public.blob.vercel-storage.com/12863347xxx%201-haGuTRKiF5cNyerKOEexgsDdWaz2p5.svg",
+    icon: "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/12863347xxx%201%20(1)-lOZZBtRpuIFXNRS5Zd3wLCjTYg27I0.svg",
     content:
       "Bitcoin will provide a monetary system that enhances financial sovereignty for all. Btrust will support Bitcoin exclusively. In the event of a hard fork it will follow the chain endorsed by the user majority.",
     backround: "#1F1F1F",
@@ -14,7 +14,7 @@ const cards = [
   },
   {
     id: 2,
-    icon: "https://lhxkhtemz6sjrgyy.public.blob.vercel-storage.com/Icon%20(1)-eOLifeLOgel4Ns1T2NrQ5m4MZLc93y.svg",
+    icon: "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Icon%20(4)-yZIbLSuX2H14zOHR5tdaEQunQnbqLS.svg",
     content:
       "Btrust will maintain the highest levels of integrity. To that end, Btrust does not exist to make a profit for itself or its representatives. The board will be mindful to prevent self-dealing within the organization, and representatives will declare conflicts of interest as they arise.",
     backround: "#252525",
@@ -22,7 +22,7 @@ const cards = [
   },
   {
     id: 3,
-    icon: "https://lhxkhtemz6sjrgyy.public.blob.vercel-storage.com/Icon-8EpZSCA2FTqRwt7hCtCIaF3aRaHHHE.svg",
+    icon: "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Icon%20(5)-0qj8ob3g68P3mNwp740wfwxfWfgN5Z.svg",
     content:
       "Free and open source projects are fundamental to Bitcoin’s censorship resistance and resilience. ₿trust will focus its efforts on fostering developer talent to work on free and open source Bitcoin projects. It will prioritize projects based on how dependent the bitcoin ecosystem is on them, resource requirements and their capacity to accept new contributors.",
     backround: "#3B3B3B",
@@ -30,7 +30,7 @@ const cards = [
   },
   {
     id: 4,
-    icon: "https://lhxkhtemz6sjrgyy.public.blob.vercel-storage.com/Icon%20(2)-rRbL2p4ZG2QTGJoSgdRRFNjzAWNAAW.svg",
+    icon: "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Icon%20(6)-8odEB0nbEVwJh9qTzXvLZxiDsucl0Y.svg",
     content:
       "Transparency is critical to building trust and ensuring external accountability. Decisions will be made public within a reasonable time frame and financial statements will be published quarterly. Information that undermines representatives’ security and privacy will be exempt. The ₿trust team will engage with feedback that is given in good faith to the best of its ability.",
     backround: "#474747",
@@ -38,7 +38,7 @@ const cards = [
   },
   {
     id: 5,
-    icon: "https://lhxkhtemz6sjrgyy.public.blob.vercel-storage.com/Icon%20(3)-xOsSVYz4d5ZWESYKuNaGoro3gpKF67.svg",
+    icon: "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Icon%20(7)-jmgQOhKdJha2pvIpMESVAR8tgCm80G.svg",
     content:
       "Decentralization of Bitcoin’s development improves its resilience, reach and relevance as global money. ₿trust will operate in regions where Bitcoin development is uncommon.",
     backround: "#515151",
