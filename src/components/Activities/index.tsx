@@ -8,7 +8,7 @@ export default function Activities() {
       className="flex flex-col justify-center items-center gap-2 h-[24.4375rem] lg:h-[33.9375rem] w-full bg-cover bg-center"
       style={{
         backgroundImage:
-          "url('https://lhxkhtemz6sjrgyy.public.blob.vercel-storage.com/Rectangle%2041-BujkfOTaSsPXANUnWRYRfRFNNG4qeF.png')",
+          "url('https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Rectangle%2041-VTtl8E7lkH8eElUrmBexwqeg99bSlv.png')",
       }}
     >
       <div className="flex flex-col justify-center items-center gap-4">

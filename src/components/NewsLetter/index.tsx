@@ -14,7 +14,7 @@ export default function NewsLetter() {
         className="py-[6.25rem] bg-bg-black bg-cover bg-center w-full"
         style={{
           backgroundImage:
-            "url('https://lhxkhtemz6sjrgyy.public.blob.vercel-storage.com/Frame%207421-gEVirQcU8QPYOwRLRECqTAvPdmGmsn.png')",
+            "url('https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Frame%207421-jQpRYuCqR5cI3cfOwWKdSf2mDfugKi.png')",
         }}
       >
         <div className="flex flex-col lg:flex-row justify-center items-center gap-6 lg:gap-[8rem] w-full px-6 lg:px-0">

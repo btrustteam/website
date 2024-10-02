@@ -30,7 +30,7 @@ export default function StartYourJourney() {
       </div>
       <Image
         src={
-          "https://lhxkhtemz6sjrgyy.public.blob.vercel-storage.com/Rectangle%2020-CcGEDacYv4LD413OMoPnui0R2yTzVs.png"
+          "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Rectangle%2020-2EMn6I2YVzhcouFzWtg8GuJeCInCos.png"
         }
         alt="start your journey"
         width={0}

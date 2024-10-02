@@ -28,7 +28,7 @@ export default function NewsCard({
         width={0}
         height={0}
         sizes={"100vw"}
-        className="h-[14.25rem] w-full rounded-lg"
+        className="h-[14.25rem] w-full rounded-lg object-cover"
         alt="blog cover"
       />
       <div className="flex items-center gap-[0.5rem]">

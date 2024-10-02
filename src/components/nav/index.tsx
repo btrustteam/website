@@ -229,7 +229,7 @@ export default function Nav({ mobileActive, handleToggle, closeNav }: Props) {
                     {item.sub_nav.map((sub, index) => (
                       <Link
                         key={index}
-                        className="text-active-white opacity-50"
+                        className="text-active-white pl-4 opacity-50"
                         href={sub.url}
                         onClick={() => handleSubNav()}
                       >
