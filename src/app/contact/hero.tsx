@@ -22,7 +22,7 @@ export default function Hero() {
       </div>
       <div className="w-full">
         <DynamicImage
-          src="https://lhxkhtemz6sjrgyy.public.blob.vercel-storage.com/Rectangle%2041%20(2)-RI2isgnVw70nd7mLffRQ6Q8COV7a8s.png"
+          src="https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Rectangle%2041%20(4)-mJpb1uDxiZZWzI5TSKOMminFDJJcJF.png"
           className="h-[18.75rem] lg:h-[46.1875rem] rounded-lg w-full object-cover"
           alt="Contact"
         />
