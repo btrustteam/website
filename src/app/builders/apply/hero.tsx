@@ -31,7 +31,7 @@ export default function ApplyHero() {
         </div>
         <div className="flex items-center justify-center">
           <DynamicImage
-            src="https://lhxkhtemz6sjrgyy.public.blob.vercel-storage.com/Rectangle%2018-4RuiYI1C0oM6BLLZ0ImchvUpk8Xs73.png"
+            src="https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Rectangle%2018-6KKpRfy7dN42oSYTCKawD369BLEF6a.png"
             alt="builder"
             className="w-full h-[18.75rem] object-cover"
           />
@@ -89,7 +89,7 @@ export default function ApplyHero() {
         </div>
         <div className="flex items-center justify-center">
           <DynamicImage
-            src="https://lhxkhtemz6sjrgyy.public.blob.vercel-storage.com/Rectangle%2018-4RuiYI1C0oM6BLLZ0ImchvUpk8Xs73.png"
+            src="https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Rectangle%2018-6KKpRfy7dN42oSYTCKawD369BLEF6a.png"
             alt="builder"
             className="w-full h-[46.1875rem] object-cover"
           />
