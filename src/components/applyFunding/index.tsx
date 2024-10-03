@@ -25,7 +25,7 @@ export default function ApplyForFunding() {
       <div className="flex flex-col items-center gap-6 lg:gap-[2.5rem] w-full">
         <div className="w-full flex flex-col lg:flex-row p-4 lg:p-[1.5rem] gap-[1.5rem] rounded-2xl bg-[#222]">
           <Image
-            src="https://lhxkhtemz6sjrgyy.public.blob.vercel-storage.com/image-zH3GMgNt52mguWJ1eAldR6XUoW66Do.png"
+            src="https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/image-fcQpQJb5ArfWKgNZprdVhj8qMcayLA.png"
             alt="Join"
             width={0}
             height={0}
@@ -121,7 +121,7 @@ export default function ApplyForFunding() {
             </div>
           </div>
           <Image
-            src="https://lhxkhtemz6sjrgyy.public.blob.vercel-storage.com/Rectangle%2020%20(1)-vtlrWpxlQAlrOkwg8fDaGi9XeuAuUG.png"
+            src="https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Rectangle%2020%20(1)-4O5FIjIGptT95sNy3bZgyLPNoAmprb.png"
             alt="Join"
             width={0}
             height={0}

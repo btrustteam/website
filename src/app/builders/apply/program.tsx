@@ -13,7 +13,7 @@ export default function Program() {
           />
         </div>
         <div className="w-full flex flex-col gap-[1.9375rem]">
-          <div className="flex w-full flex-col lg:flex-row justify-between gap-6">
+          <div className="flex w-full items-center lg:items-start flex-col lg:flex-row justify-between gap-6">
             <ProgramCard
               text="Deep immersion into Bitcoin development philosophy so you understand why Bitcoin is built the way it is"
               heading="Bitcoin Philosophy"
@@ -27,7 +27,7 @@ export default function Program() {
               heading="Bitcoin Philosophy"
             />
           </div>
-          <div className="flex w-full flex-col lg:flex-row justify-between gap-6">
+          <div className="flex w-full items-center lg:items-start flex-col lg:flex-row justify-between gap-6">
             <ProgramCard
               text="Support to get your technology setup (internet, video & audio, etc.) up to muster for consistent contribution"
               heading="Technology Support"
@@ -41,7 +41,7 @@ export default function Program() {
               heading="Profile Building"
             />
           </div>
-          <div className="flex w-full flex-col lg:flex-row justify-between gap-6">
+          <div className="flex w-full items-center lg:items-start flex-col lg:flex-row justify-between gap-6">
             <ProgramCard
               text="Experienced mentors who support you at every step of the journey"
               heading="Mentorship"
@@ -55,7 +55,7 @@ export default function Program() {
               heading="Profile Building"
             />
           </div>
-          <div className="flex flex-col gap-6 lg:grid grid-cols-3 justify-between">
+          <div className="flex flex-col gap-6 items-center lg:grid grid-cols-3 justify-between">
             <ProgramCard
               text="Tied to excellent performance"
               heading="Monthly Stipend"

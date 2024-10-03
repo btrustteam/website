@@ -20,7 +20,7 @@ export default function StartGrant({
             />
           </div>
           <DynamicImage
-            src="https://lhxkhtemz6sjrgyy.public.blob.vercel-storage.com/image%20(3)-uLj6e0SbBqhh9p76aUvteOJoSLhBwb.png"
+            src="https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/image%20(3)-LN5oSIKG1INKVpt6fAEItBrH3C91LW.png"
             className="w-full h-[18.75rem] rounded-lg object-cover"
             alt="participants"
           />
@@ -79,7 +79,7 @@ export default function StartGrant({
         </div>
         <div className="flex justify-center items-center">
           <DynamicImage
-            src="https://lhxkhtemz6sjrgyy.public.blob.vercel-storage.com/image%20(3)-uLj6e0SbBqhh9p76aUvteOJoSLhBwb.png"
+            src="https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/image%20(3)-LN5oSIKG1INKVpt6fAEItBrH3C91LW.png"
             className="w-[35.125rem] h-[ 26.125rem] rounded-lg"
             alt="participants"
           />

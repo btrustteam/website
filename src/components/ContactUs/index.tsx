@@ -19,7 +19,7 @@ export default function ContactUs() {
         className="py-[4.6875rem] px-[1.5rem] lg:px-[6.4375rem] bg-contact-black bg-cover bg-center w-full flex flex-col lg:flex-row justify-between"
         style={{
           backgroundImage:
-            "url('https://lhxkhtemz6sjrgyy.public.blob.vercel-storage.com/Patter-Long-afr8ix8wgqX6lysdwU7x9JwzUMDKPR.svg')",
+            "url('https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Patter-Long-7An9R5qDTCVrAsEFJyaaSLoHw2LRxW.svg')",
         }}
       >
         <div className="flex flex-col gap-4 w-full lg:w-[30.1875rem]">
@@ -35,7 +35,7 @@ export default function ContactUs() {
           </div>
           <div className="w-full flex justify-center items-center object-cover">
             <DynamicImage
-              src="https://lhxkhtemz6sjrgyy.public.blob.vercel-storage.com/Rectangle%2041%20(1)-xkzZ39PCgZSZC0C8WyfKzpnkGnw2JA.png"
+              src="https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Rectangle%2041%20(3)-4amWkGKgkoUx2aIZNbUN4VmLnVSfvx.png"
               alt="contact"
               className="w-[30.1875rem] rounded-lg"
             />

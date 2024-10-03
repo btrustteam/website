@@ -7,13 +7,13 @@ export default function BitDev() {
     <div className="lg:py-[6.25rem] lg:px-[6.5rem] flex flex-col lg:flex-row lg:justify-between items-center w-full lg:gap-[2.875rem] gap-12">
       <Image
         src={
-          "https://lhxkhtemz6sjrgyy.public.blob.vercel-storage.com/Rectangle%2021-KBA3ENWJRNsvBCdivRfX3gi5NejE1Q.png"
+          "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Rectangle%2021-SIKUtKOfysVFlX5WWSZYwEH80YZpoI.png"
         }
         alt="bitdev"
         width={0}
         height={0}
         sizes={"100vw"}
-        className="w-full lg:w-[40.4375rem] object-cover rounded-lg"
+        className="w-full lg:w-[40.4375rem] object-cover lg:rounded-lg"
       />
       <div className="flex flex-col justify-center items-start px-6 lg:px-0 gap-[2rem]">
         <div className="flex flex-col">

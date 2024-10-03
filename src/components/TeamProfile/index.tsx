@@ -14,7 +14,7 @@ export default function TeamProfile() {
             name: "Abubakar Nur Khalil",
             description: "Interim Chief Executive Officer and Board Member",
             imageUrl:
-              "https://lhxkhtemz6sjrgyy.public.blob.vercel-storage.com/Rectangle%2020%20(3)-xn1oG1sKovCuOT36USPpM6sxV7IkTi.png",
+              "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Rectangle%2020%20(3)-1rAzPCAWFnIOdqehTlOgUBL3r4QM6q.png",
             github: "/",
             linkedin: "/",
           },
@@ -22,7 +22,7 @@ export default function TeamProfile() {
             name: "Carla Kirk-Cohen",
             description: "Board Member",
             imageUrl:
-              "https://lhxkhtemz6sjrgyy.public.blob.vercel-storage.com/Rectangle%2020%20(4)-ndwCjazTRPG5QfnNqkIycZCnQqfbyi.png",
+              "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Rectangle%2020%20(4)-vyMxeRlSaKCf5IFsrG0vXGJxxMtIp4.png",
             github: "/",
             linkedin: "/",
           },
@@ -30,7 +30,7 @@ export default function TeamProfile() {
             name: "Obi Nwosu",
             description: "Board Member",
             imageUrl:
-              "https://lhxkhtemz6sjrgyy.public.blob.vercel-storage.com/Rectangle%2020%20(5)-MSSimd3DL8kQLfP4WgqgA3pUjUa1Og.png",
+              "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Rectangle%2020%20(5)-u9EiilYjJVlJeWhEgpJjToG1LNXXSU.png",
             github: "/",
             linkedin: "/",
           },
@@ -38,7 +38,7 @@ export default function TeamProfile() {
             name: "Ojoma Ochai",
             description: "Board Member",
             imageUrl:
-              "https://lhxkhtemz6sjrgyy.public.blob.vercel-storage.com/Rectangle%2020%20(6)-4IabG09uQTDuh9YP4ttXTGfCIgKHTO.png",
+              "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Rectangle%2020%20(6)-eYgZhLjKVS0dQy1j00YmiBuHvbOpPi.png",
             github: "/",
             linkedin: "/",
           },
@@ -54,7 +54,7 @@ export default function TeamProfile() {
             name: "Stephanie Titcombe",
             description: "Programmes Manager, Btrust Builders",
             imageUrl:
-              "https://lhxkhtemz6sjrgyy.public.blob.vercel-storage.com/Rectangle%2020%20(7)-KXL6qKcEELS86GvSjfPr4SwxBwAIKx.png",
+              "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Rectangle%2020%20(7)-OFvWfXVNZK4Z5Cl8m7HKxuqCpBSgGM.png",
             github: "/",
             linkedin: "/",
           },
@@ -62,7 +62,7 @@ export default function TeamProfile() {
             name: "Sharon Murugi",
             description: "Social Media and Communications Officer",
             imageUrl:
-              "https://lhxkhtemz6sjrgyy.public.blob.vercel-storage.com/Rectangle%2020%20(8)-7ZWTPkNg3vdAzfIahm8lwWHQbSQAAM.png",
+              "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Rectangle%2020%20(8)-LmP0fxJ99jbi46ek3ax7EAwZhcga2y.png",
             github: "/",
             linkedin: "/",
           },

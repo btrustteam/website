@@ -21,7 +21,7 @@ export default function Media() {
               {
                 url: "/",
                 cover_url:
-                  "https://lhxkhtemz6sjrgyy.public.blob.vercel-storage.com/Rectangle%2019%20(1)-mQN5QXIvn9ksqoelwbgJwfJwwbQ74r.png",
+                  "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Rectangle%2019%20(4)-zos0xeHGt8lljM8qPFjwBRe4dviqyf.png",
                 heading:
                   "Jay-Z And Jack Dorsey-Funded Btrust Acquires African Bitcoin Talent Firm Qala",
                 tags: [
@@ -33,7 +33,7 @@ export default function Media() {
               {
                 url: "/",
                 cover_url:
-                  "https://lhxkhtemz6sjrgyy.public.blob.vercel-storage.com/Rectangle%2019%20(2)-CDEFoyFHjvkKA3j1eXgNT51g6I0QZy.png",
+                  "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Rectangle%2019%20(5)-Lzm6P1RzdegrTj5C9dS8s7bT1oG0VH.png",
                 heading:
                   "Jay-Z and Jack Dorsey’s firm expands to foster Bitcoin talent in Africa",
                 tags: [
@@ -45,7 +45,7 @@ export default function Media() {
               {
                 url: "/",
                 cover_url:
-                  "https://lhxkhtemz6sjrgyy.public.blob.vercel-storage.com/image%20(4)-LsedQNqFpnTZoUauDkB8P2vMaA5niX.png",
+                  "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/image%20(5)-OkUN5kutTlhzqfoOG38lhRxCkei8jj.png",
                 heading:
                   "Non-Profit ₿trust Is Funding New Bitcoin Developers In Africa",
                 tags: [
@@ -57,7 +57,7 @@ export default function Media() {
               {
                 url: "/",
                 cover_url:
-                  "https://lhxkhtemz6sjrgyy.public.blob.vercel-storage.com/Rectangle%2019%20(1)-mQN5QXIvn9ksqoelwbgJwfJwwbQ74r.png",
+                  "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Rectangle%2019%20(4)-zos0xeHGt8lljM8qPFjwBRe4dviqyf.png",
                 heading:
                   "Jack Dorsey’s Btrust Acquires African Bitcoin Talent Developer Qala",
                 tags: [{ title: "Crypto News BTC", bg: "rgba(59,59,59,0.6)" }],
@@ -66,7 +66,7 @@ export default function Media() {
               {
                 url: "/",
                 cover_url:
-                  "https://lhxkhtemz6sjrgyy.public.blob.vercel-storage.com/Rectangle%2019%20(3)-7iMZvHsXVXJfQw5JIsG2s3JCW8l4IJ.png",
+                  "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Rectangle%2019%20(6)-VLn7IQrqM5ONj89866Y9PWqRS1kiHR.png",
                 heading:
                   "Btrust, cofounded by Jack Dorsey and Jay Z, acquires African Bitcoin talent development firm Qala",
                 tags: [{ title: "Crypto News BTC", bg: "rgba(59,59,59,0.6)" }],
@@ -82,7 +82,7 @@ export default function Media() {
               {
                 url: "/",
                 cover_url:
-                  "https://lhxkhtemz6sjrgyy.public.blob.vercel-storage.com/Rectangle%2019%20(1)-mQN5QXIvn9ksqoelwbgJwfJwwbQ74r.png",
+                  "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Rectangle%2019%20(4)-zos0xeHGt8lljM8qPFjwBRe4dviqyf.png",
                 heading:
                   "Jay-Z And Jack Dorsey-Funded Btrust Acquires African Bitcoin Talent Firm Qala",
                 tags: [
@@ -94,7 +94,7 @@ export default function Media() {
               {
                 url: "/",
                 cover_url:
-                  "https://lhxkhtemz6sjrgyy.public.blob.vercel-storage.com/Rectangle%2019%20(2)-CDEFoyFHjvkKA3j1eXgNT51g6I0QZy.png",
+                  "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Rectangle%2019%20(5)-Lzm6P1RzdegrTj5C9dS8s7bT1oG0VH.png",
                 heading:
                   "Jay-Z and Jack Dorsey’s firm expands to foster Bitcoin talent in Africa",
                 tags: [
@@ -106,7 +106,7 @@ export default function Media() {
               {
                 url: "/",
                 cover_url:
-                  "https://lhxkhtemz6sjrgyy.public.blob.vercel-storage.com/image%20(4)-LsedQNqFpnTZoUauDkB8P2vMaA5niX.png",
+                  "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/image%20(5)-OkUN5kutTlhzqfoOG38lhRxCkei8jj.png",
                 heading:
                   "Non-Profit ₿trust Is Funding New Bitcoin Developers In Africa",
                 tags: [
@@ -118,7 +118,7 @@ export default function Media() {
               {
                 url: "/",
                 cover_url:
-                  "https://lhxkhtemz6sjrgyy.public.blob.vercel-storage.com/Rectangle%2019%20(1)-mQN5QXIvn9ksqoelwbgJwfJwwbQ74r.png",
+                  "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Rectangle%2019%20(4)-zos0xeHGt8lljM8qPFjwBRe4dviqyf.png",
                 heading:
                   "Jack Dorsey’s Btrust Acquires African Bitcoin Talent Developer Qala",
                 tags: [{ title: "Crypto News BTC", bg: "rgba(59,59,59,0.6)" }],

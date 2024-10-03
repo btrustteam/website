@@ -12,9 +12,9 @@ export default function BtrustUpdate() {
         />
         <ButtonWithArrow text="See All" onClick={() => {}} />
       </div>
-      <div className="flex flex-col lg:flex-row items-start justify-between gap-[1.5rem]">
+      <div className="flex flex-col lg:flex-row items-center lg:items-start justify-between gap-[1.5rem]">
         <NewsCard
-          image_url="https://lhxkhtemz6sjrgyy.public.blob.vercel-storage.com/Rectangle%2020%20(2)-DeNIWaOM8kAVYiyC1hRWCnyuZOlJQy.png"
+          image_url="https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Rectangle%2019%20(1)-dQSsTuWvZqzlW7iN2tH2yRT4MdQBCt.png"
           first_tag="Forbes"
           second_tag="Blog"
           content_url="/"
@@ -22,7 +22,7 @@ export default function BtrustUpdate() {
           brief="Btrust, the bitcoin non-profit that Block CEO Jack Dorsey and rapper Jay-Z..."
         />
         <NewsCard
-          image_url="https://lhxkhtemz6sjrgyy.public.blob.vercel-storage.com/image%20(2)-tMXbatUeSiMwJWULojKbUsYlZVh1j3.png"
+          image_url="https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/image%20(4)-RZwwL6pi1FUNadf7mFJIoiDCuyHAqj.png"
           first_tag="Magazine"
           second_tag="Blog"
           content_url="/"
@@ -30,7 +30,7 @@ export default function BtrustUpdate() {
           brief="₿trust has located the founding member for its new cohort designed to locate and educate new developers in...."
         />
         <NewsCard
-          image_url="https://lhxkhtemz6sjrgyy.public.blob.vercel-storage.com/Rectangle%2019-aoHstiIG5nI0geS9FR7C9UFlA0IeNF.png"
+          image_url="https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Rectangle%2019%20(2)-QmpF6LWOYzXUXgwNwCXwzz1k2FcIjy.png"
           first_tag="Crypto News"
           second_tag="Press"
           content_url="/"

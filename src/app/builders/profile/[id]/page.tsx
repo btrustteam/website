@@ -66,7 +66,7 @@ export default function BuilderProfile() {
               <DynamicImage
                 src={builder.image}
                 alt={builder.name}
-                className="h-[27.5625rem] lg:h-[33.375rem] rounded-lg w-full"
+                className="h-[27.5625rem] lg:h-[33.375rem] object-cover rounded-lg w-full"
               />
               <div className="flex items-center gap-4 px-[1.5rem] lg:px-0">
                 <SocialLink icon="github" url={builder.github} />
