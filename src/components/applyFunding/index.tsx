@@ -50,15 +50,15 @@ export default function ApplyForFunding() {
             </div>
             <div className="flex flex-col lg:flex-row gap-[1rem] lg:items-center w-full">
               <div className="lg:flex items-center justify-center hidden">
-                <OutlineButton text="Apply for Funding" onClick={() => {}} />
+                <OutlineButton text="Apply for Funding" url="/grants" />
               </div>
               <div className="hidden lg:flex items-center justify-center">
-                <BorderlessButton text="Read More" onClick={() => {}} />
+                <BorderlessButton text="Read More" url="/grants" />
               </div>
               <div className="flex items-center justify-center lg:hidden">
                 <ButtonWithArrow
                   text="Apply for Funding"
-                  onClick={() => {}}
+                  url="/grants"
                   className="w-full"
                   noIcon={true}
                 />
@@ -66,7 +66,7 @@ export default function ApplyForFunding() {
               <div className="flex items-center justify-center w-full lg:hidden">
                 <OutlineButton
                   text="Read More"
-                  onClick={() => {}}
+                  url="/grants"
                   className="w-full"
                 />
               </div>
@@ -98,15 +98,15 @@ export default function ApplyForFunding() {
             </div>
             <div className="flex flex-col lg:flex-row gap-[1rem] w-full lg:items-center">
               <div className="lg:flex items-center justify-center hidden">
-                <OutlineButton text="Apply for Funding" onClick={() => {}} />
+                <OutlineButton text="Apply for Funding" url="/grants" />
               </div>
               <div className="hidden lg:flex items-center justify-center">
-                <BorderlessButton text="Read More" onClick={() => {}} />
+                <BorderlessButton text="Read More" url="/grants" />
               </div>
               <div className="flex items-center justify-center lg:hidden">
                 <ButtonWithArrow
                   text="Apply for Funding"
-                  onClick={() => {}}
+                  url="/grants"
                   className="w-full"
                   noIcon={true}
                 />
@@ -114,7 +114,7 @@ export default function ApplyForFunding() {
               <div className="flex items-center justify-center w-full lg:hidden">
                 <OutlineButton
                   text="Read More"
-                  onClick={() => {}}
+                  url="/grants"
                   className="w-full"
                 />
               </div>
