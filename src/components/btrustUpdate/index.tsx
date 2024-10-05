@@ -21,7 +21,7 @@ export default function BtrustUpdate() {
           tag_bg="#F7931A"
           content_url="https://bitcoinmagazine.com/business/bitcoin-non-profit-trust-announces-q3-grants-for-open-source-developers"
           heading="Bitcoin Non-Profit ₿trust Announces Q3 Grants For Open-Source Developers"
-          brief="The Jay-Z and Jack Dorsey-backed organization shares the list of recipients for its latest round of Starter Grants as well as the newest members of its Open-Source Cohort."
+          brief="The Jay-Z and Jack Dorsey-backed organization shares the list of recipients ..."
         />
         <NewsCard
           image_url="https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/btc-mag-africa-map-EV7AZVM5bsbXI9GfMLnyqyffSo6owz.jpeg"
@@ -29,7 +29,7 @@ export default function BtrustUpdate() {
           tag_bg="#F7931A"
           content_url="https://bitcoinmagazine.com/business/jay-z-and-jack-dorsey-backed-bitcoin-non-profit-trust-appoints-bitcoin-core-developer-as-interim-ceo"
           heading="Jay-Z and Jack Dorsey-Backed Non-Profit ₿trust Appoints Bitcoin Core Contributor As Interim CEO"
-          brief="The organization, which trains Bitcoin developers in Africa, LATAM and SE Asia, appoints one of its inaugural board members, Abubakar Nur Khalil, as its temporary leader."
+          brief="The organization, which trains Bitcoin developers in Africa, LATAM and SE Asia ..."
         />
         <NewsCard
           image_url="https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Rectangle%2019%20(4)-zos0xeHGt8lljM8qPFjwBRe4dviqyf.png"
