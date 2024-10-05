@@ -9,9 +9,6 @@ export default function Update({ updates }: { updates: Media[] }) {
           <MediaCard {...update} key={index} />
         ))}
       </div>
-      <div className="flex items-center justify-center w-full">
-        <OutlineButton text="See More" onClick={() => {}} />
-      </div>
     </div>
   );
 }
