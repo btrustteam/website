@@ -1,3 +1,5 @@
+import { useRouter } from "next/navigation";
+
 interface BorderlessButtonProps {
   text: string;
   onClick?: () => void;
@@ -9,18 +11,14 @@ export default function BorderlessButton({
   onClick,
   url,
 }: BorderlessButtonProps) {
+  const routes = useRouter();
+
   return (
-    url ?
-    <a
-    href={url}
-    className="flex justify-center items-center rounded text-base font-semibold font-poppins text-active-white">
-      {text}
-    </a>
-    : <button
-      onClick={onClick}
-      className="flex justify-center items-center rounded text-base font-semibold font-poppins text-active-white"
-    >
-      {text}
-    </button>
+    <button
+        onClick={url ? () => routes.push(url) : onClick}
+        className="flex justify-center items-center rounded text-base font-semibold font-poppins text-active-white"
+      >
+        {text}
+      </button>
   );
 }
