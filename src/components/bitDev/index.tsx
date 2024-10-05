@@ -1,5 +1,4 @@
 import Image from "next/image";
-import ButtonWithArrow from "../buttons/buttonWithArrow";
 import Paragraph from "../Paragraph";
 import SectionHeader from "../sectionHeader";
 export default function BitDev() {
@@ -51,9 +50,6 @@ export default function BitDev() {
               opportunities within the technical community.
             </Paragraph>
           </div>
-        </div>
-        <div>
-          <ButtonWithArrow text="Join a Local Meetup" onClick={() => {}} />
         </div>
       </div>
     </div>
