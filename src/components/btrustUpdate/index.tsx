@@ -10,7 +10,9 @@ export default function BtrustUpdate() {
           text="Btrust Updates"
           className="text-[1.5rem] lg:text-[2.5rem]"
         />
-        <ButtonWithArrow text="See All" onClick={() => {}} />
+        <a href="/media" >
+          <ButtonWithArrow text="See All" onClick={() => {}} />
+        </a>
       </div>
       <div className="flex flex-col lg:flex-row items-center lg:items-start justify-between gap-[1.5rem]">
         <NewsCard
