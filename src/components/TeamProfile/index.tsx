@@ -30,7 +30,7 @@ export default function TeamProfile() {
             name: "Obi Nwosu",
             description: "Board Member",
             imageUrl:
-              "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Rectangle%2020%20(5)-u9EiilYjJVlJeWhEgpJjToG1LNXXSU.png",
+              "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Obi Nwosu headshot-puLVoQ4BcCqMpexHbVRSVm7dYb1SXH.png",
             github: "/",
             linkedin: "/",
           },
