@@ -1,4 +1,3 @@
-import OutlineButton from "@/components/buttons/OutlineButton";
 import MediaCard, { Media } from "./mediaCard";
 
 export default function Update({ updates }: { updates: Media[] }) {
