@@ -20,23 +20,23 @@ export default function BitDev() {
           <div className="flex flex-col justify-center gap-[2.5rem]">
             <Paragraph className="w-full lg:w-[33.6875rem]">
               Our builders run BitDev meetups across five African cities—
-              <a className="font-bold underline" href="/">
+              <a className="font-bold underline" href="https://x.com/BitDevsNBO" target="_blank">
                 Nairobi
               </a>
               ,{" "}
-              <a className="font-bold underline" href="/">
+              <a className="font-bold underline" href="https://x.com/BitDevsLagos" target="_blank">
                 Lagos
               </a>
               ,{" "}
-              <a className="font-bold underline" href="/">
+              <a className="font-bold underline" href="https://x.com/BitDevsAbuja" target="_blank">
                 Abuja
               </a>
               ,{" "}
-              <a className="font-bold underline" href="">
+              <a className="font-bold underline" href="" target="_blank">
                 Kampala
               </a>
               , and{" "}
-              <a className="font-bold underline" href="">
+              <a className="font-bold underline" href="https://x.com/bitdevsAccra" target="_blank">
                 Accra
               </a>{" "}
               —with support from Btrust in administration, communication, and
