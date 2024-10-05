@@ -230,7 +230,7 @@ export default function Nav({ mobileActive, handleToggle, closeNav }: Props) {
                   )}
                 </div>
                 {mobileActiveDropdown === item.title && (
-                  <div className="flex flex-col gap-4 mt-4">
+                  <div className="flex flex-col gap-6 mt-6">
                     {item.sub_nav.map((sub, index) => (
                       <Link
                         key={index}
@@ -238,7 +238,7 @@ export default function Nav({ mobileActive, handleToggle, closeNav }: Props) {
                           pathname === sub.url
                             ? "text-active-white font-semibold"
                             : "text-grey-black font-normal"
-                        } pl-4`}
+                        } pl-6`}
                         href={sub.url}
                         onClick={() => handleSubNav()}
                       >
