@@ -23,6 +23,7 @@ export default function MediaCard({
   url,
 }: Media) {
   return (
+    <a href={url} target="_blank">
     <div className="flex w-full max-w-[23.875rem] lg:w-[37.8125rem] p-5 flex-col gap-4 rounded-lg backdrop-blur-[2px] border border-card-border">
       <DynamicImage
         src={cover_url}
@@ -47,12 +48,10 @@ export default function MediaCard({
           className="!text-[1.125rem] lg:!text-[1.375rem] !leading-[155.556%] lg:!leading-[163.636%]"
         />
         <Paragraph className="">
-          {text}...{" "}
-          <a className="italic underline font-bold" href={url}>
-            read more
-          </a>
+          {text}
         </Paragraph>
       </div>
     </div>
+    </a>
   );
 }
