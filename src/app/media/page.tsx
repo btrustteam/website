@@ -2,7 +2,6 @@
 import ActivitiesNewsletter from "@/components/ActivitiesNewsLetterFooter";
 import LittleHeading from "@/components/LittleHeading";
 import SubHeading from "@/components/SubHeading";
-import Blog from "./blog";
 import H4 from "./mediaHeader";
 import Update from "./update";
 
@@ -19,110 +18,37 @@ export default function Media() {
           <Update
             updates={[
               {
-                url: "/",
+                url: "https://bitcoinmagazine.com/business/bitcoin-non-profit-trust-announces-q3-grants-for-open-source-developers",
+                cover_url:
+                  "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/btc-mag-btc-africa-alt-ntb7yjdt6yLpdf2ixOH9fMTxv9sBqW.jpg",
+                heading:
+                  "Bitcoin Non-Profit ₿trust Announces Q3 Grants For Open-Source Developers",
+                tags: [
+                  { title: "Bitcoin Magazine", bg: "#F7931A" },
+                ],
+                text: "The Jay-Z and Jack Dorsey-backed organization shares the list of recipients for its latest round of Starter Grants as well as the newest members of its Open-Source Cohort.",
+              },
+              {
+                url: "https://bitcoinmagazine.com/business/jay-z-and-jack-dorsey-backed-bitcoin-non-profit-trust-appoints-bitcoin-core-developer-as-interim-ceo",
+                cover_url:
+                  "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/btc-mag-africa-map-EV7AZVM5bsbXI9GfMLnyqyffSo6owz.jpeg",
+                heading:
+                  "Jay-Z and Jack Dorsey-Backed Non-Profit ₿trust Appoints Bitcoin Core Contributor As Interim CEO",
+                tags: [
+                  { title: "Bitcoin Magazine", bg: "#F7931A" },
+                ],
+                text: "The organization, which trains Bitcoin developers in Africa, LATAM and SE Asia, appoints one of its inaugural board members, Abubakar Nur Khalil, as its temporary leader.",
+              },
+              {
+                url: "https://www.forbes.com/sites/digital-assets/2023/09/05/jay-z-and-jack-dorsey-funded-btrust-acquires-african-bitcoin-talent-firm-qala/",
                 cover_url:
                   "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Rectangle%2019%20(4)-zos0xeHGt8lljM8qPFjwBRe4dviqyf.png",
                 heading:
                   "Jay-Z And Jack Dorsey-Funded Btrust Acquires African Bitcoin Talent Firm Qala",
                 tags: [
-                  { title: "Forbes", bg: "#7C2727" },
-                  { title: "Blog", bg: "#2C6F75" },
+                  { title: "Forbes", bg: "#000000" },
                 ],
                 text: "Btrust, the bitcoin non-profit that Block CEO Jack Dorsey and rapper Jay-Z formed",
-              },
-              {
-                url: "/",
-                cover_url:
-                  "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Rectangle%2019%20(5)-Lzm6P1RzdegrTj5C9dS8s7bT1oG0VH.png",
-                heading:
-                  "Jay-Z and Jack Dorsey’s firm expands to foster Bitcoin talent in Africa",
-                tags: [
-                  { title: "Crypto News", bg: "#7C2727" },
-                  { title: "Press", bg: "#2C6F75" },
-                ],
-                text: "The Bitcoin non-profit, Btrust, co-founded by rapper Jay-Z and Block CEO Jack Dorsey",
-              },
-              {
-                url: "/",
-                cover_url:
-                  "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/image%20(5)-OkUN5kutTlhzqfoOG38lhRxCkei8jj.png",
-                heading:
-                  "Non-Profit ₿trust Is Funding New Bitcoin Developers In Africa",
-                tags: [
-                  { title: "Bitcoin Magazine", bg: "#7C2727" },
-                  { title: "Blog", bg: "#2C6F75" },
-                ],
-                text: "As part of the acquisition, Qala is rebranding as the ₿trust Builders Programme",
-              },
-              {
-                url: "/",
-                cover_url:
-                  "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Rectangle%2019%20(4)-zos0xeHGt8lljM8qPFjwBRe4dviqyf.png",
-                heading:
-                  "Jack Dorsey’s Btrust Acquires African Bitcoin Talent Developer Qala",
-                tags: [{ title: "Crypto News BTC", bg: "rgba(59,59,59,0.6)" }],
-                text: "Btrust, the bitcoin non-profit that Block CEO Jack Dorsey and rapper Jay-Z shaped",
-              },
-              {
-                url: "/",
-                cover_url:
-                  "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Rectangle%2019%20(6)-VLn7IQrqM5ONj89866Y9PWqRS1kiHR.png",
-                heading:
-                  "Btrust, cofounded by Jack Dorsey and Jay Z, acquires African Bitcoin talent development firm Qala",
-                tags: [{ title: "Crypto News BTC", bg: "rgba(59,59,59,0.6)" }],
-                text: "Btrust, a non-profit committed to decentralizing Bitcoin software development",
-              },
-            ]}
-          />
-        </div>
-        <div className="flex gap-4 flex-col">
-          <H4 text="Btrust Blog" />
-          <Blog
-            updates={[
-              {
-                url: "/",
-                cover_url:
-                  "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Rectangle%2019%20(4)-zos0xeHGt8lljM8qPFjwBRe4dviqyf.png",
-                heading:
-                  "Jay-Z And Jack Dorsey-Funded Btrust Acquires African Bitcoin Talent Firm Qala",
-                tags: [
-                  { title: "Forbes", bg: "#7C2727" },
-                  { title: "Blog", bg: "#2C6F75" },
-                ],
-                text: "Btrust, the bitcoin non-profit that Block CEO Jack Dorsey and rapper Jay-Z formed",
-              },
-              {
-                url: "/",
-                cover_url:
-                  "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Rectangle%2019%20(5)-Lzm6P1RzdegrTj5C9dS8s7bT1oG0VH.png",
-                heading:
-                  "Jay-Z and Jack Dorsey’s firm expands to foster Bitcoin talent in Africa",
-                tags: [
-                  { title: "Crypto News", bg: "#7C2727" },
-                  { title: "Press", bg: "#2C6F75" },
-                ],
-                text: "The Bitcoin non-profit, Btrust, co-founded by rapper Jay-Z and Block CEO Jack Dorsey",
-              },
-              {
-                url: "/",
-                cover_url:
-                  "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/image%20(5)-OkUN5kutTlhzqfoOG38lhRxCkei8jj.png",
-                heading:
-                  "Non-Profit ₿trust Is Funding New Bitcoin Developers In Africa",
-                tags: [
-                  { title: "Bitcoin Magazine", bg: "#7C2727" },
-                  { title: "Blog", bg: "#2C6F75" },
-                ],
-                text: "As part of the acquisition, Qala is rebranding as the ₿trust Builders Programme",
-              },
-              {
-                url: "/",
-                cover_url:
-                  "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Rectangle%2019%20(4)-zos0xeHGt8lljM8qPFjwBRe4dviqyf.png",
-                heading:
-                  "Jack Dorsey’s Btrust Acquires African Bitcoin Talent Developer Qala",
-                tags: [{ title: "Crypto News BTC", bg: "rgba(59,59,59,0.6)" }],
-                text: "Btrust, the bitcoin non-profit that Block CEO Jack Dorsey and rapper Jay-Z shaped",
               },
             ]}
           />
