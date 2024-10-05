@@ -22,6 +22,7 @@ export default function NewsCard({
   const button_style =
     "flex py-[0.25rem] px-[0.75rem] items-center justify-center rounded border border-black-4 text-[#FFF] font-poppins text-[0.75rem]";
   return (
+    <a href={content_url}>
     <div className="flex flex-col w-[24.6875rem] p-[1.25rem] gap-[1rem] rounded-lg backdrop-blur-[2px] border border-card-border">
       <Image
         src={image_url}
@@ -42,14 +43,9 @@ export default function NewsCard({
         />
         <Paragraph className="">
           {brief}
-          <a
-            className="text pl-2 font-poppins italic font-bold leading-[200%] underline text-active-white"
-            href={content_url}
-          >
-            read more
-          </a>
         </Paragraph>
       </div>
     </div>
+    </a>
   );
 }
