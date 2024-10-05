@@ -15,32 +15,32 @@ export default function TeamProfile() {
             description: "Interim Chief Executive Officer and Board Member",
             imageUrl:
               "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Rectangle%2020%20(3)-1rAzPCAWFnIOdqehTlOgUBL3r4QM6q.png",
-            github: "/",
-            linkedin: "/",
+            twitter: "https://x.com/ihate1999",
+            linkedin: "https://www.linkedin.com/in/abubakar-nur-khalil-29923b1a0/",
           },
           {
             name: "Carla Kirk-Cohen",
             description: "Board Member",
             imageUrl:
               "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Rectangle%2020%20(4)-vyMxeRlSaKCf5IFsrG0vXGJxxMtIp4.png",
-            github: "/",
-            linkedin: "/",
+            twitter: "https://x.com/actuallyCarlaKC",
+            linkedin: "https://www.linkedin.com/in/carla-kirk-cohen-73342113b/",
           },
           {
             name: "Obi Nwosu",
             description: "Board Member",
             imageUrl:
               "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Obi Nwosu headshot-puLVoQ4BcCqMpexHbVRSVm7dYb1SXH.png",
-            github: "/",
-            linkedin: "/",
+            twitter: "https://x.com/obi",
+            linkedin: "https://www.linkedin.com/in/obinwosu/",
           },
           {
             name: "Ojoma Ochai",
             description: "Board Member",
             imageUrl:
               "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Rectangle%2020%20(6)-eYgZhLjKVS0dQy1j00YmiBuHvbOpPi.png",
-            github: "/",
-            linkedin: "/",
+            twitter: "https://x.com/ojomaochai",
+            linkedin: "https://www.linkedin.com/in/ojomaochai/",
           },
         ]}
       />
@@ -55,16 +55,16 @@ export default function TeamProfile() {
             description: "Programmes Manager, Btrust Builders",
             imageUrl:
               "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Rectangle%2020%20(7)-OFvWfXVNZK4Z5Cl8m7HKxuqCpBSgGM.png",
-            github: "/",
-            linkedin: "/",
+            twitter: "https://x.com/StephTitcombe",
+            linkedin: "https://www.linkedin.com/in/stephanietitcombe/",
           },
           {
             name: "Sharon Murugi",
             description: "Social Media and Communications Officer",
             imageUrl:
               "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Rectangle%2020%20(8)-LmP0fxJ99jbi46ek3ax7EAwZhcga2y.png",
-            github: "/",
-            linkedin: "/",
+            twitter: "https://x.com/Murugi___",
+            linkedin: "https://www.linkedin.com/in/sharon-murugi/",
           },
         ]}
       />
