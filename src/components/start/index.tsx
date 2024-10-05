@@ -25,7 +25,7 @@ export default function StartYourJourney() {
           </div>
         </div>
         <div>
-          <ButtonWithArrow text="Apply Now" onClick={() => {}} />
+          <ButtonWithArrow text="Learn More" url="/builders" />
         </div>
       </div>
       <Image

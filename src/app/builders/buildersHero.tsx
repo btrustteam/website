@@ -10,6 +10,7 @@ import SubHeading from "@/components/SubHeading";
 export default function BuildersHero() {
   return (
     <>
+    {/* Mobile */}
       <div className="flex flex-col lg:hidden py-[4rem] gap-6 w-full">
         <div className="flex flex-col w-full px-[1.5rem]">
           <LittleHeading text="btrust builders" className="" />
@@ -36,11 +37,12 @@ export default function BuildersHero() {
             open-source Bitcoin projects.
           </Paragraph>
           <div className="flex flex-col gap-4">
-            <ButtonWithArrow noIcon={true} text="Apply" onClick={() => {}} />
-            <OutlineButton text="Meet the Builders" onClick={() => {}} />
+            <ButtonWithArrow noIcon={true} text="Apply" url="/builders/apply" />
+            <OutlineButton text="Meet the Builders" url="/builders/meet-builders" />
           </div>
         </div>
       </div>
+      {/* Desktop */}
       <div className="hidden lg:flex flex-col justify-center gap-20 mt-14 w-full">
         <div className="flex px-[6.4375rem] py-0 flex-col justify-center gap-4 w-full">
           <div className="flex flex-col w-[61.625rem]">
@@ -61,8 +63,8 @@ export default function BuildersHero() {
               open-source Bitcoin projects.
             </Paragraph>
             <div className="flex gap-8">
-              <ButtonWithArrow noIcon={true} text="Apply" onClick={() => {}} />
-              <OutlineButton text="Meet the Builders" onClick={() => {}} />
+              <ButtonWithArrow noIcon={true} text="Apply" url="/builders/apply" />
+              <OutlineButton text="Meet the Builders" url="/builders/meet-builders" />
             </div>
           </div>
         </div>
