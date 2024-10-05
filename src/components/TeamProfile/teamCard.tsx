@@ -5,7 +5,7 @@ import Paragraph from "../Paragraph";
 export interface TeamCardProps {
   name: string;
   description: string;
-  github: string;
+  twitter: string;
   linkedin: string;
   imageUrl: string;
 }
@@ -13,7 +13,7 @@ export interface TeamCardProps {
 export default function TeamCard({
   name,
   description,
-  github,
+  twitter,
   linkedin,
   imageUrl,
 }: TeamCardProps) {
@@ -35,8 +35,8 @@ export default function TeamCard({
           <Paragraph className="!leading-[125%]">{description}</Paragraph>
         </div>
         <div className="flex gap-4 items-center">
-          <SocialLink url={github} icon="github" />
-          <SocialLink url={linkedin} icon="twitter" />
+          <SocialLink url={twitter} icon="twitter" />
+          <SocialLink url={linkedin} icon="linkedin" />
         </div>
       </div>
     </div>
