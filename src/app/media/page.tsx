@@ -46,7 +46,7 @@ export default function Media() {
                 heading:
                   "Jay-Z And Jack Dorsey-Funded Btrust Acquires African Bitcoin Talent Firm Qala",
                 tags: [
-                  { title: "Forbes", bg: "#fffff" },
+                  { title: "Forbes", bg: "#000000" },
                 ],
                 text: "Btrust, the bitcoin non-profit that Block CEO Jack Dorsey and rapper Jay-Z formed",
               },
