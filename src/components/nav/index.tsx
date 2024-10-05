@@ -206,7 +206,11 @@ export default function Nav({ mobileActive, handleToggle, closeNav }: Props) {
               <div className="flex flex-col" key={index}>
                 <div className="flex items-center gap-2">
                   <Link
-                    className="text-active-white opacity-50"
+                    className={`${
+                      pathname === item.url
+                        ? "text-active-white font-semibold"
+                        : "text-grey-black font-normal"
+                    }`}
                     href={item.url}
                     target={item.new_tab ? '_blank' : ''}
                     onClick={handleMobileOnclick}
@@ -230,7 +234,11 @@ export default function Nav({ mobileActive, handleToggle, closeNav }: Props) {
                     {item.sub_nav.map((sub, index) => (
                       <Link
                         key={index}
-                        className="text-active-white pl-4 opacity-50"
+                        className={`${
+                          pathname === sub.url
+                            ? "text-active-white font-semibold"
+                            : "text-grey-black font-normal"
+                        } pl-4`}
                         href={sub.url}
                         onClick={() => handleSubNav()}
                       >
