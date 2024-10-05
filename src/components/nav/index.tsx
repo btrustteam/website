@@ -208,6 +208,7 @@ export default function Nav({ mobileActive, handleToggle, closeNav }: Props) {
                   <Link
                     className="text-active-white opacity-50"
                     href={item.url}
+                    target={item.new_tab ? '_blank' : ''}
                     onClick={handleMobileOnclick}
                   >
                     {item.title}
