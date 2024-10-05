@@ -1,5 +1,4 @@
 import Image from "next/image";
-import ButtonWithArrow from "../buttons/buttonWithArrow";
 import Paragraph from "../Paragraph";
 import SectionHeader from "../sectionHeader";
 export default function BitDev() {
@@ -20,24 +19,20 @@ export default function BitDev() {
           <SectionHeader text="BitDevs Across Africa" className="" />
           <div className="flex flex-col justify-center gap-[2.5rem]">
             <Paragraph className="w-full lg:w-[33.6875rem]">
-              Our builders run BitDev meetups across five African cities—
-              <a className="font-bold underline" href="/">
+              Our builders run BitDev meetups across four African cities—
+              <a className="font-bold underline" href="https://x.com/BitDevsNBO" target="_blank">
                 Nairobi
               </a>
               ,{" "}
-              <a className="font-bold underline" href="/">
+              <a className="font-bold underline" href="https://x.com/BitDevsLagos" target="_blank">
                 Lagos
               </a>
               ,{" "}
-              <a className="font-bold underline" href="/">
+              <a className="font-bold underline" href="https://x.com/BitDevsAbuja" target="_blank">
                 Abuja
               </a>
-              ,{" "}
-              <a className="font-bold underline" href="">
-                Kampala
-              </a>
               , and{" "}
-              <a className="font-bold underline" href="">
+              <a className="font-bold underline" href="https://x.com/bitdevsAccra" target="_blank">
                 Accra
               </a>{" "}
               —with support from Btrust in administration, communication, and
@@ -51,9 +46,6 @@ export default function BitDev() {
               opportunities within the technical community.
             </Paragraph>
           </div>
-        </div>
-        <div>
-          <ButtonWithArrow text="Join a Local Meetup" onClick={() => {}} />
         </div>
       </div>
     </div>
