@@ -5,12 +5,12 @@ interface TeamProps {
   title: string;
   brief: string;
   isBoard: boolean;
-  teanMembers: TeamCardProps[];
+  teamMembers: TeamCardProps[];
 }
 export default function TeamDetailsContainer({
   title,
   brief,
-  teanMembers,
+  teamMembers,
   isBoard,
 }: TeamProps) {
   return (
@@ -31,7 +31,7 @@ export default function TeamDetailsContainer({
           isBoard ? "lg:justify-between" : "lg:justify-start"
         }`}
       >
-        {teanMembers.map((card, index) => (
+        {teamMembers.map((card, index) => (
           <TeamCard key={index} {...card} />
         ))}
       </div>

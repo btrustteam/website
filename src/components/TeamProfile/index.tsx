@@ -9,7 +9,7 @@ export default function TeamProfile() {
         isBoard={true}
         title="Inaugural Board (2021 - Present)"
         brief="The day-to-day operations are run by a dedicated team with immense experience in the developer and innovation ecosystem across Africa and beyond. We are committed to bringing to life the mission to grow a critical mass of Bitcoin & Lightning open-source developers in the Global South."
-        teanMembers={[
+        teamMembers={[
           {
             name: "Abubakar Nur Khalil",
             description: "Interim Chief Executive Officer and Board Member",
@@ -49,7 +49,7 @@ export default function TeamProfile() {
         isBoard={false}
         title="Operations"
         brief="The day-to-day operations are run by a dedicated team with immense experience in the developer and innovation ecosystem across Africa and beyond. We are committed to bringing to life the mission to grow a critical mass of Bitcoin & Lightning open-source developers in the Global South."
-        teanMembers={[
+        teamMembers={[
           {
             name: "Stephanie Titcombe",
             description: "Programmes Manager, Btrust Builders",
