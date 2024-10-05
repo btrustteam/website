@@ -4,8 +4,8 @@ import SectionHeader from "../sectionHeader";
 interface NewsCardProps {
   image_url: string;
   heading: string;
-  first_tag: string;
-  second_tag: string;
+  tag: string;
+  tag_bg: string;
   brief: string;
   content_url: string;
 }
@@ -14,10 +14,10 @@ interface NewsCardProps {
 export default function NewsCard({
   image_url,
   heading,
-  first_tag,
+  tag,
+  tag_bg,
   brief,
   content_url,
-  second_tag,
 }: NewsCardProps) {
   const button_style =
     "flex py-[0.25rem] px-[0.75rem] items-center justify-center rounded border border-black-4 text-[#FFF] font-poppins text-[0.75rem]";
@@ -33,8 +33,7 @@ export default function NewsCard({
         alt="blog cover"
       />
       <div className="flex items-center gap-[0.5rem]">
-        <button className={`${button_style} bg-[#7C2727] `}>{first_tag}</button>
-        <button className={`${button_style} bg-[#2C6F75]`}>{second_tag}</button>
+        <button className={`${button_style} bg-[${tag_bg}]`}>{tag}</button>
       </div>
       <div className="flex flex-col gap-[0.75rem]">
         <SectionHeader
