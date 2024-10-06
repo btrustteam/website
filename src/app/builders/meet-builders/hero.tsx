@@ -48,15 +48,17 @@ export default function Hero() {
       <div className="mt-[3rem] hidden lg:flex flex-col gap-20 z-50">
         <div className="flex flex-col w-full px-[6.5rem] gap-4">
           <div className="flex flex-col gap-2">
-            <div className="flex items-center gap-2">
+            <div
+              className="flex items-center gap-2 cursor-pointer"
+              onClick={() => router.push("/builders")}
+            >
               <Image
                 src={"/back.svg"}
                 alt="back"
                 width={0}
                 height={0}
                 sizes="100vw"
-                className="w-[1rem] h-[1rem] cursor-pointer"
-                onClick={() => router.push("/builders")}
+                className="w-[1rem] h-[1rem]"
               />
               <LittleHeading
                 text="btrust builders/Meet the builders"
