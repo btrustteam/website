@@ -3,12 +3,14 @@ import OutlineButton from "@/components/buttons/OutlineButton";
 import DynamicImage from "@/components/DynamicImage";
 import Paragraph from "@/components/Paragraph";
 import SectionHeader from "@/components/sectionHeader";
+import { useRouter } from "next/navigation";
 
 export default function StartGrant({
   setPage,
 }: {
   setPage: (page: string) => void;
 }) {
+  const route = useRouter();
   return (
     <>
       <div className="flex lg:hidden w-full pt-[4.5rem] pb-[5.5rem] flex-col justify-center gap-6">
@@ -39,7 +41,9 @@ export default function StartGrant({
         <div className="flex flex-col gap-4 w-full px-6">
           <ButtonWithArrow
             text="Apply for this grant"
-            onClick={() => {}}
+            onClick={() => {
+              route.push("https://btrust.homerun.co/starter-grants/en");
+            }}
             noIcon={true}
           />
           <OutlineButton
@@ -68,7 +72,9 @@ export default function StartGrant({
           <div className="flex gap-4 items-center">
             <ButtonWithArrow
               text="Apply for this grant"
-              onClick={() => {}}
+              onClick={() => {
+                route.push("https://btrust.homerun.co/starter-grants/en");
+              }}
               noIcon={true}
             />
             <OutlineButton
