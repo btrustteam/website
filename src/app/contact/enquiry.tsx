@@ -113,7 +113,7 @@ export default function Enquiry() {
                 label="Company/Organization *"
                 value={company}
                 setValue={setCompany}
-                iconName={"message"}
+                iconName={"company"}
                 placeholder={"Enter the name of your company/organization"}
                 type={"text"}
               />
