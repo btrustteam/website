@@ -30,7 +30,7 @@ export default function TeamDetailsContainer({
             {title}
           </h3>
           <motion.div
-            animate={{ rotate: isOpen ? 180 : 0 }}
+            animate={{ rotate: !isOpen ? 180 : 0 }}
             transition={{ duration: 0.3 }}
             className="flex justify-center items-center"
           >
