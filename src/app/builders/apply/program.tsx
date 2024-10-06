@@ -64,7 +64,10 @@ export default function Program() {
               <h3 className="w-full max-w-[24.625rem] lg:w-[47.25rem] font-poppins text-[1.5rem] font-semibold text-active-white">
                 Does this sound like the kind of experience you would like to be
                 a part of?{" "}
-                <a href="/" className=" italic font-bold underline">
+                <a
+                  href="https://btrust.homerun.co/btrust-builders-application/en/apply"
+                  className=" italic font-bold underline"
+                >
                   Apply Here
                 </a>
               </h3>

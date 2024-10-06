@@ -85,7 +85,11 @@ export default function ApplyHero() {
             <div>
               <ButtonWithArrow
                 text="Apply Here"
-                onClick={() => {}}
+                onClick={() => {
+                  routes.push(
+                    "https://btrust.homerun.co/btrust-builders-application/en/apply"
+                  );
+                }}
                 noIcon={true}
               />
             </div>
