@@ -22,8 +22,8 @@ export default function Activities() {
               Btrust
             </p>
             <div className="flex items-start gap-4">
-              <BigTwitter url="/" />
-              <BigLinkedin url="/" />
+              <BigTwitter url="https://x.com/btrustteam" />
+              <BigLinkedin url="https://www.linkedin.com/company/btrustteam/" />
             </div>
           </div>
           <div className="flex flex-col justify-center items-center gap-4">
@@ -31,8 +31,8 @@ export default function Activities() {
               Btrust Builders
             </p>
             <div className="flex items-start gap-4">
-              <BigTwitter url="/" />
-              <BigLinkedin url="/" />
+              <BigTwitter url="https://x.com/btrust_builders" />
+              <BigLinkedin url="https://www.linkedin.com/company/btrust-builders" />
             </div>
           </div>
         </div>

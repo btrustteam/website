@@ -7,6 +7,7 @@ import Pattern from "@/components/pattern";
 import { Poppins } from "next/font/google";
 import { useEffect, useState } from "react";
 import "./globals.css";
+import { Toaster } from "react-hot-toast";
 
 const inter = Poppins({
   subsets: ["latin"],
@@ -48,6 +49,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${inter.variable} container relative bg-bg-black`}>
+        <Toaster position="top-center" />
         <Pattern />
         <Gradient />
         <Nav

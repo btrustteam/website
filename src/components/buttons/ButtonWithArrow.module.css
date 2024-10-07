@@ -1,0 +1,25 @@
+.spinner {
+  border: 4px solid rgba(0, 0, 0, 0.1);
+  border-left-color: #000000;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  animation: spin 0.5s linear infinite;
+  margin-left: 1rem;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.disabled {
+  background-color: #e0e0e0; /* Lighter background to indicate disabled */
+  color: #a0a0a0; /* Faded text color */
+  cursor: not-allowed; /* Show "not-allowed" cursor */
+  pointer-events: none; /* Disable any interaction */
+}

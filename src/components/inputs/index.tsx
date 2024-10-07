@@ -3,7 +3,7 @@ import { ChangeEvent } from "react";
 
 interface InputProps {
   label: string;
-  iconName: "message" | "user" | "address";
+  iconName: "message" | "user" | "company";
   placeholder: string;
   value: string;
   type: string;
@@ -25,14 +25,6 @@ export default function Input({
     setValue(e.target.value);
   }
 
-  let image_url = "/message.svg";
-
-  if (iconName === "user") {
-    image_url === "/user.svg";
-  } else if (iconName === "address") {
-    image_url = "/addres.svg";
-  }
-
   const generalStyle = `border-none font-poppins leading-[175%] text-base text-black-2 placeholder:text-base placeholder:text-black-2 placeholder:font-poppins w-full bg-transparent outline-none`;
   return (
     <div className="flex w-full flex-col gap-1">
@@ -45,7 +37,7 @@ export default function Input({
         } gap-2 rounded-lg border border-white-7 backdrop-blur-[2px]`}
       >
         <Image
-          src={image_url}
+          src={`/${iconName}.svg`}
           width={0}
           height={0}
           sizes={"100vw"}

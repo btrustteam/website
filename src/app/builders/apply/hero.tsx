@@ -12,15 +12,17 @@ export default function ApplyHero() {
     <>
       <div className="flex lg:hidden mt-[4rem] flex-col gap-6 w-full">
         <div className="flex flex-col justify-center gap-2 px-[1.5rem]">
-          <div className="flex items-center gap-2">
+          <div
+            className="flex items-center gap-2 cursor-pointer"
+            onClick={() => routes.push("/builders")}
+          >
             <Image
               src={"/back.svg"}
               alt="back"
               width={0}
               height={0}
               sizes="100vw"
-              className="w-[1rem] h-[1rem] cursor-pointer"
-              onClick={() => routes.push("/builders")}
+              className="w-[1rem] h-[1rem]"
             />
             <LittleHeading text="btrust builders/apply" className="" />
           </div>
@@ -55,15 +57,17 @@ export default function ApplyHero() {
       <div className="hidden lg:flex flex-col gap-20 mt-[3.5rem] z-30">
         <div className="flex w-full px-[6.5rem] flex-col gap-4">
           <div className="flex flex-col justify-center gap-2">
-            <div className="flex items-center gap-2">
+            <div
+              className="flex items-center gap-2 cursor-pointer"
+              onClick={() => routes.push("/builders")}
+            >
               <Image
                 src={"/back.svg"}
                 alt="back"
                 width={0}
                 height={0}
                 sizes="100vw"
-                className="w-[1rem] h-[1rem] cursor-pointer"
-                onClick={() => routes.push("/builders")}
+                className="w-[1rem] h-[1rem]"
               />
               <LittleHeading text="btrust builders/apply" className="" />
             </div>
@@ -81,7 +85,11 @@ export default function ApplyHero() {
             <div>
               <ButtonWithArrow
                 text="Apply Here"
-                onClick={() => {}}
+                onClick={() => {
+                  routes.push(
+                    "https://btrust.homerun.co/btrust-builders-application/en/apply"
+                  );
+                }}
                 noIcon={true}
               />
             </div>

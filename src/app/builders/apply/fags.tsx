@@ -24,7 +24,7 @@ export default function Faqs() {
         />
         <Line className="h-[0.0625rem]" />
         <FAQItem
-          answer={`You can apply for the program by filling out the application form above. Simply click on the "Apply" button, which will direct you to complete the application form." question="How can I apply for the Program?`}
+          answer={`You can apply for the program by filling out the application form above. Simply click on the "Apply" button, which will direct you to complete the application form.`}
           question={"How can I apply for the Program?"}
         />
         <Line className="h-[0.0625rem]" />

@@ -3,11 +3,50 @@ import { gilroyExtraBold } from "@/app/fonts/gilroy";
 import ButtonWithArrow from "../buttons/buttonWithArrow";
 import Input from "../inputs";
 import { useState } from "react";
+import toast from "react-hot-toast";
 
 export default function NewsLetter() {
   const [email, setEmail] = useState<string>("");
   const [firstname, setFirstname] = useState<string>("");
   const [lastname, setLastname] = useState<string>("");
+  const [loading, setLoading] = useState<boolean>(false);
+
+  function validateEmail(email: string) {
+    const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    return emailPattern.test(email);
+  }
+
+  async function handleNewsletterSignup() {
+    setLoading(true);
+
+    try {
+      if (!validateEmail(email)) {
+        toast.error("Please provide a valid email address");
+        return;
+      }
+
+      const response = await fetch("/api/add-member", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ email, name: `${firstname} ${lastname}` }),
+      });
+
+      const data = await response.json();
+      if (data.success) {
+        toast.success("Signed up Successfully");
+        setEmail("");
+        setFirstname("");
+        setLastname("");
+      } else {
+        toast.error(`${data.error}`);
+      }
+    } catch (error) {
+      console.error("Request failed", error);
+      toast.error("An error occured, please try again later");
+    } finally {
+      setLoading(false);
+    }
+  }
   return (
     <div className="bg-bg-black py-[3.5rem] lg:py-[3.75rem] justify-center items-center flex w-full">
       <div
@@ -64,8 +103,10 @@ export default function NewsLetter() {
               <ButtonWithArrow
                 noIcon={true}
                 text="Sign Up for Free"
-                onClick={() => {}}
+                onClick={handleNewsletterSignup}
                 className="w-full lg:w-auto"
+                disabled={loading || !firstname || !lastname || !email}
+                loading={loading}
               />
             </div>
           </div>
