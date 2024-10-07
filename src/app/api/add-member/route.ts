@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-// @ts-ignore
+// @ts-expect-error This will throw an error because GHOST does not support typescript yet
 import AdminAPI from "@tryghost/admin-api";
 
 // Handle POST request
@@ -23,6 +23,7 @@ export async function POST(req: Request) {
     const member = await api.members.add({ email, name });
 
     return NextResponse.json({ success: true, member }, { status: 200 });
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
   } catch (error: any) {
     let message = "Failed to add member";
     if (error?.context?.includes("Member already exists.")) {
