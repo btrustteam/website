@@ -12,17 +12,17 @@ export default function BuildersProcessCard({
 }) {
   return (
     <div
-      className={`rounded-lg flex justify-center items-center py-[2.5rem] px-[2rem] w-full max-w-[29.1875rem] lg:w-[29.1875rem] gap-6 backdrop-blur-[2px] border border-process-border bg-process-bg ${
+      className={`rounded-lg flex justify-center items-center px-[1.5rem] py-[2rem] lg:py-[2.5rem] lg:px-[2rem] w-full max-w-[29.1875rem] lg:w-[29.1875rem] gap-6 backdrop-blur-[2px] border border-process-border bg-process-bg ${
         isColumn ? "lg:flex-col" : ""
       }`}
     >
       <DynamicImage
         alt="process"
         src={icon_url}
-        className="w-[5rem] h-[5rem]"
+        className="w-[3.5rem] h-[3.5rem] lg:w-[5rem] lg:h-[5rem]"
       />
       <Paragraph
-        className={`leading-[normal] w-[18.6875rem] ${
+        className={`leading-[normal] w-full lg:w-[18.6875rem] ${
           isColumn ? "text-center" : ""
         }`}
       >
