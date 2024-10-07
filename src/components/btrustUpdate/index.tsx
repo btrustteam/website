@@ -8,10 +8,14 @@ export default function BtrustUpdate() {
       <div className="flex items-center justify-between">
         <SectionHeader
           text="Btrust Updates"
-          className="text-[1.5rem] lg:text-[2.5rem]"
+          className="text-[1.2rem] lg:text-[2.5rem]"
         />
-        <a href="/media" >
-          <ButtonWithArrow text="See All" onClick={() => {}} />
+        <a href="/media">
+          <ButtonWithArrow
+            text="See All"
+            onClick={() => {}}
+            className="px-[1.25rem] py-[0.75rem]"
+          />
         </a>
       </div>
       <div className="flex flex-col lg:flex-row items-center lg:items-start justify-between gap-[1.5rem]">

@@ -23,7 +23,7 @@ export default function Enquiry() {
             "url('https://lhxkhtemz6sjrgyy.public.blob.vercel-storage.com/Patter-Long-afr8ix8wgqX6lysdwU7x9JwzUMDKPR.svg')",
         }}
       >
-        <div className="flex flex-col w-full lg:w-[33.5625rem] p-8 gap-6 bg-[#222]">
+        <div className="flex flex-col w-full lg:w-[33.5625rem] p-5 lg:p-8 gap-6 bg-[#222]">
           <div className="flex gap-4 w-full items-start">
             <div className="flex items-center justify-center">
               <DynamicImage
@@ -50,7 +50,7 @@ export default function Enquiry() {
             <Paragraph className="!text-[1.125rem] !leading-[177.778%]">
               Follow and reach out to us on our social media platforms
             </Paragraph>
-            <div className="flex gap-16">
+            <div className="flex gap-8 lg:gap-16">
               <SocialContainer
                 heading="Btrust"
                 socials={[

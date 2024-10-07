@@ -23,28 +23,26 @@ export default function NewsCard({
     "flex py-[0.25rem] px-[0.75rem] items-center justify-center rounded border border-black-4 text-[#FFF] font-poppins text-[0.75rem]";
   return (
     <a href={content_url} target="_blank">
-    <div className="flex flex-col w-[24.6875rem] p-[1.25rem] gap-[1rem] rounded-lg backdrop-blur-[2px] border border-card-border">
-      <Image
-        src={image_url}
-        width={0}
-        height={0}
-        sizes={"100vw"}
-        className="h-[14.25rem] w-full rounded-lg object-cover"
-        alt="blog cover"
-      />
-      <div className="flex items-center gap-[0.5rem]">
-        <button className={`${button_style} bg-[${tag_bg}]`}>{tag}</button>
-      </div>
-      <div className="flex flex-col gap-[0.75rem]">
-        <SectionHeader
-          text={heading}
-          className="!leading-[155.556%] lg:!leading-[175%] lg:!text-[1.25rem] !text-[1.125rem]"
+      <div className="flex flex-col w-full max-w-[24.6875rem] lg:w-[24.6875rem] p-[1.25rem] gap-[1rem] rounded-lg backdrop-blur-[2px] border border-card-border">
+        <Image
+          src={image_url}
+          width={0}
+          height={0}
+          sizes={"100vw"}
+          className="h-[14.25rem] w-full rounded-lg object-cover"
+          alt="blog cover"
         />
-        <Paragraph className="">
-          {brief}
-        </Paragraph>
+        <div className="flex items-center gap-[0.5rem]">
+          <button className={`${button_style} bg-[${tag_bg}]`}>{tag}</button>
+        </div>
+        <div className="flex flex-col gap-[0.75rem]">
+          <SectionHeader
+            text={heading}
+            className="!leading-[155.556%] lg:!leading-[175%] lg:!text-[1.25rem] !text-[1.125rem]"
+          />
+          <Paragraph className="">{brief}</Paragraph>
+        </div>
       </div>
-    </div>
     </a>
   );
 }

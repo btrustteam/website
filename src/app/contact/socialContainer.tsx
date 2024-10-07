@@ -9,7 +9,7 @@ export default function SocialContainer({
 }) {
   return (
     <div className="flex flex-col gap-4">
-      <h4 className="text-active-white font-poppins text-base font-semibold leading-[normal]">
+      <h4 className="text-active-white font-poppins text-[0.75rem] lg:text-base font-semibold leading-[normal]">
         {heading}
       </h4>
       <div className="flex items-center gap-4">

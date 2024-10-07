@@ -54,8 +54,8 @@ export default function Footer() {
                 />
               </div>
             </div>
-            <div className="flex flex-col gap-[1.5rem] w-[23.1875rem]">
-              <FooterHeading text="FOllow our activities" />
+            <div className="flex flex-col gap-[1.5rem] w-full lg:w-[23.1875rem]">
+              <FooterHeading text="Follow our activities" />
               <div className="flex gap-[1.5rem]">
                 <div className="w-[11.5625rem] flex flex-col gap-4">
                   <FooterHeading text="Btrust" />
