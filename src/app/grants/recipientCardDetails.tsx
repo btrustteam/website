@@ -87,7 +87,7 @@ export default function RecipientCardDetails(recipient: RecipientDetails) {
             transition={{ duration: 0.2 }}
           >
             <SocialLink url={recipient.github} icon={"github"} />
-            <SocialLink url={recipient.twitter} icon={"twitter"} />
+            <SocialLink url={recipient.linkedin} icon={"linkedin"} />
             {!recipient.noBio && (
               <button
                 onClick={() => setBioActive(true)}

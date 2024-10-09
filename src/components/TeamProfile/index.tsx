@@ -8,7 +8,7 @@ export default function TeamProfile() {
       <TeamDetailsContainer
         isBoard={true}
         title="Inaugural Board (2021 - Present)"
-        brief="The day-to-day operations are run by a dedicated team with immense experience in the developer and innovation ecosystem across Africa and beyond. We are committed to bringing to life the mission to grow a critical mass of Bitcoin & Lightning open-source developers in the Global South."
+        brief="Btrust is headed up by a board of directors who are responsible for overseeing delivery of the organization's mission."
         teamMembers={[
           {
             name: "Abubakar Nur Khalil",
@@ -16,7 +16,8 @@ export default function TeamProfile() {
             imageUrl:
               "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Rectangle%2020%20(3)-1rAzPCAWFnIOdqehTlOgUBL3r4QM6q.png",
             twitter: "https://x.com/ihate1999",
-            linkedin: "https://www.linkedin.com/in/abubakar-nur-khalil-29923b1a0/",
+            linkedin:
+              "https://www.linkedin.com/in/abubakar-nur-khalil-29923b1a0/",
           },
           {
             name: "Carla Kirk-Cohen",
