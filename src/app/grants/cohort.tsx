@@ -3,12 +3,14 @@ import OutlineButton from "@/components/buttons/OutlineButton";
 import DynamicImage from "@/components/DynamicImage";
 import Paragraph from "@/components/Paragraph";
 import SectionHeader from "@/components/sectionHeader";
+import { useRouter } from "next/navigation";
 
 export default function Cohort({
   setPage,
 }: {
   setPage: (page: string) => void;
 }) {
+  const route = useRouter();
   return (
     <>
       <div className="flex lg:hidden pb-[5.5rem] flex-col gap-6">
@@ -85,7 +87,9 @@ export default function Cohort({
           <div className="flex gap-4 items-center">
             <ButtonWithArrow
               text="Apply for this grant"
-              onClick={() => {}}
+              onClick={() => {
+                route.push('https://btrust.homerun.co/open-source-cohort/en/apply?&step=1')
+              }}
               noIcon={true}
             />
             <OutlineButton
