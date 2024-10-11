@@ -8,7 +8,7 @@ export default function TeamProfile() {
       <TeamDetailsContainer
         isBoard={true}
         title="Inaugural Board (2021 - Present)"
-        brief="The day-to-day operations are run by a dedicated team with immense experience in the developer and innovation ecosystem across Africa and beyond. We are committed to bringing to life the mission to grow a critical mass of Bitcoin & Lightning open-source developers in the Global South."
+        brief="The Btrust board is responsible for overseeing delivery of the organization's mission."
         teamMembers={[
           {
             name: "Abubakar Nur Khalil",
@@ -48,7 +48,7 @@ export default function TeamProfile() {
       <TeamDetailsContainer
         isBoard={false}
         title="Operations"
-        brief="The day-to-day operations are run by a dedicated team with immense experience in the developer and innovation ecosystem across Africa and beyond. We are committed to bringing to life the mission to grow a critical mass of Bitcoin & Lightning open-source developers in the Global South."
+        brief="The day-to-day operations are run by a dedicated team with immense experience in the developer and innovation ecosystem across Africa and beyond. We are committed to bring to life the mission to grow a critical mass of Bitcoin & Lightning open-source developers in the Global South."
         teamMembers={[
           {
             name: "Stephanie Titcombe",
