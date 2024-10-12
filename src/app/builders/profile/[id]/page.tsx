@@ -52,8 +52,8 @@ export default function BuilderProfile() {
           />
         </div>
         {builder && (
-          <div className="flex flex-col lg:flex-row justify-between gap-8 lg:gap-20">
-            <div className="flex flex-col w-full px-[1.5rem]">
+          <div className="flex w-full flex-col lg:flex-row justify-between gap-8 lg:gap-20">
+            <div className="flex lg:hidden flex-col w-full px-[1.5rem]">
               <SectionHeader
                 text={`${builder.name}`}
                 className="!text-[1.5rem] !leading-[normal] lg:hidden block"
