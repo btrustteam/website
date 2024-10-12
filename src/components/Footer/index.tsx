@@ -47,7 +47,7 @@ export default function Footer() {
                     { name: "Apply", url: "/builders/apply", new_tab: false },
                     {
                       name: "Meet the builder",
-                      url: "/builders/meet",
+                      url: "/builders/meet-builders",
                       new_tab: false,
                     },
                   ]}
