@@ -348,7 +348,7 @@
   {
     "id": 14,
     "image": "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Rectangle%2020-4hnNMAo1WnQWnkVksuHoJOuxQH6gFf.png",
-    "name": "Amadi Justice",
+    "name": "Amadi Justice Chinonso",
     "role": "Software Engineer",
     "background": "I'm a self taught Frontend engineer, a good background of user interface and user experience design. Over the years I've had the opportunity to work with different technologies in the Bitcoin space, build products that utilized the payment solutions and use-cases bitcoin and lightning offers and also contributed to projects in the open source community",
     "why_bitcoin": " I have built 3 projects that rely on Bitcoin as a solution. One of them is called Aegis, a multisig collaborative custody service allowing users to protect their bitcoins by locking them to a 2-of-3 multisignature address. Another is BitPaywall, a project where a user makes a payment through lightning to gain access to a valued commodity for example with blogs.I have made contributions to 2 open source projects which were Fedimint, working on it's gateway UI section and Galoy contributing to it's community banking initiative. I have written and published 4 technical articles covering various areas of building  on Bitcoin",
@@ -841,28 +841,6 @@
     "linkedin": "https://www.linkedin.com/in/dayvvo/",
     "twitter": "https://twitter.com/omoniyi24",
     "medium": "https://medium.com/@opeyemiadeyemi",
-    "projects": [
-      { "name": "Bet Jay", "link": "https://github.com/omoniyi24/BetJay" },
-      {
-        "name": "Chain analysis",
-        "link": "https://github.com/Jennycj/anti-chainanalysis"
-      }
-    ],
-    "skills": ["JavaScript", "Typecript", "ReactNative", "React"],
-    "year": 2024
-  },
-  {
-    "id": 37,
-    "image": "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Rectangle%2020-Rzfq5fT9ZGqIcvV1H5xWVO49Nb13GO.png",
-    "name": "Abdullahi Yunus",
-    "role": "Backend Developer",
-    "background": "I'm a self taught Frontend engineer, a good background of user interface and user experience design. Over the years I've had the opportunity to work with different technologies in the Bitcoin space, build products that utilized the payment solutions and use-cases bitcoin and lightning offers and also contributed to projects in the open source community",
-    "why_bitcoin": " I have built 3 projects that rely on Bitcoin as a solution. One of them is called Aegis, a multisig collaborative custody service allowing users to protect their bitcoins by locking them to a 2-of-3 multisignature address. Another is BitPaywall, a project where a user makes a payment through lightning to gain access to a valued commodity for example with blogs.I have made contributions to 2 open source projects which were Fedimint, working on it's gateway UI section and Galoy contributing to it's community banking initiative. I have written and published 4 technical articles covering various areas of building  on Bitcoin",
-    "learning_at_qala": "The best part of my learning at Qala is the one-on-one mentoring sessions. I really enjoyed it. The mentors are always ready to clear up grey areas, which gives me confidence when reading through the materials and building any bitcoin or lightning applications. They're also willing to answer questions, no matter how dull the questions might sound. Another part is the proof of work, where I have to write articles and build applications that create artifacts I can always reference at any point in my career.",
-    "github": "https://github.com/Abdulkbk",
-    "linkedin": "https://www.linkedin.com/in/abdulkbk/",
-    "twitter": "https://twitter.com/omoniyi24",
-    "medium": "https://medium.com/@abdoollahikbk",
     "projects": [
       { "name": "Bet Jay", "link": "https://github.com/omoniyi24/BetJay" },
       {
