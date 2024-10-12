@@ -34,17 +34,19 @@ export default function BuilderProfile() {
   }
 
   return (
-    <div className="flex flex-col z-20">
-      <div className="flex flex-col lg:px-[6.5rem] gap-4 lg:gap-[4.6rem] mt-[3rem]">
-        <div className="flex items-center gap-2 px-[1.5rem] lg:px-0">
+    <div className="flex flex-col">
+      <div className="flex flex-col lg:px-[6.5rem] gap-4 lg:gap-[4.6rem] mt-[3rem] z-50">
+        <div
+          className="flex items-center gap-2 px-[1.5rem] lg:px-0 cursor-pointer"
+          onClick={() => router.push("/builders/meet-builders")}
+        >
           <Image
             src={"/back.svg"}
             alt="back"
             width={0}
             height={0}
             sizes="100vw"
-            className="w-[1rem] h-[1rem] cursor-pointer"
-            onClick={() => router.push("/builders/meet-builders")}
+            className="w-[1rem] h-[1rem]"
           />
           <LittleHeading
             text="btrust builders/builders Profile"
