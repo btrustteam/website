@@ -160,7 +160,7 @@ export default function Nav({ mobileActive, handleToggle, closeNav }: Props) {
         </div>
       </div>
       {/* Mobile Navigation */}
-      <div className="flex flex-col w-full relative lg:hidden">
+      <div className="flex flex-col w-full relative lg:hidden backdrop-blur-[0.625rem]">
         <div className="lg:hidden flex justify-between items-center border-t-[0.6px] border-t-[#333] border-b-[0.6px] border-b-[#333] bg-btrust-white-opacity px-[1.5rem] w-full py-[0.75rem]">
           <div
             className="flex items-center justify-center"
