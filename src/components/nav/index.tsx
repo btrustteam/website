@@ -17,13 +17,21 @@ export default function Nav({ mobileActive, handleToggle, closeNav }: Props) {
   const [activeDropdown, setActiveDropdown] = useState<string>("");
   const [mobileActiveDropdown, setMobileActiveDropdown] = useState<string>("");
 
-  const navItems = [
+  interface NavItems {
+    title: string;
+    url: string;
+    sub_nav: { title: string; url: string; new_tab: boolean }[];
+    new_tab: boolean;
+  }
+
+  const navItems: NavItems[] = [
     {
       title: "Home",
       url: "/",
       sub_nav: [],
+      new_tab: false,
     },
-    { title: "Grants", url: "/grants", sub_nav: [] },
+    { title: "Grants", url: "/grants", sub_nav: [], new_tab: false },
     {
       title: "Builders",
       url: "/builders",
@@ -35,6 +43,7 @@ export default function Nav({ mobileActive, handleToggle, closeNav }: Props) {
           new_tab: false,
         },
       ],
+      new_tab: false,
     },
     { title: "About Us", url: "/about", sub_nav: [], new_tab: false },
     {
@@ -43,7 +52,7 @@ export default function Nav({ mobileActive, handleToggle, closeNav }: Props) {
       sub_nav: [],
       new_tab: true,
     },
-    { title: "Media", url: "/media", sub_nav: [] },
+    { title: "Media", url: "/media", sub_nav: [], new_tab: false },
     { title: "Contact Us", url: "/contact", sub_nav: [], new_tab: false },
   ];
 
@@ -130,7 +139,9 @@ export default function Nav({ mobileActive, handleToggle, closeNav }: Props) {
               <Link
                 href={item.url}
                 className={`${
-                  pathname === item.url
+                  pathname === item.url ||
+                  (item.sub_nav.length > 0 &&
+                    item.sub_nav.some((sub) => pathname === sub.url))
                     ? "text-active-white font-semibold"
                     : "text-grey-black font-normal"
                 } text-base leading-[1.5rem] font-poppins cursor-pointer hover:font-semibold hover:text-active-white`}
