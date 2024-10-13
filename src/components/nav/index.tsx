@@ -212,7 +212,7 @@ export default function Nav({ mobileActive, handleToggle, closeNav }: Props) {
                         : "text-grey-black font-normal"
                     }`}
                     href={item.url}
-                    target={item.new_tab ? '_blank' : ''}
+                    target={item.new_tab ? "_blank" : ""}
                     onClick={handleMobileOnclick}
                   >
                     {item.title}

@@ -55,7 +55,7 @@ export default function ApplyHero() {
           </div>
         </div>
       </div>
-      <div className="hidden lg:flex flex-col gap-20 mt-[3.5rem] z-30">
+      <div className="hidden lg:flex flex-col gap-20 mt-[3.5rem]">
         <div className="flex w-full px-[6.5rem] flex-col gap-4">
           <div className="flex flex-col justify-center gap-2">
             <div

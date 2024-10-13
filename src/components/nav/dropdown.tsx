@@ -40,7 +40,7 @@ export default function DropDown({ items, setActiveDropdown }: DropDownProps) {
       initial={{ opacity: 0, y: -10 }}
       animate={{ opacity: 1, y: 0 }}
       exit={{ opacity: 0, y: -10 }}
-      className="flex flex-col items-center justify-center rounded-lg bg-dropdown-bg border border-black-4 py-2 top-8 left-[-60%] absolute z-50"
+      className="flex flex-col items-center justify-center rounded-lg bg-dropdown-bg border border-black-4 py-2 top-8 left-[-60%] absolute z-[9999]"
     >
       {items.map((item, index) => (
         <div
