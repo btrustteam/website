@@ -1,4 +1,3 @@
-"use client";
 import ActivitiesNewsletter from "@/components/ActivitiesNewsLetterFooter";
 import LittleHeading from "@/components/LittleHeading";
 import SubHeading from "@/components/SubHeading";

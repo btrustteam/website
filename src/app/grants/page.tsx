@@ -1,8 +1,5 @@
-"use client";
 import { Metadata } from "next";
-import { useState } from "react";
-import MainGrant from "./mainGrant";
-import Recipients from "./recipients";
+import GrantContainer from "./grantContainer";
 
 export const metadata: Metadata = {
   title: "Grants",
@@ -21,13 +18,5 @@ export const metadata: Metadata = {
 };
 
 export default function Grants() {
-  const [currentPage, setCurrentPage] = useState<string>("");
-  return (
-    <div className="flex flex-col">
-      {!currentPage && <MainGrant setPage={setCurrentPage} />}
-      {currentPage && (
-        <Recipients setPage={setCurrentPage} currentPage={currentPage} />
-      )}
-    </div>
-  );
+  return <GrantContainer />;
 }

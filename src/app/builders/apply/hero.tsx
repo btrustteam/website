@@ -1,3 +1,4 @@
+"use client";
 import ButtonWithArrow from "@/components/buttons/buttonWithArrow";
 import DynamicImage from "@/components/DynamicImage";
 import LittleHeading from "@/components/LittleHeading";

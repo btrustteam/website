@@ -1,3 +1,4 @@
+"use client";
 import ButtonWithArrow from "@/components/buttons/buttonWithArrow";
 import SectionHeader from "@/components/sectionHeader";
 import ProgramCard from "./programCard";
