@@ -1,3 +1,4 @@
+"use client";
 import { useRouter } from "next/navigation";
 
 interface BorderlessButtonProps {
@@ -15,10 +16,10 @@ export default function BorderlessButton({
 
   return (
     <button
-        onClick={url ? () => routes.push(url) : onClick}
-        className="flex justify-center items-center rounded text-base font-semibold font-poppins text-active-white"
-      >
-        {text}
-      </button>
+      onClick={url ? () => routes.push(url) : onClick}
+      className="flex justify-center items-center rounded text-base font-semibold font-poppins text-active-white"
+    >
+      {text}
+    </button>
   );
 }

@@ -1,8 +1,11 @@
+"use client";
 import ButtonWithArrow from "@/components/buttons/buttonWithArrow";
 import SectionHeader from "@/components/sectionHeader";
 import ProgramCard from "./programCard";
+import { useRouter } from "next/navigation";
 
 export default function Program() {
+  const router = useRouter();
   return (
     <div className="flex flex-col pt-[6rem] lg:pt-[5rem] pb-[2.5rem] px-0 gap-16 items-center w-full">
       <div className="flex flex-col w-full gap-10 px-[1.5rem] lg:px-[6.5rem]">
@@ -81,7 +84,7 @@ export default function Program() {
         </h3>
         <div className="flex items-center justify-center w-full">
           <ButtonWithArrow
-            onClick={() => {}}
+            onClick={() => router.push("https://forms.gle/Bxo2hQYQscaFTGwC6")}
             text="Join Here"
             className="w-full lg:w-auto"
           />

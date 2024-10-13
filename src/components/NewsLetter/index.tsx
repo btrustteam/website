@@ -1,3 +1,4 @@
+"use client";
 import Paragraph from "../Paragraph";
 import { gilroyExtraBold } from "@/app/fonts/gilroy";
 import ButtonWithArrow from "../buttons/buttonWithArrow";

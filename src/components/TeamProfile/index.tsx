@@ -16,7 +16,8 @@ export default function TeamProfile() {
             imageUrl:
               "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Rectangle%2020%20(3)-1rAzPCAWFnIOdqehTlOgUBL3r4QM6q.png",
             twitter: "https://x.com/ihate1999",
-            linkedin: "https://www.linkedin.com/in/abubakar-nur-khalil-29923b1a0/",
+            linkedin:
+              "https://www.linkedin.com/in/abubakar-nur-khalil-29923b1a0/",
           },
           {
             name: "Carla Kirk-Cohen",

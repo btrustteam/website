@@ -1,4 +1,4 @@
-"use clients";
+"use client";
 import DynamicImage from "@/components/DynamicImage";
 import LittleHeading from "@/components/LittleHeading";
 import Paragraph from "@/components/Paragraph";
@@ -47,7 +47,7 @@ export default function Hero() {
           </Paragraph>
         </div>
       </div>
-      <div className="mt-[3rem] hidden lg:flex flex-col gap-20 z-50">
+      <div className="mt-[3rem] hidden lg:flex flex-col gap-20">
         <div className="flex flex-col w-full px-[6.5rem] gap-4">
           <div className="flex flex-col gap-2">
             <div

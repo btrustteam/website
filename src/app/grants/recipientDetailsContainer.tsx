@@ -4,7 +4,7 @@ export interface RecipientDetails {
   name: string;
   image_src: string;
   github: string;
-  twitter: string;
+  linkedin: string;
   bio: string;
   noBio?: boolean;
 }

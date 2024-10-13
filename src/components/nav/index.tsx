@@ -17,13 +17,21 @@ export default function Nav({ mobileActive, handleToggle, closeNav }: Props) {
   const [activeDropdown, setActiveDropdown] = useState<string>("");
   const [mobileActiveDropdown, setMobileActiveDropdown] = useState<string>("");
 
-  const navItems = [
+  interface NavItems {
+    title: string;
+    url: string;
+    sub_nav: { title: string; url: string; new_tab: boolean }[];
+    new_tab: boolean;
+  }
+
+  const navItems: NavItems[] = [
     {
       title: "Home",
       url: "/",
       sub_nav: [],
+      new_tab: false,
     },
-    { title: "Grants", url: "/grants", sub_nav: [] },
+    { title: "Grants", url: "/grants", sub_nav: [], new_tab: false },
     {
       title: "Builders",
       url: "/builders",
@@ -35,6 +43,7 @@ export default function Nav({ mobileActive, handleToggle, closeNav }: Props) {
           new_tab: false,
         },
       ],
+      new_tab: false,
     },
     { title: "About Us", url: "/about", sub_nav: [], new_tab: false },
     {
@@ -43,7 +52,7 @@ export default function Nav({ mobileActive, handleToggle, closeNav }: Props) {
       sub_nav: [],
       new_tab: true,
     },
-    { title: "Media", url: "/media", sub_nav: [] },
+    { title: "Media", url: "/media", sub_nav: [], new_tab: false },
     { title: "Contact Us", url: "/contact", sub_nav: [], new_tab: false },
   ];
 
@@ -108,7 +117,7 @@ export default function Nav({ mobileActive, handleToggle, closeNav }: Props) {
   }
 
   return (
-    <div className="flex w-full lg:px-[6.5rem] lg:pt-12 lg:pb-4 z-50">
+    <div className="sticky top-0 flex w-full lg:px-[6.5rem] lg:pt-12 lg:pb-4 z-[1000]">
       {/* Desktop Navigation */}
       <div className="hidden lg:flex items-center justify-between border border-grey-black rounded-lg p-6 w-full bg-btrust-white-opacity backdrop-blur-[0.625rem]">
         <div
@@ -130,7 +139,9 @@ export default function Nav({ mobileActive, handleToggle, closeNav }: Props) {
               <Link
                 href={item.url}
                 className={`${
-                  pathname === item.url
+                  pathname === item.url ||
+                  (item.sub_nav.length > 0 &&
+                    item.sub_nav.some((sub) => pathname === sub.url))
                     ? "text-active-white font-semibold"
                     : "text-grey-black font-normal"
                 } text-base leading-[1.5rem] font-poppins cursor-pointer hover:font-semibold hover:text-active-white`}
@@ -160,7 +171,7 @@ export default function Nav({ mobileActive, handleToggle, closeNav }: Props) {
         </div>
       </div>
       {/* Mobile Navigation */}
-      <div className="flex flex-col w-full relative lg:hidden">
+      <div className="flex flex-col w-full relative lg:hidden backdrop-blur-[0.625rem]">
         <div className="lg:hidden flex justify-between items-center border-t-[0.6px] border-t-[#333] border-b-[0.6px] border-b-[#333] bg-btrust-white-opacity px-[1.5rem] w-full py-[0.75rem]">
           <div
             className="flex items-center justify-center"
@@ -212,7 +223,7 @@ export default function Nav({ mobileActive, handleToggle, closeNav }: Props) {
                         : "text-grey-black font-normal"
                     }`}
                     href={item.url}
-                    target={item.new_tab ? '_blank' : ''}
+                    target={item.new_tab ? "_blank" : ""}
                     onClick={handleMobileOnclick}
                   >
                     {item.title}

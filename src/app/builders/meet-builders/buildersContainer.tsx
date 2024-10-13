@@ -15,7 +15,7 @@ export default function BuildersContainer({
         text={`${year} Btrust Builders`}
         className={`text-[1.5rem] leading-[normal]`}
       />
-      <div className="flex flex-wrap items-center lg:items-start justify-center lg:justify-between gap-6 lg:gap-2">
+      <div className="flex flex-wrap items-center lg:items-stretch justify-center lg:justify-start gap-6 lg:gap-7 w-full">
         {builders.map((builder, index) => (
           <BuilderCard key={index} {...builder} />
         ))}

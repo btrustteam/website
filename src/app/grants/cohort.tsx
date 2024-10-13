@@ -10,7 +10,7 @@ export default function Cohort({
 }: {
   setPage: (page: string) => void;
 }) {
-  const route = useRouter();
+  const router = useRouter();
   return (
     <>
       <div className="flex lg:hidden pb-[5.5rem] flex-col gap-6">
@@ -44,7 +44,9 @@ export default function Cohort({
         <div className="flex flex-col gap-4 px-[1.5rem] w-full">
           <ButtonWithArrow
             text="Apply for this grant"
-            onClick={() => {}}
+            onClick={() =>
+              router.push("https://btrust.homerun.co/open-source-cohort/apply")
+            }
             noIcon={true}
           />
           <OutlineButton
@@ -87,9 +89,11 @@ export default function Cohort({
           <div className="flex gap-4 items-center">
             <ButtonWithArrow
               text="Apply for this grant"
-              onClick={() => {
-                route.push('https://btrust.homerun.co/open-source-cohort/en/apply?&step=1')
-              }}
+              onClick={() =>
+                router.push(
+                  "https://btrust.homerun.co/open-source-cohort/apply"
+                )
+              }
               noIcon={true}
             />
             <OutlineButton
