@@ -1,4 +1,3 @@
-"use client";
 import ActivitiesNewsletter from "@/components/ActivitiesNewsLetterFooter";
 import { Metadata } from "next";
 import CurrentBuilders from "./currentBuilder";

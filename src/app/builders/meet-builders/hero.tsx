@@ -1,4 +1,4 @@
-"use clients";
+"use client";
 import DynamicImage from "@/components/DynamicImage";
 import LittleHeading from "@/components/LittleHeading";
 import Paragraph from "@/components/Paragraph";

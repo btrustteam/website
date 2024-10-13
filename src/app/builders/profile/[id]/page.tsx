@@ -1,58 +1,47 @@
-"use client";
 import ActivitiesNewsletter from "@/components/ActivitiesNewsLetterFooter";
 import DynamicImage from "@/components/DynamicImage";
 import SocialLink from "@/components/links/socials";
-import LittleHeading from "@/components/LittleHeading";
 import Paragraph from "@/components/Paragraph";
 import SectionHeader from "@/components/sectionHeader";
-import Image from "next/image";
-import { useRouter, useParams } from "next/navigation";
-import { useEffect, useState } from "react";
+import { Metadata } from "next";
 import BuilderData from "../../../../builders_data/data.json";
 import { Builder } from "../../meet-builders/currentBuilder";
+import BackComponent from "./backComponent";
 
-export default function BuilderProfile() {
-  const [builder, setBuilder] = useState<Builder | null>(null);
+export async function generateMetadata({
+  params,
+}: {
+  params: { id: string };
+}): Promise<Metadata> {
+  const builder: Builder | undefined = BuilderData.find(
+    (b) => b.id === Number(params.id)
+  );
 
-  const router = useRouter();
-  const params = useParams();
-
-  useEffect(() => {
-    const builder = findBuilder(Number(params.id));
-    setBuilder(builder);
-  }, [params.id]);
-
-  function findBuilder(id: number): Builder | null {
-    for (let i = 0; i < BuilderData.length; i++) {
-      const builder = BuilderData[i];
-      if (builder.id === id) {
-        return builder;
-      }
-    }
-
-    return null;
+  if (!builder) {
+    return {
+      title: "Invalid user",
+      description: "Seems you are searching for Satoshi",
+    };
   }
+
+  return {
+    title: `${builder.name}'s Profile`,
+    description: `Details and information about ${builder.name}.`,
+    openGraph: {
+      title: `${builder.name}'s Profile`,
+      description: `Learn more about ${builder.name}.`,
+      images: [{ url: builder.image }],
+    },
+  };
+}
+
+export default function BuilderProfile({ params }: { params: { id: string } }) {
+  const builder = BuilderData.find((b) => b.id === Number(params.id));
 
   return (
     <div className="flex flex-col">
       <div className="flex flex-col lg:px-[6.5rem] gap-4 lg:gap-[4.6rem] mt-[3rem] z-50">
-        <div
-          className="flex items-center gap-2 px-[1.5rem] lg:px-0 cursor-pointer"
-          onClick={() => router.push("/builders/meet-builders")}
-        >
-          <Image
-            src={"/back.svg"}
-            alt="back"
-            width={0}
-            height={0}
-            sizes="100vw"
-            className="w-[1rem] h-[1rem]"
-          />
-          <LittleHeading
-            text="btrust builders/builders Profile"
-            className="leading-[normal]"
-          />
-        </div>
+        <BackComponent />
         {builder && (
           <div className="flex w-full flex-col lg:flex-row justify-between gap-8 lg:gap-20">
             <div className="flex lg:hidden flex-col w-full px-[1.5rem]">

@@ -1,3 +1,4 @@
+"use client";
 import ButtonWithArrow from "@/components/buttons/buttonWithArrow";
 import { useRouter } from "next/navigation";
 
