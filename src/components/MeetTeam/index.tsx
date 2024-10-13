@@ -9,10 +9,10 @@ export default function MeetTheTeam() {
           text="Meet The Team"
           className="!text-[2.5rem] !leading-normal"
         />
-        <p className="font-poppins text-base lg:text-[1.125rem] leading-[177.778%] text-black-2 w-full lg:w-[50.9375rem]">
+        {/* <p className="font-poppins text-base lg:text-[1.125rem] leading-[177.778%] text-black-2 w-full lg:w-[50.9375rem]">
           Btrust is headed up by a board of directors who are responsible for
           overseeing delivery of the organization&apos;s mission.
-        </p>
+        </p> */}
       </div>
       <div className="flex items-center justify-center w-full h-[18.75rem] lg:h-[39.375rem]">
         <Image
