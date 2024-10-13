@@ -108,7 +108,7 @@ export default function Nav({ mobileActive, handleToggle, closeNav }: Props) {
   }
 
   return (
-    <div className="flex w-full lg:px-[6.5rem] lg:pt-12 lg:pb-4 z-50">
+    <div className="sticky top-0 flex w-full lg:px-[6.5rem] lg:pt-12 lg:pb-4 z-[1000]">
       {/* Desktop Navigation */}
       <div className="hidden lg:flex items-center justify-between border border-grey-black rounded-lg p-6 w-full bg-btrust-white-opacity backdrop-blur-[0.625rem]">
         <div

@@ -15,12 +15,6 @@ const inter = Poppins({
   weight: ["100", "200", "300", "400", "500", "600", "700", "800"],
 });
 
-// const metadata: Metadata = {
-//   title: "Btrust",
-//   description:
-//     "We locate, educate and renumerate Bitcoin Open-Source Engineers in the Global South",
-// };
-
 export default function RootLayout({
   children,
 }: Readonly<{
