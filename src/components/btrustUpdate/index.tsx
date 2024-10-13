@@ -1,3 +1,4 @@
+"use client";
 import ButtonWithArrow from "../buttons/buttonWithArrow";
 import NewsCard from "../cards/newsCard";
 import SectionHeader from "../sectionHeader";
