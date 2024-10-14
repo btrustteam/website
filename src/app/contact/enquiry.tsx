@@ -54,15 +54,15 @@ export default function Enquiry() {
               <SocialContainer
                 heading="Btrust"
                 socials={[
-                  { icon: "twitter", link: "/" },
-                  { icon: "linkedin", link: "/" },
+                  { icon: "twitter", link: "https://x.com/btrustteam" },
+                  { icon: "linkedin", link: "https://www.linkedin.com/company/btrustteam" },
                 ]}
               />
               <SocialContainer
                 heading="Btrust Builders"
                 socials={[
-                  { icon: "twitter", link: "/" },
-                  { icon: "linkedin", link: "/" },
+                  { icon: "twitter", link: "https://x.com/btrust_builders" },
+                  { icon: "linkedin", link: "https://www.linkedin.com/company/btrust-builders" },
                 ]}
               />
             </div>
