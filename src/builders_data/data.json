@@ -3,76 +3,49 @@
     "id": 1,
     "image": "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/builders-headshots/Omoniyi%20Ilesanmi-JZKJHY9tOU8iu2LDbrQz5eUT9A3vjV.jpg",
     "name": "Omoniyi Ilesanmi",
-    "role": "Fullstack Developer",
-    "background": "Full stack Java/Spring Boot developer with PHP, python, typescript and React JS exposure. Built his own educational blockchain project from scratch.",
-    "why_bitcoin": "Bitcoin is not just an electronic currency, but a valuable asset that can be compared to gold. The fact that it has not experienced any security breach and has proven to investors that it's a safe investment made me want to know more about the underlying technology. As a Software Engineer with several years of experience in the financial technology industry. I intend to use Bitcoin to solve some of the challenges faced by the traditional banking system. To achieve this, I believe learning about Bitcoin is a step in.",
-    "learning_at_qala": "The best part of my learning at Qala is the one-on-one mentoring sessions. I really enjoyed it. The mentors are always ready to clear up grey areas, which gives me confidence when reading through the materials and building any bitcoin or lightning applications. They're also willing to answer questions, no matter how dull the questions might sound. Another part is the proof of work, where I have to write articles and build applications that create artifacts I can always reference at any point in my career.",
+    "role": "Software Engineer",
+    "background": "I’m a software engineer with over five years of experience, specializing in Bitcoin and Lightning technology. I’m passionate about contributing to the open-source community and developing solutions that harness the power of Bitcoin and the Lightning Network. As a two-time hackathon champion, I’ve consistently pushed the boundaries of fintech innovation, creating scalable Bitcoin solutions that address real-world problems.",
+    "why_bitcoin": "I spearheaded the development of Stealth Money’s backend and infrastructure, creating a platform that makes Bitcoin self-custody simple and secure. Users can seamlessly buy and save Bitcoin directly into their hardware wallets, enhancing their financial independence. As a mentor for the Btrust Builders program, I guide and support emerging developers, helping them contribute meaningfully to the Bitcoin and Lightning ecosystem. It’s been fulfilling to help nurture the next generation of Bitcoin builders. I’ve contributed to Sphinx, focusing on building secure, decentralized communication channels using Bitcoin and Lightning technologies. My work has aimed to enhance the functionality of this innovative messaging network, making it more robust for users. I’ve had the privilege of winning top recognition in two hackathons, where I developed innovative solutions using Bitcoin and Lightning technology. These experiences have allowed me to push fintech innovation forward, demonstrating the real-world potential of Bitcoin.",
+    "learning_at_qala": "",
     "github": "https://github.com/omoniyi24/",
     "linkedin": "https://www.linkedin.com/in/ilesanmiomoniyi766496122/",
-    "twitter": "https://twitter.com/omoniyi24",
+    "twitter": "",
     "medium": "https://medium.com/@omoniyi24",
-    "projects": [
-      { "name": "Bet Jay", "link": "https://github.com/omoniyi24/BetJay" },
-      {
-        "name": "Chain analysis",
-        "link": "https://github.com/Jennycj/anti-chainanalysis"
-      }
-    ],
-    "skills": ["Java", "Spring", "PHP", "TypeScript", "ReactJs"],
+    "projects": [],
+    "skills": ["PHP", "TypeScript", "Python", "ReactJs"],
     "year": 2022
   },
   {
     "id": 2,
     "image": "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/builders-headshots/Collin%20Rukundo-jbAS6zPIsK9EwKEtXGj7iJ1K8kz034.jpg",
     "name": "Collin Rukundo",
-    "role": "Fullstack Developer",
-    "background": "Experienced civic technologist with a Bachelor’s degree in Computer Science specialising in Python, the Django Web Framework and Wagtail CMS. Through his company Matchstick Studio, he’s built tools that make soft skilling easier, track data coming out of parliament of Uganda, and contextualise available data on various districts. He wants to work in Bitcoin for social good including addressing police violence and LGBT rights.",
-    "why_bitcoin": "Bitcoin is so important to me because it introduces a whole new system of payment that does not require a central body, it is borderless, it's open source and so interesting.",
-    "learning_at_qala": "The team - The instructors and administrators have been phenomenal; My colleagues in the cohort. Everyone is looking out for you and wants to help. They reach out and ask where you are stuck and help unblock you. It's a model of education and teamwork I haven't experienced before and I have learned so much about Bitcoin in so little time. The basics-first approach really taught us the strong values that inform everything we are building and I am beyond grateful.",
+    "role": "Software Engineer",
+    "background": "I’m Collin, a seasoned software developer with over a decade of experience in web and software development. I founded an agency where I worked with various companies and international organizations to build tools aimed at promoting change and transparency. In 2021, I was selected for the genesis cohort of Btrust Builders (formerly Qala), a program for African Bitcoin developers. During my time there, I deepened my understanding of Bitcoin’s theoretical foundations and honed my skills in building on the Bitcoin and Lightning networks. I also enjoy mentoring new developers in the Btrust Builders program, helping them navigate the space and develop their own skills.",
+    "why_bitcoin": "I received my initial grant from Superlunar to build EttaWallet, an open-source reference implementation of a daily spending wallet, which was proposed by the Bitcoin Design Community. This project allowed me to focus on creating a simple, user-friendly Bitcoin wallet for everyday use. With additional support from the Human Rights Foundation (HRF), I was able to scale EttaWallet and build a community around it, further enhancing its usability and adoption. I also co-founded Splice Africa, a company dedicated to enabling financial institutions in Africa to make cross-border payments for their customers using Bitcoin. Our work at Splice earned us 2nd place at the 2023 ABC Hackathon, an achievement I’m incredibly proud of.",
+    "learning_at_qala": "",
     "github": "https://github.com/crukundo",
     "linkedin": "https://www.linkedin.com/in/crukundo/",
-    "twitter": "https://twitter.com/rukundo__",
+    "twitter": "",
     "medium": "https://rukundo.mataroa.blog",
-    "projects": [
-      {
-        "name": "Paywalled",
-        "link": "https://github.com/crukundo/lnd-paywall/"
-      },
-      {
-        "name": "BTC Payment Processor",
-        "link": "https://github.com/tobi-bams/BTC-Payment-Processor"
-      }
-    ],
-    "skills": ["Python", "Django", "Wagtail CMS"],
+    "projects": [],
+    "skills": ["Python", "Django", "TypeScript", "Wagtail CMS"],
     "year": 2022
   },
   {
     "id": 3,
     "image": "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Rectangle%2020-eS92vslfyq6KArDnJjBU2Dq0KhuiFN.png",
     "name": "Enigbe Ochekliye",
-    "role": "Fullstack Developer",
-    "background": "Trained as a mechanical engineer and CAD designer, Eni has since transitioned into software development. Solid knowledge of Python and Flask she has exposure to Javascript/Typescript, NodeJS, some Golang, and is currently focusing on learning Rust. She quit her job to focus full time on studying Bitcoin in January.",
-    "why_bitcoin": "Africans need access and participation to/in the global digital economy without having to contend with geo-blocking services, rejected bank cards, etc. Bitcoin could address some of the challenges we face with trade.",
-    "learning_at_qala": "The project-driven development in combination with dedicated hours to study has been a great approach to learn and build quickly. Having access to a faculty of experienced bitcoin/lightning developers has helped guide my learning/building experience.",
+    "role": "Backend Engineer",
+    "background": "I’m a backend engineer with over two years of experience, and my focus has been primarily on Bitcoin development. I originally trained as a mechanical engineer and CAD designer before transitioning into software development, where I’ve built solid expertise in Python and Flask, while also gaining exposure to JavaScript/TypeScript, NodeJS, Rust, and some Golang. My journey into Bitcoin has been fueled by my passion for open-source technology and the potential it holds for financial inclusion.",
+    "why_bitcoin": "I’ve had the opportunity to work on significant Bitcoin projects, including Galoy's Stablesats, a tool that helps stabilize Bitcoin value, and Easepay's PSP, a payment service provider focused on enhancing Bitcoin payments. These experiences have allowed me to deepen my understanding of Bitcoin’s use cases in real-world applications. Thanks to the Btrust grant, I’m currently contributing to the development of the Lightning Development Kit (LDK), where my work focuses on improving the robustness of the Lightning Network to ensure seamless Bitcoin transactions. I’m also passionate about making it easier for new contributors to join the Bitcoin open-source ecosystem, streamlining the onboarding process, and creating a welcoming environment for developers who want to get involved. During my time in the Qala Fellowship, I benefited from a project-driven approach that helped me learn and build quickly. The support and guidance I received from a faculty of experienced Bitcoin and Lightning developers have been invaluable in shaping my journey. I’ve also had the pleasure of being a faculty member in the following fellowship cohorts, where I continue to learn and grow alongside a supportive community.",
+    "learning_at_qala": "",
     "github": "https://github.com/enigbe",
     "linkedin": "https://www.linkedin.com/in/enigbe/",
-    "twitter": "https://twitter.com/engb_os",
+    "twitter": "",
     "medium": "https://enigbe.medium.com",
-    "projects": [
-      { "name": "LN Node", "link": "https://github.com/enigbe/LN-Node" },
-      {
-        "name": "Bitcoin Cosign",
-        "link": "https://github.com/enigbe/bitcoin-cosign"
-      },
-      { "name": "PBJS", "link": "https://github.com/enigbe/pbjs" },
-      {
-        "name": "TeamTREVLNpay",
-        "link": "https://github.com/elraphty/TeamTREVLNpay"
-      }
-    ],
+    "projects": [],
     "skills": [
       "Python",
-      "Flask",
       "JavaScript",
       "TypeScript",
       "NodeJS",
@@ -85,25 +58,15 @@
     "id": 4,
     "image": "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/image-nDXAAprpJXI76rE2O5jfNjnhe5tkHF.png",
     "name": "Theophilus Isah",
-    "role": "Fullstack Developer",
-    "background": "Typecript/JS, React and been learning Rust.",
-    "why_bitcoin": " First, given that the global economy is moving towards a digital ecosystem, I'd say it is a technology that has revolutionized my perspective on digital currency. My scepticism at the onset has been proved wrong due to its continued and recent advancement. Although I've always been a bitcoin follower, after learning about some of the intricacies of bitcoin technology during the study sessions with Qala, I wanted more than ever to explore the technology and contribute to it. Another major reason is that there are only a few pioneers actively developing Bitcoin. For a technology that has proven its potential and is ever evolving, I'd like to contribute my quota and enable its sustainability in the world at large. As a Bitcoin user, I was impressed, and now that I'm transitioning into its development, all I can say is that the possibilities are endless and exciting.",
-    "learning_at_qala": "The fact that there is always something new to learn is the first. You never reach/achieve the status of know-it-all,which fascinates me because I believe life is all about continuous learning. I get to study a lot of Bitcoin principles while learning new programming skills for a nascent technology like Bitcoin, especially with the projects. Second, colleagues and mentors have been tremendously supportive. Everyone wants to see me develop in a non-competitive and conflict-free environment. This touches me, and I hope the Qala community remains that way. Finally, studying at Qala has given me the opportunity to view the world of finance through the corrective lens afforded by Bitcoin technology.",
+    "role": "Software Engineer",
+    "background": "I’m a passionate Bitcoin developer with a deep interest in the intersection of technology and finance. Initially, I was skeptical about digital currencies, but my perspective changed as I witnessed the ongoing advancements in Bitcoin. After participating in study sessions with Qala, I gained a deeper understanding of Bitcoin's intricacies, which fueled my desire to contribute to its development. As a Bitcoin user-turned-developer, I’m excited about the endless possibilities and innovations Bitcoin offers. What drives me is the fact that, despite its massive potential, only a few pioneers are actively working on developing Bitcoin. My goal is to contribute to the sustainability and evolution of this technology.",
+    "why_bitcoin": "During my time at Qala, I deepened my understanding of Bitcoin’s foundational principles and honed my programming skills tailored specifically for Bitcoin development. The supportive and collaborative environment at Qala played a huge role in fostering my growth. I also participated in the Build for Africa Hackathon, where I showcased my passion for building Bitcoin-based solutions for the African market, focusing on how Bitcoin can drive financial inclusion. Following that, I co-founded Mavapay, a platform designed to leverage Bitcoin technology to provide innovative financial solutions, with a strong emphasis on ease of use and accessibility. Currently, I work at Chaincode Labs, where I’m involved in various projects that aim to further the development and adoption of Bitcoin, including my contributions to the Bitcoin Dev Project.",
+    "learning_at_qala": "",
     "github": "https://github.com/Extheoisah",
     "linkedin": "https://www.linkedin.com/in/theophilus-isah-b9490721a/",
-    "twitter": "https://twitter.com/extheo",
+    "twitter": "",
     "medium": "https://extheo.hashnode.dev/",
-    "projects": [
-      {
-        "name": "Mempool Analyzer",
-        "link": "https://github.com/Extheoisah/Mempool-Analyzer"
-      },
-      { "name": "Safari Chain", "link": "https://github.com/Safari-Chain" },
-      {
-        "name": "TeamTREVLNpay",
-        "link": "https://github.com/elraphty/TeamTREVLNpay"
-      }
-    ],
+    "projects": [],
     "skills": ["TypeScript", "JavaScript", "React", "Rust"],
     "year": 2022
   },
@@ -111,47 +74,31 @@
     "id": 5,
     "image": "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/image-qNq8s7JwuI0v2WLgLKKr1dTGlhBNQ6.png",
     "name": "Jennifer Ezeobi",
-    "role": "Fullstack Developer",
-    "background": "Started out in tech with web dev, familiar with HTML, CSS, Javascript, Nodejs, and a bit of cloud computing.",
-    "why_bitcoin": "Bitcoin is important to me because I am passionate about the role it has to play in empowering individuals irrespective of their nationality, social status etc. I believe that Bitcoin will help to destroy the barriers in making wealth and help individuals in economically regulated regions to own their voice.",
-    "learning_at_qala": "The best part of learning at Qala for me has been the wonderful community. The people are always willing to help out, there is the freedom to take charge of your learning. The constant push, mentorship and support is also a win for me.",
+    "role": "Backend Developer",
+    "background": "I started my journey in tech with web development, where I became familiar with HTML, CSS, JavaScript, and Node.js, along with gaining some experience in cloud computing. Over time, I’ve shifted my focus to Bitcoin because I’m passionate about the role it plays in empowering individuals, regardless of nationality or social status. I believe that Bitcoin has the potential to break down financial barriers, especially in regions with strict economic regulations, allowing people to gain more control over their wealth and have their voices heard.",
+    "why_bitcoin": "Being part of a wonderful community has been amazing. The people are always willing to lend a hand, and there’s a lot of freedom to take charge of your own learning journey. I’ve also benefited greatly from the constant push, mentorship, and support I receive from mentors and fellow participants. It’s been invaluable to my growth, and as such, I have been paying it forward.",
+    "learning_at_qala": "",
     "github": "https://github.com/Jennycj",
     "linkedin": "https://www.linkedin.com/in/jennifer-ezeobi-6bab9911b/",
-    "twitter": "https://twitter.com/Genie_cj",
+    "twitter": "",
     "medium": "https://medium.com/@jennycj",
-    "projects": [
-      {
-        "name": "Timelock Refresher",
-        "link": "https://github.com/Jennycj/timelock-refresher-cli"
-      },
-      {
-        "name": "Chain analysis",
-        "link": "https://github.com/Jennycj/anti-chainanalysis"
-      }
-    ],
-    "skills": ["JavaScript", "TypeScript", "NodeJS"],
+    "projects": [],
+    "skills": ["JavaScript", "TypeScript", "NodeJS", "Cloud Computing"],
     "year": 2022
   },
   {
     "id": 6,
     "image": "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/image-gXv24ryuC9zlhyQpswp7AeDRvVjPP5.png",
     "name": "Olutobi Adeyemi",
-    "role": "Fullstack Developer",
-    "background": "4+ years of professional experience. React, React Native and NodeJS. He’s been building his own wallet in React.",
-    "why_bitcoin": "Bitcoin is important to me because it helps me facilitate payments globally, my country Nigeria, and many other African countries have been holding the short end of the stick regarding global payments with no hope in sight. Bitcoin levels the playing field for everyone, helping to carry out payments without the fear of censorship or limits placed by traditional banks and their likes. ",
-    "learning_at_qala": "The best part about learning at Qala has been my introduction into the technicalities of Bitcoin and Lightning and how to build projects on them. Honourable mention goes to the relationship I have developed with other participants and also the guidance from the mentors.",
+    "role": "Software Engineer",
+    "background": "I’m a software developer with over four years of professional experience, specializing in React, React Native, and NodeJS. ",
+    "why_bitcoin": "Through Btrust Builders, I have been able to dive into the technical aspects of Bitcoin and the Lightning Network, and understand how to build projects on top of these technologies. The support and guidance from mentors, along with the relationships I’ve developed with other participants, have been invaluable to my growth.",
+    "learning_at_qala": "",
     "github": "https://github.com/Jeezman",
     "linkedin": "https://www.linkedin.com/in/tobiadeyemi/",
-    "twitter": "https://twitter.com/_tobillionaire",
+    "twitter": "",
     "medium": "https://medium.com/@tobiadeyemi",
-    "projects": [
-      {
-        "name": "Paywalled LN mobile app",
-        "link": "https://github.com/Jeezman/Hey"
-      },
-      { "name": "Tora", "link": "https://github.com/Jeezman/tora" },
-      { "name": "Wallet", "link": "https://github.com/Jeezman/bitcoin-wallet" }
-    ],
+    "projects": [],
     "skills": ["React", "React Native", "NodeJS"],
     "year": 2022
   },
@@ -159,28 +106,15 @@
     "id": 7,
     "image": "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/image-JdJUgmcOhfpeVEQ8YQ9kILz0UsSeqq.png",
     "name": "Peter Tyonum",
-    "role": "Fullstack Developer",
-    "background": "CS/Statistics graduate with 4+ experience in JS/Node, Vue.js, PHP/Laravel and been learning Rust.",
-    "why_bitcoin": "As a Nigerian, I realize that with bitcoin, I will not be limited by the government and other financial institutions’ restrictions on the amount to transact,  who to transact with regardless of their country. It also offers me the opportunity to receive payment for services from anyone in the world without being limited by payment processors. Moreover, I have the opportunity to save in a non-depreciative currency, unlike the Naira in the years to come.",
-    "learning_at_qala": "A conducive environment for learning and growth, where learners are encouraged to ask questions and be open about their challenges. This creates a bond with others and helps us to be more kind.",
+    "role": "Backend Developer",
+    "background": "I’m a skilled software developer with over four years of experience and a strong background in computer science and statistics. I’m passionate about building scalable, efficient applications and constantly exploring new technologies to improve my development practices.",
+    "why_bitcoin": "Since January 2023, I’ve had the privilege of serving as a Program Facilitator for Btrust Builders. In this role, I’ve contributed to the development of the program’s curriculum, participated in candidate selection, and supervised students throughout their learning journey. It’s been incredibly rewarding to help guide the next generation of Bitcoin developers and play a part in their growth within the Bitcoin ecosystem.",
+    "learning_at_qala": "",
     "github": "https://github.com/tvpeter",
     "linkedin": "https://www.linkedin.com/in/peter-tyonum-a8a16310b/",
-    "twitter": "https://twitter.com/_tvpeter",
+    "twitter": "",
     "medium": "https://dev.to/tvpeter",
-    "projects": [
-      {
-        "name": "Bitcoin Inheritance",
-        "link": "https://github.com/tvpeter/bitcoin-inheritance"
-      },
-      {
-        "name": "Bitcoin Cosign",
-        "link": "https://github.com/tvpeter/bitcoin-cosign"
-      },
-      {
-        "name": "Lightning Paywall",
-        "link": "https://github.com/Muneerah1612/elite-blog"
-      }
-    ],
+    "projects": [],
     "skills": ["JavaScript", "NodeJS", "Vue", "PHP", "Laravel", "Rust"],
     "year": 2022
   },
@@ -188,32 +122,15 @@
     "id": 8,
     "image": "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/builders-headshots/Raphael%20Eyerin-7OdHmLa1TSNvpFY2k8CzVlMJxc1of3.jpg",
     "name": "Raphael Osaze Eyerin",
-    "role": "Fullstack Developer",
-    "background": "Full Stack Engineer with 4 years of JavaScript, ReactNative, and Scala. Along with being an experienced dev, Raphael loves to build and write",
-    "why_bitcoin": "Bitcoin to me means new possibilities, and new opportunities. I want to be one of the pioneers in Africa’s Bitcoin space, and maybe the world at large.",
-    "learning_at_qala": "The Qala program has been an amazing experience, the best part for me is the confidence that comes with knowledge. The last 8 months for me have been an amazing Bitcoin learning journey, from the Qala study groups to the Bitcoin seminar, and then the main Qala program.  I have been able to build four (4) Bitcoin / Lightning projects during the course of the program, and I have also been able to learn a lot about Bitcoin and Lightning Network.",
+    "role": "Software Engineer",
+    "background": "I’m a passionate and versatile software engineer with over five years of professional experience in the tech industry. For the past three years, I’ve dedicated myself to working in the Bitcoin ecosystem, collaborating with companies that develop innovative tools centered around Bitcoin and its layered technologies, such as the Lightning Network. I’m driven by a desire to contribute to projects that not only advance Bitcoin but also make a meaningful impact on the world at large.",
+    "why_bitcoin": "Over the last two years, I’ve worked on several exciting and impactful projects, including: Sphinx Bounties (Sphinx Bounties): A global marketplace where users can complete tasks and earn Bitcoin as bounties, creating opportunities for anyone to engage with the Bitcoin economy. Sphinx Tribes: I worked on building Sphinx Tribes, a decentralized message broker for public groups within Sphinx Chat. This allows users to operate their own Sphinx Tribes servers and route messages for various applications, ranging from sphinx-relay nodes to IoT devices. In addition to these open-source projects, I’ve also contributed to other closed-source initiatives at Sphinx. Currently, I work at Chaincode Labs with the Bitcoin Dev Project team, focusing on data and AI-driven initiatives to push the boundaries of what Bitcoin and its technologies can achieve.",
+    "learning_at_qala": "",
     "github": "https://github.com/elraphty",
     "linkedin": "https://www.linkedin.com/in/raphael-eyerin-43580615a",
-    "twitter": "https://twitter.com/raphael_eyerin",
+    "twitter": "",
     "medium": "https://raphtyosaze.medium.com/",
-    "projects": [
-      {
-        "name": "Fullstack Javascript Bitcoin Wallet",
-        "link": "https://github.com/elraphty/FullstackBitcoinWallet"
-      },
-      {
-        "name": "Bitcoin Bank",
-        "link": "https://github.com/elraphty/BitcoinBank"
-      },
-      {
-        "name": "Tora",
-        "link": "https://github.com/Jeezman/tora/tree/develop"
-      },
-      {
-        "name": "TeamTREVLNpay",
-        "link": "https://github.com/elraphty/TeamTREVLNpay"
-      }
-    ],
+    "projects": [],
     "skills": ["JavaScript", "React Native", "Scala"],
     "year": 2022
   },
@@ -221,28 +138,15 @@
     "id": 9,
     "image": "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/builders-headshots/vladimirfomene-DXEogMBv8H0x5qhYF9E1KgkT5aXQcp.jpeg",
     "name": "Vladimir Fomene",
-    "role": "Fullstack Developer",
-    "background": "Graduated with a CS degree and now a full stack developer with experience in  JS and Python and excited about Rust. He cares deeply about the permissionlessness of bitcoin. He sees it as a way to help fight in a peaceful way against oppression. He also appreciates a supply schedule that isn't subject to arbitrary changes and sees it as a replacement for colonial currencies like the CFA.",
-    "why_bitcoin": "Bitcoin as permissionless money. This means it is seizure and censorship resistant and it is the only shot we have at money which increases our purchasing power over time.",
-    "learning_at_qala": "The program so far has been fun and challenging because of the readings, discussions and project work. The curiosity of my peers and support of my peers have a motivating factor for me whenever things become difficult. Getting constant feedback and support on my articles or projects has been priceless. Our mentors are always available when we need help from them. Last but not the least, the emotional support from my mentor and our Feelings Friday session has been priceless in term of letting out my emotions about my current struggles and wins.",
+    "role": "Software Engineer",
+    "background": "I’m a seasoned software engineer with a strong technical background in computer science. As a full-stack developer, I have experience working with JavaScript, Rust, and Python. My passion for building on Bitcoin's technology drives my work, and I’m constantly seeking ways to contribute to its growth and development.",
+    "why_bitcoin": "I was honored to be the first recipient of the Btrust grant, where I spent two years contributing to the development of BitcoinDevKit. My work focused on improving essential tools that help developers build more effective Bitcoin applications. I also participated in the Build for Africa Hackathon, where my team emerged as one of the winners. Following that, I co-founded Splice Africa, a company that tackles cross-border payment challenges in Africa using Bitcoin and the Lightning Network. Our goal at Splice Africa is to leverage this technology to create solutions that promote financial inclusion across the continent. In addition to my technical work, I co-founded BitDevs Nairobi, a developer community dedicated to fostering Bitcoin development and collaboration among local developers. I’ve also been a part of the Btrust Builders Fellowship (formerly  Qala Fellowship), where I further developed my technical skills in a supportive, collaborative environment that encouraged both personal and professional growth. I also took on the role of faculty member, helping mentor the next generation of Bitcoin developers through subsequent cohorts.",
+    "learning_at_qala": "",
     "github": "https://github.com/vladimirfomene",
     "linkedin": "https://www.linkedin.com/in/vladimirfomene/",
-    "twitter": "https://twitter.com/Vlad_kwasi",
+    "twitter": "",
     "medium": "https://www.vladimirfomene.com/blog/",
-    "projects": [
-      {
-        "name": "LDK CLI",
-        "link": "https://github.com/vladimirfomene/ldk-cli"
-      },
-      {
-        "name": "Safari Chain Newt",
-        "link": "https://github.com/Safari-Chain/newt"
-      },
-      {
-        "name": "TeamTREVLNpay",
-        "link": "https://github.com/elraphty/TeamTREVLNpay"
-      }
-    ],
+    "projects": [],
     "skills": ["JavaScript", "Python", "Rust"],
     "year": 2022
   },
@@ -250,18 +154,15 @@
     "id": 10,
     "image": "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/image-LYYvgmUDheROyqE12sKpLrSOM1eh9l.png",
     "name": "Oladimeji Omotosho",
-    "role": "Fullstack Developer",
-    "background": "Java, Python, and JavaScript",
-    "why_bitcoin": "Bitcoin is important to me for the solutions the technology provides currently and more importantly the potential solution the technology would provide in the coming future.",
-    "learning_at_qala": "Qala has been a great support through my journey in becoming a bitcoin developer, and most importantly as a Qala fellow, Qala sees potential in everyone and gave the opportunity to build with Bitcoin. Also, the fellows at Qala are one of the brightest minds in Africa having different views about their journey at Qala which makes them all unique.",
+    "role": "Software Engineer",
+    "background": "I’ve always been drawn to innovative technologies, and that’s what led me to explore Bitcoin. Bitcoin is important to me not only for the solutions it offers today but also for the immense potential it holds for the future. I believe it has the power to revolutionize how we view and handle financial transactions globally.",
+    "why_bitcoin": "The program gave me the flexibility to learn at my own pace and the resources to explore the technical intricacies of Bitcoin. The mentorship and hands-on projects have been invaluable, allowing me to apply what I’ve learned to real-world scenarios.",
+    "learning_at_qala": "",
     "github": "https://github.com/toshmanuel",
     "linkedin": "https://www.linkedin.com/in/toshmanuel/",
-    "twitter": "https://twitter.com/Toshmanuel",
+    "twitter": "",
     "medium": "https://medium.com/@toshmanuel",
-    "projects": [
-      { "name": "Project Title One", "link": "" },
-      { "name": "Project Title Two", "link": "" }
-    ],
+    "projects": [],
     "skills": ["Java", "Python", "JavaScript"],
     "year": 2022
   },
@@ -269,57 +170,31 @@
     "id": 11,
     "image": "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/image-8y5ouG0JF7ZCUfiDFSoOxy19jTG6b8.png",
     "name": "Munirat Olayiwola",
-    "role": "Software Engineer",
-    "background": "Backend developer, using python and Django framework, also works with the cloud using google cloud and AWS.",
-    "why_bitcoin": "Bitcoin is basically freedom, even with the economic crisis, it has proven to withstand challenges better than fiat money. In this part of the world, Bitcoin is like a lifesaver and I want to be part of the people that help boost the growth of Bitcoin.",
-    "learning_at_qala": "The best part about learning at Qala is the people, the fellows and mentors are always ready to help,it made learning easy and smooth. ",
+    "role": "Backend Developer",
+    "background": "I’m a backend developer with experience in Python and the Django framework, and I also work with cloud platforms like Google Cloud and AWS. Bitcoin is important to me because, to me, it represents freedom. Bitcoin has proven to be more resilient than traditional fiat currencies. In this part of the world, Bitcoin acts like a lifesaver, and I want to contribute to its growth and help it reach even more people.",
+    "why_bitcoin": "The best part of learning at Btrust Builders has been the opportunity to be part of an inspiring community that pushes you to grow while providing the mentorship and support needed to succeed. The hands-on learning, real-world projects, and guidance from experienced developers have made a huge impact on my understanding of Bitcoin and Lightning technology.",
+    "learning_at_qala": "",
     "github": "https://github.com/Muneerah1612",
     "linkedin": "https://www.linkedin.com/in/munirat-olayiwola/",
-    "twitter": "https://twitter.com/lady_neerah",
+    "twitter": "",
     "medium": "https://medium.com/@muniratolayiwola",
-    "projects": [
-      {
-        "name": "Co-Sign",
-        "link": "https://github.com/Muneerah1612/co-sign"
-      },
-      {
-        "name": "Mempool Fee Analysis",
-        "link": "https://github.com/Muneerah1612/mempool-fee-analysis"
-      },
-      {
-        "name": "Lightning Web Store",
-        "link": "https://github.com/Muneerah1612/lightning-web-store"
-      }
-    ],
-    "skills": ["Python", "Django", "AWS"],
+    "projects": [],
+    "skills": ["Python", "Django", "AWS", "Google Cloud"],
     "year": 2022
   },
   {
     "id": 12,
     "image": "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/image-RiCiPeNHHdlwsZX0n0kzsi5ATXkOuB.png",
     "name": "Bamidele Oluwatobi",
-    "role": "Fullstack Developer",
-    "background": "Both frontend and backend development mainly with Javascript/Typescript, NodeJs and React",
-    "why_bitcoin": "Bitcoin is so important to me because it introduces a whole new system of payment that does not require a central body, it is borderless, it's open source and so interesting.",
-    "learning_at_qala": "The best part about learning at Qala for me is the fact, that you are allowed to learn and build at your pace, work on projects with colleagues, help unblock and be unblocked by colleagues, and the massive support I get from my teachers.",
+    "role": "Full-stack Developer",
+    "background": "I’m a software developer with experience in both frontend and backend development. I love building scalable, efficient applications and constantly seek ways to grow my skills. Bitcoin is incredibly important to me because it offers a revolutionary system of payment that doesn’t rely on a central authority. It’s borderless, open-source, and opens up exciting opportunities for innovation in the financial world.",
+    "why_bitcoin": "My skills have allowed me to work on Bitcoin-related projects, leveraging my experience in web development to contribute to this emerging ecosystem.",
+    "learning_at_qala": "",
     "github": "https://github.com/tobi-bams",
     "linkedin": "https://www.linkedin.com/in/oluwatobi-bamidele-pius/",
-    "twitter": "https://twitter.com/tobi_bams",
+    "twitter": "",
     "medium": "https://medium.com/@teebams49",
-    "projects": [
-      {
-        "name": "Satoshi Dice",
-        "link": "https://github.com/tobi-bams/satoshi-dice-game"
-      },
-      {
-        "name": "Payment Processor",
-        "link": "https://github.com/tobi-bams/BTC-Payment-Processor"
-      },
-      {
-        "name": "Bitcoin Receipts",
-        "link": "https://github.com/tobi-bams/bitcoin-receipt-generator"
-      }
-    ],
+    "projects": [],
     "skills": ["JavaScript", "TypeScript", "NodeJS", "React"],
     "year": 2022
   },
@@ -647,7 +522,7 @@
     "id": 33,
     "image": "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/builders-headshots/Ifeanyichukwu%20Amajuoyi-z7a0sWgRN974usWf0nQWoc24SflaDM.JPG",
     "name": "Ifeanyichukwu Amajuoyi",
-    "role": "Fullstack Developer",
+    "role": "Full-stack Developer",
     "background": "I am a full-stack engineer with over five years of experience developing and deploying applications across various industries, including logistics, marketplace solutions, edutech, and fintech. I have a strong background in building and maintaining scalable systems using NodeJS, JavaScript/TypeScript, React, Python, Django, and Rust. Currently, I am focusing on Bitcoin and Lightning applications, and I leverage my diverse skill set to adapt to different project needs and contribute to the teams I work with.",
     "why_bitcoin": "I have actively contributed to the Bitcoin and Lightning ecosystem through open-source development and technical writing. My open-source contributions include working on projects like Coffee, a toolset for developers, SimLN, a simulation tool for Lightning Network testing, and Warnet, an initiative focused on enhancing network reliability. I have also authored four technical articles on Bitcoin-related topics, available on my Medium profile, where I share insights and practical knowledge with the community.",
     "learning_at_qala": "",
