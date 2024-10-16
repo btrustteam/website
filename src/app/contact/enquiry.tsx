@@ -6,6 +6,8 @@ import Input from "@/components/inputs";
 import Paragraph from "@/components/Paragraph";
 import SocialContainer from "./socialContainer";
 import SectionHeader from "@/components/sectionHeader";
+import { validateEmail } from "@/lib/validateEmail";
+import toast from "react-hot-toast";
 
 export default function Enquiry() {
   const [email, setEmail] = useState<string>("");
@@ -13,6 +15,46 @@ export default function Enquiry() {
   const [lastname, setLastname] = useState<string>("");
   const [company, setCompany] = useState<string>("");
   const [message, setMessage] = useState<string>("");
+  const [isLoading, setIsLoading] = useState<boolean>(false);
+
+  async function handleContactUs() {
+    setIsLoading(true);
+    try {
+      if (!validateEmail(email)) {
+        toast.error("Please provide a valid email address");
+        return;
+      }
+
+      const response = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          email,
+          name: `${firstname} ${lastname}`,
+          message,
+          company,
+        }),
+      });
+
+      const data = await response.json();
+
+      if (data.success) {
+        toast.success(data.message);
+        setEmail("");
+        setFirstname("");
+        setLastname("");
+        setCompany("");
+        setMessage("");
+      } else {
+        toast.error(`${data.error}`);
+      }
+    } catch (error) {
+      console.error("Request failed", error);
+      toast.error("An error occured, please try again later");
+    } finally {
+      setIsLoading(false);
+    }
+  }
 
   return (
     <div className="flex pt-[4rem] lg:pt-[6rem] pb-[4rem] lg:pb-[5rem] justify-center items-center w-full">
@@ -55,14 +97,20 @@ export default function Enquiry() {
                 heading="Btrust"
                 socials={[
                   { icon: "twitter", link: "https://x.com/btrustteam" },
-                  { icon: "linkedin", link: "https://www.linkedin.com/company/btrustteam" },
+                  {
+                    icon: "linkedin",
+                    link: "https://www.linkedin.com/company/btrustteam",
+                  },
                 ]}
               />
               <SocialContainer
                 heading="Btrust Builders"
                 socials={[
                   { icon: "twitter", link: "https://x.com/btrust_builders" },
-                  { icon: "linkedin", link: "https://www.linkedin.com/company/btrust-builders" },
+                  {
+                    icon: "linkedin",
+                    link: "https://www.linkedin.com/company/btrust-builders",
+                  },
                 ]}
               />
             </div>
@@ -133,9 +181,18 @@ export default function Enquiry() {
           <div>
             <ButtonWithArrow
               text="Submit"
-              onClick={() => {}}
+              onClick={handleContactUs}
               noIcon={true}
               className="w-full lg:w-auto"
+              disabled={
+                !firstname ||
+                !lastname ||
+                !email ||
+                !company ||
+                !message ||
+                isLoading
+              }
+              loading={isLoading}
             />
           </div>
         </div>

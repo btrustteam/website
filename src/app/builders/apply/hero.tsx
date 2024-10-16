@@ -48,7 +48,11 @@ export default function ApplyHero() {
           <div className="flex items-center justify-center w-full">
             <ButtonWithArrow
               text="Apply Here"
-              onClick={() => {}}
+              onClick={() => {
+                routes.push(
+                  "https://btrust.homerun.co/btrust-builders-application/en/apply"
+                );
+              }}
               noIcon={true}
               className="w-full"
             />

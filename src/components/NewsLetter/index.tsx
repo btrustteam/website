@@ -5,17 +5,13 @@ import ButtonWithArrow from "../buttons/buttonWithArrow";
 import Input from "../inputs";
 import { useState } from "react";
 import toast from "react-hot-toast";
+import { validateEmail } from "@/lib/validateEmail";
 
 export default function NewsLetter() {
   const [email, setEmail] = useState<string>("");
   const [firstname, setFirstname] = useState<string>("");
   const [lastname, setLastname] = useState<string>("");
   const [loading, setLoading] = useState<boolean>(false);
-
-  function validateEmail(email: string) {
-    const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    return emailPattern.test(email);
-  }
 
   async function handleNewsletterSignup() {
     setLoading(true);
