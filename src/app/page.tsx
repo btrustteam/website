@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: "https://www.btrust.tech/",
     images: [
       {
-        url: "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Rectangle%2022%20(2)-k74hWDxrpMm2FhilOCsd8OknPADFul.png",
+        url: "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/site-NzkG02zso9ZCRsswQ5hC1xFpgEp75r.png",
       },
     ],
   },
