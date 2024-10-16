@@ -328,21 +328,15 @@
     "image": "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/builders-headshots/Solomon%20Eze-3JTct9EZBBhj8thucGJxmtAC3F7Onx.jpg",
     "name": "Solomon Eze",
     "role": "Frontend Engineer",
-    "background": "I'm a self taught Frontend engineer, a good background of user interface and user experience design. Over the years I've had the opportunity to work with different technologies in the Bitcoin space, build products that utilized the payment solutions and use-cases bitcoin and lightning offers and also contributed to projects in the open source community",
-    "why_bitcoin": " I have built 3 projects that rely on Bitcoin as a solution. One of them is called Aegis, a multisig collaborative custody service allowing users to protect their bitcoins by locking them to a 2-of-3 multisignature address. Another is BitPaywall, a project where a user makes a payment through lightning to gain access to a valued commodity for example with blogs.I have made contributions to 2 open source projects which were Fedimint, working on it's gateway UI section and Galoy contributing to it's community banking initiative. I have written and published 4 technical articles covering various areas of building  on Bitcoin",
-    "learning_at_qala": "The best part of my learning at Qala is the one-on-one mentoring sessions. I really enjoyed it. The mentors are always ready to clear up grey areas, which gives me confidence when reading through the materials and building any bitcoin or lightning applications. They're also willing to answer questions, no matter how dull the questions might sound. Another part is the proof of work, where I have to write articles and build applications that create artifacts I can always reference at any point in my career.",
+    "background": "I'm a self taught Frontend engineer, a good background of user interface and user experience design. Over the years I've had the opportunity to work with different technologies in the Bitcoin space, build products that utilized the payment solutions and use-cases bitcoin and lightning offers and also contributed to projects in the open source community.",
+    "why_bitcoin": "I have built 3 projects that rely on Bitcoin as a solution. One of them is called Aegis, a multisig collaborative custody service allowing users to protect their bitcoins by locking them to a 2-of-3 multisignature address. Another is BitPaywall, a project where a user makes a payment through lightning to gain access to a valued commodity for example with blogs. I have made contributions to 2 open source projects which were Fedimint, working on its gateway UI section and Galoy contributing to its community banking initiative. I have written and published 4 technical articles covering various areas of building  on Bitcoin. I’m also a contributor to the Bitcoin Dev Project.",
+    "learning_at_qala": "",
     "github": "https://github.com/IgboPharaoh",
     "linkedin": "https://www.linkedin.com/in/solomon-a-eze/",
-    "twitter": "https://twitter.com/omoniyi24",
+    "twitter": "",
     "medium": "https://medium.com/@solomoneze62",
-    "projects": [
-      { "name": "Bet Jay", "link": "https://github.com/omoniyi24/BetJay" },
-      {
-        "name": "Chain analysis",
-        "link": "https://github.com/Jennycj/anti-chainanalysis"
-      }
-    ],
-    "skills": ["JavaScript", "Typecript", "ReactNative", "React"],
+    "projects": [],
+    "skills": ["JavaScript", "TypeScript", "ReactNative", "React"],
     "year": 2023
   },
   {
@@ -350,21 +344,15 @@
     "image": "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/builders-headshots/Chinonso-9LJeozpQX6NKb05nPjaViBl5Ie6B5J.jpg",
     "name": "Amadi Justice Chinonso",
     "role": "Software Engineer",
-    "background": "I'm a self taught Frontend engineer, a good background of user interface and user experience design. Over the years I've had the opportunity to work with different technologies in the Bitcoin space, build products that utilized the payment solutions and use-cases bitcoin and lightning offers and also contributed to projects in the open source community",
-    "why_bitcoin": " I have built 3 projects that rely on Bitcoin as a solution. One of them is called Aegis, a multisig collaborative custody service allowing users to protect their bitcoins by locking them to a 2-of-3 multisignature address. Another is BitPaywall, a project where a user makes a payment through lightning to gain access to a valued commodity for example with blogs.I have made contributions to 2 open source projects which were Fedimint, working on it's gateway UI section and Galoy contributing to it's community banking initiative. I have written and published 4 technical articles covering various areas of building  on Bitcoin",
-    "learning_at_qala": "The best part of my learning at Qala is the one-on-one mentoring sessions. I really enjoyed it. The mentors are always ready to clear up grey areas, which gives me confidence when reading through the materials and building any bitcoin or lightning applications. They're also willing to answer questions, no matter how dull the questions might sound. Another part is the proof of work, where I have to write articles and build applications that create artifacts I can always reference at any point in my career.",
+    "background": "I am a software engineer with 3 years experience building resilient software systems and almost 1+ experience as a site reliability engineer. I have a keen interest in Bitcoin and the Lightning Network. So far, I have had the chance to dive deep into the technology, explore its potential applications, and learn from fellow engineers who share the same enthusiasm.",
+    "why_bitcoin": "Built 3 personal projects, ILY being one of them a mempool fee analyzer helps bitcoin businesses reduce transaction costs for users sending payments across borders. Another is Heimdall, a node monitor that provides real time information on the network performance and availability of your nodes. I contributed to Polar and had my PR merged on it. Running polar on machines with ARM and Apple Silicon chips like the Macbook M1 and M2, has been a problem. My contribution eliminated that bane and offered users with this problem the solution to run polar without stress on their devices. I was also honored to be a learning facilitator during the previous cohort.",
+    "learning_at_qala": "",
     "github": "https://github.com/NonsoAmadi10",
     "linkedin": "https://linkedin.com/in/justice-amadi",
-    "twitter": "https://twitter.com/omoniyi24",
+    "twitter": "",
     "medium": "https://dev.to/nonsoamadi",
-    "projects": [
-      { "name": "Bet Jay", "link": "https://github.com/omoniyi24/BetJay" },
-      {
-        "name": "Chain analysis",
-        "link": "https://github.com/Jennycj/anti-chainanalysis"
-      }
-    ],
-    "skills": ["JavaScript", "Typecript", "ReactNative", "React"],
+    "projects": [],
+    "skills": ["Golang", "Bash", "TypeScript"],
     "year": 2023
   },
   {
@@ -372,21 +360,15 @@
     "image": "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/builders-headshots/Sadiq%20Ismail-tKSdBJFXffONxbGa6ejKtzGJg6GEOf.jpg",
     "name": "Abubakar Sadiq Ismail",
     "role": "Software Engineer",
-    "background": "I'm a self taught Frontend engineer, a good background of user interface and user experience design. Over the years I've had the opportunity to work with different technologies in the Bitcoin space, build products that utilized the payment solutions and use-cases bitcoin and lightning offers and also contributed to projects in the open source community",
-    "why_bitcoin": " I have built 3 projects that rely on Bitcoin as a solution. One of them is called Aegis, a multisig collaborative custody service allowing users to protect their bitcoins by locking them to a 2-of-3 multisignature address. Another is BitPaywall, a project where a user makes a payment through lightning to gain access to a valued commodity for example with blogs.I have made contributions to 2 open source projects which were Fedimint, working on it's gateway UI section and Galoy contributing to it's community banking initiative. I have written and published 4 technical articles covering various areas of building  on Bitcoin",
-    "learning_at_qala": "The best part of my learning at Qala is the one-on-one mentoring sessions. I really enjoyed it. The mentors are always ready to clear up grey areas, which gives me confidence when reading through the materials and building any bitcoin or lightning applications. They're also willing to answer questions, no matter how dull the questions might sound. Another part is the proof of work, where I have to write articles and build applications that create artifacts I can always reference at any point in my career.",
+    "background": "I’m a Nigerian software developer with over three years of professional experience. I am currently an active Bitcoin Core contributor, supported by Btrust.",
+    "why_bitcoin": "Bitcoin Core Contributor: Actively involved in the maintenance and development of the protocol, collaborating with global contributors to implement critical improvements. Bug Fixing & Issue fixes: Resolved bugs and  reported issues. Fee Estimation Improvements: Worked on enhancing fee estimation algorithms to increase the accuracy and efficiency of Bitcoin transactions. Project Reviews: Reviewed and tested various contributions from other developers, ensuring adherence to high standards and best practices.",
+    "learning_at_qala": "",
     "github": "https://github.com/ismaelsadeeq",
     "linkedin": "https://www.linkedin.com/in/abubakharismail/",
-    "twitter": "https://twitter.com/omoniyi24",
+    "twitter": "",
     "medium": "https://hackmd.io/@kEyqkad6QderjWKtcBF5Hg",
-    "projects": [
-      { "name": "Bet Jay", "link": "https://github.com/omoniyi24/BetJay" },
-      {
-        "name": "Chain analysis",
-        "link": "https://github.com/Jennycj/anti-chainanalysis"
-      }
-    ],
-    "skills": ["JavaScript", "Typecript", "ReactNative", "React"],
+    "projects": [],
+    "skills": ["C++", "JavaScript", "TypeScript", "Python"],
     "year": 2023
   },
   {
@@ -394,43 +376,31 @@
     "image": "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/builders-headshots/Novo-qLFs8ktlQJ7uCR21DfREt8zmjAQcAo.jpg",
     "name": "Oghenovo Usiwoma",
     "role": "Software Engineer",
-    "background": "I'm a self taught Frontend engineer, a good background of user interface and user experience design. Over the years I've had the opportunity to work with different technologies in the Bitcoin space, build products that utilized the payment solutions and use-cases bitcoin and lightning offers and also contributed to projects in the open source community",
-    "why_bitcoin": " I have built 3 projects that rely on Bitcoin as a solution. One of them is called Aegis, a multisig collaborative custody service allowing users to protect their bitcoins by locking them to a 2-of-3 multisignature address. Another is BitPaywall, a project where a user makes a payment through lightning to gain access to a valued commodity for example with blogs.I have made contributions to 2 open source projects which were Fedimint, working on it's gateway UI section and Galoy contributing to it's community banking initiative. I have written and published 4 technical articles covering various areas of building  on Bitcoin",
-    "learning_at_qala": "The best part of my learning at Qala is the one-on-one mentoring sessions. I really enjoyed it. The mentors are always ready to clear up grey areas, which gives me confidence when reading through the materials and building any bitcoin or lightning applications. They're also willing to answer questions, no matter how dull the questions might sound. Another part is the proof of work, where I have to write articles and build applications that create artifacts I can always reference at any point in my career.",
+    "background": "I’m a software engineer with a passion for programming that began in 2015 with Java. Since then, I’ve honed my skills and expanded my expertise to include Node.js and React. I love contributing to open-source projects and have been actively working on Bitcoin-related projects. My focus is on creating solutions that enhance Bitcoin's functionality and scalability while contributing to its growth as an open-source technology. Currently, I’m a Btrust Grantee, continuing to work on impactful Bitcoin initiatives after completing the Btrust Builders 2023 cohort.",
+    "why_bitcoin": "I’ve published several technical articles covering various aspects of Bitcoin and Lightning Network development, aimed at helping others understand and contribute to the ecosystem. As part of the Btrust Open-Source Cohort, I’m working on introducing new key formats and descriptors for Silent Payments in Bitcoin Core, continuing my focus on scalability and privacy improvements in the Bitcoin protocol.",
+    "learning_at_qala": "",
     "github": "https://github.com/eunovo",
     "linkedin": "https://linkedin.com/in/eunovo",
-    "twitter": "https://twitter.com/omoniyi24",
+    "twitter": "",
     "medium": "https://dev.to/eunovo",
-    "projects": [
-      { "name": "Bet Jay", "link": "https://github.com/omoniyi24/BetJay" },
-      {
-        "name": "Chain analysis",
-        "link": "https://github.com/Jennycj/anti-chainanalysis"
-      }
-    ],
-    "skills": ["JavaScript", "Typecript", "ReactNative", "React"],
+    "projects": [],
+    "skills": ["C++", "JavaScript", "TypeScript", "React", "NodeJS"],
     "year": 2023
   },
   {
     "id": 17,
     "image": "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/builders-headshots/Toheeb_Ojuolape-87U0viQd9Ps7vBlQEkMhFzb2r3bjr0.png",
     "name": "Tobi Ojuolape",
-    "role": "Full-stack Software Engineer",
-    "background": "I'm a self taught Frontend engineer, a good background of user interface and user experience design. Over the years I've had the opportunity to work with different technologies in the Bitcoin space, build products that utilized the payment solutions and use-cases bitcoin and lightning offers and also contributed to projects in the open source community",
-    "why_bitcoin": " I have built 3 projects that rely on Bitcoin as a solution. One of them is called Aegis, a multisig collaborative custody service allowing users to protect their bitcoins by locking them to a 2-of-3 multisignature address. Another is BitPaywall, a project where a user makes a payment through lightning to gain access to a valued commodity for example with blogs.I have made contributions to 2 open source projects which were Fedimint, working on it's gateway UI section and Galoy contributing to it's community banking initiative. I have written and published 4 technical articles covering various areas of building  on Bitcoin",
-    "learning_at_qala": "The best part of my learning at Qala is the one-on-one mentoring sessions. I really enjoyed it. The mentors are always ready to clear up grey areas, which gives me confidence when reading through the materials and building any bitcoin or lightning applications. They're also willing to answer questions, no matter how dull the questions might sound. Another part is the proof of work, where I have to write articles and build applications that create artifacts I can always reference at any point in my career.",
+    "role": "Software Engineer",
+    "background": "I’m a software engineer and Bitcoin/Lightning developer with over 3 years of experience working on open-source and enterprise-level Bitcoin/Lightning projects. As a 2022 Btrust Builders (formerly Qala) fellow and an award-winning CreaTech entrepreneur, I’m passionate about leveraging Bitcoin to unlock new monetization opportunities for African creators. I believe that Bitcoin has the potential to reshape how creators on the continent can engage with global markets and benefit from their content.",
+    "why_bitcoin": "Lead Contributor to Vyouz: I’m the lead contributor to Vyouz, an open-source Bitcoin-powered ads distribution platform that leverages AI and Bitcoin to enable African creators and publishers to monetize their online presence through niche-based marketing. This project is aimed at creating sustainable revenue streams for African creators by connecting them with the right audiences. Open-Source Contributions: I’m an active contributor to several open-source Bitcoin projects, including Galoy and Alby. Working on these projects has allowed me to deepen my understanding of Bitcoin and contribute to tools that are expanding the use of Bitcoin in everyday transactions. Technical Writer: In addition to my development work, I write technical content for platforms like CoinMonks and WhatIsBitcoin.com. Through my writing, I aim to simplify Bitcoin and Lightning concepts for a broader audience and help more people understand the technology’s potential.",
+    "learning_at_qala": "",
     "github": "https://github.com/Toheeb-Ojuolape",
     "linkedin": "https://www.linkedin.com/in/toheebojuolape/",
-    "twitter": "https://twitter.com/omoniyi24",
+    "twitter": "",
     "medium": "https://tobiojuolape.hashnode.dev",
-    "projects": [
-      { "name": "Bet Jay", "link": "https://github.com/omoniyi24/BetJay" },
-      {
-        "name": "Chain analysis",
-        "link": "https://github.com/Jennycj/anti-chainanalysis"
-      }
-    ],
-    "skills": ["JavaScript", "Typecript", "ReactNative", "React"],
+    "projects": [],
+    "skills": ["Golang", "Rust", "JavaScript", "TypeScript", "AI"],
     "year": 2023
   },
   {
@@ -438,21 +408,15 @@
     "image": "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/builders-headshots/Anthony%20Ugwu%20-qDR0Cv6zRxCfh7iCKyxv85psQ6wc8k.jpg",
     "name": "Anthony Ugwu",
     "role": "Full-stack Developer",
-    "background": "I'm a self taught Frontend engineer, a good background of user interface and user experience design. Over the years I've had the opportunity to work with different technologies in the Bitcoin space, build products that utilized the payment solutions and use-cases bitcoin and lightning offers and also contributed to projects in the open source community",
-    "why_bitcoin": " I have built 3 projects that rely on Bitcoin as a solution. One of them is called Aegis, a multisig collaborative custody service allowing users to protect their bitcoins by locking them to a 2-of-3 multisignature address. Another is BitPaywall, a project where a user makes a payment through lightning to gain access to a valued commodity for example with blogs.I have made contributions to 2 open source projects which were Fedimint, working on it's gateway UI section and Galoy contributing to it's community banking initiative. I have written and published 4 technical articles covering various areas of building  on Bitcoin",
-    "learning_at_qala": "The best part of my learning at Qala is the one-on-one mentoring sessions. I really enjoyed it. The mentors are always ready to clear up grey areas, which gives me confidence when reading through the materials and building any bitcoin or lightning applications. They're also willing to answer questions, no matter how dull the questions might sound. Another part is the proof of work, where I have to write articles and build applications that create artifacts I can always reference at any point in my career.",
+    "background": "I am a full-stack developer with over four years of professional experience. My tech stack includes Python, Javascript and Rust. What motivates me to build is because of my keen interest in understanding the technology behind Bitcoin and the Lightning Network.",
+    "why_bitcoin": "I have written and published 5 technical articles, the most prominent being \"Programmable money; A look at the Bitcoin scripting language\" I have made open source contributions to the Galoy money project and had one of my PR's merged on it as well. I built 3 Bitcoin and lightning projects namely; Sats Donate, a donation platform powered by the bitcoin lightning network. Additionally, a project called Chain Analyser A Cli tool for analyzing PSBTs and UTXOs.",
+    "learning_at_qala": "",
     "github": "https://github.com/tonyguesswho",
     "linkedin": "https://www.linkedin.com/in/ugwuanthony/",
-    "twitter": "https://twitter.com/omoniyi24",
+    "twitter": "",
     "medium": "https://sha378.hashnode.dev/",
-    "projects": [
-      { "name": "Bet Jay", "link": "https://github.com/omoniyi24/BetJay" },
-      {
-        "name": "Chain analysis",
-        "link": "https://github.com/Jennycj/anti-chainanalysis"
-      }
-    ],
-    "skills": ["JavaScript", "Typecript", "ReactNative", "React"],
+    "projects": [],
+    "skills": ["Python", "JavaScript", "Rust"],
     "year": 2023
   },
   {
@@ -460,43 +424,31 @@
     "image": "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/builders-headshots/Tobechi-W2vb5M3UGuy1eBhgt1ojodTHXTCCD3.jpg",
     "name": "Tobechi Chukwuleta",
     "role": "Backend Developer",
-    "background": "I'm a self taught Frontend engineer, a good background of user interface and user experience design. Over the years I've had the opportunity to work with different technologies in the Bitcoin space, build products that utilized the payment solutions and use-cases bitcoin and lightning offers and also contributed to projects in the open source community",
-    "why_bitcoin": " I have built 3 projects that rely on Bitcoin as a solution. One of them is called Aegis, a multisig collaborative custody service allowing users to protect their bitcoins by locking them to a 2-of-3 multisignature address. Another is BitPaywall, a project where a user makes a payment through lightning to gain access to a valued commodity for example with blogs.I have made contributions to 2 open source projects which were Fedimint, working on it's gateway UI section and Galoy contributing to it's community banking initiative. I have written and published 4 technical articles covering various areas of building  on Bitcoin",
-    "learning_at_qala": "The best part of my learning at Qala is the one-on-one mentoring sessions. I really enjoyed it. The mentors are always ready to clear up grey areas, which gives me confidence when reading through the materials and building any bitcoin or lightning applications. They're also willing to answer questions, no matter how dull the questions might sound. Another part is the proof of work, where I have to write articles and build applications that create artifacts I can always reference at any point in my career.",
+    "background": "I’m Tobechi, a backend developer with over 6 years of experience, specializing in C# and JavaScript. Since I started programming, I’ve been focused on continuously improving my skill set. I’m passionate about learning and enjoy exploring new challenges in the world of Bitcoin and Lightning.",
+    "why_bitcoin": "Over the years, I’ve contributed to two major open-source projects, Liana and BTCPayServer, which has allowed me to expand my technical knowledge and collaborate with the broader Bitcoin community. I’ve also written and published six technical articles that explore various topics related to building on the Lightning Network, helping to educate others about the technology. I’m currently a Btrust Grantee, and I’m using this opportunity to continue improving BTCPayServer’s store functionality and modularity, ensuring the platform remains flexible and powerful for its growing user base.",
+    "learning_at_qala": "",
     "github": "https://github.com/TChukwuleta",
     "linkedin": "https://www.linkedin.com/in/tobechichukwuleta/",
-    "twitter": "https://twitter.com/omoniyi24",
+    "twitter": "",
     "medium": "https://hippreacher.hashnode.dev/",
-    "projects": [
-      { "name": "Bet Jay", "link": "https://github.com/omoniyi24/BetJay" },
-      {
-        "name": "Chain analysis",
-        "link": "https://github.com/Jennycj/anti-chainanalysis"
-      }
-    ],
-    "skills": ["JavaScript", "Typecript", "ReactNative", "React"],
+    "projects": [],
+    "skills": ["C#", "JavaScript"],
     "year": 2023
   },
   {
     "id": 20,
     "image": "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Rectangle%2020-Rzfq5fT9ZGqIcvV1H5xWVO49Nb13GO.png",
     "name": "Ibironke Marvellous",
-    "role": "Backend Developer",
-    "background": "I'm a self taught Frontend engineer, a good background of user interface and user experience design. Over the years I've had the opportunity to work with different technologies in the Bitcoin space, build products that utilized the payment solutions and use-cases bitcoin and lightning offers and also contributed to projects in the open source community",
-    "why_bitcoin": " I have built 3 projects that rely on Bitcoin as a solution. One of them is called Aegis, a multisig collaborative custody service allowing users to protect their bitcoins by locking them to a 2-of-3 multisignature address. Another is BitPaywall, a project where a user makes a payment through lightning to gain access to a valued commodity for example with blogs.I have made contributions to 2 open source projects which were Fedimint, working on it's gateway UI section and Galoy contributing to it's community banking initiative. I have written and published 4 technical articles covering various areas of building  on Bitcoin",
-    "learning_at_qala": "The best part of my learning at Qala is the one-on-one mentoring sessions. I really enjoyed it. The mentors are always ready to clear up grey areas, which gives me confidence when reading through the materials and building any bitcoin or lightning applications. They're also willing to answer questions, no matter how dull the questions might sound. Another part is the proof of work, where I have to write articles and build applications that create artifacts I can always reference at any point in my career.",
+    "role": "Software Engineer",
+    "background": "I started programming with C#, just building simple console applications back then. I later got interested in backend development and started using Nodejs. I still use it in the present day.",
+    "why_bitcoin": "I have made contributions to 2 open source projects, Sphinx Relay and Sphinx Tribe. I had 8 successful merged PR's on Sphinx. This culminated in me being on the top list of open source contributors in the Sphinx community taking the number 12 spot. I wrote and published 5 technical articles on my blogging platform. I built 2 projects, the first is Mvouchers LNURL Login, a project that allows one to purchase gift cards and airtime and keep their purchase history. Secondly, Telepay is a project that facilitates bitcoin payments using the Lightning Network through a Telegram bot.",
+    "learning_at_qala": "",
     "github": "https://github.com/Marvel-Ib",
     "linkedin": "https://linkedin.com/in/ibironke-marvellous",
-    "twitter": "https://twitter.com/omoniyi24",
+    "twitter": "",
     "medium": "https://marvelib.hashnode.dev/",
-    "projects": [
-      { "name": "Bet Jay", "link": "https://github.com/omoniyi24/BetJay" },
-      {
-        "name": "Chain analysis",
-        "link": "https://github.com/Jennycj/anti-chainanalysis"
-      }
-    ],
-    "skills": ["JavaScript", "Typecript", "ReactNative", "React"],
+    "projects": [],
+    "skills": ["JavaScript", "TypeScript", "NestJS", "ExpressJS", "PostgresSQL", "MongoDB"],
     "year": 2023
   },
   {
