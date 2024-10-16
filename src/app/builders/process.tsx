@@ -2,8 +2,10 @@
 import ButtonWithArrow from "@/components/buttons/buttonWithArrow";
 import SectionHeader from "@/components/sectionHeader";
 import BuildersProcessCard from "./builderProcessCard";
+import { useRouter } from "next/navigation";
 
 export default function ProcessToJoin() {
+  const router = useRouter();
   return (
     <div className="flex justify-center items-center px-[1.5rem] pt-[5rem] pb-[3.75rem] w-full bg-[#222]">
       <div className="flex flex-col items-center gap-12">
@@ -51,7 +53,7 @@ export default function ProcessToJoin() {
         <div className="flex items-center justify-center w-full">
           <ButtonWithArrow
             text="Apply Now"
-            onClick={() => {}}
+            onClick={() => router.push("/builders/apply")}
             className="w-full lg:w-auto"
           />
         </div>
