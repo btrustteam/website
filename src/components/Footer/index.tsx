@@ -30,7 +30,7 @@ export default function Footer() {
                 <FooterLink
                   links={[
                     { name: "About", url: "/about", new_tab: false },
-                    { name: "Grant", url: "/grant", new_tab: false },
+                    { name: "Grants", url: "/grants", new_tab: false },
                     {
                       name: "Blog",
                       url: "https://blog.btrust.tech",
