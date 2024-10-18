@@ -2,6 +2,8 @@
 
 This is the codebase for the [btrust.tech](https://btrust.tech) site.
 
+<img src="https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/site-NzkG02zso9ZCRsswQ5hC1xFpgEp75r.png" width="720">
+
 ## Getting Started
 
 The website is built with [Next.js](https://nextjs.org). To run it locally you'll need Node.js 14.6.0 or newer. After cloning repository and running `yarn` to install the project dependencies, try any of the following three commands in the terminal:
