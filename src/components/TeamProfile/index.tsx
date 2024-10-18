@@ -53,7 +53,7 @@ export default function TeamProfile() {
         teamMembers={[
           {
             name: "Stephanie Titcombe",
-            description: "Programmes Manager, Btrust Builders",
+            description: "Program Lead, Btrust Builders",
             imageUrl:
               "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Rectangle%2020%20(7)-OFvWfXVNZK4Z5Cl8m7HKxuqCpBSgGM.png",
             twitter: "https://x.com/StephTitcombe",
