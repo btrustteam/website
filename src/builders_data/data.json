@@ -8,11 +8,11 @@
     "why_bitcoin": "I spearheaded the development of Stealth Money’s backend and infrastructure, creating a platform that makes Bitcoin self-custody simple and secure. Users can seamlessly buy and save Bitcoin directly into their hardware wallets, enhancing their financial independence. As a mentor for the Btrust Builders program, I guide and support emerging developers, helping them contribute meaningfully to the Bitcoin and Lightning ecosystem. It’s been fulfilling to help nurture the next generation of Bitcoin builders. I’ve contributed to Sphinx, focusing on building secure, decentralized communication channels using Bitcoin and Lightning technologies. My work has aimed to enhance the functionality of this innovative messaging network, making it more robust for users. I’ve had the privilege of winning top recognition in two hackathons, where I developed innovative solutions using Bitcoin and Lightning technology. These experiences have allowed me to push fintech innovation forward, demonstrating the real-world potential of Bitcoin.",
     "learning_at_qala": "",
     "github": "https://github.com/omoniyi24/",
-    "linkedin": "https://www.linkedin.com/in/ilesanmiomoniyi766496122/",
+    "linkedin": "https://www.linkedin.com/in/omoniyi24",
     "twitter": "",
     "medium": "https://medium.com/@omoniyi24",
     "projects": [],
-    "skills": ["PHP", "TypeScript", "Python", "ReactJs"],
+    "skills": ["Java", "PHP", "TypeScript", "Python", "ReactJs"],
     "year": 2022
   },
   {
@@ -323,7 +323,14 @@
     "twitter": "",
     "medium": "https://marvelib.hashnode.dev/",
     "projects": [],
-    "skills": ["JavaScript", "TypeScript", "NestJS", "ExpressJS", "PostgresSQL", "MongoDB"],
+    "skills": [
+      "JavaScript",
+      "TypeScript",
+      "NestJS",
+      "ExpressJS",
+      "PostgresSQL",
+      "MongoDB"
+    ],
     "year": 2023
   },
   {
@@ -531,7 +538,15 @@
     "twitter": "",
     "medium": "https://medium.com/@aifeanyi019",
     "projects": [],
-    "skills": ["JavaScript", "TypeScript", "Rust", "React", "Python", "Django", "NodeJS"],
+    "skills": [
+      "JavaScript",
+      "TypeScript",
+      "Rust",
+      "React",
+      "Python",
+      "Django",
+      "NodeJS"
+    ],
     "year": 2024
   },
   {

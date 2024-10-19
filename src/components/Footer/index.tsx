@@ -46,7 +46,7 @@ export default function Footer() {
                   links={[
                     { name: "Apply", url: "/builders/apply", new_tab: false },
                     {
-                      name: "Meet the builder",
+                      name: "Meet The Builders",
                       url: "/builders/meet-builders",
                       new_tab: false,
                     },
