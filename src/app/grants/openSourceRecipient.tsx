@@ -45,7 +45,7 @@ export default function OpenSourceRecipient() {
             github: "https://github.com/vladimirfomene",
             linkedin:
               "https://www.linkedin.com/in/vladimirfomene?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-            bio: "A talented engineer based in Nigeria, Oghenovo has been actively contributing to Bitcoin Core and other Bitcoin projects since completing the Btrust Builders 2023 cohort. His recent work under the ₿trust Starter Grant focused on advancing Silent Payments functionality in Bitcoin Core. As part of the ₿trust Open-Source Cohort, he is working on introducing new key formats and descriptors for Silent Payments in Bitcoin Core, continuing his critical work in enhancing the scalability and privacy features of the Bitcoin protocol.",
+            bio: "I’m a seasoned software engineer with a strong technical background in computer science. As a full-stack developer, I have experience working with JavaScript, Rust, and Python. My passion for building on Bitcoin's technology drives my work, and I’m constantly seeking ways to contribute to its growth and development.",
           },
         ]}
       />
