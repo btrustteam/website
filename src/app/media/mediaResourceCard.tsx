@@ -1,5 +1,4 @@
 import DynamicImage from "@/components/DynamicImage";
-import Image from "next/image";
 
 interface MediaResourcesProps {
   download_link: string;

@@ -1,11 +1,6 @@
 import ActivitiesNewsletter from "@/components/ActivitiesNewsLetterFooter";
-import ButtonWithArrow from "@/components/buttons/buttonWithArrow";
-import LittleHeading from "@/components/LittleHeading";
-import SubHeading from "@/components/SubHeading";
 import { Metadata } from "next";
 import MediaContainer from "./mediaContainer";
-import H4 from "./mediaHeader";
-import Update from "./update";
 
 export const metadata: Metadata = {
   title: "Media",
