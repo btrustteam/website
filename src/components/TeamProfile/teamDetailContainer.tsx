@@ -50,7 +50,7 @@ export default function TeamDetailsContainer({
         </motion.p>
       </div>
       <div
-        className={`flex flex-col items-center justify-center lg:flex-row gap-6 ${
+        className={`flex flex-col items-center justify-center lg:flex-row gap-6 lg:items-stretch ${
           isBoard ? "lg:justify-between" : "lg:justify-start"
         }`}
       >
