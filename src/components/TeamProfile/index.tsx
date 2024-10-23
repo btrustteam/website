@@ -55,7 +55,8 @@ export default function TeamProfile() {
             name: "Stephanie Titcombe",
             description: "Program Lead, Btrust Builders",
             imageUrl:
-              "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Rectangle%2020%20(7)-OFvWfXVNZK4Z5Cl8m7HKxuqCpBSgGM.png",
+              // "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Rectangle%2020%20(7)-OFvWfXVNZK4Z5Cl8m7HKxuqCpBSgGM.png",
+              "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Document%20from%20Stephanie%20Titcombe-K6BlgGMR6FENXYsuaslaJhjwRiW1Zv.jpg",
             twitter: "https://x.com/StephTitcombe",
             linkedin: "https://www.linkedin.com/in/stephanietitcombe/",
           },

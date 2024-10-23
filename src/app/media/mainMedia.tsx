@@ -17,7 +17,7 @@ export default function MainMedia({ setIsMediaResources }: MediaProps) {
         <div>
           <ButtonWithArrow
             noIcon={true}
-            text="Download Media Resources"
+            text="Download Press Kit"
             onClick={() => setIsMediaResources(true)}
           />
         </div>
