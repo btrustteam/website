@@ -50,7 +50,7 @@ export default function ApplyHero() {
               text="Apply Here"
               onClick={() => {
                 routes.push(
-                  "https://btrust.homerun.co/btrust-builders-application/en/apply"
+                  "https://btrust.homerun.co/btrust-builders-2025-oss-cohort-application/en"
                 );
               }}
               noIcon={true}
@@ -92,7 +92,7 @@ export default function ApplyHero() {
                 text="Apply Here"
                 onClick={() => {
                   routes.push(
-                    "https://btrust.homerun.co/btrust-builders-application/en/apply"
+                    "https://btrust.homerun.co/btrust-builders-2025-oss-cohort-application/en"
                   );
                 }}
                 noIcon={true}

@@ -68,7 +68,7 @@ export default function Program() {
                 Does this sound like the kind of experience you would like to be
                 a part of?{" "}
                 <a
-                  href="https://btrust.homerun.co/btrust-builders-application/en/apply"
+                  href="https://btrust.homerun.co/btrust-builders-2025-oss-cohort-application/en"
                   className=" italic font-bold underline"
                 >
                   Apply Here

@@ -18,7 +18,7 @@ export default function ApplyProgress() {
         text="Apply Here"
         onClick={() => {
           route.push(
-            "https://btrust.homerun.co/btrust-builders-application/en/apply"
+            "https://btrust.homerun.co/btrust-builders-2025-oss-cohort-application/en"
           );
         }}
         className="w-full lg:w-auto"
