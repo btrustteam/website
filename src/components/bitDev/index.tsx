@@ -31,6 +31,10 @@ export default function BitDev() {
               <a className="font-bold underline" href="https://x.com/BitDevsAbuja" target="_blank">
                 Abuja
               </a>
+              ,{" "}
+              <a className="font-bold underline" href="https://x.com/BitDevsKaduna" target="_blank">
+                Kaduna
+              </a>
               , and{" "}
               <a className="font-bold underline" href="https://x.com/bitdevsAccra" target="_blank">
                 Accra
