@@ -4,8 +4,24 @@ export default function StarterRecipients() {
   return (
     <div className="flex flex-col gap-20 lg:gap-14 mt-8">
       <RecipientsDetailsContainer
-        title="Current Grant Recipients - Q3, 2024 "
-        mobileTitle="Current Grant Recipients (Q3, 2024)"
+        title="Current Grant Recipients - Q4, 2024"
+        mobileTitle="Current Grant Recipients (Q4, 2024)"
+        recipients={[
+          {
+            name: "Abdullahi Yunus",
+            image_src:
+              "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/builders-headshots/Abdullahi%20Yunus-A1RvSPh1dDS8Q8XesPqOO3oZ4BKhfj.jpg",
+            github: "https://github.com/Abdulkbk",
+            linkedin:
+              "https://www.linkedin.com/in/abdulkbk/",
+            bio: "Abdullahi is a Btrust Builders cohort 3 alumnus, and has demonstrated outstanding contributions to Bitcoin’s open-source projects. His work on LND has enhanced node reliability and user experience, while his improvements to Lightning Polar simplify developer workflows. With a strong focus on Bitcoin education, Abdullahi also mentors aspiring developers, making the ecosystem more accessible.",
+          },
+        ]}
+      />
+
+      <RecipientsDetailsContainer
+        title="Past Grant Recipients - Q3, 2024"
+        mobileTitle="Past Grant Recipients (Q3, 2024)"
         recipients={[
           {
             name: "Enigbe Ochekliye",
