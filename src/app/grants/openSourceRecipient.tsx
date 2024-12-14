@@ -4,9 +4,26 @@ export default function OpenSourceRecipient() {
   return (
     <div className="flex flex-col gap-14 mt-8">
       <RecipientsDetailsContainer
-        mobileTitle="Current Grant Recipients (Q3, 2024)"
-        title="Current Grant Recipients - Q3, 2024 "
+        mobileTitle="Current Members"
+        title="Current Members"
         recipients={[
+          {
+            name: "Enigbe Ochekliye",
+            image_src:
+              "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Rectangle%2020-jBTbGscnH4BTJiAZEw65Ban4bADAf1.png",
+            github: "https://github.com/enigbe",
+            linkedin:
+              "https://www.linkedin.com/in/enigbe?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+            bio: "Enigbe has made impactful contributions to the LDK Node, including critical enhancements to API customization and logging systems. Her passion for education has led to the development of a Rust-based programming guide for Bitcoin, designed to onboard new developers. As part of the Btrust Open-Source Cohort, Enigbe will continue her contributions to LDK while expanding Bitcoin education initiatives through workshops and technical writing.",
+          },
+          {
+            name: "Tobechi Chukwuleta",
+            image_src:
+              "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Rectangle%2020-7lyzwEidWcaZTZ6jqwHtWiZ4a5WYcI.png",
+            github: "https://github.com/TChukwuleta",
+            linkedin: "https://www.linkedin.com/in/tobechichukwuleta/",
+            bio: "Tobechi’s work has been pivotal in advancing BTCPay Server, including the development of plugins such as the BigCommerce Plugin and an updated Shopify Plugin to adapt to platform changes. As a community builder, Tobechi also co-leads BitDevs Lagos, fostering collaboration and growth among Bitcoin developers in Nigeria. As a cohort member, Tobechi will enhance BTCPay’s plugin ecosystem and lead the development of a robust plugin builder for the platform.",
+          },
           {
             name: "Abubakar Sadiq Ismail",
             image_src:
@@ -35,8 +52,8 @@ export default function OpenSourceRecipient() {
       />
 
       <RecipientsDetailsContainer
-        title="Past Grant Recipients - Q1 2024"
-        mobileTitle="Past Grant Recipients (Q1 2024)"
+        title="Past Members (2022)"
+        mobileTitle="Past Members (2022)"
         recipients={[
           {
             name: "Vladimir Fomene",
