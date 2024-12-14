@@ -14,7 +14,7 @@ export default function GrantsHero() {
       </div>
       <div className="flex justify-center items-center">
         <DynamicImage
-          src="https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Rectangle%2018-brrzAlRT8KT2clTDRTKjrimxmY3RTC.png"
+          src="https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/BTrust%20Gathering%20Day%202%20-103-UDt5Jos2fBnxEZptEr3WdJEew6d635.JPG"
           alt=""
           className="w-full h-[18.75rem] lg:h-[46.1875rem] object-cover"
         />
