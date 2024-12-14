@@ -29,7 +29,7 @@ export default function Hero() {
       </div>
       <div className="flex flex-col lg:flex-row lg:justify-between lg:items-center w-full gap-12">
         <Image
-          src="https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Rectangle%2022%20(2)-k74hWDxrpMm2FhilOCsd8OknPADFul.png"
+          src="https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/BTrust%20Gathering%20Day%202%20-98-I3HOF9B22YmkZ0jtyxPg0kOuRipH4w.JPG"
           alt="board"
           width={0}
           height={0}

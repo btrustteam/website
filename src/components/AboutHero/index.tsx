@@ -41,7 +41,7 @@ export default function AboutHero() {
       <div className="flex flex-col justify-center items-center w-full lg:h-[46.25rem] h-[18.75rem]">
         <Image
           src={
-            "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Rectangle%2022%20(3)-6To97OR5GO9mgtyjDyQcXgtNnAQwBb.png"
+            "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/BTrust%20Gathering%20Day%202%20-98-I3HOF9B22YmkZ0jtyxPg0kOuRipH4w.JPG"
           }
           alt="the team"
           width={0}
