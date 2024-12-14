@@ -22,7 +22,7 @@ export default function Cohort({
             />
           </div>
           <DynamicImage
-            src="https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Rectangle%2018%20(2)-iyp8enEf3vN5u5IsFSsBNRcMp8xF1M.png"
+            src="https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/BTrust%20Gathering%20Day%202%20-48-dvv2L93qInMO5nnzUZZOy94NHnSEJf.JPG"
             className="w-full h-[18.75rem] rounded-lg object-cover"
             alt="participants"
           />
@@ -60,7 +60,7 @@ export default function Cohort({
       <div className="hidden lg:flex items-center py-[4.5rem] px-[6.5rem] gap-[4.75rem] justify-between">
         <div className="flex justify-center items-center">
           <DynamicImage
-            src="https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Rectangle%2018%20(2)-iyp8enEf3vN5u5IsFSsBNRcMp8xF1M.png"
+            src="https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/BTrust%20Gathering%20Day%202%20-48-dvv2L93qInMO5nnzUZZOy94NHnSEJf.JPG"
             className="w-[35.125rem] h-full rounded-lg object-cover"
             alt="participants"
           />
