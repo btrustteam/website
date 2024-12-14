@@ -52,6 +52,14 @@ export default function TeamProfile() {
         brief="The day-to-day operations are run by a dedicated team with immense experience in the developer and innovation ecosystem across Africa and beyond. We are committed to bring to life the mission to grow a critical mass of Bitcoin & Lightning open-source developers in the Global South."
         teamMembers={[
           {
+            name: "Kelvin Isievwore",
+            description: "Engineering Lead",
+            imageUrl:
+              "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/BTrust%20Gathering%20Day%202%20-85%20copy-t4yAeDiWIkVgPQ1OVXC2uzCPTE3oVn.JPG",
+            twitter: "https://x.com/kelvinator05",
+            linkedin: "https://www.linkedin.com/in/kelvinobukome/",
+          },
+          {
             name: "Stephanie Titcombe",
             description: "Program Lead, Btrust Builders",
             imageUrl:
