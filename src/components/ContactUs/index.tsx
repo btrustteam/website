@@ -35,7 +35,7 @@ export default function ContactUs() {
           </div>
           <div className="w-full flex justify-center items-center object-cover">
             <DynamicImage
-              src="https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Rectangle%2041%20(3)-4amWkGKgkoUx2aIZNbUN4VmLnVSfvx.png"
+              src="https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/BTrust%20Gathering%20-72-snupEmtPDzls9ASZOO3rE9MQnc5HDL.JPG"
               alt="contact"
               className="w-[30.1875rem] rounded-lg"
             />
