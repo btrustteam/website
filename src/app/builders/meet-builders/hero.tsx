@@ -33,7 +33,7 @@ export default function Hero() {
         </div>
         <div className="w-full">
           <DynamicImage
-            src="https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Screenshot%202023-12-28%20at%2008.44%201-ni992ux3ckchiqqnxdCdiuWhvWWqH8.png"
+            src="https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/BTrust%20Gathering%20Day%202%20-89-auS9DlGEkFBxPdgk99MalH74lvvrNh.JPG"
             className="h-[18.75rem] w-full object-cover"
             alt="builders"
           />
@@ -78,7 +78,7 @@ export default function Hero() {
         </div>
         <div className="w-full">
           <DynamicImage
-            src="https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Screenshot%202023-12-28%20at%2008.44%201-ni992ux3ckchiqqnxdCdiuWhvWWqH8.png"
+            src="https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/BTrust%20Gathering%20Day%202%20-89-auS9DlGEkFBxPdgk99MalH74lvvrNh.JPG"
             className="h-[46.1875rem] w-full object-cover"
             alt="builders"
           />

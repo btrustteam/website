@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     url: "https://www.btrust.tech/builders",
     images: [
       {
-        url: "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Screenshot%202023-12-28%20at%2008.44%201-ni992ux3ckchiqqnxdCdiuWhvWWqH8.png",
+        url: "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/BTrust%20Gathering%20Day%202%20-89-auS9DlGEkFBxPdgk99MalH74lvvrNh.JPG",
       },
     ],
   },
