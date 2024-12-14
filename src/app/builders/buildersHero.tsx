@@ -21,7 +21,7 @@ export default function BuildersHero() {
         </div>
         <div className="flex justify-center items-center w-full">
           <DynamicImage
-            src="https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Rectangle%2023-iiQiySKc69hB8Hey4eke2g4XzfnbFB.png"
+            src="https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/BTrust%20Gathering%20-90-3eBS186UI8TwerNtthSvu5gMd353cZ.JPG"
             alt="builder"
             className="h-[18.75rem] w-full object-cover"
           />
@@ -70,9 +70,9 @@ export default function BuildersHero() {
         </div>
         <div className="flex justify-center items-center w-full">
           <DynamicImage
-            src="https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Rectangle%2023-iiQiySKc69hB8Hey4eke2g4XzfnbFB.png"
+            src="https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/BTrust%20Gathering%20-90-3eBS186UI8TwerNtthSvu5gMd353cZ.JPG"
             alt="builder"
-            className="h-[46.1875rem] w-full"
+            className="h-full w-full"
           />
         </div>
       </div>
