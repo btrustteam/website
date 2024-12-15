@@ -27,6 +27,15 @@ export default function MainMedia({ setIsMediaResources }: MediaProps) {
         <Update
           updates={[
             {
+              url: "https://blog.btrust.tech/announcing-the-q4-2024-btrust-grant-recipients/",
+              cover_url:
+                "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/@ABC-Day-3-fast-36-lJ3ZQsPJgUzzInB0IfeVKoVQKvCWMn.jpeg",
+              heading:
+                "Announcing the Q4 2024 Btrust Grant Recipients",
+              tags: [{ title: "Btrust Blog", bg: "#000000" }],
+              text: "We are excited to announce the Q4 2024 recipients of Btrust grants. This quarter, Abdullahi Yunus has been awarded the Starter Grant, while Enigbe Ochekliye and Tobechi Chukwuleta will transition to the Btrust Open-Source Cohort.",
+            },
+            {
               url: "https://bitcoinmagazine.com/business/bitcoin-non-profit-trust-announces-q3-grants-for-open-source-developers",
               cover_url:
                 "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/btc-mag-btc-africa-alt-ntb7yjdt6yLpdf2ixOH9fMTxv9sBqW.jpg",

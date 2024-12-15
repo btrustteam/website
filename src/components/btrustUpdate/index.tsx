@@ -21,6 +21,14 @@ export default function BtrustUpdate() {
       </div>
       <div className="flex flex-col lg:flex-row items-center lg:items-start justify-between gap-[1.5rem]">
         <NewsCard
+          image_url="https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/@ABC-Day-3-fast-36-lJ3ZQsPJgUzzInB0IfeVKoVQKvCWMn.jpeg"
+          tag="Btrust Blog"
+          tag_bg="#F7931A"
+          content_url="https://blog.btrust.tech/announcing-the-q4-2024-btrust-grant-recipients/"
+          heading="Announcing the Q4 2024 Btrust Grant Recipients"
+          brief="We are excited to announce the Q4 2024 recipients of Btrust grants. This quarter, ..."
+        />
+        <NewsCard
           image_url="https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/btc-mag-btc-africa-alt-ntb7yjdt6yLpdf2ixOH9fMTxv9sBqW.jpg"
           tag="Bitcoin Magazine"
           tag_bg="#F7931A"
@@ -35,14 +43,6 @@ export default function BtrustUpdate() {
           content_url="https://bitcoinmagazine.com/business/jay-z-and-jack-dorsey-backed-bitcoin-non-profit-trust-appoints-bitcoin-core-developer-as-interim-ceo"
           heading="Jay-Z and Jack Dorsey-Backed Non-Profit ₿trust Appoints Bitcoin Core Contributor As Interim CEO"
           brief="The organization, which trains Bitcoin developers in Africa, LATAM and SE Asia ..."
-        />
-        <NewsCard
-          image_url="https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Rectangle%2019%20(4)-zos0xeHGt8lljM8qPFjwBRe4dviqyf.png"
-          tag="Forbes"
-          tag_bg="#000000"
-          content_url="https://www.forbes.com/sites/digital-assets/2023/09/05/jay-z-and-jack-dorsey-funded-btrust-acquires-african-bitcoin-talent-firm-qala/"
-          heading="Jay-Z And Jack Dorsey-Funded Btrust Acquires African Bitcoin Talent Firm Qala"
-          brief="Btrust, the bitcoin non-profit that Block CEO Jack Dorsey and rapper Jay-Z formed"
         />
       </div>
     </div>
