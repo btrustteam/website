@@ -27,7 +27,7 @@ export default function Program() {
             />
             <ProgramCard
               text="A support community of talented developer peers going through the same experience with you"
-              heading="Bitcoin Philosophy"
+              heading="Community Support"
             />
           </div>
           <div className="flex w-full items-center lg:items-start flex-col lg:flex-row justify-between gap-6">
