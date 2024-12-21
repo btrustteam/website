@@ -58,22 +58,18 @@ export default function Program() {
               heading="Profile Building"
             />
           </div>
-          <div className="flex flex-col gap-6 items-center lg:grid grid-cols-3 justify-between">
-            <ProgramCard
-              text="Tied to excellent performance"
-              heading="Monthly Stipend"
-            />
-            <div className="p-[1.5rem] flex items-center gap-4 rounded-lg border border-black-5 col-span-2 w-full">
-              <h3 className="w-full max-w-[24.625rem] lg:w-[47.25rem] font-poppins text-[1.5rem] font-semibold text-active-white">
-                Does this sound like the kind of experience you would like to be
-                a part of?{" "}
-                <a
-                  href="https://btrust.homerun.co/btrust-builders-2025-oss-cohort-application/en"
-                  className=" italic font-bold underline"
-                >
-                  Apply Here
-                </a>
-              </h3>
+          <div className="flex flex-col gap-6 items-center lg:grid grid-cols-1 justify-between">
+            <div className="flex items-center justify-center w-full">
+              <ButtonWithArrow
+                text="Apply Here"
+                onClick={() => {
+                  router.push(
+                    "https://btrust.homerun.co/btrust-builders-2025-oss-cohort-application/en"
+                  );
+                }}
+                noIcon={false}
+                className="w-full"
+              />
             </div>
           </div>
         </div>
