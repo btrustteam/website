@@ -71,6 +71,11 @@ export default function Footer() {
                         url: "https://linkedin.com/company/btrustteam",
                         new_tab: true,
                       },
+                      {
+                        name: "YouTube",
+                        url: "https://www.youtube.com/@btrust_tech",
+                        new_tab: true,
+                      },
                     ]}
                   />
                 </div>
@@ -86,6 +91,11 @@ export default function Footer() {
                       {
                         name: "LinkedIn",
                         url: "https://linkedin.com/company/btrust-builders",
+                        new_tab: true,
+                      },
+                      {
+                        name: "YouTube",
+                        url: "https://www.youtube.com/@btrust_tech",
                         new_tab: true,
                       },
                     ]}

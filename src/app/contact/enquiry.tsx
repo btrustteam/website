@@ -101,6 +101,10 @@ export default function Enquiry() {
                     icon: "linkedin",
                     link: "https://www.linkedin.com/company/btrustteam",
                   },
+                  {
+                    icon: "youtube",
+                    link: "https://www.youtube.com/@btrust_tech",
+                  },
                 ]}
               />
               <SocialContainer
@@ -110,6 +114,10 @@ export default function Enquiry() {
                   {
                     icon: "linkedin",
                     link: "https://www.linkedin.com/company/btrust-builders",
+                  },
+                  {
+                    icon: "youtube",
+                    link: "https://www.youtube.com/@btrust_tech",
                   },
                 ]}
               />
