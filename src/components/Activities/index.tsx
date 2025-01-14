@@ -1,6 +1,7 @@
 import SectionHeader from "../sectionHeader";
 import BigLinkedin from "../links/bigLinkedIn";
 import BigTwitter from "../links/bigTwitter";
+import BigYoutube from "../links/bigYoutube";
 
 export default function Activities() {
   return (
@@ -24,6 +25,7 @@ export default function Activities() {
             <div className="flex items-start gap-4">
               <BigTwitter url="https://x.com/btrustteam" />
               <BigLinkedin url="https://www.linkedin.com/company/btrustteam/" />
+              <BigYoutube url="https://www.youtube.com/@btrust_tech/" />
             </div>
           </div>
           <div className="flex flex-col justify-center items-center gap-4">
@@ -33,6 +35,7 @@ export default function Activities() {
             <div className="flex items-start gap-4">
               <BigTwitter url="https://x.com/btrust_builders" />
               <BigLinkedin url="https://www.linkedin.com/company/btrust-builders" />
+              <BigYoutube url="https://www.youtube.com/@btrust_tech/" />
             </div>
           </div>
         </div>
