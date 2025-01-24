@@ -1,6 +1,8 @@
 "use client";
 import Image from "next/image";
 import ButtonWithArrow from "../buttons/buttonWithArrow";
+import ButtonWithIcon from "../buttons/buttonWithIcon";
+
 import Paragraph from "../Paragraph";
 import SectionHeader from "../sectionHeader";
 import TypingEffect from "../typyingEffect";
@@ -10,6 +12,9 @@ export default function Hero() {
   const router = useRouter();
   function applyForFunding() {
     router.push("/grants");
+  }
+  function navigateToDiscord() {
+    window.open("https://discord.gg/dRbsKgcz", "_blank");
   }
   return (
     <div className="flex lg:px-[6.5rem] pt-[1.62rem] lg:pt-[3.75rem] pb-[4rem] lg:pb-[6.5rem] justify-center flex-col gap-[6.25rem]">
@@ -25,7 +30,10 @@ export default function Hero() {
             Global South
           </h1>
         </div>
-        <ButtonWithArrow text={"Apply For Funding"} onClick={applyForFunding} />
+        <div className="flex flex-col lg:flex-row gap-[1.5rem]">
+          <ButtonWithArrow text={"Apply For Funding"} onClick={applyForFunding} />
+          <ButtonWithIcon text={"Join Our Community"} onClick={navigateToDiscord} />
+        </div>
       </div>
       <div className="flex flex-col lg:flex-row lg:justify-between lg:items-center w-full gap-12">
         <Image
