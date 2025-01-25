@@ -1,6 +1,7 @@
 "use client";
 import Image from "next/image";
 import ButtonWithArrow from "../buttons/buttonWithArrow";
+
 import Paragraph from "../Paragraph";
 import SectionHeader from "../sectionHeader";
 import TypingEffect from "../typyingEffect";

@@ -1,9 +1,9 @@
 export default function SubHeading({
   text,
-  className,
+  className = '',
 }: {
   text: string;
-  className: string;
+  className?: string;
 }) {
   return (
     <h2
