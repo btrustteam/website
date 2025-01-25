@@ -1,4 +1,6 @@
 import ButtonWithArrow from "../buttons/buttonWithArrow";
+import ButtonWithIcon from "@/components/buttons/buttonWithIcon";
+
 import LittleText from "../littleTitle";
 import Paragraph from "../Paragraph";
 import SectionHeader from "../sectionHeader";
@@ -24,8 +26,12 @@ export default function StartYourJourney() {
             </Paragraph>
           </div>
         </div>
-        <div>
+        <div className="flex flex-col lg:flex-row gap-[1.5rem]">
           <ButtonWithArrow text="Learn More" url="/builders" />
+          <ButtonWithIcon
+              text="Join Our Community"
+              url="https://discord.gg/dRbsKgcz"
+          />
         </div>
       </div>
       <Image
