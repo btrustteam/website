@@ -20,7 +20,7 @@ interface LayoutProps {
 export default function ApplyHero() {
     const routes = useRouter();
     function navigateToDiscord() {
-        window.open("https://discord.gg/dRbsKgcz", "_blank");
+        window.open("https://discord.gg/wFt6puhmwk", "_blank");
     }
 
     const GoalParagraph = () => (

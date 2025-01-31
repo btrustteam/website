@@ -30,7 +30,7 @@ export default function StartYourJourney() {
           <ButtonWithArrow text="Learn More" url="/builders" />
           <ButtonWithIcon
               text="Join Our Community"
-              url="https://discord.gg/dRbsKgcz"
+              url="https://discord.gg/wFt6puhmwk"
           />
         </div>
       </div>
