@@ -91,7 +91,7 @@ export default function Cohort({
               text="Apply for this grant"
               onClick={() =>
                 router.push(
-                  "https://btrust.homerun.co/open-source-cohort/apply"
+                  "https://btrust.homerun.co/open-source-cohort/en"
                 )
               }
               noIcon={true}
