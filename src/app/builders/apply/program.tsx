@@ -55,7 +55,7 @@ export default function Program() {
             />
             <ProgramCard
               text="Support from our world-class developer faculty"
-              heading="Profile Building"
+              heading="World-Class Faculty"
             />
           </div>
           <div className="flex flex-col gap-6 items-center lg:grid grid-cols-1 justify-between">
@@ -64,7 +64,7 @@ export default function Program() {
                 text="Apply Here"
                 onClick={() => {
                   router.push(
-                    "https://btrust.homerun.co/btrust-builders-2025-oss-cohort-application/en"
+                    "https://btrust.homerun.co/btrust-builders-application/en"
                   );
                 }}
                 noIcon={false}
