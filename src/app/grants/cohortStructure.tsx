@@ -32,7 +32,7 @@ export default function CohortStructure() {
         </div>
         <div className="flex flex-col lg:flex-row justify-between gap-[1.5rem] w-full">
           <CohortStructureCard
-            text="We actively communicates with the projects that cohort members choose to work on to ensure that cohort members positively impact the project."
+            text="We actively communicate with the projects that cohort members choose to work on to ensure that cohort members positively impact the project."
             heading="Project Relations"
           />
           <CohortStructureCard
