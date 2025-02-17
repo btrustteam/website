@@ -5,6 +5,7 @@ import LittleText from "../littleTitle";
 import Paragraph from "../Paragraph";
 import SectionHeader from "../sectionHeader";
 import Image from "next/image";
+import { DISCORD_LINK } from "@/lib/constants";
 
 export default function StartYourJourney() {
   return (
@@ -30,7 +31,7 @@ export default function StartYourJourney() {
           <ButtonWithArrow text="Learn More" url="/builders" />
           <ButtonWithIcon
               text="Join Our Community"
-              url="https://discord.gg/wFt6puhmwk"
+              url={DISCORD_LINK}
           />
         </div>
       </div>

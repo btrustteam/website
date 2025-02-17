@@ -7,6 +7,7 @@ import DynamicImage from "@/components/DynamicImage";
 import LittleHeading from "@/components/LittleHeading";
 import Paragraph from "@/components/Paragraph";
 import SubHeading from "@/components/SubHeading";
+import { DISCORD_LINK } from "@/lib/constants";
 
 interface BackButtonProps {
     onClick: () => void;
@@ -20,7 +21,7 @@ interface LayoutProps {
 export default function ApplyHero() {
     const routes = useRouter();
     function navigateToDiscord() {
-        window.open("https://discord.gg/wFt6puhmwk", "_blank");
+        window.open(DISCORD_LINK, "_blank");
     }
 
     const GoalParagraph = () => (
