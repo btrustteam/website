@@ -22,7 +22,8 @@ export default function Hero() {
             </h1>
           </div>
           <h1 className="text-[2rem] lg:w-[76.6875rem] font-poppins lg:text-[5rem] leading-[140%] lg:leading-[130%] font-bold text-white-6">
-            Bitcoin Open-Source Engineers in the <br />
+            Bitcoin Open-Source <br />
+            Engineers in the <br />
             Global South
           </h1>
         </div>
