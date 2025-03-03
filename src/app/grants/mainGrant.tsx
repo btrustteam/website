@@ -1,5 +1,7 @@
 "use client";
 import ActivitiesNewsletter from "@/components/ActivitiesNewsLetterFooter";
+import AllGrants from "./allGrantContainer";
+import BtrustGrant from "./btrustGrant";
 import Cohort from "./cohort";
 import CohortStructure from "./cohortStructure";
 import Eligibility from "./eligibility";
@@ -15,11 +17,13 @@ export default function MainGrant({
   return (
     <div className="flex flex-col">
       <GrantsHero />
-      <Eligibility />
-      <StartGrant setPage={setPage} />
-      <Perks />
-      <Cohort setPage={setPage} />
-      <CohortStructure />
+      <BtrustGrant />
+      {/* <Eligibility /> */}
+      {/* <StartGrant setPage={setPage} /> */}
+      <AllGrants />
+      {/* <Perks /> */}
+      {/* <Cohort setPage={setPage} /> */}
+      {/* <CohortStructure /> */}
       <ActivitiesNewsletter />
     </div>
   );
