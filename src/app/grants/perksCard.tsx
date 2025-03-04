@@ -7,7 +7,7 @@ interface PerksProps {
 }
 export default function PerksCard({ heading, text }: PerksProps) {
   return (
-    <div className="flex p-[1.5rem] flex-col gap-4 rounded-lg border border-black-5 w-full lg:w-[16.625rem]">
+    <div className="flex p-[1.5rem] flex-col gap-4 rounded-lg border border-black-5 w-full">
       <SectionHeader
         text={heading}
         className="!text-[1.25rem] lg:!text-[1.5rem] !leading-[2rem]"

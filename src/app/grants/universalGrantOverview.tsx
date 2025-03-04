@@ -7,8 +7,10 @@ interface Props {
   title: string;
   details: string[];
   imageSrc: string;
-  section: string;
+  section?: string;
   isReverse: boolean;
+  noMarginBottom?: boolean;
+  setPage?: (page: string) => void;
 }
 export default function UniversalGrantOverview({
   title,
@@ -16,12 +18,14 @@ export default function UniversalGrantOverview({
   imageSrc,
   section,
   isReverse,
+  noMarginBottom,
+  setPage,
 }: Props) {
   return (
     <div
       className={`flex flex-col gap-6 ${
         isReverse ? "lg:flex-row-reverse" : "lg:flex-row"
-      } justify-between mb-12 lg:mb-24`}
+      } justify-between ${noMarginBottom ? "" : "mb-12 lg:mb-24"}`}
     >
       <div className="lg:hidden flex w-full">
         <SectionHeader
@@ -48,16 +52,19 @@ export default function UniversalGrantOverview({
             ))}
           </div>
         </div>
-        <div className="flex items-center">
-          <ButtonWithArrow
-            text="Learn More"
-            className="w-full lg:w-auto"
-            onClick={() => {
-              console.log("Section: ", section);
-            }}
-            noIcon={true}
-          />
-        </div>
+        {section && setPage && (
+          <div className="flex items-center">
+            <ButtonWithArrow
+              text="Learn More"
+              className="w-full lg:w-auto"
+              onClick={() => {
+                console.log("Section: ", section);
+                setPage(section);
+              }}
+              noIcon={true}
+            />
+          </div>
+        )}
       </div>
     </div>
   );

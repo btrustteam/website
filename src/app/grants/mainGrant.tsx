@@ -19,11 +19,7 @@ export default function MainGrant({
       <GrantsHero />
       <BtrustGrant />
       {/* <Eligibility /> */}
-      {/* <StartGrant setPage={setPage} /> */}
-      <AllGrants />
-      {/* <Perks /> */}
-      {/* <Cohort setPage={setPage} /> */}
-      {/* <CohortStructure /> */}
+      <AllGrants setPage={setPage} />
       <ActivitiesNewsletter />
     </div>
   );

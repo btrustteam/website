@@ -1,5 +1,6 @@
 "use client";
 import { useState } from "react";
+import Developer from "./developer";
 import MainGrant from "./mainGrant";
 import Recipients from "./recipients";
 
@@ -8,9 +9,7 @@ export default function GrantContainer() {
   return (
     <div className="flex flex-col">
       {!currentPage && <MainGrant setPage={setCurrentPage} />}
-      {currentPage && (
-        <Recipients setPage={setCurrentPage} currentPage={currentPage} />
-      )}
+      {currentPage === "developer" && <Developer setPage={setCurrentPage} />}
     </div>
   );
 }
