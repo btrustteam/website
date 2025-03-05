@@ -11,9 +11,10 @@ export default function DeveloperInfo() {
         <Paragraph className="lg:!text-[1.25rem] lg:!leading-[2.375rem]">
           We support developers working on Bitcoin protocol improvements, Layer
           2 solutions, security enhancements, and other critical open-source
-          projects. Whether you're an experienced contributor or just starting
-          your Bitcoin development journey, our grants offer the resources,
-          mentorship, and community support needed to make a meaningful impact.
+          projects. Whether you&apos;re an experienced contributor or just
+          starting your Bitcoin development journey, our grants offer the
+          resources, mentorship, and community support needed to make a
+          meaningful impact.
         </Paragraph>
       </div>
     </div>

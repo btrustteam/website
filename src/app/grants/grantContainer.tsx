@@ -3,7 +3,6 @@ import { useState } from "react";
 import Developer from "./developer";
 import Education from "./education";
 import MainGrant from "./mainGrant";
-import Recipients from "./recipients";
 
 export default function GrantContainer() {
   const [currentPage, setCurrentPage] = useState<string>("");

@@ -1,4 +1,3 @@
-import ButtonWithArrow from "@/components/buttons/buttonWithArrow";
 import OutlineButton from "@/components/buttons/OutlineButton";
 import DynamicImage from "@/components/DynamicImage";
 import Paragraph from "@/components/Paragraph";

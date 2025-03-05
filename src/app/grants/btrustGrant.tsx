@@ -21,7 +21,7 @@ export default function BtrustGrant() {
         <Paragraph className="lg:!text-[1.25rem] lg:!leading-[2.375rem]">
           Our mission is to empower contributors by removing financial barriers
           and providing the resources needed to make a meaningful impact.
-          Whether you're building Bitcoin open-source software, creating
+          Whether you&apos;re building Bitcoin open-source software, creating
           educational programs, or organizing conferences and workshops, our
           grants are designed to help you focus on strengthening the Bitcoin
           ecosystem.
