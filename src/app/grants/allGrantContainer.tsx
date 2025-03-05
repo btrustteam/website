@@ -34,7 +34,7 @@ export default function AllGrants({
       details: [
         "Bitcoin grows through collaboration and knowledge-sharing. Our Event and Conference Grants support Bitcoin-only conferences, meetups, and workshops that help onboard and connect developers to the open-source ecosystem. We fund grassroots gatherings, bootcamps, and developer-focused events that create hands-on learning opportunities and strengthen Bitcoin’s global developer community.",
       ],
-      section: "event",
+      section: "event and conference",
       isReverse: true,
     },
   ];
