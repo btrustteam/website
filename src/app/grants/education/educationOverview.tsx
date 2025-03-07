@@ -29,23 +29,38 @@ export default function EducationOverview({
         faqs={[
           {
             answer:
-              "Lorem ipsum dolor sit amet consectetur. Et mauris enim mauris habitant enim molestie condimentum ut. Sed rhoncus massa ut ut ultrices vel ut bibendum porta. Ipsum imperdiet elit mauris netus posuere rutrum nisl. Diam scelerisque est id tortor egestas feugiat. Pulvinar leo orci hendrerit facilisis id pulvinar morbi. Fermentum congue tempor dictum sit eu mauris dui nam eu.",
-            question: "Lorem Ipsum Dolor SIt Amet",
+              "We fund programs and initiatives that expand Bitcoin knowledge, including:",
+            question: "What does the Education Grant cover?",
+            lists: [
+              "Developer Training Programs – Hands-on workshops and structured courses.",
+              "Bitcoin Research – Studies and reports on Bitcoin development and adoption.",
+              "Language Translation & Automation – Expanding access to Bitcoin knowledge through manual translation and AI-assisted tools.",
+            ],
           },
           {
             answer:
-              "Lorem ipsum dolor sit amet consectetur. Et mauris enim mauris habitant enim molestie condimentum ut. Sed rhoncus massa ut ut ultrices vel ut bibendum porta. Ipsum imperdiet elit mauris netus posuere rutrum nisl. Diam scelerisque est id tortor egestas feugiat. Pulvinar leo orci hendrerit facilisis id pulvinar morbi. Fermentum congue tempor dictum sit eu mauris dui nam eu.",
-            question: "Lorem Ipsum Dolor SIt Amet",
+              "Both individuals and organizations can apply, but all content must remain open-source and freely available.",
+            question:
+              "Can I apply as an individual, or does it need to be an organization?",
           },
           {
             answer:
-              "Lorem ipsum dolor sit amet consectetur. Et mauris enim mauris habitant enim molestie condimentum ut. Sed rhoncus massa ut ut ultrices vel ut bibendum porta. Ipsum imperdiet elit mauris netus posuere rutrum nisl. Diam scelerisque est id tortor egestas feugiat. Pulvinar leo orci hendrerit facilisis id pulvinar morbi. Fermentum congue tempor dictum sit eu mauris dui nam eu.",
-            question: "Lorem Ipsum Dolor SIt Amet",
+              "Any research that provides data-driven insights into Bitcoin adoption, ecosystem growth, or development trends in the Global South.",
+            question: "What qualifies as an Education Research Grant?",
           },
           {
+            answer: "",
+            lists: [
+              "Education Research Grants focus on Bitcoin adoption, trends, and learning resources.",
+              "Seeder Grants support Bitcoin technical research and open-source development.",
+            ],
+            question:
+              "What’s the difference between Education Research Grants and Seeder Grants?",
+          },
+          {
+            question: "How long does an Education Grant last?",
             answer:
-              "Lorem ipsum dolor sit amet consectetur. Et mauris enim mauris habitant enim molestie condimentum ut. Sed rhoncus massa ut ut ultrices vel ut bibendum porta. Ipsum imperdiet elit mauris netus posuere rutrum nisl. Diam scelerisque est id tortor egestas feugiat. Pulvinar leo orci hendrerit facilisis id pulvinar morbi. Fermentum congue tempor dictum sit eu mauris dui nam eu.",
-            question: "Lorem Ipsum Dolor SIt Amet",
+              "Grant durations vary based on project scope, typically ranging from six months to one year.",
           },
         ]}
       />
