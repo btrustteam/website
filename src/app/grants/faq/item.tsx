@@ -5,7 +5,7 @@ import { GrantsFaq } from ".";
 import DynamicImage from "@/components/DynamicImage";
 import Paragraph from "@/components/Paragraph";
 
-export default function Item({ answer, question }: GrantsFaq) {
+export default function Item({ answer, question, lists }: GrantsFaq) {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleOpen = () => setIsOpen(!isOpen);
@@ -49,6 +49,18 @@ export default function Item({ answer, question }: GrantsFaq) {
         <Paragraph className="!text-[#A5A5A5] leading-[175%] w-full">
           {answer}
         </Paragraph>
+        {lists && (
+          <ul className="list-disc pl-5">
+            {lists.map((list, index) => (
+              <li
+                className="text-[#A5A5A5] text-base font-poppins leading-[175%]"
+                key={index}
+              >
+                {list}
+              </li>
+            ))}
+          </ul>
+        )}
       </motion.div>
     </div>
   );

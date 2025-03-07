@@ -3,6 +3,7 @@ import Item from "./item";
 export interface GrantsFaq {
   answer: string;
   question: string;
+  lists?: string[];
 }
 
 export default function FaqContainer({ faqs }: { faqs: GrantsFaq[] }) {
@@ -18,7 +19,12 @@ export default function FaqContainer({ faqs }: { faqs: GrantsFaq[] }) {
       </div>
       <div className="flex flex-col items-center justify-center">
         {faqs.map((faq, index) => (
-          <Item key={index} answer={faq.answer} question={faq.question} />
+          <Item
+            key={index}
+            answer={faq.answer}
+            question={faq.question}
+            lists={faq.lists}
+          />
         ))}
       </div>
     </div>
