@@ -29,23 +29,41 @@ export default function OverviewEventConference({
         faqs={[
           {
             answer:
-              "Lorem ipsum dolor sit amet consectetur. Et mauris enim mauris habitant enim molestie condimentum ut. Sed rhoncus massa ut ut ultrices vel ut bibendum porta. Ipsum imperdiet elit mauris netus posuere rutrum nisl. Diam scelerisque est id tortor egestas feugiat. Pulvinar leo orci hendrerit facilisis id pulvinar morbi. Fermentum congue tempor dictum sit eu mauris dui nam eu.",
-            question: "Lorem Ipsum Dolor SIt Amet",
+              "We support Bitcoin-only events that help onboard and connect contributors to the open-source ecosystem, including:",
+            question: "What kinds of events do you fund?",
+            lists: [
+              "Grassroots meetups (BitDevs), bootcamps, and developer-focused events.",
+              "Conferences with a strong technical focus.",
+            ],
           },
           {
             answer:
-              "Lorem ipsum dolor sit amet consectetur. Et mauris enim mauris habitant enim molestie condimentum ut. Sed rhoncus massa ut ut ultrices vel ut bibendum porta. Ipsum imperdiet elit mauris netus posuere rutrum nisl. Diam scelerisque est id tortor egestas feugiat. Pulvinar leo orci hendrerit facilisis id pulvinar morbi. Fermentum congue tempor dictum sit eu mauris dui nam eu.",
-            question: "Lorem Ipsum Dolor SIt Amet",
+              "Yes, but funding is only available for non-commercial, Bitcoin-focused events that align with Btrust’s mission",
+            question: "Can event organizers apply for funding?",
           },
           {
             answer:
-              "Lorem ipsum dolor sit amet consectetur. Et mauris enim mauris habitant enim molestie condimentum ut. Sed rhoncus massa ut ut ultrices vel ut bibendum porta. Ipsum imperdiet elit mauris netus posuere rutrum nisl. Diam scelerisque est id tortor egestas feugiat. Pulvinar leo orci hendrerit facilisis id pulvinar morbi. Fermentum congue tempor dictum sit eu mauris dui nam eu.",
-            question: "Lorem Ipsum Dolor SIt Amet",
+              "Yes, we offer travel support for speakers presenting at developer-focused Bitcoin conferences.",
+            question: "Do you fund travel costs for speakers and attendees?",
           },
           {
             answer:
-              "Lorem ipsum dolor sit amet consectetur. Et mauris enim mauris habitant enim molestie condimentum ut. Sed rhoncus massa ut ut ultrices vel ut bibendum porta. Ipsum imperdiet elit mauris netus posuere rutrum nisl. Diam scelerisque est id tortor egestas feugiat. Pulvinar leo orci hendrerit facilisis id pulvinar morbi. Fermentum congue tempor dictum sit eu mauris dui nam eu.",
-            question: "Lorem Ipsum Dolor SIt Amet",
+              "Yes, but each application is evaluated separately, and funding decisions depend on impact, reach, and alignment with our mission.",
+            question: "Can I apply for funding for a recurring event?",
+          },
+          {
+            question: "What events has Btrust funded in the past?",
+            answer: "Past grant recipients include:",
+            lists: [
+              "Africa Bitcoin Conference (Ghana & Kenya, from inception)",
+              "Adopting Bitcoin Cape Town (2024 and 2025 editions)",
+              "Bitcoin Lightning Development Bootcamp (Nairobi)",
+            ],
+          },
+          {
+            question: "How do I apply?",
+            answer:
+              "Visit our Event & Conference Grants Page and submit your application.",
           },
         ]}
       />
