@@ -49,15 +49,6 @@ export default function EducationOverview({
             question: "What qualifies as an Education Research Grant?",
           },
           {
-            answer: "",
-            lists: [
-              "Education Research Grants focus on Bitcoin adoption, trends, and learning resources.",
-              "Seeder Grants support Bitcoin technical research and open-source development.",
-            ],
-            question:
-              "What’s the difference between Education Research Grants and Seeder Grants?",
-          },
-          {
             question: "How long does an Education Grant last?",
             answer:
               "Grant durations vary based on project scope, typically ranging from six months to one year.",

@@ -39,7 +39,7 @@ export default function WhatWeFund({
           <ButtonWithArrow
             text="Apply for this grant"
             onClick={() => {
-              route.push("https://btrust.homerun.co/starter-grants/en");
+              route.push("https://btrust.homerun.co/event-and-conference-grant-application/en");
             }}
             noIcon={true}
           />

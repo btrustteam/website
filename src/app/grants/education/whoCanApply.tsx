@@ -41,7 +41,7 @@ export default function WhoCanApply({
           <ButtonWithArrow
             text="Apply for this grant"
             onClick={() => {
-              route.push("https://btrust.homerun.co/starter-grants/en");
+              route.push("https://btrust.homerun.co/education-grant-application/en");
             }}
             noIcon={true}
           />
