@@ -15,7 +15,7 @@ export default function BigYoutube({ url }: Link) {
         alt={"youtube"}
         src="/big_youtube.svg"
         sizes="100vw"
-        className="w-[1.5rem] h-[1.5rem]"
+        className="w-[2rem] h-[2rem]"
       />
     </a>
   );
