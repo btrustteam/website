@@ -6,7 +6,13 @@ export interface GrantsFaq {
   lists?: string[];
 }
 
-export default function FaqContainer({ faqs }: { faqs: GrantsFaq[] }) {
+export default function FaqContainer({
+  faqs,
+  main,
+}: {
+  faqs: GrantsFaq[];
+  main?: boolean;
+}) {
   return (
     <div className="flex flex-col items-center justify-center gap-10 pt-10 pb-20 lg:pt-[4.5rem] lg:pb-[9rem] px-6">
       <div className="flex flex-col w-full lg:w-[34.4375rem] gap-4 items-center justify-center">
@@ -14,7 +20,8 @@ export default function FaqContainer({ faqs }: { faqs: GrantsFaq[] }) {
           FAQs
         </h3>
         <h4 className="font-poppins font-bold text-[1.5rem] leading-[2.25rem] lg:text-[2rem] lg:leading-[3rem] text-center text-[#FDFDFD]">
-          Have Questions about this Grant? We have answers
+          Have Questions about {main ? "our Grants" : "this Grant"}? We have
+          answers
         </h4>
       </div>
       <div className="flex flex-col items-center justify-center">

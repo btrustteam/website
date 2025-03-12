@@ -18,10 +18,11 @@ export default function MainGrant({
       {/* <Eligibility /> */}
       <AllGrants setPage={setPage} />
       <FaqContainer
+        main
         faqs={[
           {
             answer:
-              "Btrust Grants provide financial support to developers, educators, and event organizers working to strengthen the Bitcoin open-source ecosystem. We offer grants for developer contributions, education programs, research, and Bitcoin-only events to remove financial barriers and enable impactful contributions.",
+              "Btrust Grants provide financial support to developers, educators, and event organizers working to strengthen the Bitcoin open-source ecosystem. We offer grants for Bitcoin Open-Source development, Bitcoin education programs, and Bitcoin-only events to remove financial barriers and enable impactful contributions.",
             question: "What are Btrust Grants?",
           },
           {
@@ -31,15 +32,16 @@ export default function MainGrant({
           },
           {
             answer: "We fund:",
-            question: "What kind of projects do you fund?",
+            question: "What kind of grants do you fund?",
             lists: [
-              "Open-source Bitcoin development and research.",
-              "Developer training, language translation, and Bitcoin-related research.",
+              "Open-source Bitcoin development.",
+              "Bitcoin Developer training programs.",
               "Bitcoin-only meetups, bootcamps, and developer-focused conferences.",
             ],
           },
           {
-            answer: "All grants are paid in Bitcoin (BTC)",
+            answer:
+              "All grants are paid monthly or one-time (depending on the grant) in Bitcoin (BTC)",
             question: "How are grants paid out?",
           },
           {

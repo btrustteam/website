@@ -33,13 +33,13 @@ export default function OverviewDeveloper({
             answer: "We offer two types of developer grants:",
             question: "What types of Developer Grants does Btrust offer?",
             lists: [
-              "Long-Term Grants (BOSC) – For developers making sustained contributions to Bitcoin open-source projects.",
+              "Btrust Open-Source Cohort (BOSC) – Long-Term grants for developers making sustained contributions to Bitcoin open-source projects.",
               "Starter Grants – Six-month grants to help new developers begin contributing to Bitcoin development.",
             ],
           },
           {
             answer:
-              "We fund open-source Bitcoin projects, including work on the Bitcoin protocol, Layer 2 solutions, security improvements, developer tooling, and related research.",
+              'We DO NOT have a list of "qualified" projects. However, we only support work on open-source Bitcoin projects, including work on the Bitcoin protocol, Layer 2 solutions like the Lightning Network, and related developer tooling.',
             question: "What kind of Bitcoin projects qualify?",
           },
           {
@@ -47,7 +47,7 @@ export default function OverviewDeveloper({
             answer: "Grant durations vary:",
             lists: [
               "Starter Grants last six months.",
-              "Long-Term BOSC Grants typically last one year, with renewal options.",
+              "Long-Term BOSC grants typically last one year, with renewal options for 2 or more years.",
             ],
           },
         ]}

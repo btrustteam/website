@@ -41,11 +41,11 @@ export default function OverviewEventConference({
               "Yes, but funding is only available for non-commercial, Bitcoin-focused events that align with Btrust’s mission",
             question: "Can event organizers apply for funding?",
           },
-          {
-            answer:
-              "Yes, we offer travel support for speakers presenting at developer-focused Bitcoin conferences.",
-            question: "Do you fund travel costs for speakers and attendees?",
-          },
+          //   {
+          //     answer:
+          //       "Yes, we offer travel support for speakers presenting at developer-focused Bitcoin conferences.",
+          //     question: "Do you fund travel costs for speakers and attendees?",
+          //   },
           {
             answer:
               "Yes, but each application is evaluated separately, and funding decisions depend on impact, reach, and alignment with our mission.",
@@ -58,12 +58,13 @@ export default function OverviewEventConference({
               "Africa Bitcoin Conference (Ghana & Kenya, from inception)",
               "Adopting Bitcoin Cape Town (2024 and 2025 editions)",
               "Bitcoin Lightning Development Bootcamp (Nairobi)",
+              "Bitdevs across Nairobi, Lagos, Abuja, Kaduna, and Accra",
             ],
           },
           {
             question: "How do I apply?",
             answer:
-              "Visit our Event & Conference Grants Page and submit your application.",
+              "Simply head to the Event & Conference Grants section above and click the button to complete your application.",
           },
         ]}
       />

@@ -14,7 +14,7 @@ export default function WhoCanApply({
   const details = [
     "Bitcoin education programs focused on training and upskilling Bitcoin developers.",
     "Studies, white papers, and data-driven analysis exploring Bitcoin's impact, technical advancements, and adoption trends in the Global South.",
-    "Language translation & automation: Expanding access to Bitcoin knowledge through manual translation efforts, AI/LLM-assisted translations, and other automation techniques to make Bitcoin educational resources more widely available.",
+    // "Language translation & automation: Expanding access to Bitcoin knowledge through manual translation efforts, AI/LLM-assisted translations, and other automation techniques to make Bitcoin educational resources more widely available.",
   ];
   const route = useRouter();
   return (
@@ -41,7 +41,9 @@ export default function WhoCanApply({
           <ButtonWithArrow
             text="Apply for this grant"
             onClick={() => {
-              route.push("https://btrust.homerun.co/education-grant-application/en");
+              route.push(
+                "https://btrust.homerun.co/education-grant-application/en"
+              );
             }}
             noIcon={true}
           />
