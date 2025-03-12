@@ -34,7 +34,6 @@ export default function EducationOverview({
             lists: [
               "Developer Training Programs – Hands-on workshops and structured courses.",
               "Bitcoin Research – Studies and reports on Bitcoin development and adoption.",
-              //   "Language Translation & Automation – Expanding access to Bitcoin knowledge through manual translation and AI-assisted tools.",
             ],
           },
           {
@@ -43,11 +42,6 @@ export default function EducationOverview({
             question:
               "Can I apply as an individual, or does it need to be an organization?",
           },
-          //   {
-          //     answer:
-          //       "Any research that provides data-driven insights into Bitcoin adoption, ecosystem growth, or development trends in the Global South.",
-          //     question: "What qualifies as an Education Research Grant?",
-          //   },
           {
             question: "How long does an Education Grant last?",
             answer:
