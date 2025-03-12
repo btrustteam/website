@@ -47,7 +47,7 @@ export default function MainGrant({
           {
             question: "How do I apply?",
             answer:
-              "You can apply by visiting our Grants Page, selecting the relevant grant category, then applying through the link provided. Applications are reviewed on a rolling basis.",
+              "You can apply by visiting the relevant grant category, then applying through the link provided. Applications are reviewed on a rolling basis.",
           },
         ]}
       />
