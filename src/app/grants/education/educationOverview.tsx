@@ -33,7 +33,7 @@ export default function EducationOverview({
             question: "What does the Education Grant cover?",
             lists: [
               "Developer Training Programs – Hands-on workshops and structured courses.",
-              "Bitcoin Research – Studies and reports on Bitcoin development and adoption.",
+              //   "Bitcoin Research – Studies and reports on Bitcoin development and adoption.",
             ],
           },
           {
