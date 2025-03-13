@@ -36,7 +36,7 @@ export default function EventConferenceHero({
       </div>
       <div className="flex justify-center items-center bg-red-300">
         <DynamicImage
-          src="https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/BTrust%20Gathering%20Day%202%20-103-UDt5Jos2fBnxEZptEr3WdJEew6d635.JPG"
+          src="https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/4-x2FH0Z64tiUri5hfNfTpaC3D1SzUoN.png"
           alt=""
           className="w-full h-[18.75rem] lg:h-[46.1875rem] object-cover"
         />
