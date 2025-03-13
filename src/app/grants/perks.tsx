@@ -2,11 +2,11 @@ import PerksCard from "./perksCard";
 
 export default function Perks() {
   return (
-    <div className="flex pb-[5.5rem] lg:py-[3.5rem] px-[1.5rem] lg:px-[6.5rem] flex-col justify-center gap-6">
+    <div className="flex pb-[5.5rem] lg:py-[3.5rem] flex-col gap-6 w-full">
       <h4 className="text-active-white font-poppins text-[1.25rem] font-semibold">
         Each grant will run for six months with grantees receiving:
       </h4>
-      <div className="flex flex-col lg:flex-row gap-6 w-full justify-between">
+      <div className="flex flex-col lg:flex-row gap-6 w-full">
         <PerksCard
           heading="Monthly Renumeration"
           text="Each grantee in the cohort will be paid in BTC to work full-time on open-source projects"

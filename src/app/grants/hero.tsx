@@ -8,8 +8,8 @@ export default function GrantsHero() {
       <div className="px-[2rem] lg:px-[6.5rem] py-0">
         <LittleHeading text="grants" className="" />
         <SubHeading
-          text="Get funding to work on Free and Open-Source Bitcoin projects"
-          className="w-full lg:w-[58.375rem]"
+          text="Supporting the Bitcoin Open-Source Ecosystem"
+          className="w-full lg:w-[46.8125rem]"
         />
       </div>
       <div className="flex justify-center items-center">

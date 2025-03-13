@@ -3,12 +3,18 @@ import Paragraph from "@/components/Paragraph";
 export default function CohortStructureCard({
   text,
   heading,
+  full,
 }: {
   text: string;
   heading: string;
+  full?: boolean;
 }) {
   return (
-    <div className="flex p-[1.5rem] flex-col gap-4 rounded-lg border border-black-5 w-full lg:w-[23.125rem]">
+    <div
+      className={`flex p-[1.5rem] flex-col gap-4 rounded-lg border border-black-5 w-full ${
+        full ? "lg:w-full" : "lg:w-[23.125rem]"
+      }`}
+    >
       <h3 className="text-active-white font-poppins text-[1.5rem] font-bold leading-[175%]">
         {heading}
       </h3>
