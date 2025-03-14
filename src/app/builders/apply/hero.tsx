@@ -84,8 +84,19 @@ export default function ApplyHero() {
                         noIcon={true}
                         className="w-full"
                     />
-                    <ButtonWithIcon
+                    <ButtonWithArrow
+                        text="Pathways"
+                        onClick={() =>
+                            routes.push(
+                                "https://pathways.btrust.tech"
+                            )
+                        }
+                        noIcon={true}
+                        className="w-full"
+                    />
+                     <ButtonWithIcon
                         text="Join Our Community"
+                        iconName="discord"
                         onClick={navigateToDiscord}
                         className="w-full"
                     />
@@ -119,8 +130,18 @@ export default function ApplyHero() {
                             }
                             noIcon={true}
                         />
+                        <ButtonWithArrow
+                            text="Pathways"
+                            onClick={() =>
+                                routes.push(
+                                    "https://pathways.btrust.tech"
+                                )
+                            }
+                            noIcon={true}
+                        />
                         <ButtonWithIcon
                             text="Join Our Community"
+                            iconName="discord"
                             onClick={navigateToDiscord}
                         />
                     </div>

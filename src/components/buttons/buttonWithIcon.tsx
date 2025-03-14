@@ -3,24 +3,24 @@ import Image from "next/image";
 import { useRouter } from "next/navigation";
 import styles from "./ButtonWithArrow.module.css";
 
-interface ArrowButtonProps {
+interface IconButtonProps {
   text: string;
+  iconName: string;
   onClick?: () => void;
   url?: string;
-  noIcon?: boolean;
   className?: string;
   loading?: boolean;
   disabled?: boolean;
 }
 export default function ButtonWithIcon({
   text,
+  iconName,
   onClick,
   url,
-  noIcon,
   className,
   loading,
   disabled,
-}: ArrowButtonProps) {
+}: IconButtonProps) {
   const routes = useRouter();
 
   return (
@@ -33,14 +33,12 @@ export default function ButtonWithIcon({
       {loading ? (
         <div className={styles.spinner}></div>
       ) : (
-        !noIcon && (
-          <Image
-            src={"/discord.svg"}
-            alt="discord icon"
+        <Image
+            src={`/${iconName}.svg`}
+            alt={`${iconName} icon`}
             width={30}
             height={50}
           />
-        )
       )}
     </button>
   );

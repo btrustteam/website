@@ -31,6 +31,7 @@ export default function StartYourJourney() {
           <ButtonWithArrow text="Learn More" url="/builders" />
           <ButtonWithIcon
               text="Join Our Community"
+              iconName="discord"
               url={DISCORD_LINK}
           />
         </div>

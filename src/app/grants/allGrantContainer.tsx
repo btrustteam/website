@@ -22,7 +22,7 @@ export default function AllGrants({
       imageSrc:
         "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/3-xcgTNTEMQWZfakMIttDJERMjDOrSu5.png",
       details: [
-        "Bitcoin education is essential for a thriving open-source ecosystem. Our Education Grants support initiatives that train developers, fund research, and make Bitcoin knowledge more accessible; whether through developer programs, language translation, or research studies. By reducing barriers to learning, we empower more people in Africa and the Global South to engage with Bitcoin development.",
+        "Bitcoin education is essential for a thriving open-source ecosystem. Our Education Grants support initiatives that train developers, and make Bitcoin knowledge more accessible especially through developer programs. By reducing barriers to learning, we empower more people in Africa and the Global South to engage with Bitcoin development.",
       ],
       section: "education",
       isReverse: false,
