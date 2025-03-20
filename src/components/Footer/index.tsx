@@ -76,6 +76,11 @@ export default function Footer() {
                         url: "https://www.youtube.com/@btrust_tech",
                         new_tab: true,
                       },
+                      {
+                        name: "Nostr",
+                        url: "https://primal.net/p/npub133yvyku5munsddczjqwz4w6aspwz93z22jmlzgw8xur7qu0368vq7urapg",
+                        new_tab: true,
+                      },
                     ]}
                   />
                 </div>
@@ -96,6 +101,11 @@ export default function Footer() {
                       {
                         name: "YouTube",
                         url: "https://www.youtube.com/@btrust_tech",
+                        new_tab: true,
+                      },
+                      {
+                        name: "Nostr",
+                        url: "https://primal.net/p/npub1353snusdats4lpgwel4frhlmm05w6md2u89gss0dcdzamlhm2yas25gajp",
                         new_tab: true,
                       },
                     ]}
