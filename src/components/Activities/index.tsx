@@ -2,6 +2,7 @@ import SectionHeader from "../sectionHeader";
 import BigLinkedin from "../links/bigLinkedIn";
 import BigTwitter from "../links/bigTwitter";
 import BigYoutube from "../links/bigYoutube";
+import BigNostr from "../links/bigNostr";
 
 export default function Activities() {
   return (
@@ -26,6 +27,7 @@ export default function Activities() {
               <BigTwitter url="https://x.com/btrustteam" />
               <BigLinkedin url="https://www.linkedin.com/company/btrustteam/" />
               <BigYoutube url="https://www.youtube.com/@btrust_tech/" />
+              <BigNostr url="https://primal.net/p/npub133yvyku5munsddczjqwz4w6aspwz93z22jmlzgw8xur7qu0368vq7urapg" />
             </div>
           </div>
           <div className="flex flex-col justify-center items-center gap-4">
@@ -36,6 +38,7 @@ export default function Activities() {
               <BigTwitter url="https://x.com/btrust_builders" />
               <BigLinkedin url="https://www.linkedin.com/company/btrust-builders" />
               <BigYoutube url="https://www.youtube.com/@btrust_tech/" />
+              <BigNostr url="https://primal.net/p/npub1353snusdats4lpgwel4frhlmm05w6md2u89gss0dcdzamlhm2yas25gajp" />
             </div>
           </div>
         </div>

@@ -105,8 +105,14 @@ export default function Enquiry() {
                     icon: "youtube",
                     link: "https://www.youtube.com/@btrust_tech",
                   },
+                  {
+                    icon: "nostr",
+                    link: "https://primal.net/p/npub133yvyku5munsddczjqwz4w6aspwz93z22jmlzgw8xur7qu0368vq7urapg",
+                  },
                 ]}
               />
+            </div>
+            <div className="mt-8 flex gap-8 lg:gap-16">
               <SocialContainer
                 heading="Btrust Builders"
                 socials={[
@@ -118,6 +124,10 @@ export default function Enquiry() {
                   {
                     icon: "youtube",
                     link: "https://www.youtube.com/@btrust_tech",
+                  },
+                  {
+                    icon: "nostr",
+                    link: "https://primal.net/p/npub1353snusdats4lpgwel4frhlmm05w6md2u89gss0dcdzamlhm2yas25gajp",
                   },
                 ]}
               />

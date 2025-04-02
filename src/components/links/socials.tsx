@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export type SocialIcon = "github" | "twitter" | "medium" | "linkedin" | "youtube";
+export type SocialIcon = "github" | "twitter" | "medium" | "linkedin" | "youtube" | "nostr";
 
 export default function SocialLink({
   url,
