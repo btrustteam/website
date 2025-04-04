@@ -15,7 +15,7 @@ export default function BigNostr({ url }: Link) {
         alt={"nostr"}
         src="/big_nostr.svg"
         sizes="100vw"
-        className="w-[2rem] h-[2rem]"
+        className="w-[3rem] h-[3rem]"
       />
     </a>
   );
