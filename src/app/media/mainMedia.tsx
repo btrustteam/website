@@ -27,6 +27,30 @@ export default function MainMedia({ setIsMediaResources }: MediaProps) {
         <Update
           updates={[
             {
+              url: "https://medium.com/@johnosezele/african-bitcoin-newbies-shock-mit-bitcoin-hackathon-with-second-place-win-4cc2d5422d31",
+              cover_url:
+                "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/logo.20250321-155213-pkfLPUCOr61hlt4a4aOrXcqEFgCt5X.jpg",
+              heading: "African Bitcoin Newbies Shock MIT Bitcoin Hackathon with Second-Place Win",
+              tags: [{ title: "Medium", bg: "#000000" }],
+              text: "The MIT Bitcoin Hackathon, held annually, brings together participants worldwide for a 30-hour coding sprint, either in-person at MIT or virtually. This year’s event, running April 4–6, featured three tracks: Bitcoin, Lightning & Taproot; Warnet Game; and Decentralized Applications.",
+            },
+            {
+              url: "https://blog.btrust.tech/announcing-q1-2025-btrust-grants/",
+              cover_url:
+                "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/q1-pJDwiZqSSnQSxx6wLrcuVUqxKeBNNB.png",
+              heading: "Announcing Q1 2025 Btrust Grants Recipients",
+              tags: [{ title: "Btrust Blog", bg: "#000000" }],
+              text: "This quarter, Brandon Odiwuor and Itoro Ukpong have been awarded the Btrust Starter Grant, enabling them to work full-time on open-source Bitcoin projects and strengthen their contributions to the ecosystem.",
+            },
+            {
+              url: "https://blog.btrust.tech/btrust-2024-in-review/",
+              cover_url:
+                "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/BTrust%20Gathering%20Day%202%20-89-auS9DlGEkFBxPdgk99MalH74lvvrNh.JPG",
+              heading: "Btrust 2024 In Review",
+              tags: [{ title: "Btrust Blog", bg: "#000000" }],
+              text: "A recap of Btrust's 2024 milestones in decentralizing Bitcoin development in Africa and the Global South and impactful grants and education support for Africa, LATAM, and India.",
+            },
+            {
               url: "https://blog.btrust.tech/announcing-the-q4-2024-btrust-grant-recipients/",
               cover_url:
                 "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/@ABC-Day-3-fast-36-lJ3ZQsPJgUzzInB0IfeVKoVQKvCWMn.jpeg",
