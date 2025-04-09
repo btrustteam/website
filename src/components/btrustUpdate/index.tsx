@@ -21,28 +21,28 @@ export default function BtrustUpdate() {
       </div>
       <div className="flex flex-col lg:flex-row items-center lg:items-start justify-between gap-[1.5rem]">
         <NewsCard
+          image_url="https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/q1-pJDwiZqSSnQSxx6wLrcuVUqxKeBNNB.png"
+          tag="Btrust Blog"
+          tag_bg="#F7931A"
+          content_url="https://blog.btrust.tech/announcing-q1-2025-btrust-grants/"
+          heading="Announcing Q1 2025 Btrust Grants Recipients"
+          brief="This quarter, Brandon Odiwuor and Itoro Ukpong have been awarded the Btrust Starter Grant ..."
+        />
+        <NewsCard
+          image_url="https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/BTrust%20Gathering%20Day%202%20-89-auS9DlGEkFBxPdgk99MalH74lvvrNh.JPG"
+          tag="Btrust Blog"
+          tag_bg="#F7931A"
+          content_url="https://blog.btrust.tech/btrust-2024-in-review/"
+          heading="Btrust 2024 In Review"
+          brief="A recap of Btrust's 2024 milestones in decentralizing Bitcoin development in Africa and the Global South ..."
+        />
+        <NewsCard
           image_url="https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/@ABC-Day-3-fast-36-lJ3ZQsPJgUzzInB0IfeVKoVQKvCWMn.jpeg"
           tag="Btrust Blog"
           tag_bg="#F7931A"
           content_url="https://blog.btrust.tech/announcing-the-q4-2024-btrust-grant-recipients/"
           heading="Announcing the Q4 2024 Btrust Grant Recipients"
           brief="We are excited to announce the Q4 2024 recipients of Btrust grants. This quarter, ..."
-        />
-        <NewsCard
-          image_url="https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/btc-mag-btc-africa-alt-ntb7yjdt6yLpdf2ixOH9fMTxv9sBqW.jpg"
-          tag="Bitcoin Magazine"
-          tag_bg="#F7931A"
-          content_url="https://bitcoinmagazine.com/business/bitcoin-non-profit-trust-announces-q3-grants-for-open-source-developers"
-          heading="Bitcoin Non-Profit ₿trust Announces Q3 Grants For Open-Source Developers"
-          brief="The Jay-Z and Jack Dorsey-backed organization shares the list of recipients ..."
-        />
-        <NewsCard
-          image_url="https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/btc-mag-africa-map-EV7AZVM5bsbXI9GfMLnyqyffSo6owz.jpeg"
-          tag="Bitcoin Magazine"
-          tag_bg="#F7931A"
-          content_url="https://bitcoinmagazine.com/business/jay-z-and-jack-dorsey-backed-bitcoin-non-profit-trust-appoints-bitcoin-core-developer-as-interim-ceo"
-          heading="Jay-Z and Jack Dorsey-Backed Non-Profit ₿trust Appoints Bitcoin Core Contributor As Interim CEO"
-          brief="The organization, which trains Bitcoin developers in Africa, LATAM and SE Asia ..."
         />
       </div>
     </div>
