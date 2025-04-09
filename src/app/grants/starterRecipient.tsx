@@ -4,6 +4,31 @@ export default function StarterRecipients() {
   return (
     <div className="flex flex-col gap-20 lg:gap-14 mt-8">
       <RecipientsDetailsContainer
+        title="Current Grant Recipients - Q1, 2025"
+        mobileTitle="Current Grant Recipients (Q1, 2025)"
+        recipients={[
+          {
+            name: "Itoro Ukpong",
+            image_src:
+              "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/builders-headshots/Itoro%20Ukpong-hbd9qQVHVz98yzbX1FlVqJX2hmxHOu.jpg",
+            github: "https://github.com/ItoroD",
+            linkedin:
+              "https://www.linkedin.com/in/itoro-ukpong-43917b177/",
+            bio: "Itoro is a Btrust Builders cohort 3 alumnus, and has demonstrated outstanding contributions to Bitcoin’s open-source projects. His work on bitcoinj and BDK is making Bitcoin wallet development more accessible across several programming languages. Itoro is also an organizer for Bit Devs Accra, helping more developers get started with Bitcoin development.",
+          },
+          {
+            name: "Brandon Odiwuor",
+            image_src:
+              "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/b07f95ff-c5b2-4d9c-9c97-2497775334c1%20-%20Brandon%20Odiwuor-0mqggQL2ANUFTJbaMQjlkvEmo7ZKZr.JPG",
+            github: "https://github.com/BrandonOdiwuor",
+            linkedin:
+              "https://www.linkedin.com/in/brandonodiwuor/",
+            bio: "Brandon has been actively contributing to Bitcoin core, focusing on improving its testing infrastructure, build system, and developer tooling. Beyond his technical work, Brandon is driving Bitcoin education through BitDevs Nairobi, helping onboard new contributors into the ecosystem.",
+          },
+        ]}
+      />
+
+      <RecipientsDetailsContainer
         title="Current Grant Recipients - Q4, 2024"
         mobileTitle="Current Grant Recipients (Q4, 2024)"
         recipients={[
