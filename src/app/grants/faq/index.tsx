@@ -20,7 +20,7 @@ export default function FaqContainer({
           FAQs
         </h3>
         <h4 className="font-poppins font-bold text-[1.5rem] leading-[2.25rem] lg:text-[2rem] lg:leading-[3rem] text-center text-[#FDFDFD]">
-          Have Questions about {main ? "our Grants" : "this Grant"}? We have
+          Have questions about {main ? "our Grants" : "this Grant"}? We have
           answers
         </h4>
       </div>
