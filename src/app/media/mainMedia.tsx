@@ -27,6 +27,13 @@ export default function MainMedia({ setIsMediaResources }: MediaProps) {
         <Update
           updates={[
             {
+              heading: "FUNDING | Africa’s B-Trust Allocates $1 Million+ in Grants to Strengthen Global South’s Bitcoin Developer Ecosystem",
+              text: "₿rust, the non-profit organization dedicated to decentralizing Bitcoin development and empowering open-source developers, has unveiled the first round of its 2025 Event and Developer Education Grants, totaling over $1 million in funding. This initiative is a cornerstone in Btrust’s long-term strategy to build a resilient, inclusive, and skilled Bitcoin developer community across the Global South",
+              url: "https://bitcoinke.io/2025/05/btrust-2025-grant-allocations/",
+              tags: [{ title: "Bitcoinke", bg: "#000000" }],
+              cover_url:"/bitcoinke-article.jpeg",
+              },
+            {
               url: "https://medium.com/@johnosezele/african-bitcoin-newbies-shock-mit-bitcoin-hackathon-with-second-place-win-4cc2d5422d31",
               cover_url:
                 "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/logo.20250321-155213-pkfLPUCOr61hlt4a4aOrXcqEFgCt5X.jpg",
