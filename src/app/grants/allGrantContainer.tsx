@@ -28,13 +28,13 @@ export default function AllGrants({
       isReverse: false,
     },
     {
-      title: "Event and Conference Grants",
+      title: "Event Grants",
       imageSrc:
         "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/4-x2FH0Z64tiUri5hfNfTpaC3D1SzUoN.png",
       details: [
-        "Bitcoin grows through collaboration and knowledge-sharing. Our Event and Conference Grants support Bitcoin-only conferences, meetups, and workshops that help onboard and connect developers to the open-source ecosystem. We fund grassroots gatherings, bootcamps, and developer-focused events that create hands-on learning opportunities and strengthen Bitcoin’s global developer community.",
+        "Bitcoin grows through collaboration and knowledge-sharing. Our Event Grants support Bitcoin-only conferences, meetups, and workshops that help onboard and connect developers to the open-source ecosystem. We fund grassroots gatherings, bootcamps, and developer-focused events that create hands-on learning opportunities and strengthen Bitcoin’s global developer community.",
       ],
-      section: "event and conference",
+      section: "event",
       isReverse: true,
     },
   ];

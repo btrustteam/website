@@ -12,7 +12,7 @@ export default function WhatWeFund({
 }) {
   const details = [
     "Grassroots Bitcoin meetups (BitDevs), bootcamps, and similar focused events which run workshops and other hands-on learning events on Bitcoin development.",
-    "Conferences with a strong developer focus or those aiming to attract developers.",
+    "Events with a strong developer focus or those aiming to attract developers.",
   ];
   const route = useRouter();
   return (
@@ -39,7 +39,7 @@ export default function WhatWeFund({
           <ButtonWithArrow
             text="Apply for this grant"
             onClick={() => {
-              route.push("https://btrust.homerun.co/event-and-conference-grant-application/en");
+              route.push("https://btrust.homerun.co/event-grant-application/en");
             }}
             noIcon={true}
           />

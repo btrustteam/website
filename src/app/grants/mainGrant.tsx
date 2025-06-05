@@ -36,7 +36,7 @@ export default function MainGrant({
             lists: [
               "Open-source Bitcoin development.",
               "Bitcoin Developer training programs.",
-              "Bitcoin-only meetups, bootcamps, and developer-focused conferences.",
+              "Bitcoin-only meetups, bootcamps, and developer-focused events.",
             ],
           },
           {

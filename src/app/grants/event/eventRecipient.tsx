@@ -5,7 +5,7 @@ import Image from "next/image";
 import { useEffect, useRef } from "react";
 import EducationEventCard from "../educationEventCard";
 
-export default function EventAndConferenceGrantRecipients({
+export default function EventGrantRecipients({
   setCurrentSection,
 }: {
   setCurrentSection: (value: string) => void;
@@ -35,13 +35,13 @@ export default function EventAndConferenceGrantRecipients({
               className="w-[1rem] h-[1rem]"
             />
             <LittleHeading
-              text="grants / event and conference / Current & Past Recipients"
+              text="grants / event / Current & Past Recipients"
               className="cursor-pointer"
             />
           </div>
 
           <SubHeading
-            text="Events and Conference Grant Recipients"
+            text="Events Grant Recipients"
             className="w-full lg:w-[61.9375rem]"
           />
         </div>

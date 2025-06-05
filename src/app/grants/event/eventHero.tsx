@@ -3,7 +3,7 @@ import LittleHeading from "@/components/LittleHeading";
 import SubHeading from "@/components/SubHeading";
 import Image from "next/image";
 
-export default function EventConferenceHero({
+export default function EventHero({
   setPage,
 }: {
   setPage: (page: string) => void;
@@ -24,7 +24,7 @@ export default function EventConferenceHero({
             className="w-[1rem] h-[1rem]"
           />
           <LittleHeading
-            text="grants / event and conference"
+            text="grants / event"
             className="cursor-pointer"
           />
         </div>
