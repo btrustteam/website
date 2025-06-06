@@ -1,8 +1,8 @@
 import { useState } from "react";
-import EventAndConferenceGrantRecipients from "./eventRecipient";
-import OverviewEventConference from "./overviewEventConference";
+import EventGrantRecipients from "./eventRecipient";
+import OverviewEvent from "./overviewEvent";
 
-export default function EventConference({
+export default function Event({
   setPage,
 }: {
   setPage: (page: string) => void;
@@ -11,13 +11,13 @@ export default function EventConference({
   return (
     <div>
       {!currentSection && (
-        <OverviewEventConference
+        <OverviewEvent
           setPage={setPage}
           setCurrentSection={setCurrentSection}
         />
       )}
       {currentSection === "recipient" && (
-        <EventAndConferenceGrantRecipients
+        <EventGrantRecipients
           setCurrentSection={setCurrentSection}
         />
       )}

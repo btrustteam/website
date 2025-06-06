@@ -22,7 +22,7 @@ export default function BtrustGrant() {
           Our mission is to empower contributors by removing financial barriers
           and providing the resources needed to make a meaningful impact.
           Whether you&apos;re building Bitcoin open-source software, creating
-          educational programs, or organizing conferences and workshops, our
+          educational programs, or organizing events and workshops, our
           grants are designed to help you focus on strengthening the Bitcoin
           ecosystem.
         </Paragraph>

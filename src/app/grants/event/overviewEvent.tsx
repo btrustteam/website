@@ -1,11 +1,11 @@
 import ActivitiesNewsletter from "@/components/ActivitiesNewsLetterFooter";
 import { useEffect, useRef } from "react";
 import FaqContainer from "../faq";
-import EventConferenceBrief from "./brief";
-import EventConferenceHero from "./eventConferenceHero";
+import EventBrief from "./brief";
+import EventHero from "./eventHero";
 import WhatWeFund from "./whatWeFund";
 
-export default function OverviewEventConference({
+export default function OverviewEvent({
   setPage,
   setCurrentSection,
 }: {
@@ -22,8 +22,8 @@ export default function OverviewEventConference({
   }, []);
   return (
     <div ref={firstDivRef}>
-      <EventConferenceHero setPage={setPage} />
-      <EventConferenceBrief />
+      <EventHero setPage={setPage} />
+      <EventBrief />
       <WhatWeFund setCurrentSection={setCurrentSection} />
       <FaqContainer
         faqs={[
@@ -33,7 +33,7 @@ export default function OverviewEventConference({
             question: "What kinds of events do you fund?",
             lists: [
               "Grassroots meetups (BitDevs), bootcamps, and developer-focused events.",
-              "Conferences with a strong technical focus.",
+              "Events with a strong technical focus.",
             ],
           },
           {
@@ -57,14 +57,14 @@ export default function OverviewEventConference({
             lists: [
               "Africa Bitcoin Conference (Ghana & Kenya, from inception)",
               "Adopting Bitcoin Cape Town (2024 and 2025 editions)",
-              "Bitcoin Lightning Development Bootcamp (Nairobi)",
-              "Bitdevs across Nairobi, Lagos, Abuja, Kaduna, and Accra",
+              "Bitcoin Lightning Development Bootcamp (Benin, Cape Town, Kaduna, Lagos, Lusaka, Nairobi, Senegal)",
+              "Bitdevs across Abuja, Accra, Cotonou, Douala, Gitega, Goma, Joburg, Kaduna, Kampala, Kano, Lagos, Nairobi and Uyo",
             ],
           },
           {
             question: "How do I apply?",
             answer:
-              "Simply head to the Event & Conference Grants section above and click the button to complete your application.",
+              "Simply head to the Event Grants section above and click the button to complete your application.",
           },
         ]}
       />
