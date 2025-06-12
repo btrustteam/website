@@ -1,19 +1,18 @@
+import Image from "next/image";
+import { useRouter } from 'next/navigation';
 import DynamicImage from "@/components/DynamicImage";
 import LittleHeading from "@/components/LittleHeading";
 import SubHeading from "@/components/SubHeading";
-import Image from "next/image";
 
-export default function EventHero({
-  setPage,
-}: {
-  setPage: (page: string) => void;
-}) {
+export default function EventHero() {
+  const router = useRouter();
+
   return (
     <div className="w-full flex flex-col gap-6 lg:gap-20 mt-[2rem] lg:mt-[3rem]">
       <div className="px-[2rem] lg:px-[6.5rem] py-0">
         <div
           className="flex items-center gap-2 cursor-pointer z-50"
-          onClick={() => setPage("")}
+          onClick={() => router.push('/grants')}
         >
           <Image
             src={"/back.svg"}
@@ -24,7 +23,7 @@ export default function EventHero({
             className="w-[1rem] h-[1rem]"
           />
           <LittleHeading
-            text="grants / event"
+            text="grants"
             className="cursor-pointer"
           />
         </div>

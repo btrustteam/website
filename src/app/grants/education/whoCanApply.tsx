@@ -1,20 +1,16 @@
+import { useRouter } from "next/navigation";
 import ButtonWithArrow from "@/components/buttons/buttonWithArrow";
 import OutlineButton from "@/components/buttons/OutlineButton";
 import DynamicImage from "@/components/DynamicImage";
 import Paragraph from "@/components/Paragraph";
 import SectionHeader from "@/components/sectionHeader";
-import { useRouter } from "next/navigation";
 import BulletParagraph from "../bulletParagraph";
 
-export default function WhoCanApply({
-  setCurrentSection,
-}: {
-  setCurrentSection: (section: string) => void;
-}) {
+export default function WhoCanApply() {
   const details = [
     "Bitcoin education programs focused on training and upskilling Bitcoin developers.",
   ];
-  const route = useRouter();
+  const router = useRouter();
   return (
     <div className="pt-[4.5rem] lg:pt-[8rem] lg:pb-0 px-6 lg:px-[6.5rem] flex justify-between flex-col lg:flex-row-reverse">
       <DynamicImage
@@ -39,7 +35,7 @@ export default function WhoCanApply({
           <ButtonWithArrow
             text="Apply for this grant"
             onClick={() => {
-              route.push(
+              router.push(
                 "https://btrust.homerun.co/education-grant-application/en"
               );
             }}
@@ -47,7 +43,7 @@ export default function WhoCanApply({
           />
           <OutlineButton
             text="View Current & Past Recipients"
-            onClick={() => setCurrentSection("recipient")}
+            url={'/grants/education/recipients'}
           />
         </div>
       </div>

@@ -1,15 +1,14 @@
+import { useEffect, useRef } from "react";
+import Image from "next/image";
+import { useRouter } from 'next/navigation';
 import ActivitiesNewsletter from "@/components/ActivitiesNewsLetterFooter";
 import LittleHeading from "@/components/LittleHeading";
 import SubHeading from "@/components/SubHeading";
-import Image from "next/image";
-import { useEffect, useRef } from "react";
 import EducationEventCard from "../educationEventCard";
 
-export default function EducationGrantRecipients({
-  setCurrentSection,
-}: {
-  setCurrentSection: (value: string) => void;
-}) {
+export default function EducationGrantRecipients() {
+  const router = useRouter();
+
   const firstDivRef = useRef<HTMLDivElement | null>(null);
 
   useEffect(() => {
@@ -24,7 +23,7 @@ export default function EducationGrantRecipients({
         <div className="px-[2rem] lg:px-[6.5rem] py-0">
           <div
             className="flex items-center gap-2 cursor-pointer z-50"
-            onClick={() => setCurrentSection("")}
+            onClick={() => router.push('/grants/education')}
           >
             <Image
               src={"/back.svg"}
@@ -35,7 +34,7 @@ export default function EducationGrantRecipients({
               className="w-[1rem] h-[1rem]"
             />
             <LittleHeading
-              text="grants / education / Current & Past Recipients"
+              text="grants / education"
               className="cursor-pointer"
             />
           </div>
@@ -53,7 +52,7 @@ export default function EducationGrantRecipients({
             "Bitshala is an initiative dedicated to Bitcoin education and open-source development in India. Their mission is to equip developers with the knowledge and technical skills needed to contribute to Bitcoin FOSS (Free and Open-Source Software) projects. By providing hands-on workshops, mentorship, and structured learning paths, Bitshala creates a pathway for Indian developers, and others in the Global South, to actively participate in and strengthen the global Bitcoin ecosystem.",
           ]}
           imageSrc="https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/image-Vn1s7Xq00FOCIzpEOL22NcLDiPQvo4.png"
-          link="/"
+          link="https://bitshala.org/"
         />
 
         <EducationEventCard
@@ -63,7 +62,7 @@ export default function EducationGrantRecipients({
             "The program offers courses like Bitcoin 101, Bitcoin Bootcamp, and Mastering the Lightning Network, designed to cater to different levels of expertise. Participants also benefit from mentorship, private advisory sessions, and career support to help them integrate into the Bitcoin ecosystem.",
           ]}
           imageSrc="https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/image-QsFDARjLGifEfn8Wig6CP38yYUV5RD.png"
-          link="/"
+          link="https://libreriadesatoshi.com/"
         />
       </div>
       <ActivitiesNewsletter />

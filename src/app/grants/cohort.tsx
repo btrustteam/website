@@ -1,16 +1,12 @@
+import { useRouter } from "next/navigation";
 import ButtonWithArrow from "@/components/buttons/buttonWithArrow";
 import OutlineButton from "@/components/buttons/OutlineButton";
 import DynamicImage from "@/components/DynamicImage";
 import Paragraph from "@/components/Paragraph";
 import SectionHeader from "@/components/sectionHeader";
-import { useRouter } from "next/navigation";
 import CohortStructure from "./cohortStructure";
 
-export default function Cohort({
-  setPage,
-}: {
-  setPage: (page: string) => void;
-}) {
+export default function Cohort() {
   const router = useRouter();
   return (
     <>
@@ -55,9 +51,7 @@ export default function Cohort({
           />
           <OutlineButton
             text="View Current & Past Recipients"
-            onClick={() => {
-              setPage("open_source");
-            }}
+            url={'/grants/developer/open-source-recipients'}
           />
         </div>
       </div>
@@ -104,9 +98,7 @@ export default function Cohort({
           />
           <OutlineButton
             text="View Current & Past Recipients"
-            onClick={() => {
-              setPage("open_source");
-            }}
+            url={'/grants/developer/open-source-recipients'}
           />
         </div>
       </div>

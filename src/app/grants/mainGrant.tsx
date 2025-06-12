@@ -6,17 +6,13 @@ import FaqContainer from "./faq";
 
 import GrantsHero from "./hero";
 
-export default function MainGrant({
-  setPage,
-}: {
-  setPage: (page: string) => void;
-}) {
+export default function MainGrant() {
   return (
     <div className="flex flex-col">
       <GrantsHero />
       <BtrustGrant />
       {/* <Eligibility /> */}
-      <AllGrants setPage={setPage} />
+      <AllGrants />
       <FaqContainer
         main
         faqs={[

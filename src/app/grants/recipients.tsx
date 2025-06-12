@@ -1,18 +1,17 @@
-import ActivitiesNewsletter from "@/components/ActivitiesNewsLetterFooter";
+import { useEffect, useRef } from "react";
+import { useRouter } from 'next/navigation';
+import Image from "next/image";
 import LittleHeading from "@/components/LittleHeading";
 import GrantsHeader from "./grantsHeading";
 import StarterRecipients from "./starterRecipient";
-import Image from "next/image";
 import OpenSourceRecipient from "./openSourceRecipient";
-import { useEffect, useRef } from "react";
 
 export default function Recipients({
-  setPage,
   currentPage,
 }: {
-  setPage: (page: string) => void;
   currentPage: string;
 }) {
+  const router = useRouter();
   const firstDivRef = useRef<HTMLDivElement | null>(null);
 
   useEffect(() => {
@@ -27,7 +26,7 @@ export default function Recipients({
         <div className="flex flex-col justify-center">
           <div
             className="flex items-center gap-2 cursor-pointer z-50"
-            onClick={() => setPage("")}
+            onClick={() => router.push('/grants/developer')}
           >
             <Image
               src={"/back.svg"}
@@ -37,19 +36,18 @@ export default function Recipients({
               sizes="100vw"
               className="w-[1rem] h-[1rem]"
             />
-            <LittleHeading text="grants" className="cursor-pointer" />
+            <LittleHeading text="grants / developer" className="cursor-pointer" />
           </div>
           {currentPage === "starter" && (
             <GrantsHeader text="Starter Grant Recipients" />
           )}
-          {currentPage === "open_source" && (
+          {currentPage === "open-source" && (
             <GrantsHeader text="Btrust Open-Source Cohort" />
           )}
         </div>
         {currentPage === "starter" && <StarterRecipients />}
-        {currentPage === "open_source" && <OpenSourceRecipient />}
+        {currentPage === "open-source" && <OpenSourceRecipient />}
       </div>
-      <ActivitiesNewsletter />
     </div>
   );
 }

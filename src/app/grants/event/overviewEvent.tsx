@@ -1,17 +1,11 @@
-import ActivitiesNewsletter from "@/components/ActivitiesNewsLetterFooter";
 import { useEffect, useRef } from "react";
+import ActivitiesNewsletter from "@/components/ActivitiesNewsLetterFooter";
 import FaqContainer from "../faq";
 import EventBrief from "./brief";
 import EventHero from "./eventHero";
 import WhatWeFund from "./whatWeFund";
 
-export default function OverviewEvent({
-  setPage,
-  setCurrentSection,
-}: {
-  setPage: (page: string) => void;
-  setCurrentSection: (section: string) => void;
-}) {
+export default function OverviewEvent() {
   const firstDivRef = useRef<HTMLDivElement | null>(null);
 
   useEffect(() => {
@@ -22,9 +16,9 @@ export default function OverviewEvent({
   }, []);
   return (
     <div ref={firstDivRef}>
-      <EventHero setPage={setPage} />
+      <EventHero />
       <EventBrief />
-      <WhatWeFund setCurrentSection={setCurrentSection} />
+      <WhatWeFund />
       <FaqContainer
         faqs={[
           {

@@ -50,6 +50,7 @@ export default function EducationEventCard({
             className="w-full lg:w-auto"
             url={link}
             iconUrl="/link.svg"
+            newTab={true}
           />
         </div>
       </div>

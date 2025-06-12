@@ -1,16 +1,12 @@
+import { useRouter } from "next/navigation";
 import ButtonWithArrow from "@/components/buttons/buttonWithArrow";
 import OutlineButton from "@/components/buttons/OutlineButton";
 import DynamicImage from "@/components/DynamicImage";
 import Paragraph from "@/components/Paragraph";
 import SectionHeader from "@/components/sectionHeader";
-import { useRouter } from "next/navigation";
 import Perks from "./perks";
 
-export default function StartGrant({
-  setPage,
-}: {
-  setPage: (page: string) => void;
-}) {
+export default function StartGrant() {
   const route = useRouter();
   return (
     <>
@@ -52,7 +48,7 @@ export default function StartGrant({
           />
           <OutlineButton
             text="View Current & Past Recipients"
-            onClick={() => setPage("starter")}
+            url={'/grants/developer/starter-recipients'}
           />
         </div>
       </div>
@@ -94,7 +90,7 @@ export default function StartGrant({
           />
           <OutlineButton
             text="View Current & Past Recipients"
-            onClick={() => setPage("starter")}
+            url={'/grants/developer/starter-recipients'}
           />
         </div>
       </div>

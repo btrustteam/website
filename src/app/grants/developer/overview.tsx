@@ -1,18 +1,12 @@
-import ActivitiesNewsletter from "@/components/ActivitiesNewsLetterFooter";
 import { useEffect, useRef } from "react";
+import ActivitiesNewsletter from "@/components/ActivitiesNewsLetterFooter";
 import Cohort from "../cohort";
 import FaqContainer from "../faq";
 import StartGrant from "../starter";
 import DeveloperInfo from "./info";
 import OverviewHero from "./overviewHero";
 
-export default function OverviewDeveloper({
-  setSection,
-  setPage,
-}: {
-  setSection: (section: string) => void;
-  setPage: (page: string) => void;
-}) {
+export default function OverviewDeveloper() {
   const firstDivRef = useRef<HTMLDivElement | null>(null);
 
   useEffect(() => {
@@ -23,10 +17,10 @@ export default function OverviewDeveloper({
   }, []);
   return (
     <div ref={firstDivRef} className="flex flex-col w-full">
-      <OverviewHero setPage={setPage} />
+      <OverviewHero />
       <DeveloperInfo />
-      <StartGrant setPage={setSection} />
-      <Cohort setPage={setSection} />
+      <StartGrant />
+      <Cohort />
       <FaqContainer
         faqs={[
           {

@@ -8,6 +8,7 @@ interface OutlineButtonProps {
   onClick?: () => void;
   url?: string;
   iconUrl?: string;
+  newTab?: boolean;
 }
 
 export default function OutlineButton({
@@ -16,12 +17,13 @@ export default function OutlineButton({
   className,
   url,
   iconUrl,
+  newTab,
 }: OutlineButtonProps) {
   const routes = useRouter();
 
   return (
     <button
-      onClick={url ? () => routes.push(url) : onClick}
+      onClick={url ? (newTab ? () => window.open(url, '_blank') : () => routes.push(url)) : onClick}
       className={`flex py-6 lg:py-[1rem] px-[1.5rem] gap-4 items-center justify-center rounded-lg border border-active-white font-poppins text-base font-semibold text-active-white ${className}`}
     >
       {text}

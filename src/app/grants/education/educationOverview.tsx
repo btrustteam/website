@@ -1,17 +1,11 @@
-import ActivitiesNewsletter from "@/components/ActivitiesNewsLetterFooter";
 import { useEffect, useRef } from "react";
+import ActivitiesNewsletter from "@/components/ActivitiesNewsLetterFooter";
 import FaqContainer from "../faq";
 import EducationBrief from "./brief";
 import HeroSection from "./heroSection";
 import WhoCanApply from "./whoCanApply";
 
-export default function EducationOverview({
-  setPage,
-  setCurrentSection,
-}: {
-  setPage: (page: string) => void;
-  setCurrentSection: (section: string) => void;
-}) {
+export default function EducationOverview() {
   const firstDivRef = useRef<HTMLDivElement | null>(null);
 
   useEffect(() => {
@@ -22,9 +16,9 @@ export default function EducationOverview({
   }, []);
   return (
     <div ref={firstDivRef} className="">
-      <HeroSection setPage={setPage} />
+      <HeroSection />
       <EducationBrief />
-      <WhoCanApply setCurrentSection={setCurrentSection} />
+      <WhoCanApply />
       <FaqContainer
         faqs={[
           {

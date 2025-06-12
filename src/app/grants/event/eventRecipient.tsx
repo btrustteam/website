@@ -1,15 +1,13 @@
+import { useEffect, useRef } from "react";
+import { useRouter } from 'next/navigation';
+import Image from "next/image";
 import ActivitiesNewsletter from "@/components/ActivitiesNewsLetterFooter";
 import LittleHeading from "@/components/LittleHeading";
 import SubHeading from "@/components/SubHeading";
-import Image from "next/image";
-import { useEffect, useRef } from "react";
 import EducationEventCard from "../educationEventCard";
 
-export default function EventGrantRecipients({
-  setCurrentSection,
-}: {
-  setCurrentSection: (value: string) => void;
-}) {
+export default function EventGrantRecipients() {
+  const router = useRouter();
   const firstDivRef = useRef<HTMLDivElement | null>(null);
 
   useEffect(() => {
@@ -24,7 +22,7 @@ export default function EventGrantRecipients({
         <div className="px-[2rem] lg:px-[6.5rem] py-0">
           <div
             className="flex items-center gap-2 cursor-pointer z-50"
-            onClick={() => setCurrentSection("")}
+            onClick={() => router.push('/grants/event')}
           >
             <Image
               src={"/back.svg"}
@@ -35,7 +33,7 @@ export default function EventGrantRecipients({
               className="w-[1rem] h-[1rem]"
             />
             <LittleHeading
-              text="grants / event / Current & Past Recipients"
+              text="grants / event"
               className="cursor-pointer"
             />
           </div>

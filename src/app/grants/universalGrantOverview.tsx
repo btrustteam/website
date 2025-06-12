@@ -10,7 +10,7 @@ interface Props {
   section?: string;
   isReverse: boolean;
   noMarginBottom?: boolean;
-  setPage?: (page: string) => void;
+  url: string;
 }
 export default function UniversalGrantOverview({
   title,
@@ -19,7 +19,7 @@ export default function UniversalGrantOverview({
   section,
   isReverse,
   noMarginBottom,
-  setPage,
+  url,
 }: Props) {
   return (
     <div
@@ -52,16 +52,13 @@ export default function UniversalGrantOverview({
             ))}
           </div>
         </div>
-        {section && setPage && (
+        {section && (
           <div className="flex items-center">
             <ButtonWithArrow
               text="Learn More"
               className="w-full lg:w-auto"
-              onClick={() => {
-                console.log("Section: ", section);
-                setPage(section);
-              }}
               noIcon={true}
+              url={url}
             />
           </div>
         )}

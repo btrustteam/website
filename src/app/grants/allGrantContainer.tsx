@@ -1,10 +1,6 @@
 import UniversalGrantOverview from "./universalGrantOverview";
 
-export default function AllGrants({
-  setPage,
-}: {
-  setPage: (page: string) => void;
-}) {
+export default function AllGrants() {
   const grants = [
     {
       title: "Developer Grants",
@@ -16,6 +12,7 @@ export default function AllGrants({
       ],
       section: "developer",
       isReverse: true,
+      url: "/grants/developer",
     },
     {
       title: "Education Grants",
@@ -26,6 +23,7 @@ export default function AllGrants({
       ],
       section: "education",
       isReverse: false,
+      url: "/grants/education",
     },
     {
       title: "Event Grants",
@@ -36,12 +34,13 @@ export default function AllGrants({
       ],
       section: "event",
       isReverse: true,
+      url: "/grants/event",
     },
   ];
   return (
     <div className="pt-[4.5rem] lg:pt-[8rem] lg:pb-0 px-6 lg:px-[6.5rem]">
       {grants.map((grant, index) => (
-        <UniversalGrantOverview key={index} setPage={setPage} {...grant} />
+        <UniversalGrantOverview key={index} {...grant} />
       ))}
     </div>
   );

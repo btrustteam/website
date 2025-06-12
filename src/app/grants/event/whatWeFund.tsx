@@ -1,15 +1,11 @@
+import { useRouter } from "next/navigation";
 import ButtonWithArrow from "@/components/buttons/buttonWithArrow";
 import OutlineButton from "@/components/buttons/OutlineButton";
 import DynamicImage from "@/components/DynamicImage";
 import SectionHeader from "@/components/sectionHeader";
-import { useRouter } from "next/navigation";
 import BulletParagraph from "../bulletParagraph";
 
-export default function WhatWeFund({
-  setCurrentSection,
-}: {
-  setCurrentSection: (section: string) => void;
-}) {
+export default function WhatWeFund() {
   const details = [
     "Grassroots Bitcoin meetups (BitDevs), bootcamps, and similar focused events which run workshops and other hands-on learning events on Bitcoin development.",
     "Events with a strong developer focus or those aiming to attract developers.",
@@ -45,7 +41,7 @@ export default function WhatWeFund({
           />
           <OutlineButton
             text="View Current & Past Recipients"
-            onClick={() => setCurrentSection("recipient")}
+            url={"/grants/event/recipients"}
           />
         </div>
       </div>

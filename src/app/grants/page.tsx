@@ -1,5 +1,5 @@
 import { Metadata } from "next";
-import GrantContainer from "./grantContainer";
+import MainGrant from "./mainGrant";
 
 export const metadata: Metadata = {
   title: "Grants",
@@ -18,5 +18,5 @@ export const metadata: Metadata = {
 };
 
 export default function Grants() {
-  return <GrantContainer />;
+  return <MainGrant />
 }
