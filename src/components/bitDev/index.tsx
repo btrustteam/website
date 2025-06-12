@@ -19,26 +19,59 @@ export default function BitDev() {
           <SectionHeader text="BitDevs Across Africa" className="" />
           <div className="flex flex-col justify-center gap-[2.5rem]">
             <Paragraph className="w-full lg:w-[33.6875rem]">
-              Our builders run BitDev meetups across four African cities—
-              <a className="font-bold underline" href="https://x.com/BitDevsNBO" target="_blank">
-                Nairobi
+              Our builders run BitDev meetups across thirteen African cities—
+              <a className="font-bold underline" href="https://x.com/BitDevsAbuja" target="_blank">
+              Abuja
+              </a>
+              ,{" "}
+              <a className="font-bold underline" href="https://x.com/bitdevsAccra" target="_blank">
+              Accra
+              </a>
+              ,{" "}
+              <a className="font-bold underline" href="https://x.com/BitdevsCotonou" target="_blank">
+              Cotonou
+              </a>
+              ,{" "}
+              <a className="font-bold underline" href="https://x.com/BitDevsDLA" target="_blank">
+              Douala
+              </a>
+              ,{" "}
+              <a className="font-bold underline" href="https://x.com/bitdevsgtga" target="_blank">
+              Gitega
+              </a>
+              ,{" "}
+              <a className="font-bold underline" href="https://x.com/BitdevsGoma" target="_blank">
+              Goma
+              </a>
+              ,{" "}
+              <a className="font-bold underline" href="https://x.com/BitDevsJHB" target="_blank">
+              Johannesburg
+              </a>
+              ,{" "}
+              <a className="font-bold underline" href="https://x.com/BitDevsKaduna" target="_blank">
+              Kaduna
+              </a>
+              ,{" "}
+              <a className="font-bold underline" href="https://x.com/BitDevsKLA" target="_blank">
+              Kampala
+              </a>
+              ,{" "}
+              <a className="font-bold underline" href="https://x.com/bitdevskano" target="_blank">
+              Kano
               </a>
               ,{" "}
               <a className="font-bold underline" href="https://x.com/BitDevsLagos" target="_blank">
                 Lagos
               </a>
               ,{" "}
-              <a className="font-bold underline" href="https://x.com/BitDevsAbuja" target="_blank">
-                Abuja
-              </a>
-              ,{" "}
-              <a className="font-bold underline" href="https://x.com/BitDevsKaduna" target="_blank">
-                Kaduna
+              <a className="font-bold underline" href="https://x.com/BitDevsNBO" target="_blank">
+                Nairobi
               </a>
               , and{" "}
-              <a className="font-bold underline" href="https://x.com/bitdevsAccra" target="_blank">
-                Accra
-              </a>{" "}
+              <a className="font-bold underline" href="https://x.com/BitDevsUyo" target="_blank">
+                Uyo
+              </a>
+              ,{" "}
               —with support from Btrust in administration, communication, and
               funding. The goal is to expand these meetups to more African
               cities, growing the pipeline.

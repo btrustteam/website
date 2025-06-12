@@ -52,7 +52,7 @@ export default function OverviewEvent() {
               "Africa Bitcoin Conference (Ghana & Kenya, from inception)",
               "Adopting Bitcoin Cape Town (2024 and 2025 editions)",
               "Bitcoin Lightning Development Bootcamp (Benin, Cape Town, Kaduna, Lagos, Lusaka, Nairobi, Senegal)",
-              "Bitdevs across Abuja, Accra, Cotonou, Douala, Gitega, Goma, Joburg, Kaduna, Kampala, Kano, Lagos, Nairobi and Uyo",
+              "Bitdevs across Abuja, Accra, Cotonou, Douala, Gitega, Goma, Johannesburg, Kaduna, Kampala, Kano, Lagos, Nairobi and Uyo",
             ],
           },
           {
