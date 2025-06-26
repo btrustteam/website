@@ -10,10 +10,10 @@ export const metadata: Metadata = {
     type: "website",
     title: "BitDevs In Africa",
     description: "BitDevs Locations In Africa",
-    url: "https://www.btrust.tech/builders/bitdevs",
+    url: "https://www.btrust.tech/bitdevs",
     images: [
       {
-        url: "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/bitdevs-accra-jTBPbFCwWOdWJpG3Q40TvJ0iru2mCP.png",
+        url: "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/abuja-BqbNZPBt6H8NI3mgOgReZGA50sZPSE.jpg",
       },
     ],
   },

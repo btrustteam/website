@@ -45,6 +45,7 @@ export default function Nav({ mobileActive, handleToggle, closeNav }: Props) {
       ],
       new_tab: false,
     },
+    { title: "BitDevs", url: "/bitdevs", sub_nav: [], new_tab: false },
     { title: "About Us", url: "/about", sub_nav: [], new_tab: false },
     {
       title: "Blog",
