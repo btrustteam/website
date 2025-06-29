@@ -78,7 +78,7 @@ export default function AllBitDevs() {
                 "BitDevs Kaduna is a community where Bitcoin developers and enthusiasts gather to engage in technical discussions and collaborate on Bitcoin development #bitcoin",
             ],
             imageSrc:
-                "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/kaduna-XLlenw4sWDhzoJCYeeIP38qTwyFW5M.avif",
+                "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/kaduna-m3LeNOlSiOOBoQwLoj8fjL0M38OgTw.jpeg",
             website: "https://bitdevskaduna.org/",
             xlink: "https://x.com/BitDevsKaduna",
         },
