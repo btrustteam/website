@@ -108,7 +108,7 @@ export default function AllBitDevs() {
                 "Bitdev Lagos is a community of Bitcoin developers working together to foster innovation and collaboration in Nigeria. Join us. #Bitcoin #Nigeria.",
             ],
             imageSrc:
-                "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/abuja-BqbNZPBt6H8NI3mgOgReZGA50sZPSE.jpg",
+                "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/lagos-8pPpeMnN9TixGje8QaRWGrJpm4A77h.jpg",
             website: "https://bitdevslagos.org/",
             xlink: "https://x.com/BitDevsLagos",
         },
