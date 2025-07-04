@@ -27,6 +27,15 @@ export default function MainMedia({ setIsMediaResources }: MediaProps) {
         <Update
           updates={[
             {
+              url: "https://blog.btrust.tech/announcing-q2-2025-btrust-developer-grant-recipients/",
+              cover_url:
+                "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/q2-grant-image-DS8ruS3UTCkczFv2dzBhIkjoAVYDQ9.png",
+              heading:
+                "Announcing Q2 2025 Btrust Developer Grant Recipients",
+              tags: [{ title: "Btrust Blog", bg: "#000000" }],
+              text: "We are excited to present the recipients of our Q2 Starter Grants and welcome returning members to the Btrust Open-Source Cohort. This quarter, three engineers have been awarded the Btrust Starter Grant, empowering them to work full-time on open-source Bitcoin projects and deepen their impact on the ecosystem.",
+            },
+            {
               url: "https://medium.com/@johnosezele/african-bitcoin-newbies-shock-mit-bitcoin-hackathon-with-second-place-win-4cc2d5422d31",
               cover_url:
                 "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/logo.20250321-155213-pkfLPUCOr61hlt4a4aOrXcqEFgCt5X.jpg",
