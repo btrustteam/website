@@ -80,7 +80,7 @@ export default function TeamProfile() {
             description: "Program & Operations Associate",
             imageUrl:
               "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/IMG_5429-mO2MfILx7yBYDqNEQBPFB8if63ctLr.JPG",
-            twitter: "https://x.com/",
+            twitter: "https://x.com/deelivia5",
             linkedin: "https://www.linkedin.com/in/oluwadamilola-akinbowale-aa2a39115",
           },
         ]}
