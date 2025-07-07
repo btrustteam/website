@@ -4,6 +4,34 @@ export default function StarterRecipients() {
   return (
     <div className="flex flex-col gap-20 lg:gap-14 mt-8">
       <RecipientsDetailsContainer
+        title="Current Grant Recipients - Q2, 2025"
+        mobileTitle="Current Grant Recipients (Q2, 2025)"
+        recipients={[
+          {
+            name: "Peter Tyonum",
+            image_src: "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Peter%20Tyonum-RHakLsv8qmdFtHQggGjiGImZnvjzE7.JPG",
+            github: "https://github.com/tvpeter",
+            linkedin: "https://www.linkedin.com/in/peter-tyonum-a8a16310b/",
+            bio: "Peter is a skilled software engineer based in Nigeria and a fellow of the Qala (now Btrust Builders) genesis cohort. With over five years of experience working with JavaScript, PHP, and Rust, Peter has made extensive contributions to the Bitcoin Dev Kit (BDK) ecosystem, developing features for bdk-cli, enhancing wallet APIs, improving documentation, and actively reviewing and testing code to raise the quality and reliability of BDK libraries.",
+          },
+          {
+            name: "Jamal Errakibi",
+            image_src: "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Jamal%20ERRAKIBI-O6XJ86b5zvvvvkz38lkQCozQu7TUJ9.JPG",
+            github: "https://github.com/jrakibi",
+            linkedin: "https://www.linkedin.com/in/jamal-e-118069130/",
+            bio: "Jamal is an accomplished software engineer and a 2024 Btrust Builders fellow, and Bitcoin open-source contributor. With seven years of professional experience, Jamal has developed deep expertise in Java development and AWS cloud services. In recent years, he has transitioned his focus to Bitcoin, making significant contributions as an independent contractor for Chaincode Labs and, most notably, as an active contributor to the rust-bitcoin project.",
+          },
+          {
+            name: "Sulaiman Aminu Barkindo",
+            image_src: "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Sulaiman%20Aminu%20Barkindo-F7TRI6oTS2fyG55P4w4tmqJp2cxfig.jpg",
+            github: "https://github.com/SulaimanAminuBarkindo",
+            linkedin: "https://www.linkedin.com/in/sulaiman-aminu-barkindo",
+            bio: "Sulaiman is a seasoned software engineer and Engineering Manager based in Nigeria, and a Btrust Builders 2024 fellow. With over four years of experience in backend and full-stack engineering, Sulaiman has become an integral contributor to the Validating Lightning Signer (VLS) project, a Rust-based initiative focused on enhancing security and self-custody in the Bitcoin Lightning Network.",
+          },
+        ]}
+      />
+
+      <RecipientsDetailsContainer
         title="Current Grant Recipients - Q1, 2025"
         mobileTitle="Current Grant Recipients (Q1, 2025)"
         recipients={[
