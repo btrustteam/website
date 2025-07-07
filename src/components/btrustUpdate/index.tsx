@@ -2,6 +2,15 @@
 import ButtonWithArrow from "../buttons/buttonWithArrow";
 import NewsCard from "../cards/newsCard";
 import SectionHeader from "../sectionHeader";
+import mediaNews from "../../app/media/media.json";
+
+interface NewsItem {
+  cover_url: string;
+  tags: { title: string; bg: string }[];
+  url: string;
+  heading: string;
+  text: string;
+};
 
 export default function BtrustUpdate() {
   return (
@@ -20,30 +29,16 @@ export default function BtrustUpdate() {
         </a>
       </div>
       <div className="flex flex-col lg:flex-row items-center lg:items-start justify-between gap-[1.5rem]">
-        <NewsCard
-          image_url="https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/q1-pJDwiZqSSnQSxx6wLrcuVUqxKeBNNB.png"
-          tag="Btrust Blog"
-          tag_bg="#F7931A"
-          content_url="https://blog.btrust.tech/announcing-q1-2025-btrust-grants/"
-          heading="Announcing Q1 2025 Btrust Grants Recipients"
-          brief="This quarter, Brandon Odiwuor and Itoro Ukpong have been awarded the Btrust Starter Grant ..."
-        />
-        <NewsCard
-          image_url="https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/BTrust%20Gathering%20Day%202%20-89-auS9DlGEkFBxPdgk99MalH74lvvrNh.JPG"
-          tag="Btrust Blog"
-          tag_bg="#F7931A"
-          content_url="https://blog.btrust.tech/btrust-2024-in-review/"
-          heading="Btrust 2024 In Review"
-          brief="A recap of Btrust's 2024 milestones in decentralizing Bitcoin development in Africa and the Global South ..."
-        />
-        <NewsCard
-          image_url="https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/@ABC-Day-3-fast-36-lJ3ZQsPJgUzzInB0IfeVKoVQKvCWMn.jpeg"
-          tag="Btrust Blog"
-          tag_bg="#F7931A"
-          content_url="https://blog.btrust.tech/announcing-the-q4-2024-btrust-grant-recipients/"
-          heading="Announcing the Q4 2024 Btrust Grant Recipients"
-          brief="We are excited to announce the Q4 2024 recipients of Btrust grants. This quarter, ..."
-        />
+        {mediaNews.slice(0, 3).map((news: NewsItem, index: number) => (
+          <NewsCard
+            key={index}
+            cover_url={news.cover_url}
+            tags={[news.tags[0]]}
+            url={news.url}
+            heading={news.heading}
+            text={news.text}
+          />
+        ))}
       </div>
     </div>
   );
