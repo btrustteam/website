@@ -14,6 +14,12 @@ const nextConfig = {
         port: "",
         pathname: "/builders-headshots/*",
       },
+      {
+        protocol: "https",
+        hostname: "8aqkfzpsopxwkjhh.public.blob.vercel-storage.com",
+        port: "",
+        pathname: "/dev-day/*",
+      },
     ],
   },
 };

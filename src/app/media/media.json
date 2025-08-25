@@ -1,5 +1,19 @@
 [
     {
+        "url": "https://blog.btrust.tech/announcing-the-2025-btrust-developer-day-in-mauritius/",
+        "cover_url": "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/dev-day/Dev%20Day%20Venue%20Announcement%20Poster.jpg",
+        "heading": "Announcing the 2025 Btrust Developer Day in Mauritius",
+        "tags": [{ "title": "Btrust Blog", "bg": "#000000" }],
+        "text": "We are excited to share that Btrust is once again partnering with the Africa Bitcoin Conference (ABC) to present the 2025 Btrust Developer Day. This year’s event will take place on December 2, 2025, at the Trianon Convention Centre in Port Louis, Mauritius, and will serve as the official developer-focused precursor to the 2025 Africa Bitcoin Conference."
+    },
+    {
+        "url": "https://blog.btrust.tech/btrust-partners-with-the-open-source-community-africa-to-sponsor-oscafest-2025/",
+        "cover_url": "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/dev-day/OSCA-x-Btrust-Partnership.png",
+        "heading": "Btrust Partners with the Open Source Community Africa to Sponsor OSCAFEST 2025",
+        "tags": [{ "title": "Btrust Blog", "bg": "#000000" }],
+        "text": "We’re excited to share that we’re partnering with the Open Source Community Africa (OSCA) to sponsor the 4th edition of the Open Source Community Africa Festival (OSCAFEST). This partnership represents our shared commitment to fostering development, innovation, and inclusion in open-source ecosystems."
+    },
+    {
         "url": "https://blog.btrust.tech/announcing-q2-2025-btrust-developer-grant-recipients/",
         "cover_url": "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/q2-grant-image-DS8ruS3UTCkczFv2dzBhIkjoAVYDQ9.png",
         "heading": "Announcing Q2 2025 Btrust Developer Grant Recipients",
