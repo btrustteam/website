@@ -31,6 +31,7 @@ export default function Nav({ mobileActive, handleToggle, closeNav }: Props) {
       sub_nav: [],
       new_tab: false,
     },
+    { title: "Dev Day", url: "https://devday.btrust.tech", sub_nav: [], new_tab: true },
     { title: "Grants", url: "/grants", sub_nav: [], new_tab: false },
     {
       title: "Builders",
@@ -46,7 +47,6 @@ export default function Nav({ mobileActive, handleToggle, closeNav }: Props) {
       new_tab: false,
     },
     { title: "BitDevs", url: "/bitdevs", sub_nav: [], new_tab: false },
-    { title: "Dev Day", url: "https://devday.btrust.tech", sub_nav: [], new_tab: true },
     { title: "About Us", url: "/about", sub_nav: [], new_tab: false },
     {
       title: "Blog",
