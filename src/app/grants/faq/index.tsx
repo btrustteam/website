@@ -1,3 +1,4 @@
+"use client";
 import Item from "./item";
 
 export interface GrantsFaq {
@@ -8,10 +9,11 @@ export interface GrantsFaq {
 
 export default function FaqContainer({
   faqs,
-  main,
+  title,
 }: {
   faqs: GrantsFaq[];
   main?: boolean;
+  title: string;
 }) {
   return (
     <div className="flex flex-col items-center justify-center gap-10 pt-10 pb-20 lg:pt-[4.5rem] lg:pb-[9rem] px-6">
@@ -20,8 +22,7 @@ export default function FaqContainer({
           FAQs
         </h3>
         <h4 className="font-poppins font-bold text-[1.5rem] leading-[2.25rem] lg:text-[2rem] lg:leading-[3rem] text-center text-[#FDFDFD]">
-          Have questions about {main ? "our Grants" : "this Grant"}? We have
-          answers
+          Have questions about {title}? We have answers
         </h4>
       </div>
       <div className="flex flex-col items-center justify-center">

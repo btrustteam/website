@@ -20,6 +20,7 @@ export default function EducationOverview() {
       <EducationBrief />
       <WhoCanApply />
       <FaqContainer
+        title="Education Grants"
         faqs={[
           {
             answer:

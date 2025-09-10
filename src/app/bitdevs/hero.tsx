@@ -1,4 +1,3 @@
-"use client";
 import Paragraph from "@/components/Paragraph";
 import SubHeading from "@/components/SubHeading";
 

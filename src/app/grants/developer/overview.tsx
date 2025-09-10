@@ -22,6 +22,7 @@ export default function OverviewDeveloper() {
       <StartGrant />
       <Cohort />
       <FaqContainer
+        title="Developer Grants"
         faqs={[
           {
             answer: "We offer two types of developer grants:",

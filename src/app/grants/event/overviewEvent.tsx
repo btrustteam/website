@@ -20,6 +20,7 @@ export default function OverviewEvent() {
       <EventBrief />
       <WhatWeFund />
       <FaqContainer
+        title="Event Grants"
         faqs={[
           {
             answer:
@@ -35,11 +36,6 @@ export default function OverviewEvent() {
               "Yes, but funding is only available for non-commercial, Bitcoin-focused events that align with Btrust’s mission",
             question: "Can event organizers apply for funding?",
           },
-          //   {
-          //     answer:
-          //       "Yes, we offer travel support for speakers presenting at developer-focused Bitcoin conferences.",
-          //     question: "Do you fund travel costs for speakers and attendees?",
-          //   },
           {
             answer:
               "Yes, but each application is evaluated separately, and funding decisions depend on impact, reach, and alignment with our mission.",

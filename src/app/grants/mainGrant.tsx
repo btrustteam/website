@@ -11,10 +11,10 @@ export default function MainGrant() {
     <div className="flex flex-col">
       <GrantsHero />
       <BtrustGrant />
-      {/* <Eligibility /> */}
       <AllGrants />
       <FaqContainer
         main
+        title="our Grants"
         faqs={[
           {
             answer:
