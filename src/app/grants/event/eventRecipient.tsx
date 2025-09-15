@@ -46,13 +46,23 @@ export default function EventGrantRecipients() {
       </div>
       <div className="flex flex-col gap-12 px-6 lg:px-[6.5rem]">
         <EducationEventCard
+          title="Open Source Community Africa"
+          details={[
+            "OSCAFEST is Africa’s leading open-source festival, bringing together developers, designers, students, and organizations to promote Africa’s open-source culture and innovation. This year’s event, themed Beyond Borders, will take place from August 14th to 16th, 2025, at the Landmark Event Centre in Lagos, Nigeria.",
+            "The festival aims to inspire collaboration across industries and technologies through talks, workshops, brainstorming sessions, and co-located events. Topics will include cloud computing, artificial intelligence, embedded systems, open-source security, and more, providing attendees with opportunities to learn, connect, and innovate."
+          ]}
+          imageSrc="https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/dev-day/OSCA-x-Btrust-Partnership.png"
+          link="https://oscafrica.org/?ref=www.btrust.tech"
+        />
+
+        <EducationEventCard
           title="Africa Bitcoin Conference"
           details={[
             "The Africa Bitcoin Conference (ABC) is the continent’s premier gathering for Bitcoin builders, thinkers, and advocates, promoting collaboration and innovation in the space. Since its inaugural edition in 2022 in Accra, Ghana, Btrust has proudly supported ABC, recognizing its role in strengthening Bitcoin adoption and development across Africa.",
             "With three editions so far; two in Accra, Ghana (2022, 2023) and one in Nairobi, Kenya (2024), the conference has become a key platform for knowledge-sharing and ecosystem growth. Through our Conference Grants, Btrust has enabled developers, educators, and speakers from Africa and the Global South to participate, ensuring that diverse voices and talent contribute to Bitcoin’s open-source future.",
           ]}
           imageSrc="https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/10-PMF5DpmEMizgg067AAu2DTYqyG6rtn.png"
-          link="https://afrobitcoin.org/"
+          link="https://afrobitcoin.org/?ref=www.btrust.tech"
         />
 
         <EducationEventCard
@@ -63,7 +73,7 @@ export default function EventGrantRecipients() {
             "Pre-conference meetups and post-conference activities, such as visits to bitcoin-focused community projects like Bitcoin Ekasi and The Surfer Kids, also provide attendees with practical insights into grassroots bitcoin adoption.",
           ]}
           imageSrc="https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/11-pG8LkDRd71HQUM5h2TnqFOO4ly8w0Z.png"
-          link="/"
+          link="https://za25.adoptingbitcoin.org/?ref=www.btrust.tech"
         />
         <EducationEventCard
           title="Bitcoin Lightning Development Bootcamp by Africa Free Routing"
@@ -71,7 +81,7 @@ export default function EventGrantRecipients() {
             "In June 2024, Africa Free Routing organized a Bitcoin Lightning Development Bootcamp in Nairobi, Kenya. We were honored to be one of the bootcamp sponsors. This free, four-day program took place from June 10th to 13th. The bootcamp was aimed to equip developers with the skills and knowledge necessary to build innovative applications on the Lightning Network. Participants engaged in hands-on workshops led by experts, exploring real-world applications of the Lightning Network.",
           ]}
           imageSrc="https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/12-C2Xidt6oM6nYuGziXHjld6lsK1yC2C.png"
-          link="/"
+          link="https://freerouting.africa/bootcamps/?ref=www.btrust.tech"
         />
       </div>
       <ActivitiesNewsletter />
