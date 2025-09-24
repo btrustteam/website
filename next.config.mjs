@@ -22,6 +22,25 @@ const nextConfig = {
       },
     ],
   },
+  async redirects() {
+    return [
+      {
+        source: '/discord',
+        destination: 'https://discord.gg/wFt6puhmwk',
+        permanent: true,
+      },
+      {
+        source: '/bitcoin-projects',
+        destination: 'https://bitcoindevs.xyz/',
+        permanent: true,
+      },
+      {
+        source: '/good-first-issues',
+        destination: 'https://bitcoindevs.xyz/good-first-issues',
+        permanent: true,
+      },
+    ]
+  },
 };
 
 export default nextConfig;
