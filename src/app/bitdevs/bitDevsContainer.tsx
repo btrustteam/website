@@ -80,6 +80,13 @@ export default function AllBitDevs() {
             xlink: "https://x.com/BitDevsLagos",
         },
         {
+            title: "BitDevs Mauritius",
+            details: "BitDevs Mauritius is a community in Mauritius, for those interested in discussing and participating in the research and development of Bitcoin and related protocols and software.",
+            imageSrc: "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/bitdevsmru-SnayTknJXSLtEiKw9lUsedK0Cxuvad.png",
+            website: "https://www.bitdevsmauritius.org/",
+            xlink: "https://x.com/BitDevsMRU",
+        },
+        {
             title: "BitDevs Nairobi",
             details: "BitDevsNBO is a meetup devoted to the research and development of Bitcoin.",
             imageSrc: "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/nairobi-qwGoJis4txjl9Ts4pyWr7zJhSiwnKI.png",
