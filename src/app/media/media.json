@@ -1,5 +1,12 @@
 [
     {
+        "url": "https://blog.btrust.tech/announcing-q3-2025-btrust-developer-grant-recipients/",
+        "cover_url": "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/dev-day/Dev%20Day%20Venue%20Announcement%20Poster.jpg",
+        "heading": "Announcing Q3, 2025 Btrust Developer Grant Recipients",
+        "tags": [{ "title": "Btrust Blog", "bg": "#000000" }],
+        "text": "We’re excited to recognize six outstanding Bitcoin open-source developers awarded Btrust grants, including four starter grant recipients and two open-source cohort members. The four starter grant recipients are all graduates of the 2025 Btrust Builders pathways. The program offers structured tracks that cover everything from Bitcoin fundamentals to advanced hands-on open-source contributions, preparing participants for long-term careers in Bitcoin development."
+    },
+    {
         "url": "https://blog.btrust.tech/announcing-the-2025-btrust-developer-day-in-mauritius/",
         "cover_url": "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/dev-day/Dev%20Day%20Venue%20Announcement%20Poster.jpg",
         "heading": "Announcing the 2025 Btrust Developer Day in Mauritius",
