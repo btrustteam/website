@@ -1,7 +1,21 @@
 [
     {
+        "url": "https://blog.btrust.tech/btrust-announces-abubakar-nur-khalil-as-new-ceo/",
+        "cover_url": "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/dev-day/Male%20Placeholder%20%281%29-Zw4EhYInLKGS822xxSOiR1Wyh5829J.png",
+        "heading": "Btrust Announces Abubakar Nur Khalil as New CEO",
+        "tags": [{ "title": "Btrust Blog", "bg": "#000000" }],
+        "text": "Leadership transitions mark important moments in any organization’s journey, and today, we’re excited to share one of our own. In July, we put out a call for a Chief Executive Officer. After receiving multiple strong applications and going through a long, thoughtful, and rigorous selection process, we’re happy to announce that Abubakar Nur Khalil has been appointed as the new CEO of Btrust."
+    },
+    {
+        "url": "https://blog.btrust.tech/introducing-the-btrust-pull-partnership/",
+        "cover_url": "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/btrustxx2140.png",
+        "heading": "Introducing the Btrust Pull Partnership: Opening the Global Stage for Bitcoin Developers from the Global South",
+        "tags": [{ "title": "Btrust Blog", "bg": "#000000" }],
+        "text": "In the world of Bitcoin development, talent is everywhere. Yet, for many developers in the Global South, especially across Africa, reaching the highest levels of contribution isn’t just about skill or dedication—it’s about access. Opportunities to meet global collaborators, speak at conferences, and work alongside seasoned peers are often stalled at the border. Visa challenges mean promising voices go unheard on international stages, and career-defining connections go unmade."
+    },
+    {
         "url": "https://blog.btrust.tech/announcing-q3-2025-btrust-developer-grant-recipients/",
-        "cover_url": "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/dev-day/Dev%20Day%20Venue%20Announcement%20Poster.jpg",
+        "cover_url": "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Q3%202025%20Dev%20Grants.png",
         "heading": "Announcing Q3, 2025 Btrust Developer Grant Recipients",
         "tags": [{ "title": "Btrust Blog", "bg": "#000000" }],
         "text": "We’re excited to recognize six outstanding Bitcoin open-source developers awarded Btrust grants, including four starter grant recipients and two open-source cohort members. The four starter grant recipients are all graduates of the 2025 Btrust Builders pathways. The program offers structured tracks that cover everything from Bitcoin fundamentals to advanced hands-on open-source contributions, preparing participants for long-term careers in Bitcoin development."
