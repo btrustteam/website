@@ -8,6 +8,15 @@ export default function OpenSourceRecipient() {
         title="Current Members"
         recipients={[
           {
+            name: "Itoro Ukpong",
+            image_src:
+              "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/builders-headshots/Itoro%20Ukpong-hbd9qQVHVz98yzbX1FlVqJX2hmxHOu.jpg",
+            github: "https://github.com/ItoroD",
+            linkedin:
+              "https://www.linkedin.com/in/itoro-ukpong-43917b177/",
+            bio: "Itoro is a Btrust Builders cohort 3 alumnus, and has demonstrated outstanding contributions to Bitcoin’s open-source projects. His work on bitcoinj and BDK is making Bitcoin wallet development more accessible across several programming languages. Itoro is also an organizer for Bit Devs Accra, helping more developers get started with Bitcoin development.",
+          },
+          {
             name: "Enigbe Ochekliye",
             image_src:
               "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Rectangle%2020-jBTbGscnH4BTJiAZEw65Ban4bADAf1.png",
@@ -33,14 +42,6 @@ export default function OpenSourceRecipient() {
             bio: "Sadiq Ismail is a Nigerian Bitcoin Core contributor who is actively involved in optimizing the Bitcoin protocol. He works on critical areas of Bitcoin Core such as improving fee estimation accuracy on Bitcoin core, reviewing and testing PR's.Sadiq Ismail’s work on Mempool fee estimation analysis showcases his technical abilities, which helps to reduce overpaid fee estimates,  and node users sovereignty. While a part of the cohort, he will continue this work, as he refines his abilities to contribute to the Bitcoin ecosystem.",
           },
           {
-            name: "Duncan Dean",
-            image_src:
-              "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Rectangle%2020-Kof8ILgzYWa4w2jXkUV7RaOUHStcfM.png",
-            github: "https://github.com/dunxen",
-            linkedin: "https://twitter.com/dunxen",
-            bio: "A Lightning contributor from South Africa, Duncan is deeply involved in Lightning Network development, particularly focusing on the highly modular Bitcoin Lightning library, Rust-lightning. Duncan's work is further enriched by his active participation in other projects like ldk-review-club and lndk, where he has contributed to improving continuous integration (CI) actions and maintaining the robustness of the codebase. Through the cohort, Duncan aims to strengthen his contributions to the Bitcoin and Lightning open-source ecosystem.",
-          },
-          {
             name: "Oghenovo Usiwoma",
             image_src:
               "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/image-UnAmaKTZoLk6y06r2sRBYvKT6iJKOE.png",
@@ -52,9 +53,17 @@ export default function OpenSourceRecipient() {
       />
 
       <RecipientsDetailsContainer
-        title="Past Members (2022)"
-        mobileTitle="Past Members (2022)"
+        title="Past Members"
+        mobileTitle="Past Members"
         recipients={[
+          {
+            name: "Duncan Dean",
+            image_src:
+              "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Rectangle%2020-Kof8ILgzYWa4w2jXkUV7RaOUHStcfM.png",
+            github: "https://github.com/dunxen",
+            linkedin: "https://twitter.com/dunxen",
+            bio: "A Lightning contributor from South Africa, Duncan is deeply involved in Lightning Network development, particularly focusing on the highly modular Bitcoin Lightning library, Rust-lightning. Duncan's work is further enriched by his active participation in other projects like ldk-review-club and lndk, where he has contributed to improving continuous integration (CI) actions and maintaining the robustness of the codebase. Through the cohort, Duncan aims to strengthen his contributions to the Bitcoin and Lightning open-source ecosystem.",
+          },
           {
             name: "Vladimir Fomene",
             image_src:
