@@ -26,7 +26,7 @@ export default function MediaResources({ setIsMediaResources }: MediaProps) {
       </div>
       <div className="flex flex-col lg:flex-row gap-6 justify-between">
         <MediaResourceCard
-          download_link="https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Btrust%20Logos-e0Ip8cX6rUTlh5m1rj4XdIlYfUupJ8.zip"
+          download_link="https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Btrust%20Logos.zip"
           title="Btrust Logo & Fonts"
           background_image="https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Pattern-wdAeilJQWrQk7inxGdiTEJWHMoqqic.png"
           logo="https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Btrust%20logo%20(white)%202%20(1)-LM3hiJfudq6UEU70ZPlBlGDP3WUBsI.svg"
