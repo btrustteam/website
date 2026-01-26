@@ -4,9 +4,32 @@ export default function OpenSourceRecipient() {
   return (
     <div className="flex flex-col gap-14 mt-8">
       <RecipientsDetailsContainer
-        mobileTitle="Current Members"
-        title="Current Members"
+        mobileTitle="Current Btrust Open-Source Cohort Grant Recipients"
+        title="Current Btrust Open-Source Cohort Grant Recipients"
         recipients={[
+          {
+            name: "Abdullahi Yunus",
+            image_src:
+              "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/builders-headshots/Abdullahi%20Yunus-A1RvSPh1dDS8Q8XesPqOO3oZ4BKhfj.jpg",
+            github: "https://github.com/Abdulkbk",
+            linkedin:
+              "https://www.linkedin.com/in/abdulkbk/",
+            bio: "Abdullahi is a Btrust Builders cohort 3 alumnus, and has demonstrated outstanding contributions to Bitcoin’s open-source projects. His work on LND has enhanced node reliability and user experience, while his improvements to Lightning Polar simplify developer workflows. With a strong focus on Bitcoin education, Abdullahi also mentors aspiring developers, making the ecosystem more accessible.",
+          },
+          {
+            name: "Sulaiman Aminu Barkindo",
+            image_src: "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Sulaiman%20Aminu%20Barkindo-F7TRI6oTS2fyG55P4w4tmqJp2cxfig.jpg",
+            github: "https://github.com/SulaimanAminuBarkindo",
+            linkedin: "https://www.linkedin.com/in/sulaiman-aminu-barkindo",
+            bio: "Sulaiman is a seasoned software engineer and Engineering Manager based in Nigeria, and a Btrust Builders 2024 fellow. With over four years of experience in backend and full-stack engineering, Sulaiman has become an integral contributor to the Validating Lightning Signer (VLS) project, a Rust-based initiative focused on enhancing security and self-custody in the Bitcoin Lightning Network.",
+          },
+          {
+            name: "Peter Tyonum",
+            image_src: "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Peter%20Tyonum-RHakLsv8qmdFtHQggGjiGImZnvjzE7.JPG",
+            github: "https://github.com/tvpeter",
+            linkedin: "https://www.linkedin.com/in/peter-tyonum-a8a16310b/",
+            bio: "Peter is a skilled software engineer based in Nigeria and a fellow of the Qala (now Btrust Builders) genesis cohort. With over five years of experience working with JavaScript, PHP, and Rust, Peter has made extensive contributions to the Bitcoin Dev Kit (BDK) ecosystem, developing features for bdk-cli, enhancing wallet APIs, improving documentation, and actively reviewing and testing code to raise the quality and reliability of BDK libraries.",
+          },
           {
             name: "Itoro Ukpong",
             image_src:
@@ -53,8 +76,8 @@ export default function OpenSourceRecipient() {
       />
 
       <RecipientsDetailsContainer
-        title="Past Members"
-        mobileTitle="Past Members"
+        title="Past Btrust Open-Source Cohort Grant Recipients"
+        mobileTitle="Past Btrust Open-Source Cohort Grant Recipients"
         recipients={[
           {
             name: "Duncan Dean",
