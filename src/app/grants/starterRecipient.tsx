@@ -9,6 +9,20 @@ export default function StarterRecipients() {
         mobileTitle="Current Starter Grant Recipients (2026)"
         recipients={[
           {
+            name: "Simon Njeru",
+            image_src: "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Simon.jpg",
+            github: "https://github.com/xyephy",
+            linkedin: "",
+            bio: "Simon is the co‑founder of BitDevs Nairobi, a Btrust Builders faculty member, and a committed Bitcoin educator who has facilitated developer bootcamps both within and outside Kenya, helping nurture the next generation of open‑source contributors. His work lies at the intersection of Bitcoin Core internals and mining decentralizatio via contributions to sv2‑tp (Stratum V2 Template Provider) and sv2‑apps, the reference implementation of Stratum V2.",
+          },
+          {
+            name: "Ifeanyichukwu Amajuoyi",
+            image_src: "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/ifeanyichukwu.jpeg",
+            github: "https://github.com/Anyitechs",
+            linkedin: "https://www.linkedin.com/in/ifeanyichukwu-amajuoyi-8b6229153/",
+            bio: "Ifeanyichukwu is a graduate of the 2024 Btrust Builders fellowship, he has since become a consistent open‑source contributor within the Lightning Development Kit (LDK) ecosystem, making meaningful contributions across rust‑lightning, ldk‑node, and ldk‑server.",
+          },
+          {
             name: "Mohamed Emad",
             image_src: "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/mohamed.jpeg",
             github: "https://github.com/hulxv",
@@ -45,7 +59,7 @@ export default function StarterRecipients() {
           },
           {
             name: "Chuks Agbakuru",
-            image_src: "",
+            image_src: "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/chuks.jpeg",
             github: "https://www.github.com/chuksys",
             linkedin: "https://www.linkedin.com/in/chuks-agbakuru/",
             bio: "Chuks is a software engineer with over 8 years of experience in building and maintaining software solutions. His career started with a focus on developing web solutions for start-ups, where he gained foundational expertise in PHP and JavaScript.",

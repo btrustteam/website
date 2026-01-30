@@ -5,7 +5,7 @@ export default function OpenSourceRecipient() {
     <div className="flex flex-col gap-14 mt-8">
       <RecipientsDetailsContainer
         mobileTitle="Current Btrust Open-Source Cohort Grant Recipients"
-        title="Current Btrust Open-Source Cohort Grant Recipients"
+        title="Current Grant Recipients"
         recipients={[
           {
             name: "Abdullahi Yunus",
@@ -77,7 +77,7 @@ export default function OpenSourceRecipient() {
 
       <RecipientsDetailsContainer
         title="Past Btrust Open-Source Cohort Grant Recipients"
-        mobileTitle="Past Btrust Open-Source Cohort Grant Recipients"
+        mobileTitle="Past Grant Recipients"
         recipients={[
           {
             name: "Duncan Dean",
