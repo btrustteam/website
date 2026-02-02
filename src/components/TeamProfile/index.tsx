@@ -75,14 +75,6 @@ export default function TeamProfile() {
             twitter: "https://x.com/Murugi___",
             linkedin: "https://www.linkedin.com/in/sharon-murugi/",
           },
-          {
-            name: "Damilola Akinbowale",
-            description: "Program & Operations Associate",
-            imageUrl:
-              "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/IMG_5429-mO2MfILx7yBYDqNEQBPFB8if63ctLr.JPG",
-            twitter: "https://x.com/deelivia5",
-            linkedin: "https://www.linkedin.com/in/oluwadamilola-akinbowale-aa2a39115",
-          },
         ]}
       />
     </div>
