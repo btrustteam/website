@@ -1,5 +1,61 @@
 [
     {
+        "url": "https://blog.btrust.tech/why-rust-is-becoming-essential-in-bitcoin-2/",
+        "cover_url": "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/why-rust.webp",
+        "heading": "Why Rust Is Becoming Essential in Bitcoin",
+        "tags": [{ "title": "Btrust Blog", "bg": "#000000" }],
+        "text": "This article is a written version of my talk “Why Rust Is Becoming Essential in Bitcoin,” which I gave during the 2025 Btrust Developer Day. Rust has been voted the most loved programming language for nine years in a row, according to the 2025 Stack Overflow Developer Survey."
+    },
+    {
+        "url": "https://blog.btrust.tech/strengthening-africas-bitcoin-developer-pipeline-reflections-from-2025/",
+        "cover_url": "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/2025%20Btrust%20Builders%20Report.jpg",
+        "heading": "Strengthening Africa’s Bitcoin Developer Pipeline: Reflections from 2025",
+        "tags": [{ "title": "Btrust Blog", "bg": "#000000" }],
+        "text": "The Btrust Builders program was designed to move developers from curiosity, to capability, to contribution. This blog shares the story of the 2025 program, what we achieved, what we learned, and why it matters for the future of Bitcoin development in Africa and the wider Global South."
+    },
+    {
+        "url": "https://blog.btrust.tech/introducing-the-bitdevs-playbook/",
+        "cover_url": "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Playbook%20social%20card.jpg",
+        "heading": "Introducing the BitDevs Playbook",
+        "tags": [{ "title": "Btrust Blog", "bg": "#000000" }],
+        "text": "A practical guide for building and sustaining Bitcoin-only technical communities across the Global South."
+    },
+    {
+        "url": "https://blog.btrust.tech/introducing-the-second-round-of-2025-btrust-event-grant-recipients/",
+        "cover_url": "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/4-x2FH0Z64tiUri5hfNfTpaC3D1SzUoN.png",
+        "heading": "Introducing the Second Round of 2025 Btrust Event Grant Recipients",
+        "tags": [{ "title": "Btrust Blog", "bg": "#000000" }],
+        "text": "At Btrust, we know that growing the Bitcoin open-source developer ecosystem starts with creating gateways; spaces where curious builders can connect, learn, experiment, and ultimately take their first steps toward meaningful contribution."
+    },
+    {
+        "url": "https://blog.btrust.tech/celebrating-duncan-deans-journey-with-btrust/",
+        "cover_url": "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Rectangle%2020-Kof8ILgzYWa4w2jXkUV7RaOUHStcfM.png",
+        "heading": "Celebrating Duncan Dean’s Journey with Btrust",
+        "tags": [{ "title": "Btrust Blog", "bg": "#000000" }],
+        "text": "At Btrust, we’ve been fortunate to support developers whose work strengthens the foundations of Bitcoin. Today, we celebrate the journey of Duncan Dean, who joined us as a long-term grantee in April 2024 and whose time with us concluded in August 2025."
+    },
+    {
+        "url": "https://blog.btrust.tech/announcing-q4-2025-btrust-developer-grant-recipients/",
+        "cover_url": "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Q4%20Announcement.jpg",
+        "heading": "Announcing Q4, 2025 Btrust Developer Grant Recipients",
+        "tags": [{ "title": "Btrust Blog", "bg": "#000000" }],
+        "text": "We’re excited to recognize six outstanding Bitcoin open-source developers awarded Btrust grants, including four starter grant recipients and two open-source cohort members."
+    },
+    {
+        "url": "https://blog.btrust.tech/btrust-builders-chaincode-labs-partner-again-for-the-2026-boss-challenge/",
+        "cover_url": "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Chaincode%20BOSS%202026.jpg",
+        "heading": "Btrust Builders & Chaincode Labs Partner Again for the 2026 BOSS Challenge",
+        "tags": [{ "title": "Btrust Blog", "bg": "#000000" }],
+        "text": "Applications are ongoing for the 2026 ₿OSS (Bitcoin Open-Source Software) Challenge, kicking off January 12, 2026."
+    },
+    {
+        "url": "https://blog.btrust.tech/from-night-time-coder-to-full-time-bitcoin-builder-my-journey-through-btrust-and-the-boss-program/",
+        "cover_url": "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Rita_Anene_Headshot.jpeg",
+        "heading": "From Night Time Coder to Full-Time Bitcoin Builder: My Journey Through Btrust and the BOSS Program",
+        "tags": [{ "title": "Btrust Blog", "bg": "#000000" }],
+        "text": "For over three years, I've worked as a software developer, building features and solving problems in the familiar rhythm of a 9-to-5 job. But something was missing. I wanted to work on technology that wasn't just functional, but foundational, something that could reshape how people interact with money and trust itself. That's what led me to Bitcoin."
+    },
+    {
         "url": "https://blog.btrust.tech/btrust-announces-abubakar-nur-khalil-as-new-ceo/",
         "cover_url": "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/dev-day/Male%20Placeholder%20%281%29-Zw4EhYInLKGS822xxSOiR1Wyh5829J.png",
         "heading": "Btrust Announces Abubakar Nur Khalil as New CEO",
