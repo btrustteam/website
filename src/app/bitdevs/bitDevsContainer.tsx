@@ -100,7 +100,14 @@ export default function AllBitDevs() {
             website: "https://bitdevsuyo.org/",
             xlink: "https://x.com/BitDevsUyo",
         },
-        
+        {
+            title: "BitDevs Zambia",
+            details: "BitDevs Zambia is a community of Bitcoin developers, educators, builders, and technically curious enthusiasts based in Zambia.",
+            imageSrc: "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/bitdevs-zambia.jpeg",
+            website: "https://bitdevszambia.org/",
+            xlink: "https://x.com/BitDevsZambia",
+        },
+
     ];
     return (
         <div className="flex flex-wrap pt-[4.5rem] lg:pt-[8rem] lg:pb-0 px-6 lg:px-[6.5rem] gap-6 lg:gap-8">

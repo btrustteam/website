@@ -67,9 +67,13 @@ export default function BitDev() {
               <a className="font-bold underline" href="https://x.com/BitDevsNBO" target="_blank">
                 Nairobi
               </a>
-              , and{" "}
+              ,{" "}
               <a className="font-bold underline" href="https://x.com/BitDevsUyo" target="_blank">
                 Uyo
+              </a>
+              ,and{" "}
+              <a className="font-bold underline" href="https://x.com/bitdevszambia" target="_blank">
+                Zambia
               </a>
               ,{" "}
               —with support from Btrust in administration, communication, and
