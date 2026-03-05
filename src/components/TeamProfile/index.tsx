@@ -12,7 +12,7 @@ export default function TeamProfile() {
         teamMembers={[
           {
             name: "Abubakar Nur Khalil",
-            description: "Interim Chief Executive Officer and Board Member",
+            description: "Chief Executive Officer and Board Member",
             imageUrl:
               "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Rectangle%2020%20(3)-1rAzPCAWFnIOdqehTlOgUBL3r4QM6q.png",
             twitter: "https://x.com/ihate1999",
@@ -53,7 +53,7 @@ export default function TeamProfile() {
         teamMembers={[
           {
             name: "Kelvin Isievwore",
-            description: "Engineering Lead",
+            description: "Head of Engineering",
             imageUrl:
               "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/BTrust%20Gathering%20Day%202%20-85%20copy-t4yAeDiWIkVgPQ1OVXC2uzCPTE3oVn.JPG",
             twitter: "https://x.com/kelvinator05",
@@ -61,7 +61,7 @@ export default function TeamProfile() {
           },
           {
             name: "Stephanie Titcombe",
-            description: "Program Lead, Btrust Builders",
+            description: "Head of Programs, Btrust Builders",
             imageUrl:
               "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/20241026_074637-4dWrvwUF6JkaT4shZPHIDfatICxeMm.jpg",
             twitter: "https://x.com/StephTitcombe",
@@ -69,7 +69,7 @@ export default function TeamProfile() {
           },
           {
             name: "Sharon Murugi",
-            description: "Social Media and Communications Officer",
+            description: "Social Media and Communications Lead",
             imageUrl:
               "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Rectangle%2020%20(8)-LmP0fxJ99jbi46ek3ax7EAwZhcga2y.png",
             twitter: "https://x.com/Murugi___",
