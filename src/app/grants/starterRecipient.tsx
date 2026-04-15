@@ -9,11 +9,46 @@ export default function StarterRecipients() {
         mobileTitle="Current Starter Grant Recipients (2026)"
         recipients={[
           {
-            name: "Simon Njeru",
-            image_src: "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Simon.jpg",
-            github: "https://github.com/xyephy",
+            name: "Victor Chabunda",
+            image_src: "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Victor%20Chabunda.jpg",
+            github: "https://github.com/chavic",
             linkedin: "",
-            bio: "Simon is the co‑founder of BitDevs Nairobi, a Btrust Builders faculty member, and a committed Bitcoin educator who has facilitated developer bootcamps both within and outside Kenya, helping nurture the next generation of open‑source contributors. His work lies at the intersection of Bitcoin Core internals and mining decentralizatio via contributions to sv2‑tp (Stratum V2 Template Provider) and sv2‑apps, the reference implementation of Stratum V2.",
+            bio: "Chabunda, also known as Chavic, is a developer based in Zambia with nearly a decade of experience building software across multiple platforms. He is the author of UniFFI‑Dart and a contributor to the rust‑payjoin project, where his work focuses on improving developer experience through cross‑language bindings and tooling.",
+          },
+          {
+            name: "John Osezele",
+            image_src: "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/John%20Osezele.jpeg",
+            github: "https://github.com/Johnosezele",
+            linkedin: "",
+            bio: "John is a software engineer based in Nigeria with five years of experience building mobile applications across fintech and security platforms. He is a co‑maintainer of the bdk‑dart project within the Bitcoin Dev Kit ecosystem. The project provides Dart bindings that allow Flutter developers to build Bitcoin wallets powered by BDK’s Rust implementation.",
+          },
+          {
+            name: "Frankline Omondi",
+            image_src: "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Frankline%20Omondi.jpeg",
+            github: "https://www.github.com/frankomosh",
+            linkedin: "",
+            bio: "Frankline is a software engineer based in Kenya with experience in systems programming and open‑source infrastructure development. Frankline has contributed to Bitcoin Core’s fuzz testing infrastructure and QA assets, helping improve coverage and detect potential bugs earlier in the development process.",
+          },
+          {
+            name: "Michael Ariwaodo",
+            image_src: "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Michael%20Ariwaodo.jpeg",
+            github: "https://github.com/KvngMikey",
+            linkedin: "",
+            bio: "Michael is a software developer based in Nigeria with over four years of experience building financial software systems. As our first Cashu developer grantee, his recent work includes improvements to Cashu TS and Cashu Nutshell, the reference implementation of a Cashu mint.",
+          },
+          {
+            name: "Sonkeng Maldini",
+            image_src: "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Sonkeng%20Maldini.png",
+            github: "https://github.com/sdmg15",
+            linkedin: "",
+            bio: "Sonkeng is a software engineer based in Cameroon with more than eight years of experience building complex software systems. Through the starter grant, Sonkeng will focus on improving developer experience and contributing to new releases within the Bitcoin Development Kit ecosystem.",
+          },
+          {
+            name: "Shehu Muhammad Aliyu",
+            image_src: "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Shehu%20M.%20Aliyu.jpg",
+            github: "https://github.com/Mshehu5",
+            linkedin: "",
+            bio: "Shehu is a software engineer based in Nigeria. He holds a degree in Computer Engineering from Ahmadu Bello University and graduated from the 2025 Btrust Builders Rust for Bitcoiners pathway.Shehu has been actively contributing to the Payjoin Dev Kit (PDK), a project focused on improving bitcoin transaction privacy through collaborative transaction construction.",
           },
           {
             name: "Ifeanyichukwu Amajuoyi",
@@ -58,13 +93,6 @@ export default function StarterRecipients() {
             bio: "Rita is a software developer with over 3 years of experience building and improving software solutions.",
           },
           {
-            name: "Chuks Agbakuru",
-            image_src: "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/chuks.jpeg",
-            github: "https://www.github.com/chuksys",
-            linkedin: "https://www.linkedin.com/in/chuks-agbakuru/",
-            bio: "Chuks is a software engineer with over 8 years of experience in building and maintaining software solutions. His career started with a focus on developing web solutions for start-ups, where he gained foundational expertise in PHP and JavaScript.",
-          },
-          {
             name: "Jamal Errakibi",
             image_src: "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Jamal%20ERRAKIBI-O6XJ86b5zvvvvkz38lkQCozQu7TUJ9.JPG",
             github: "https://github.com/jrakibi",
@@ -88,6 +116,13 @@ export default function StarterRecipients() {
         title="Past Starter Grant Recipients - 2025"
         mobileTitle="Past Starter Grant Recipients (2025)"
         recipients={[
+          {
+            name: "Chuks Agbakuru",
+            image_src: "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/chuks.jpeg",
+            github: "https://www.github.com/chuksys",
+            linkedin: "https://www.linkedin.com/in/chuks-agbakuru/",
+            bio: "Chuks is a software engineer with over 8 years of experience in building and maintaining software solutions. His career started with a focus on developing web solutions for start-ups, where he gained foundational expertise in PHP and JavaScript. With this long‑term grant, Chuks will focus on researching and implementing splice batching for the Lightning Network.",
+          },
           {
             name: "Itoro Ukpong",
             image_src:
