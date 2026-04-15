@@ -101,6 +101,13 @@ export default function AllBitDevs() {
             xlink: "https://x.com/BitDevsUyo",
         },
         {
+            title: "BitDevs Yaoundé",
+            details: "BitDevs Yaoundé is a community for those interested in discussing and participating in the research and development of Bitcoin and related protocols",
+            imageSrc: "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/bitdevsyde.jpg",
+            website: "https://bitdevsyde.org/",
+            xlink: "https://x.com/bitdevsyde",
+        },
+        {
             title: "BitDevs Zambia",
             details: "BitDevs Zambia is a community of Bitcoin developers, educators, builders, and technically curious enthusiasts based in Zambia.",
             imageSrc: "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/bitdevs-zambia.jpeg",
