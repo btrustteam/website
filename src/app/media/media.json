@@ -1,5 +1,47 @@
 [
     {
+        "url": "https://blog.btrust.tech/btrust-2025-year-in-review/",
+        "cover_url": "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Btrust%20Global%20South.jpg",
+        "heading": "Btrust 2025 Year in Review",
+        "tags": [{ "title": "Btrust Blog", "bg": "#000000" }],
+        "text": "Global Majority, April 9, 2026 — 2025 was a pivotal year for us at Btrust, as it marked the start of what we believe will serve as the generational foundation for the organization and Btrust Builders for years to come."
+    },
+    {
+        "url": "https://blog.btrust.tech/silent-payments-a-case-study-of-frigate-for-ephemeral-client-key-scanning/",
+        "cover_url": "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Silent-payment-bdk.webp",
+        "heading": "Silent Payments: A Case Study of Frigate for Ephemeral Client Key Scanning",
+        "tags": [{ "title": "Btrust Blog", "bg": "#000000" }],
+        "text": "In this post, we provide a simplified, high‑level explanation of how Silent Payments work, their advantages over existing approaches, and how they can be used in practice. We will also walk through a practical example of receiving and scanning Silent Payment outputs using Frigate and BDK."
+    },
+    {
+        "url": "https://blog.btrust.tech/q1-2026-btrust-developer-grant-announcement/",
+        "cover_url": "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Q1%2C%202026%20Btrust%20Developer%20Grant%20Announcement.jpg",
+        "heading": "Q1, 2026 Btrust Developer Grant Announcement",
+        "tags": [{ "title": "Btrust Blog", "bg": "#000000" }],
+        "text": "Africa, April 1, 2026 — We're excited to announce our largest Btrust developer grant cohort to date. Ten outstanding Bitcoin open-source developers have been awarded grants, comprising six starter grant recipients and four open-source cohort members, including two renewals and two promotions from starter to long-term grants."
+    },
+    {
+        "url": "https://blog.btrust.tech/bip326-anti-fee-sniping-as-a-privacy-primitive-for-taproot-wallets/",
+        "cover_url": "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/BIP326.png",
+        "heading": "BIP326: Anti-Fee-Sniping as a Privacy Primitive for Taproot Wallets",
+        "tags": [{ "title": "Btrust Blog", "bg": "#000000" }],
+        "text": "Since Bitcoin’s introduction by Satoshi Nakamoto, its scripting capabilities have evolved significantly. One of the most important upgrades is Taproot, introduced in BIP341, which allows a transaction output to commit to multiple spending conditions simultaneously using a structure known as a Merkelized Alternative Script Tree (MAST)."
+    },
+    {
+        "url": "https://blog.btrust.tech/2025-btrust-developer-grantee-impact/",
+        "cover_url": "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Btrust%20Grantees.jpg",
+        "heading": "2025 Btrust Developer Grantee Impact",
+        "tags": [{ "title": "Btrust Blog", "bg": "#000000" }],
+        "text": "In 2025, Btrust’s support of open source development efforts were guided by a belief that when developers from Africa and the Global Majority are given sustained support, they can become long‑term stewards of Bitcoin’s open‑source infrastructure."
+    },
+    {
+        "url": "https://blog.btrust.tech/introducing-the-2026-btrust-builders-program/",
+        "cover_url": "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/All%20pathways%20%282026%29.jpeg",
+        "heading": "Introducing the 2026 Btrust Builders Program",
+        "tags": [{ "title": "Btrust Blog", "bg": "#000000" }],
+        "text": "At Btrust Builders, our work is grounded in the belief that Bitcoin’s open‑source ecosystem only thrives when contributors are supported not just to learn, but to stay, grow, and lead over time."
+    },
+    {
         "url": "https://blog.btrust.tech/why-rust-is-becoming-essential-in-bitcoin-2/",
         "cover_url": "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/why-rust.webp",
         "heading": "Why Rust Is Becoming Essential in Bitcoin",
