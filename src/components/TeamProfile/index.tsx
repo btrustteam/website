@@ -75,6 +75,27 @@ export default function TeamProfile() {
             twitter: "https://x.com/Murugi___",
             linkedin: "https://www.linkedin.com/in/sharon-murugi/",
           },
+          {
+            name: "Taiye Salami",
+            description: "Program & Operations Officer",
+            imageUrl: "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Taiye%20Salami.jpg",
+            twitter: "https://x.com/taiesalami",
+            linkedin: "https://www.linkedin.com/in/taiyeos/",
+          },
+          {
+            name: "Feranmi Famuyiwa",
+            description: "Communications Associate",
+            imageUrl: "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Famuyiwa%20feranmi.jpeg",
+            twitter: "https://x.com/_Phendyy",
+            linkedin: "https://www.linkedin.com/in/feranmi-famuyiwa",
+          },
+          {
+            name: "Gavin Absalom",
+            description: "Designer",
+            imageUrl: "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Gavin%20Absalom.jpg",
+            twitter: "https://x.com/GavinAbsalom",
+            linkedin: "https://www.linkedin.com/in/gavin-absalom-3b04791b2",
+          },
         ]}
       />
     </div>
