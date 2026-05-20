@@ -7,41 +7,29 @@ export default function TeamProfile() {
       <Line />
       <TeamDetailsContainer
         isBoard={true}
-        title="Inaugural Board (2021 - Present)"
+        title="Board (2026 - Present)"
         brief="The Btrust board is responsible for overseeing delivery of the organization's mission."
         teamMembers={[
           {
-            name: "Abubakar Nur Khalil",
-            description: "Chief Executive Officer and Board Member",
-            imageUrl:
-              "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Rectangle%2020%20(3)-1rAzPCAWFnIOdqehTlOgUBL3r4QM6q.png",
-            twitter: "https://x.com/ihate1999",
-            linkedin:
-              "https://www.linkedin.com/in/abubakar-nur-khalil-29923b1a0/",
+            name: "Bruno Garcia",
+            description: "Board Member",
+            imageUrl: "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/bruno.jpeg",
+            twitter: "https://x.com/brrrunog",
+            linkedin: "https://www.linkedin.com/in/brunoerg",
           },
           {
-            name: "Carla Kirk-Cohen",
+            name: "Janet Maingi",
             description: "Board Member",
-            imageUrl:
-              "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Rectangle%2020%20(4)-vyMxeRlSaKCf5IFsrG0vXGJxxMtIp4.png",
-            twitter: "https://x.com/actuallyCarlaKC",
-            linkedin: "https://www.linkedin.com/in/carla-kirk-cohen-73342113b/",
+            imageUrl: "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/janet.jpeg",
+            twitter: "https://x.com/nduku_jay",
+            linkedin: "https://www.linkedin.com/in/janet-maingi",
           },
           {
-            name: "Obi Nwosu",
+            name: "Lawrence Aderemi",
             description: "Board Member",
-            imageUrl:
-              "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Obi Nwosu headshot-puLVoQ4BcCqMpexHbVRSVm7dYb1SXH.png",
-            twitter: "https://x.com/obi",
-            linkedin: "https://www.linkedin.com/in/obinwosu/",
-          },
-          {
-            name: "Ojoma Ochai",
-            description: "Board Member",
-            imageUrl:
-              "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Rectangle%2020%20(6)-eYgZhLjKVS0dQy1j00YmiBuHvbOpPi.png",
-            twitter: "https://x.com/ojomaochai",
-            linkedin: "https://www.linkedin.com/in/ojomaochai/",
+            imageUrl: "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/lawrence.jpeg",
+            twitter: "https://x.com/laurenceaderemi",
+            linkedin: "https://www.linkedin.com/in/laurenceaderemi",
           },
         ]}
       />

@@ -13,7 +13,7 @@ export default function MeetTheTeam() {
       <div className="flex items-center justify-center w-full h-[18.75rem] lg:h-[39.375rem]">
         <Image
           src={
-            "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/BTrust%20Gathering%20Day%202%20-96-WDE9Bql1GTOkDmeBJTCwvvkus5XbRe.JPG"
+            "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Btrust%20Team.jpg"
           }
           alt="The team"
           width={0}
