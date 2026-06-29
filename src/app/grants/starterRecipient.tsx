@@ -58,11 +58,11 @@ export default function StarterRecipients() {
             bio: "Ifeanyichukwu is a graduate of the 2024 Btrust Builders fellowship, he has since become a consistent open‑source contributor within the Lightning Development Kit (LDK) ecosystem, making meaningful contributions across rust‑lightning, ldk‑node, and ldk‑server.",
           },
           {
-            name: "Mohamed Emad",
-            image_src: "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/mohamed.jpeg",
-            github: "https://github.com/hulxv",
-            linkedin: "https://www.linkedin.com/in/hulxv",
-            bio: "Mohamed is a 2nd-year Computer Engineering student at Zagazig University with a focus on systems programming and low-level systems. He spends his time building innovative projects and contributing to major open-source projects such as the LLVM project. He also has extensive experience with Rust and have built several projects with it.",
+            name: "Uqlidi",
+            image_src: "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/uqlidi.png",
+            github: "https://github.com/uqlidi",
+            linkedin: "https://www.linkedin.com/in/uqlidi",
+            bio: "Uqlidi is a Computer Engineering student with a focus on systems programming and low-level systems. He spends his time building innovative projects and contributing to major open-source projects such as the LLVM project. He also has extensive experience with Rust and have built several projects with it.",
           },
           {
             name: "Shammah Agwor",
