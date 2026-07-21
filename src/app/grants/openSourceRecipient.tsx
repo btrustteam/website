@@ -8,6 +8,36 @@ export default function OpenSourceRecipient() {
         title="Current Grant Recipients"
         recipients={[
           {
+            name: "Jamal Errakibi",
+            image_src: "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Jamal%20ERRAKIBI-O6XJ86b5zvvvvkz38lkQCozQu7TUJ9.JPG",
+            github: "https://github.com/jrakibi",
+            linkedin: "https://www.linkedin.com/in/jamal-e-118069130/",
+            bio: "Jamal is an accomplished software engineer and a 2024 Btrust Builders fellow, and Bitcoin open-source contributor. With seven years of professional experience, Jamal has developed deep expertise in Java development and AWS cloud services. In recent years, he has transitioned his focus to Bitcoin, making significant contributions as an independent contractor for Chaincode Labs and, most notably, as an active contributor to the rust-bitcoin project.",
+          },
+          {
+            name: "Brandon Odiwuor",
+            image_src:
+              "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/b07f95ff-c5b2-4d9c-9c97-2497775334c1%20-%20Brandon%20Odiwuor-0mqggQL2ANUFTJbaMQjlkvEmo7ZKZr.JPG",
+            github: "https://github.com/BrandonOdiwuor",
+            linkedin:
+              "https://www.linkedin.com/in/brandonodiwuor/",
+            bio: "Brandon has been actively contributing to Bitcoin core, focusing on improving its testing infrastructure, build system, and developer tooling. Beyond his technical work, Brandon is driving Bitcoin education through BitDevs Nairobi, helping onboard new contributors into the ecosystem.",
+          },
+          {
+            name: "Ojok Emmanuel Nsubuga",
+            image_src: "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Ojok%20Emmanuel%20Nsubuga.jpg",
+            github: "https://github.com/ojokne",
+            linkedin: "https://www.linkedin.com/in/ojok-emmanuel-nsubuga-144541247/",
+            bio: "Emmanuel is a software engineer with 2.5+ years of experience building web and mobile applications using JavaScript, TypeScript, React, React Native and Nodejs.",
+          },
+          {
+            name: "Abiodun Awoyemi",
+            image_src: "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Abiodun.jpg",
+            github: "https://github.com/aagbotemi",
+            linkedin: "https://www.linkedin.com/in/abiodun-awoyemi-1ab8b3165/",
+            bio: "Abiodun is a software engineer with 5 years of experience building and scaling systems in finance, real estate, and blockchain. He has worked across the stacks, from frontend (ReactJS, Next.js) to backend services powering real-time transactions.",
+          },
+          {
             name: "Chuks Agbakuru",
             image_src: "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Chuks%20Agbakuru.jpg",
             github: "https://www.github.com/chuksys",

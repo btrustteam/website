@@ -9,6 +9,27 @@ export default function StarterRecipients() {
         mobileTitle="Current Starter Grant Recipients (2026)"
         recipients={[
           {
+            name: "Jemimah Nagasha",
+            image_src: "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Jemimah%20Nagasha.JPG",
+            github: "https://github.com/Jem256",
+            linkedin: "",
+            bio: "Nagasha is a software engineer based in Kampala, Uganda. She has experience building web and mobile applications and brings a strong systems-oriented approach from her background in civil engineering and software development.",
+          },
+          {
+            name: "Oyindamola Oladapo",
+            image_src: "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Oyindamola%20Oladapo.jpg",
+            github: "https://github.com/0xzaddyy",
+            linkedin: "",
+            bio: "Oyindamola is a software engineer based in Kaduna, Nigeria, with experience building and maintaining reliable software systems. He was part of the inaugural Btrust Builders’ Rust for Bitcoiners pathway, where he deepened his understanding of Rust and Bitcoin development and graduated as the top student.",
+          },
+          {
+            name: "Yankho Ngolleka",
+            image_src: "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Yankho%20Ngolleka.jpg",
+            github: "https://github.com/codaMW",
+            linkedin: "",
+            bio: "Yankho is a Bitcoin developer and community builder based in Lilongwe, Malawi. His technical journey began at Btrust Builders, where he received the Top Student Award among an international cohort of Bitcoin developers.",
+          },
+          {
             name: "Victor Chabunda",
             image_src: "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Victor%20Chabunda.jpg",
             github: "https://github.com/chavic",
@@ -72,43 +93,12 @@ export default function StarterRecipients() {
             bio: "Shammah have been a software engineer since 2017, with a strong focus on backend systems, security engineering, and Bitcoin open-source development. His journey began at Accelera (Feb–Nov 2017), where he built out the web presence of the company on linode and an employee management platform using Node.js. He also handled security responsibilities for internal applications.",
           },
           {
-            name: "Abiodun Awoyemi",
-            image_src: "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Abiodun.jpg",
-            github: "https://github.com/aagbotemi",
-            linkedin: "https://www.linkedin.com/in/abiodun-awoyemi-1ab8b3165/",
-            bio: "Abiodun is a software engineer with 5 years of experience building and scaling systems in finance, real estate, and blockchain. He has worked across the stacks, from frontend (ReactJS, Next.js) to backend services powering real-time transactions.",
-          },
-          {
-            name: "Ojok Emmanuel Nsubuga",
-            image_src: "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Ojok%20Emmanuel%20Nsubuga.jpg",
-            github: "https://github.com/ojokne",
-            linkedin: "https://www.linkedin.com/in/ojok-emmanuel-nsubuga-144541247/",
-            bio: "Emmanuel is a software engineer with 2.5+ years of experience building web and mobile applications using JavaScript, TypeScript, React, React Native and Nodejs.",
-          },
-          {
             name: "Rita Anene",
             image_src: "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Rita_Anene_Headshot.jpeg",
             github: "https://github.com/Camillarhi",
             linkedin: "https://www.linkedin.com/in/rita-anene-13a28b14b",
             bio: "Rita is a software developer with over 3 years of experience building and improving software solutions.",
           },
-          {
-            name: "Jamal Errakibi",
-            image_src: "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Jamal%20ERRAKIBI-O6XJ86b5zvvvvkz38lkQCozQu7TUJ9.JPG",
-            github: "https://github.com/jrakibi",
-            linkedin: "https://www.linkedin.com/in/jamal-e-118069130/",
-            bio: "Jamal is an accomplished software engineer and a 2024 Btrust Builders fellow, and Bitcoin open-source contributor. With seven years of professional experience, Jamal has developed deep expertise in Java development and AWS cloud services. In recent years, he has transitioned his focus to Bitcoin, making significant contributions as an independent contractor for Chaincode Labs and, most notably, as an active contributor to the rust-bitcoin project.",
-          },
-          {
-            name: "Brandon Odiwuor",
-            image_src:
-              "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/b07f95ff-c5b2-4d9c-9c97-2497775334c1%20-%20Brandon%20Odiwuor-0mqggQL2ANUFTJbaMQjlkvEmo7ZKZr.JPG",
-            github: "https://github.com/BrandonOdiwuor",
-            linkedin:
-              "https://www.linkedin.com/in/brandonodiwuor/",
-            bio: "Brandon has been actively contributing to Bitcoin core, focusing on improving its testing infrastructure, build system, and developer tooling. Beyond his technical work, Brandon is driving Bitcoin education through BitDevs Nairobi, helping onboard new contributors into the ecosystem.",
-          },
-          
         ]}
       />
 

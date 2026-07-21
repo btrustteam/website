@@ -46,6 +46,27 @@ export default function EducationGrantRecipients() {
         </div>
       </div>
       <div className="flex flex-col gap-12 px-6 lg:px-[6.5rem]">
+
+        <EducationEventCard
+          title="Hack4Freedom"
+          details={[
+            "Hack4Freedom trains female developers in the Global South to build next-gen open-source freedom software.",
+            "Hack4Freedom is a two-week, women-only hybrid hackathon where developers in the Global South learn, build, and ship open-source freedom tools using Bitcoin, Lightning, Nostr, and eCash. It combines hands-on workshops, global mentorship, and project-based building so participants leave with real prototypes, repos, contributors, and a community of female builders."
+          ]}
+          imageSrc="https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Hack4Freedom.webp"
+          link="https://www.hack4freedom.com/"
+        />
+
+        <EducationEventCard
+          title="Vinteum"
+          details={[
+            "A Bitcoin R&D Center in Brazil that trains, mentors, and fund open-source Bitcoin developers and researchers.",
+            "Vinteum exists to train, support, and fund the people building Bitcoin's open-source infrastructure. To fulfill its potential as a tool for freedom and financial sovereignty, Bitcoin needs a diverse, global community of contributors. Bitcoin depends on people who choose to build it. Vinteum exists to help grow that community. We support developers and researchers across their journey — from first contact to active contribution and beyond — through education, mentorship, and funding. Our work is grounded in real collaboration: meetups, seminars, in-person programs, and residencies, alongside fellowships and grants that enable sustained open-source work. We focus on enabling contributions to Bitcoin Core, the Lightning Network, and other critical infrastructure that keeps Bitcoin secure, decentralized, and usable."
+          ]}
+          imageSrc="https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/vintuem.jpeg"
+          link="https://www.vinteum.org/"
+        />
+
         <EducationEventCard
           title="Bitshala"
           details={[
@@ -63,6 +84,15 @@ export default function EducationGrantRecipients() {
           ]}
           imageSrc="https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/image-QsFDARjLGifEfn8Wig6CP38yYUV5RD.png"
           link="https://libreriadesatoshi.com/"
+        />
+
+        <EducationEventCard
+          title="Bitcoin Lightning Development Bootcamp by Africa Free Routing"
+          details={[
+            "In June 2024, Africa Free Routing organized a Bitcoin Lightning Development Bootcamp in Nairobi, Kenya. We were honored to be one of the bootcamp sponsors. This free, four-day program took place from June 10th to 13th. The bootcamp was aimed to equip developers with the skills and knowledge necessary to build innovative applications on the Lightning Network. Participants engaged in hands-on workshops led by experts, exploring real-world applications of the Lightning Network.",
+          ]}
+          imageSrc="https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/12-C2Xidt6oM6nYuGziXHjld6lsK1yC2C.png"
+          link="https://freerouting.africa/bootcamps/?ref=www.btrust.tech"
         />
       </div>
       <ActivitiesNewsletter />

@@ -75,14 +75,7 @@ export default function EventGrantRecipients() {
           imageSrc="https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/11-pG8LkDRd71HQUM5h2TnqFOO4ly8w0Z.png"
           link="https://za25.adoptingbitcoin.org/?ref=www.btrust.tech"
         />
-        <EducationEventCard
-          title="Bitcoin Lightning Development Bootcamp by Africa Free Routing"
-          details={[
-            "In June 2024, Africa Free Routing organized a Bitcoin Lightning Development Bootcamp in Nairobi, Kenya. We were honored to be one of the bootcamp sponsors. This free, four-day program took place from June 10th to 13th. The bootcamp was aimed to equip developers with the skills and knowledge necessary to build innovative applications on the Lightning Network. Participants engaged in hands-on workshops led by experts, exploring real-world applications of the Lightning Network.",
-          ]}
-          imageSrc="https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/12-C2Xidt6oM6nYuGziXHjld6lsK1yC2C.png"
-          link="https://freerouting.africa/bootcamps/?ref=www.btrust.tech"
-        />
+        
       </div>
       <ActivitiesNewsletter />
     </div>
