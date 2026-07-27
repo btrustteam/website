@@ -33,8 +33,8 @@ export default function AllBitDevs() {
         {
             title: "BitDevs Addis Ababa",
             details: "BitDevs Addis is a Bitcoin-only technical meetup group in Ethiopia focused on research, development, and deep protocol discussions.",
-            imageSrc: "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/abuja-BqbNZPBt6H8NI3mgOgReZGA50sZPSE.jpg",
-            website: "https://bitcoinbirr.org/",
+            imageSrc: "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/bitdevsaddis.png",
+            website: "https://www.bitdevsaddisababa.com/",
             xlink: "https://x.com/BitDevsAddis",
         },
         {
