@@ -31,6 +31,13 @@ export default function AllBitDevs() {
             xlink: "https://x.com/BitDevsDLA",
         },
         {
+            title: "BitDevs Addis Ababa",
+            details: "BitDevs Addis is a Bitcoin-only technical meetup group in Ethiopia focused on research, development, and deep protocol discussions.",
+            imageSrc: "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/abuja-BqbNZPBt6H8NI3mgOgReZGA50sZPSE.jpg",
+            website: "https://bitcoinbirr.org/",
+            xlink: "https://x.com/BitDevsAddis",
+        },
+        {
             title: "BitDevs Gitega",
             details: "BitDevs Gitega is a community of Bitcoin developers, educators, builders, and technically curious enthusiasts based in Gitega.",
             imageSrc: "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/gitega-xLKta0cDBaz1IHV7gWy9my6cTboO1c.jpg",
