@@ -64,13 +64,6 @@ export default function TeamProfile() {
             linkedin: "https://www.linkedin.com/in/sharon-murugi/",
           },
           {
-            name: "Taiye Salami",
-            description: "Program & Operations Officer",
-            imageUrl: "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Taiye%20Salami.jpg",
-            twitter: "https://x.com/taiesalami",
-            linkedin: "https://www.linkedin.com/in/taiyeos/",
-          },
-          {
             name: "Feranmi Famuyiwa",
             description: "Communications Associate",
             imageUrl: "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Famuyiwa%20feranmi.jpeg",
