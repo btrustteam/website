@@ -5,6 +5,7 @@ export default function Pattern() {
     <Image
       src={"/pattern.svg"}
       alt="Pattern"
+      loading="eager"
       width={0}
       height={0}
       sizes={"100vw"}

@@ -37,7 +37,7 @@ export default function ButtonWithIcon({
             src={`/${iconName}.svg`}
             alt={`${iconName} icon`}
             width={30}
-            height={50}
+            height={24}
           />
       )}
     </button>
