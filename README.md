@@ -6,7 +6,7 @@ This is the codebase for the [btrust.tech](https://btrust.tech) site.
 
 ## Getting Started
 
-The website is built with [Next.js](https://nextjs.org). To run it locally you'll need Node.js 14.6.0 or newer. After cloning repository and running `yarn` to install the project dependencies, try any of the following three commands in the terminal:
+The website is built with [Next.js](https://nextjs.org). To run it locally you'll need Node.js 24 or newer. After cloning repository and running `yarn` to install the project dependencies, try any of the following three commands in the terminal:
 
 - `yarn run dev` for running a development instance with hot-reloading, file watching and task re-running
 - `yarn run build` for compiling the project.
