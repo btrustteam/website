@@ -1,4 +1,3 @@
-import { useRouter } from "next/navigation";
 import ButtonWithArrow from "@/components/buttons/buttonWithArrow";
 import OutlineButton from "@/components/buttons/OutlineButton";
 import DynamicImage from "@/components/DynamicImage";
@@ -10,7 +9,6 @@ export default function WhoCanApply() {
   const details = [
     "Bitcoin education programs focused on training and upskilling Bitcoin developers.",
   ];
-  const router = useRouter();
   return (
     <div className="pt-[4.5rem] lg:pt-[8rem] lg:pb-0 px-6 lg:px-[6.5rem] flex justify-between flex-col lg:flex-row-reverse">
       <DynamicImage
@@ -34,11 +32,7 @@ export default function WhoCanApply() {
         <div className="flex flex-col lg:flex-row w-full gap-4">
           <ButtonWithArrow
             text="Apply for this grant"
-            onClick={() => {
-              router.push(
-                "https://btrust.homerun.co/education-grant-application/en"
-              );
-            }}
+            url="https://btrust.homerun.co/education-grant-application/en"
             noIcon={true}
           />
           <OutlineButton

@@ -1,11 +1,8 @@
-"use client";
 import ButtonWithArrow from "@/components/buttons/buttonWithArrow";
 import SectionHeader from "@/components/sectionHeader";
 import ApplySteps from "./applyprocess";
-import { useRouter } from "next/navigation";
 
 export default function ApplyProgress() {
-  const route = useRouter();
   return (
     <div className="py-10 lg:py-[5rem] px-[1.5rem] lg:px-0 flex flex-col items-center justify-center gap-8 lg:gap-2">
       <SectionHeader
@@ -16,11 +13,7 @@ export default function ApplyProgress() {
 
       <ButtonWithArrow
         text="Apply Here"
-        onClick={() => {
-          route.push(
-            "https://btrust.homerun.co/btrust-builders-application/en"
-          );
-        }}
+        url="https://btrust.homerun.co/btrust-builders-application/en"
         className="w-full lg:w-auto"
       />
     </div>
