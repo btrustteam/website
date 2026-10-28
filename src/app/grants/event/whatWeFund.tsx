@@ -1,4 +1,3 @@
-import { useRouter } from "next/navigation";
 import ButtonWithArrow from "@/components/buttons/buttonWithArrow";
 import OutlineButton from "@/components/buttons/OutlineButton";
 import DynamicImage from "@/components/DynamicImage";
@@ -10,7 +9,6 @@ export default function WhatWeFund() {
     "Grassroots Bitcoin meetups (BitDevs), bootcamps, and similar focused events which run workshops and other hands-on learning events on Bitcoin development.",
     "Events with a strong developer focus or those aiming to attract developers.",
   ];
-  const route = useRouter();
   return (
     <div className="pt-[4.5rem] lg:pt-[8rem] lg:pb-0 px-6 lg:px-[6.5rem] flex justify-between flex-col lg:flex-row-reverse">
       <DynamicImage
@@ -34,9 +32,7 @@ export default function WhatWeFund() {
         <div className="flex flex-col lg:flex-row w-full gap-4">
           <ButtonWithArrow
             text="Apply for this grant"
-            onClick={() => {
-              route.push("https://btrust.homerun.co/event-grant-application/en");
-            }}
+            url="https://btrust.homerun.co/event-grant-application/en"
             noIcon={true}
           />
           <OutlineButton

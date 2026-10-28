@@ -10,38 +10,33 @@ export default function AboutHero() {
         <div className="flex flex-col">
           <LittleHeading text="About us" className="" />
           <SubHeading
-            text="A Decentralised Future for Bitcoin Software Development"
+            text="Supporting the Bitcoin open-source ecosystem in the Global Majority."
             className="w-full lg:w-[55.375rem]"
           />
         </div>
         <div className="flex flex-col gap-8 w-full lg:w-[54.4375rem]">
           <Paragraph className="">
-            Btrust is a non-profit organization with a dedicated mission to
-            decentralize the development of Bitcoin software. Our focus is on
-            fostering developer talent in the global south and supporting the
-            free and open-source Bitcoin ecosystem.
+            Btrust is a non-profit organization supporting the Bitcoin open-source ecosystem in the Global Majority. 
+            Our purpose is to decentralize Bitcoin software development by enabling more people, in more places, to help build, review and maintain it.
           </Paragraph>
           <Paragraph className="">
-            At Btrust, we believe that decentralization enhances the resilience,
-            reach, and relevance of bitcoin as a global currency. We are
-            committed to operating in regions where Bitcoin development is
-            uncommon, contributing to the growth and decentralization of the
-            technology.
+            Our approach places Bitcoin open source at the core, surrounded by the people, education and communities that sustain it. 
+            Through developer grants, education grants and event grants, we support meaningful contributions, strengthen technical skills and create opportunities for collaboration in regions where pathways into Bitcoin development have historically been limited. 
+            In addition, we support work in open-source mining, security and responsible uses of AI that strengthens the Bitcoin ecosystem.
           </Paragraph>
           <Paragraph className="">
-            Our journey began in 2021 with a generous 500 BTC donation from Jack
-            Dorsey and Jay-Z. This initial funding has propelled us into action,
-            allowing us to pursue our vision of a more decentralized and
-            resilient Bitcoin ecosystem. Join us on this journey as we work
-            towards a future where the development of Bitcoin is truly
-            decentralized, open, and collaborative.
+            Our journey began in 2021 with a generous 500 BTC donation from Jack Dorsey and Jay-Z. 
+            This initial funding has propelled us into action, allowing us to pursue our vision of a more decentralized and resilient Bitcoin ecosystem.
+          </Paragraph>
+          <Paragraph className="">
+            Join us on this journey as we work towards a future where the development of Bitcoin is truly decentralized, open, and collaborative.
           </Paragraph>
         </div>
       </div>
       <div className="flex flex-col justify-center items-center w-full lg:h-[46.25rem] h-[18.75rem]">
         <Image
           src={
-            "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/BTrust%20Gathering%20Day%202%20-98-I3HOF9B22YmkZ0jtyxPg0kOuRipH4w.JPG"
+            "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Btrust-Board-kd3ZuY9hX0E7lst6NEhsM42ZfzJ9XU.jpg"
           }
           alt="the team"
           width={0}

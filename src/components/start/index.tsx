@@ -12,23 +12,21 @@ export default function StartYourJourney() {
     <div className="flex w-full flex-col lg:flex-row lg:px-[6.5rem] py-[3rem] lg:py-[6.25rem] justify-between items-center gap-[5.44rem] lg:gap-[2.875rem] bg-[#222]">
       <div className="flex flex-col justify-center items-start gap-8 px-[1.5rem]">
         <div className="flex flex-col">
-          <LittleText text="BECOME A BTRUST BUILDER?" className="" />
+          <LittleText text="BECOME A BTRUST BUILDER" className="" />
           <div className="flex flex-col gap-4 items-start">
             <SectionHeader
-              text="Want to Kickstart Your Career in Open-Source Bitcoin Development?"
+              text="Empowering open-source Bitcoin builders in the Global Majority"
               className="w-full lg:w-[26.625rem]"
             />
             <Paragraph className="w-full lg:w-[33.6875rem]">
-              Btrust Builders is our program designed to educate existing
-              software developers from Africa about Bitcoin and Lightning
-              development to start them on their journey as open-source Bitcoin
-              contributors. The application is open all year round for
-              mid-to-senior level engineers who are ready for the transition.
+              Btrust Builders is a comprehensive engineering program designed to train experienced software developers in Africa to contribute to open-source Bitcoin and Lightning development. <br />
+              Our program offers an immersive learning experience for engineers looking to build their competencies and portfolio in Bitcoin & Lightning development and a ramp to build a sustainable (funded) career contributing to open-source Bitcoin projects. <br />
+              Application is open all year round for mid-senior level engineers ready for the transition.
             </Paragraph>
           </div>
         </div>
         <div className="flex flex-col lg:flex-row gap-[1.5rem]">
-          <ButtonWithArrow text="Learn More" url="/builders" />
+          <ButtonWithArrow text="Apply Now" url="/builders" />
           <ButtonWithIcon
               text="Join Our Community"
               iconName="discord"
@@ -38,7 +36,7 @@ export default function StartYourJourney() {
       </div>
       <Image
         src={
-          "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/BTrust%20Gathering%20-76-NS8HgeSgbqWGbVnIftAZ4IDrRcV56Q.JPG"
+          "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Btrust-Builders.jpg"
         }
         alt="start your journey"
         width={0}

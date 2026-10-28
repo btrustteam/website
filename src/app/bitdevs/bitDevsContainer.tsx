@@ -17,6 +17,20 @@ export default function AllBitDevs() {
             xlink: "https://x.com/bitdevsAccra",
         },
         {
+            title: "BitDevs Addis Ababa",
+            details: "BitDevs Addis is a Bitcoin-only technical meetup group in Ethiopia focused on research, development, and deep protocol discussions.",
+            imageSrc: "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/bitdevsaddis.png",
+            website: "https://www.bitdevsaddisababa.com/",
+            xlink: "https://x.com/BitDevsAddis",
+        },
+        {
+            title: "BitDevs Blantyre",
+            details: "BitDevs Blantyre is a Bitcoin-only technical meetup group in Malawi focused on research, development, and deep protocol discussions.",
+            imageSrc: "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/bitdevsaddis.png",
+            website: "https://www.BlantyreBitDevs.com/",
+            xlink: "https://x.com/BitDevsBlantyre",
+        },
+        {
           title: "BitDevs Cotonou",
           details: "BitDevs Cotonou is a community in Cotonou, Benin, for those interested in discussing and participating in the research and development of Bitcoin and related protocols in Cotonou.",
           imageSrc: "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/cotonou-DyjxNcNb5SxXbnykZWbb3HmoZZHvlV.jpg",
@@ -31,13 +45,6 @@ export default function AllBitDevs() {
             xlink: "https://x.com/BitDevsDLA",
         },
         {
-            title: "BitDevs Addis Ababa",
-            details: "BitDevs Addis is a Bitcoin-only technical meetup group in Ethiopia focused on research, development, and deep protocol discussions.",
-            imageSrc: "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/bitdevsaddis.png",
-            website: "https://www.bitdevsaddisababa.com/",
-            xlink: "https://x.com/BitDevsAddis",
-        },
-        {
             title: "BitDevs Gitega",
             details: "BitDevs Gitega is a community of Bitcoin developers, educators, builders, and technically curious enthusiasts based in Gitega.",
             imageSrc: "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/gitega-xLKta0cDBaz1IHV7gWy9my6cTboO1c.jpg",
@@ -50,6 +57,13 @@ export default function AllBitDevs() {
             imageSrc: "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/goma-XmBwmBT6C57d6i5SP3sfd7EmZdhde2.jpg",
             website: "https://bitdevsgoma.org/",
             xlink: "https://x.com/BitdevsGoma",
+        },
+        {
+            title: "BitDevs Ibadan",
+            details: "BitDevs Ibadan is a community of Bitcoin developers, builders. Learning, building, and contributing to the open-source Bitcoin ecosystem in Ibadan, Nigeria.",
+            imageSrc: "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/abuja-BqbNZPBt6H8NI3mgOgReZGA50sZPSE.jpg",
+            website: "https://bitdevsibadan.org/",
+            xlink: "https://x.com/BitDevsIbadan",
         },
         {
             title: "BitDevs Joburg",
@@ -78,6 +92,13 @@ export default function AllBitDevs() {
             imageSrc: "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/abuja-BqbNZPBt6H8NI3mgOgReZGA50sZPSE.jpg",
             website: "https://bitdevskano.org/",
             xlink: "https://x.com/bitdevskano",
+        },
+        {
+            title: "BitDevs Kisumu",
+            details: "BitDevs Kisumu is a community of Bitcoin developers, builders. Learning, building, and contributing to the open-source Bitcoin ecosystem in Kisumu, Kenya.",
+            imageSrc: "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/abuja-BqbNZPBt6H8NI3mgOgReZGA50sZPSE.jpg",
+            website: "https://bitdevskisumu.org/",
+            xlink: "https://x.com/BitDevsKsm",
         },
         {
             title: "BitDevs Lagos",
@@ -121,10 +142,16 @@ export default function AllBitDevs() {
             website: "https://bitdevszambia.org/",
             xlink: "https://x.com/BitDevsZambia",
         },
-
+        {
+            title: "BitDevs Zaria",
+            details: "BitDevs Zaria is a community of Bitcoin developers, educators, builders, and technically curious enthusiasts based in Zaria, Nigeria.",
+            imageSrc: "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/abuja-BqbNZPBt6H8NI3mgOgReZGA50sZPSE.jpg",
+            website: "https://bitdevszaria.org/",
+            xlink: "https://x.com/bitdevszaria",
+        },
     ];
     return (
-        <div className="flex flex-wrap pt-[4.5rem] lg:pt-[8rem] lg:pb-0 px-6 lg:px-[6.5rem] gap-6 lg:gap-8">
+        <div className="flex flex-wrap pt-6 lg:pt-8 lg:pb-0 px-6 lg:px-[6.5rem] gap-6 lg:gap-8">
             {bitDevs.map((bitDev, index) => (
                 <BitDevsCard key={index} {...bitDev} />
             ))}

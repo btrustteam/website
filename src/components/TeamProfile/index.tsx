@@ -7,20 +7,20 @@ export default function TeamProfile() {
       <Line />
       <TeamDetailsContainer
         isBoard={true}
-        title="Board (2026 - Present)"
-        brief="The Btrust board is responsible for overseeing delivery of the organization's mission."
+        title="Board: 2026 - Present"
+        brief="Btrust is headed up by a board of directors who are responsible for overseeing delivery of the organization's mission."
         teamMembers={[
           {
             name: "Bruno Garcia",
             description: "Board Member",
-            imageUrl: "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/bruno.jpeg",
+            imageUrl: "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Bruno-6GuyUN7n1NzcDdCdbar76D4dm6WuFq.jpg",
             twitter: "https://x.com/brrrunog",
             linkedin: "https://www.linkedin.com/in/brunoerg",
           },
           {
             name: "Janet Maingi",
             description: "Board Member",
-            imageUrl: "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/janet.jpeg",
+            imageUrl: "https://8aqkfzpsopxwkjhh.public.blob.vercel-storage.com/Janet-OvjqkU89LOFKfQ8WxLVAKZ6TfpVSBb.jpg",
             twitter: "https://x.com/nduku_jay",
             linkedin: "https://www.linkedin.com/in/janet-maingi",
           },
